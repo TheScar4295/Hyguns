@@ -1,0 +1,78 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ammo_Bullet_Rifle_Teleport.name",
+    "Description": "server.items.Ammo_Bullet_Rifle_Teleport.description"
+  },
+  "Categories": [
+    "HyGuns.Ammo"
+  ],
+  "Quality": "Rare",
+  "ItemLevel": 16,
+  "PlayerAnimationsId": "Item",
+  "Recipe": {
+    "TimeSeconds": 0,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "Quantity": 1,
+        "ItemId": "Ammo_Bullet_Rifle"
+      },
+      {
+        "Quantity": 5,
+        "ItemId": "Ingredient_Void_Essence"
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Bench_Gunsmith",
+        "Categories": [
+          "Ammo"
+        ]
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      9,
+      62,
+      16
+    ],
+    "Translation": [
+      0,
+      -26
+    ]
+  },
+  "Model": "Items/Ammo/Bullet/Ammo_Bullet_Rifle.blockymodel",
+  "Texture": "Items/Ammo/Bullet/Ammo_Bullet_Rifle.png",
+  "Icon": "Icons/ItemsGenerated/Ammo_Bullet_Rifle_Teleport.png",
+  "MaxStack": 100,
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Tags": {
+    "Type": [
+      "Ammo"
+    ]
+  },
+  "Scale": 0.2,
+  "HyGuns": {
+    "AmmoSettings": {
+      "Family": "Bullet",
+      "WeaponClass": "Rifle",
+      "Icon": "Ammo/Ammo_Rifle_Teleport.png",
+      "SettingsOverrides": {
+        "Fire": {
+          "Cooldown": 5.0
+        }
+      },
+      "Interactions": {
+        "BlockHit": [
+          {
+            "Type": "TeleportToBlockHit"
+          }
+        ]
+      }
+    }
+  }
+}

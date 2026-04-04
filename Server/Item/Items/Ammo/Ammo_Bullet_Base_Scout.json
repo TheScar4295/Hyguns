@@ -1,0 +1,82 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ammo_Bullet_Base_Scout.name",
+    "Description": "server.items.Ammo_Bullet_Base_Scout.description"
+  },
+  "Categories": [
+    "HyGuns.Ammo"
+  ],
+  "Quality": "Rare",
+  "ItemLevel": 16,
+  "PlayerAnimationsId": "Item",
+  "Recipe": {
+    "TimeSeconds": 0,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "Quantity": 10,
+        "ItemId": "Ammo_Bullet_Base"
+      },
+      {
+        "Quantity": 10,
+        "ItemId": "Ingredient_Life_Essence"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "Ingredient_Crystal_Red"
+      }
+    ],
+    "OutputQuantity": 10,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Bench_Gunsmith",
+        "Categories": [
+          "Ammo"
+        ]
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      9,
+      62,
+      16
+    ],
+    "Translation": [
+      0,
+      -26
+    ]
+  },
+  "Model": "Items/Ammo/Bullet/Ammo_Bullet_Base.blockymodel",
+  "Texture": "Items/Ammo/Bullet/Ammo_Bullet_Base.png",
+  "Icon": "Icons/ItemsGenerated/Ammo_Bullet_Base_Scout.png",
+  "MaxStack": 100,
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Tags": {
+    "Type": [
+      "Ammo"
+    ]
+  },
+  "Scale": 0.2,
+  "HyGuns": {
+    "AmmoSettings": {
+      "Family": "Bullet",
+      "WeaponClass": "Pistol",
+      "Icon": "Ammo/Ammo_Pistol_Scout.png",
+      "SettingsOverrides": {
+        "Projectiles": {
+          "ConfigId": "Hyguns_Projectile_Config_Bullet_Guidance"
+        },
+        "AutoGuidance": {
+          "Enabled": true,
+          "EffectId": "MarkEntity",
+          "ConeDegrees": 45.0,
+          "MaxDistance": 200.0,
+          "TurnRate": 80.0
+        }
+      }
+    }
+  }
+}

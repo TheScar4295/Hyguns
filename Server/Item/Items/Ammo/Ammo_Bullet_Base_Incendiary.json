@@ -1,0 +1,80 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ammo_Bullet_Base_Incendiary.name",
+    "Description": "server.items.Ammo_Bullet_Base_Incendiary.description"
+  },
+  "Categories": [
+    "HyGuns.Ammo"
+  ],
+  "Quality": "Uncommon",
+  "ItemLevel": 14,
+  "PlayerAnimationsId": "Item",
+  "Recipe": {
+    "TimeSeconds": 0,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "Quantity": 1,
+        "ItemId": "Ammo_Bullet_Base"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "Ingredient_Fire_Essence"
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Bench_Gunsmith",
+        "Categories": [
+          "Ammo"
+        ]
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      9,
+      62,
+      16
+    ],
+    "Translation": [
+      0,
+      -15
+    ]
+  },
+  "Model": "Items/Ammo/Bullet/Ammo_Bullet_Base.blockymodel",
+  "Texture": "Items/Ammo/Bullet/Ammo_Bullet_Base.png",
+  "Icon": "Icons/ItemsGenerated/Ammo_Bullet_Base_Incendiary.png",
+  "MaxStack": 250,
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Tags": {
+    "Type": [
+      "Ammo"
+    ]
+  },
+  "Scale": 0.2,
+  "HyGuns": {
+    "AmmoSettings": {
+      "Family": "Bullet",
+      "WeaponClass": "Pistol",
+      "Icon": "Ammo/Ammo_Pistol_Incendiary.png",
+      "Interactions": {
+        "EntityHit": [
+          {
+            "Type": "ClearEntityEffect",
+            "Entity": "Target",
+            "EntityEffectId": "Lava_Burn"
+          },
+          {
+            "Type": "ApplyEffect",
+            "Entity": "Target",
+            "EffectId": "Lava_Burn"
+          }
+        ]
+      }
+    }
+  }
+}

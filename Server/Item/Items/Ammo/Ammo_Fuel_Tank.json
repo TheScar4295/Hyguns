@@ -1,0 +1,70 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Fuel_Tank.name",
+    "Description": "server.items.Fuel_Tank.description"
+  },
+  "Categories": [
+    "HyGuns.Ammo"
+  ],
+  "Quality": "Uncommon",
+  "ItemLevel": 14,
+  "PlayerAnimationsId": "Item",
+  "Recipe": {
+    "TimeSeconds": 0,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "Quantity": 1,
+        "ItemId": "Ingredient_Bar_Steel"
+      },
+      {
+        "Quantity": 3,
+        "ItemId": "Ingredient_Bar_HardenedSteel"
+      },
+      {
+        "Quantity": 3,
+        "ItemId": "Ingredient_Fire_Essence"
+      }
+    ],
+    "OutputQuantity": 250,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Bench_Gunsmith",
+        "Categories": [
+          "Ammo"
+        ]
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      19,
+      39,
+      0
+    ],
+    "Translation": [
+      -2,
+      -11.5
+    ]
+  },
+  "Model": "Items/Ammo/Fuel_Tank/Fuel_Tank.blockymodel",
+  "Texture": "Items/Weapons/Flamethrower/Flamethrower_Texture.png",
+  "MaxStack": 500,
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Tags": {
+    "Type": [
+      "Ammo"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "Icon": "Icons/ItemsGenerated/Fuel_Tank.png",
+  "HyGuns": {
+    "AmmoSettings": {
+      "Family": "Fuel",
+      "WeaponClass": "Flamethrower",
+      "Icon": "Ammo/Ammo_Flamethrower.png"
+    }
+  }
+}

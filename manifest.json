@@ -1,0 +1,53 @@
+{
+  "Group": "TheScar",
+  "Name": "HyGuns",
+  "Version": "4.1.0",
+  "Description": "Hyguns is a Hytale weaponry mod featuring detailed firearms, fantasy weapons, and melee weapons. Hyguns aims to be the go-to mod for any weaponry, from any time period, to fit any vision.",
+  "Authors": [
+    {
+      "Name": "TheScar",
+      "Email": "",
+      "Url": ""
+    },
+    {
+      "Name": "_FX",
+      "Email": "",
+      "Url": ""
+    },
+    {
+      "Name": "Kirami",
+      "Email": "",
+      "Url": ""
+    },
+    {
+      "Name": "Ant",
+      "Email": "",
+      "Url": ""
+    },
+    {
+      "Name": "Penybut",
+      "Email": "",
+      "Url": ""
+    },
+    {
+      "Name": "Poly",
+      "Email": "",
+      "Url": ""
+    },
+    {
+      "Name": "EnsoX",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "https://www.curseforge.com/hytale/mods/hyguns",
+  "ServerVersion": "2026.03.26-89796e57b",
+  "Dependencies": {
+    "thescar:HygunsPlugin": ">=1.0.0"
+  },
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

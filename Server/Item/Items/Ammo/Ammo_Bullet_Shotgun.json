@@ -1,0 +1,70 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ammo_Bullet_Shotgun.name",
+    "Description": "server.items.Ammo_Bullet_Shotgun.description"
+  },
+  "Categories": [
+    "HyGuns.Ammo"
+  ],
+  "Quality": "Common",
+  "ItemLevel": 14,
+  "PlayerAnimationsId": "Item",
+  "Recipe": {
+    "TimeSeconds": 0,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "Quantity": 2,
+        "ItemId": "Ingredient_Bar_Steel"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "Ingredient_Bar_Bronze"
+      },
+      {
+        "Quantity": 3,
+        "ItemId": "Ingredient_Powder_Boom"
+      }
+    ],
+    "OutputQuantity": 25,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Bench_Gunsmith",
+        "Categories": [
+          "Ammo"
+        ]
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      9,
+      62,
+      16
+    ],
+    "Translation": [
+      0,
+      -18
+    ]
+  },
+  "Model": "Items/Ammo/Bullet/Ammo_Bullet_Shotgun.blockymodel",
+  "Texture": "Items/Ammo/Bullet/Ammo_Bullet_Shotgun.png",
+  "Icon": "Icons/ItemsGenerated/Ammo_Bullet_Shotgun.png",
+  "MaxStack": 100,
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Tags": {
+    "Type": [
+      "Ammo"
+    ]
+  },
+  "Scale": 0.2,
+  "HyGuns": {
+    "AmmoSettings": {
+      "Family": "Bullet",
+      "WeaponClass": "Shotgun",
+      "Icon": "Ammo/Ammo_Shotgun.png"
+    }
+  }
+}
