@@ -1,10 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/AWP/AWP_Fire_01.ogg",
-        "Sounds/AWP/AWP_Fire_02.ogg"
-      ]
+      "Files": ["Sounds/AWP/AWP_Fire_01.ogg", "Sounds/AWP/AWP_Fire_02.ogg"]
     }
   ],
   "MaxInstance": 30,

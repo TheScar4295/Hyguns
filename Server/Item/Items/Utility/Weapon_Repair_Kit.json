@@ -4,23 +4,14 @@
   "TranslationProperties": {
     "Name": "Weapon repair kit"
   },
-  "Categories": [
-    "HyGuns.Items"
-  ],
+  "Categories": ["HyGuns.Tools"],
   "MaxStack": 20,
   "Scale": 1,
   "PlayerAnimationsId": "Item",
   "IconProperties": {
     "Scale": 0.55,
-    "Rotation": [
-      335,
-      150,
-      10
-    ],
-    "Translation": [
-      0,
-      -11
-    ]
+    "Rotation": [335, 150, 10],
+    "Translation": [0, -11]
   },
   "Quality": "Rare",
   "Recipe": {
@@ -48,9 +39,7 @@
       {
         "Id": "Bench_Gunsmith",
         "Type": "Crafting",
-        "Categories": [
-          "Utility"
-        ]
+        "Categories": ["Utility"]
       }
     ]
   },
@@ -81,4 +70,3 @@
   },
   "Icon": "Icons/ItemsGenerated/Weapon_Repair_Kit.png"
 }
-

@@ -6,24 +6,14 @@
     "Name": "server.items.DesertEagle.name",
     "Description": "server.items.DesertEagle.description"
   },
-  "Categories": [
-    "Items.Weapons",
-    "HyGuns.Guns"
-  ],
+  "Categories": ["Items.Weapons", "HyGuns.Guns"],
   "PlayerAnimationsId": "HygunsPistols",
   "MaxStack": 1,
   "Scale": 1.4,
   "IconProperties": {
     "Scale": 0.5,
-    "Rotation": [
-      315,
-      71,
-      0
-    ],
-    "Translation": [
-      14,
-      -12
-    ]
+    "Rotation": [315, 71, 0],
+    "Translation": [14, -12]
   },
   "Quality": "Rare",
   "Utility": {
@@ -115,12 +105,8 @@
   },
   "MaxDurability": 140,
   "Tags": {
-    "Type": [
-      "Weapon"
-    ],
-    "Family": [
-      "Pistol"
-    ]
+    "Type": ["Weapon"],
+    "Family": ["Pistol"]
   },
   "Recipe": {
     "TimeSeconds": 1,
@@ -150,9 +136,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Pistols"
-        ],
+        "Categories": ["Pistols"],
         "Id": "Bench_Gunsmith",
         "RequiredTierLevel": 2
       }
@@ -163,9 +147,7 @@
       "WeaponIcon": "Weapons/Deagle.png",
       "Ammo": {
         "Family": "Bullet",
-        "WeaponClass": [
-          "Pistol"
-        ],
+        "WeaponClass": ["Pistol"],
         "Capacity": 7,
         "Reload": {
           "Time": 2.13333,

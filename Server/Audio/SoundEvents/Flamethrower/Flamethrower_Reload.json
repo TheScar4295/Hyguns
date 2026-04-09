@@ -1,9 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/Flamethrower/Flamethrower_Reload.ogg"
-      ]
+      "Files": ["Sounds/Flamethrower/Flamethrower_Reload.ogg"]
     }
   ],
   "MaxInstance": 30,

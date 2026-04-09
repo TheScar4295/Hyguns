@@ -6,23 +6,13 @@
     "Name": "server.items.ColtRevolver.name",
     "Description": "server.items.ColtRevolver.description"
   },
-  "Categories": [
-    "Items.Weapons",
-    "HyGuns.Guns"
-  ],
+  "Categories": ["Items.Weapons", "HyGuns.Guns"],
   "MaxStack": 1,
   "Scale": 1.3,
   "IconProperties": {
     "Scale": 0.6,
-    "Rotation": [
-      325,
-      90,
-      0
-    ],
-    "Translation": [
-      -11,
-      -22
-    ]
+    "Rotation": [325, 90, 0],
+    "Translation": [-11, -22]
   },
   "Quality": "Uncommon",
   "Utility": {
@@ -115,12 +105,8 @@
   "MaxDurability": 120,
   "PlayerAnimationsId": "Handgun",
   "Tags": {
-    "Type": [
-      "Weapon"
-    ],
-    "Family": [
-      "Revolver"
-    ]
+    "Type": ["Weapon"],
+    "Family": ["Revolver"]
   },
   "Recipe": {
     "TimeSeconds": 1,
@@ -151,9 +137,7 @@
     "BenchRequirement": [
       {
         "Id": "Bench_Gunsmith",
-        "Categories": [
-          "Pistols"
-        ],
+        "Categories": ["Pistols"],
         "RequiredTierLevel": 0
       }
     ]
@@ -163,9 +147,7 @@
       "WeaponIcon": "Weapons/ColtNavy.png",
       "Ammo": {
         "Family": "Bullet",
-        "WeaponClass": [
-          "Pistol"
-        ],
+        "WeaponClass": ["Pistol"],
         "Capacity": 6,
         "Reload": {
           "Time": 2.2,

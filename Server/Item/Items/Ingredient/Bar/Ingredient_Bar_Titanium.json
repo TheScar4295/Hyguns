@@ -2,10 +2,7 @@
   "TranslationProperties": {
     "Name": "server.items.Ingredient_Bar_Titanium.name"
   },
-  "Categories": [
-    "Items",
-    "HyGuns.Items"
-  ],
+  "Categories": ["Items", "HyGuns.Items"],
   "Recipe": {
     "Input": [
       {
@@ -33,20 +30,11 @@
   "PlayerAnimationsId": "Item",
   "IconProperties": {
     "Scale": 1,
-    "Rotation": [
-      22.5,
-      45,
-      22.5
-    ],
-    "Translation": [
-      0,
-      -3
-    ]
+    "Rotation": [22.5, 45, 22.5],
+    "Translation": [0, -3]
   },
   "Tags": {
-    "Type": [
-      "Ingredient"
-    ]
+    "Type": ["Ingredient"]
   },
   "ItemEntity": {
     "ParticleSystemId": null

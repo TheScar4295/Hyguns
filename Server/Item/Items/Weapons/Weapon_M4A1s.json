@@ -6,23 +6,13 @@
     "Name": "server.items.M4A1s.name",
     "Description": "server.items.M4A1s.description"
   },
-  "Categories": [
-    "Items.Weapons",
-    "HyGuns.Guns"
-  ],
+  "Categories": ["Items.Weapons", "HyGuns.Guns"],
   "MaxStack": 1,
   "Scale": 1.2,
   "IconProperties": {
     "Scale": 0.3,
-    "Rotation": [
-      315,
-      90,
-      0
-    ],
-    "Translation": [
-      -3,
-      -36
-    ]
+    "Rotation": [315, 90, 0],
+    "Translation": [-3, -36]
   },
   "Quality": "Epic",
   "Utility": {
@@ -116,12 +106,8 @@
   "MaxDurability": 500,
   "PlayerAnimationsId": "Rifle",
   "Tags": {
-    "Type": [
-      "Weapon"
-    ],
-    "Family": [
-      "Rifle_Assault"
-    ]
+    "Type": ["Weapon"],
+    "Family": ["Rifle_Assault"]
   },
   "Recipe": {
     "TimeSeconds": 1,
@@ -151,9 +137,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Rifles"
-        ],
+        "Categories": ["Rifles"],
         "Id": "Bench_Gunsmith",
         "RequiredTierLevel": 3
       }
@@ -164,9 +148,7 @@
       "WeaponIcon": "Weapons/M4A1.png",
       "Ammo": {
         "Family": "Bullet",
-        "WeaponClass": [
-          "Rifle"
-        ],
+        "WeaponClass": ["Rifle"],
         "Capacity": 25,
         "Reload": {
           "Time": 2.5,

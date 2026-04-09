@@ -1,9 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/AWP/AWP_Reload.ogg"
-      ]
+      "Files": ["Sounds/AWP/AWP_Reload.ogg"]
     }
   ],
   "MaxInstance": 30,

@@ -6,24 +6,14 @@
     "Name": "server.items.DoubleBarrel.name",
     "Description": "server.items.DoubleBarrel.description"
   },
-  "Categories": [
-    "Items.Weapons",
-    "HyGuns.Guns"
-  ],
+  "Categories": ["Items.Weapons", "HyGuns.Guns"],
   "MaxStack": 1,
   "Scale": 1.5,
   "PlayerAnimationsId": "Rifle",
   "IconProperties": {
     "Scale": 0.5,
-    "Rotation": [
-      315,
-      71,
-      0
-    ],
-    "Translation": [
-      14,
-      -12
-    ]
+    "Rotation": [315, 71, 0],
+    "Translation": [14, -12]
   },
   "Quality": "Rare",
   "Utility": {
@@ -117,12 +107,8 @@
   },
   "MaxDurability": 80,
   "Tags": {
-    "Type": [
-      "Weapon"
-    ],
-    "Family": [
-      "Shotgun"
-    ]
+    "Type": ["Weapon"],
+    "Family": ["Shotgun"]
   },
   "Recipe": {
     "TimeSeconds": 1,
@@ -152,9 +138,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Shotguns"
-        ],
+        "Categories": ["Shotguns"],
         "Id": "Bench_Gunsmith",
         "RequiredTierLevel": 2
       }
@@ -165,9 +149,7 @@
       "WeaponIcon": "Weapons/DoubleBarrel.png",
       "Ammo": {
         "Family": "Bullet",
-        "WeaponClass": [
-          "Shotgun"
-        ],
+        "WeaponClass": ["Shotgun"],
         "Capacity": 2,
         "Reload": {
           "Time": 1.2,

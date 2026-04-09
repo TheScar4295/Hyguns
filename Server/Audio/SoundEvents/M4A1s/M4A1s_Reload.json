@@ -1,9 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/M4A1s/M4A1s_Reload.ogg"
-      ]
+      "Files": ["Sounds/M4A1s/M4A1s_Reload.ogg"]
     }
   ],
   "MaxInstance": 30,

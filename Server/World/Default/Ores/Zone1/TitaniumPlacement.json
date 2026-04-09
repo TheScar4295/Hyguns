@@ -8,7 +8,7 @@
       "Rock_Chalk",
       "Soil_Dirt",
       "Soil_Gravel",
-	  "Rock_Volcanic",
+      "Rock_Volcanic",
       { "Replace": false, "Fluid": "Water_Source" }
     ]
   },
@@ -17,7 +17,8 @@
   },
   "EntryPoints": {
     "$Comment": "Horizontal Density",
-    "Density": [0, 1],"Seed": "Caves-Ore-Titanium",
+    "Density": [0, 1],
+    "Seed": "Caves-Ore-Titanium",
     "Scale": 0.0125,
     "Jitter": 0.5
   },

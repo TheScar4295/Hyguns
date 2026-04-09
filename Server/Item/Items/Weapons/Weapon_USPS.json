@@ -6,23 +6,13 @@
     "Name": "server.items.USPS.name",
     "Description": "server.items.USPS.description"
   },
-  "Categories": [
-    "Items.Weapons",
-    "HyGuns.Guns"
-  ],
+  "Categories": ["Items.Weapons", "HyGuns.Guns"],
   "MaxStack": 1,
   "Scale": 1.4,
   "IconProperties": {
     "Scale": 0.6,
-    "Rotation": [
-      315,
-      90,
-      0
-    ],
-    "Translation": [
-      10,
-      -12
-    ]
+    "Rotation": [315, 90, 0],
+    "Translation": [10, -12]
   },
   "Quality": "Rare",
   "Utility": {
@@ -115,12 +105,8 @@
   "MaxDurability": 400,
   "PlayerAnimationsId": "HygunsPistols",
   "Tags": {
-    "Type": [
-      "Weapon"
-    ],
-    "Family": [
-      "Pistol"
-    ]
+    "Type": ["Weapon"],
+    "Family": ["Pistol"]
   },
   "Recipe": {
     "TimeSeconds": 1,
@@ -147,9 +133,7 @@
     "BenchRequirement": [
       {
         "Id": "Bench_Gunsmith",
-        "Categories": [
-          "Pistols"
-        ],
+        "Categories": ["Pistols"],
         "RequiredTierLevel": 2
       }
     ]
@@ -159,9 +143,7 @@
       "WeaponIcon": "Weapons/USPS.png",
       "Ammo": {
         "Family": "Bullet",
-        "WeaponClass": [
-          "Pistol"
-        ],
+        "WeaponClass": ["Pistol"],
         "Capacity": 20,
         "Reload": {
           "Time": 1.3,

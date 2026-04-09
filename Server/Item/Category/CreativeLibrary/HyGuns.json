@@ -18,12 +18,21 @@
       "Icon": "Icons/ItemCategories/Scripted Blocks.png"
     },
     {
+      "Id": "Furniture",
+      "Name": "server.ui.hyguns.category.furniture",
+      "Icon": "Icons/ItemCategories/Build-Furnitures.png"
+    },
+    {
       "Id": "Items",
       "Name": "server.ui.hyguns.category.items",
       "Icon": "Icons/ItemCategories/Items-Ingredients.png"
+    },
+    {
+      "Id": "Tools",
+      "Name": "server.ui.hyguns.category.tools",
+      "Icon": "Icons/ItemCategories/Items-Tools.png"
     }
   ],
   "Name": "HyGuns",
   "Id": "HyGuns"
 }
-

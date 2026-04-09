@@ -255,20 +255,14 @@
         "Max": 60,
         "Min": -30
       },
-      "TargetNodes": [
-        "Head",
-        "LShoulder",
-        "RShoulder"
-      ]
+      "TargetNodes": ["Head", "LShoulder", "RShoulder"]
     },
     "Yaw": {
       "AngleRange": {
         "Max": 45,
         "Min": -45
       },
-      "TargetNodes": [
-        "Belly"
-      ]
+      "TargetNodes": ["Belly"]
     }
   },
   "WiggleWeights": {
@@ -284,25 +278,9 @@
     "ZDeceleration": 0.2
   },
   "PullbackConfig": {
-    "LeftOffsetOverride": [
-      0,
-      0,
-      -1.6
-    ],
-    "LeftRotationOverride": [
-      0,
-      0,
-      0
-    ],
-    "RightOffsetOverride": [
-      0,
-      0,
-      -1.6
-    ],
-    "RightRotationOverride": [
-      0,
-      0,
-      0
-    ]
+    "LeftOffsetOverride": [0, 0, -1.6],
+    "LeftRotationOverride": [0, 0, 0],
+    "RightOffsetOverride": [0, 0, -1.6],
+    "RightRotationOverride": [0, 0, 0]
   }
 }

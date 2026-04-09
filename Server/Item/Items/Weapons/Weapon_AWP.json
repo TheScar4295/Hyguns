@@ -4,15 +4,8 @@
   "Texture": "Items/Weapons/AWP/AWP.png",
   "IconProperties": {
     "Scale": 0.25,
-    "Rotation": [
-      321,
-      71,
-      0
-    ],
-    "Translation": [
-      -24,
-      -44
-    ]
+    "Rotation": [321, 71, 0],
+    "Translation": [-24, -44]
   },
   "MaxStack": 1,
   "Scale": 1.4,
@@ -22,10 +15,7 @@
     "Name": "server.items.AWP.name",
     "Description": "server.items.AWP.description"
   },
-  "Categories": [
-    "Items.Weapons",
-    "HyGuns.Guns"
-  ],
+  "Categories": ["Items.Weapons", "HyGuns.Guns"],
   "Utility": {
     "Compatible": true
   },
@@ -156,12 +146,8 @@
   },
   "MaxDurability": 100,
   "Tags": {
-    "Type": [
-      "Weapon"
-    ],
-    "Family": [
-      "Rifle_Sniper"
-    ]
+    "Type": ["Weapon"],
+    "Family": ["Rifle_Sniper"]
   },
   "Recipe": {
     "TimeSeconds": 2,
@@ -191,9 +177,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Rifles"
-        ],
+        "Categories": ["Rifles"],
         "Id": "Bench_Gunsmith",
         "RequiredTierLevel": 3
       }
@@ -204,10 +188,7 @@
       "WeaponIcon": "Weapons/AWP.png",
       "Ammo": {
         "Family": "Bullet",
-        "WeaponClass": [
-          "Sniper",
-          "Rifle"
-        ],
+        "WeaponClass": ["Sniper", "Rifle"],
         "Capacity": 5,
         "Reload": {
           "Time": 3.7,

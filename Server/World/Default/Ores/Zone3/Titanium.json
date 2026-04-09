@@ -18,7 +18,7 @@
     }
   ],
   "Type": "EMPTY_LINE",
-  
+
   "$Comment": "Length = Column Height. Repeat = Count per Column.",
   "Length": [0, 0]
 }

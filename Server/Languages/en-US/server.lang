@@ -1,39 +1,41 @@
 items.Ammo_Bullet_Base.name=Bullet Ammo
-items.Ammo_Bullet_Base.description=Standard handgun ammunition
+items.Ammo_Bullet_Base.description=Standard handgun ammunition\nCan be used in the <color is="#ffffff">Builders Workbench</color> to craft ammo piles
 items.Ammo_Bullet_Base_Incendiary.name=Incendiary Bullet Ammo
-items.Ammo_Bullet_Base_Incendiary.description=Handgun rounds packed with incendiary compound that ignite targets on impact
+items.Ammo_Bullet_Base_Incendiary.description=Handgun rounds packed with incendiary compound that ignite targets on impact\nCan be used in the <color is="#ffffff">Builders Workbench</color> to craft ammo piles
 items.Ammo_Bullet_Base_Poison.name=Poison Bullet Ammo
-items.Ammo_Bullet_Base_Poison.description=Handgun rounds coated with venom that poison targets on impact
+items.Ammo_Bullet_Base_Poison.description=Handgun rounds coated with venom that poison targets on impact\nCan be used in the <color is="#ffffff">Builders Workbench</color> to craft ammo piles
 items.Ammo_Bullet_Base_Teleport.name=Teleport Bullet Ammo
-items.Ammo_Bullet_Base_Teleport.description=Teleports the shooter to the struck block on impact
+items.Ammo_Bullet_Base_Teleport.description=Teleports the shooter to the struck block on impact\nCan be used in the <color is="#ffffff">Builders Workbench</color> to craft ammo piles
 items.Ammo_Bullet_Base_Mark.name=Mark Bullet Ammo
-items.Ammo_Bullet_Base_Mark.description=Handgun rounds that mark targets for follow-up shots
+items.Ammo_Bullet_Base_Mark.description=Handgun rounds that mark targets for follow-up shots\nCan be used in the <color is="#ffffff">Builders Workbench</color> to craft ammo piles
 items.Ammo_Bullet_Base_Scout.name=Scout Bullet Ammo
-items.Ammo_Bullet_Base_Scout.description=Handgun rounds that seek marked targets or nearby enemies
+items.Ammo_Bullet_Base_Scout.description=Handgun rounds that seek marked targets or nearby enemies\nCan be used in the <color is="#ffffff">Builders Workbench</color> to craft ammo piles
 items.Ammo_Bullet_Rifle.name=Rifle Ammo
-items.Ammo_Bullet_Rifle.description=High velocity rifle ammunition
+items.Ammo_Bullet_Rifle.description=High velocity rifle ammunition\nCan be used in the <color is="#ffffff">Builders Workbench</color> to craft ammo piles
 items.Ammo_Bullet_Rifle_Incendiary.name=Incendiary Rifle Ammo
-items.Ammo_Bullet_Rifle_Incendiary.description=Rifle rounds packed with incendiary compound that ignite targets on impact
+items.Ammo_Bullet_Rifle_Incendiary.description=Rifle rounds packed with incendiary compound that ignite targets on impact\nCan be used in the <color is="#ffffff">Builders Workbench</color> to craft ammo piles
 items.Ammo_Bullet_Rifle_Poison.name=Poison Rifle Ammo
-items.Ammo_Bullet_Rifle_Poison.description=Rifle rounds coated with venom that poison targets on impact
+items.Ammo_Bullet_Rifle_Poison.description=Rifle rounds coated with venom that poison targets on impact\nCan be used in the <color is="#ffffff">Builders Workbench</color> to craft ammo piles
 items.Ammo_Bullet_Rifle_Teleport.name=Teleport Rifle Ammo
-items.Ammo_Bullet_Rifle_Teleport.description=Teleports the shooter to the struck block on impact
+items.Ammo_Bullet_Rifle_Teleport.description=Teleports the shooter to the struck block on impact\nCan be used in the <color is="#ffffff">Builders Workbench</color> to craft ammo piles
+items.Ammo_Bullet_Rifle_Mark.name=Mark Rifle Ammo
+items.Ammo_Bullet_Rifle_Mark.description=Rifle rounds that mark targets for guided follow-up shots\nCan be used in the <color is="#ffffff">Builders Workbench</color> to craft ammo piles
+items.Ammo_Bullet_Rifle_Scout.name=Scout Rifle Ammo
+items.Ammo_Bullet_Rifle_Scout.description=Guided rifle rounds that seek marked targets or nearby enemies\nCan be used in the <color is="#ffffff">Builders Workbench</color> to craft ammo piles
+items.Ammo_Bullet_Shotgun.name=Shotgun Ammo
+items.Ammo_Bullet_Shotgun.description=Pellet shells for shotguns\nCan be used in the <color is="#ffffff">Builders Workbench</color> to craft ammo piles
+items.Ammo_Bullet_Shotgun_Incendiary.name=Incendiary Shotgun Ammo
+items.Ammo_Bullet_Shotgun_Incendiary.description=Shotgun shells packed with incendiary compound that ignite targets on impact\nCan be used in the <color is="#ffffff">Builders Workbench</color> to craft ammo piles
+items.Ammo_Bullet_Shotgun_Scout.name=Scout Shotgun Ammo
+items.Ammo_Bullet_Shotgun_Scout.description=Guided shotgun shells that seek marked targets or nearby enemies\nCan be used in the <color is="#ffffff">Builders Workbench</color> to craft ammo piles
+items.Fuel_Tank.name=Fuel Tank
+items.Fuel_Tank.description=Pressurized fuel canister for flamethrowers\nCan be used in the <color is="#ffffff">Builders Workbench</color> to craft ammo piles
+items.Fuel_FireBottle.name=Fire Bottle
+items.Fuel_FireBottle.description=Fire Bottle for goblin flamethrowers\nCan be used in the <color is="#ffffff">Builders Workbench</color> to craft ammo piles
 items.Ammo_Box.name=Ammo Box
 items.Ammo_Box_Tier_I.description=A portable ammo chest with 3 internal slots for carrying extra ammunition
 items.Ammo_Box_Tier_II.description=A portable ammo chest with 5 internal slots for carrying extra ammunition
 items.Ammo_Box_Tier_III.description=A portable ammo chest with 7 internal slots for carrying extra ammunition
-items.Ammo_Bullet_Rifle_Mark.name=Mark Rifle Ammo
-items.Ammo_Bullet_Rifle_Mark.description=Rifle rounds that mark targets for guided follow-up shots
-items.Ammo_Bullet_Rifle_Scout.name=Scout Rifle Ammo
-items.Ammo_Bullet_Rifle_Scout.description=Guided rifle rounds that seek marked targets or nearby enemies
-items.Ammo_Bullet_Shotgun.name=Shotgun Ammo
-items.Ammo_Bullet_Shotgun.description=Pellet shells for shotguns
-items.Ammo_Bullet_Shotgun_Incendiary.name=Incendiary Shotgun Ammo
-items.Ammo_Bullet_Shotgun_Incendiary.description=Shotgun shells packed with incendiary compound that ignite targets on impact
-items.Ammo_Bullet_Shotgun_Scout.name=Scout Shotgun Ammo
-items.Ammo_Bullet_Shotgun_Scout.description=Guided shotgun shells that seek marked targets or nearby enemies
-items.Fuel_Tank.name=Fuel Tank
-items.Fuel_Tank.description=Pressurized fuel canister for flamethrowers
 
 items.Frag.name=Frag Grenade
 items.Frag.description=Ammo: <color is="#ffffff">Frag Grenade</color>\nDamage: 50\nSpread: 0\nCooldown: 1\nClipsize: 1
@@ -48,7 +50,8 @@ items.ColtRevolver.description=Ammo: <color is="#ffffff">Bullet Ammo</color>\nDa
 items.DoubleBarrel.name=Double Barrel Shotgun
 items.DoubleBarrel.description=Ammo: <color is="#ffffff">Shotgun Ammo</color>\nDamage: 3x20\nSpread: 0.12\nCooldown: 1\nReload: 1.2s\nClipsize: 2
 items.Flamethrower.name=Flamethrower
-items.Flamethrower.description=Ammo: <color is="#ffffff">Fuel Tank</color>\nDamage: 10\nSpread: 0\nCooldown: 0.05\nReload: 3.5s\nClipsize: 100
+items.Flamethrower.description=Ammo: <color is="#ffffff">Fuel Tank</color>\nDamage: 10\nSpread: 0\nCooldown: 0.05\nReload: 3.5s\nClipsize: 500
+items.Flamethrower_Goblin.description=Ammo: <color is="#ffffff">Fire Bottle</color>\nDamage: 12\nSpread: 0\nOverheat: 10.0s\nCooldown: 4.0s\nInterval: 0.2s\nReload: 3.5s\nClipsize: 500
 items.Glock18.name=Glock-18
 items.Glock18.description=Ammo: <color is="#ffffff">Bullet Ammo</color>\nDamage: 6\nSpread: 0\nCooldown: 0.25\nReload: 1.3s\nClipsize: 20
 items.USPS.name=USP-S
@@ -108,4 +111,6 @@ ui.itemcategory.hyguns=HyGuns
 ui.hyguns.category.guns=Guns
 ui.hyguns.category.ammo=Ammo
 ui.hyguns.category.blocks=Blocks
+ui.hyguns.category.furniture=Furniture
 ui.hyguns.category.items=Items
+ui.hyguns.category.tools=Tools

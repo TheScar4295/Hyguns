@@ -1,9 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/Flamethrower/Flamethrower_Equip.ogg"
-      ],
+      "Files": ["Sounds/Flamethrower/Flamethrower_Equip.ogg"],
       "RandomSettings": {
         "MinPitch": -1,
         "MaxPitch": 1,

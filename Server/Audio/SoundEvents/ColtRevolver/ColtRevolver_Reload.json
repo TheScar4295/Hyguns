@@ -1,9 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/ColtRevolver/Revolver_Reload.ogg"
-      ]
+      "Files": ["Sounds/ColtRevolver/Revolver_Reload.ogg"]
     }
   ],
   "MaxInstance": 30,

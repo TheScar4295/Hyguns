@@ -1,9 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/Clip_Empty_Rifle.ogg"
-      ],
+      "Files": ["Sounds/Clip_Empty_Rifle.ogg"],
       "RandomSettings": {
         "MinPitch": 0,
         "MaxPitch": 0,

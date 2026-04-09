@@ -1,9 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/Frag/Frag_Bounce.ogg"
-      ],
+      "Files": ["Sounds/Frag/Frag_Bounce.ogg"],
       "RandomSettings": {
         "MinPitch": -1.8240371213405997,
         "MaxPitch": 1.6500422849992202,

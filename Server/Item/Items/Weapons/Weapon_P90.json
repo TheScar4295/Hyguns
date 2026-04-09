@@ -6,23 +6,13 @@
     "Name": "server.items.P90.name",
     "Description": "server.items.P90.description"
   },
-  "Categories": [
-    "Items.Weapons",
-    "HyGuns.Guns"
-  ],
+  "Categories": ["Items.Weapons", "HyGuns.Guns"],
   "MaxStack": 1,
   "Scale": 1.2,
   "IconProperties": {
     "Scale": 0.6,
-    "Rotation": [
-      315,
-      71,
-      0
-    ],
-    "Translation": [
-      11,
-      -16
-    ]
+    "Rotation": [315, 71, 0],
+    "Translation": [11, -16]
   },
   "Quality": "Epic",
   "Utility": {
@@ -115,12 +105,8 @@
   "MaxDurability": 600,
   "PlayerAnimationsId": "Rifle",
   "Tags": {
-    "Type": [
-      "Weapon"
-    ],
-    "Family": [
-      "SMG"
-    ]
+    "Type": ["Weapon"],
+    "Family": ["SMG"]
   },
   "Recipe": {
     "TimeSeconds": 1,
@@ -150,9 +136,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "SMGs"
-        ],
+        "Categories": ["SMGs"],
         "Id": "Bench_Gunsmith",
         "RequiredTierLevel": 3
       }
@@ -163,10 +147,7 @@
       "WeaponIcon": "Weapons/P90.png",
       "Ammo": {
         "Family": "Bullet",
-        "WeaponClass": [
-          "SMG",
-          "Pistol"
-        ],
+        "WeaponClass": ["SMG", "Pistol"],
         "Capacity": 50,
         "Reload": {
           "Time": 3,

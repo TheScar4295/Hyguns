@@ -1,9 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/Blocks/Stone/Stone_Hit_01.ogg"
-      ],
+      "Files": ["Sounds/Blocks/Stone/Stone_Hit_01.ogg"],
       "RandomSettings": {
         "MinPitch": 0,
         "MaxPitch": 1.6500422849992202,

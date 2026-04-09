@@ -1,9 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/USPS/USPs_Reload.ogg"
-      ]
+      "Files": ["Sounds/USPS/USPs_Reload.ogg"]
     }
   ],
   "MaxInstance": 30,

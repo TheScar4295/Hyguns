@@ -1,9 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/FiveSeven/Local_FiveSeven_Fire_01.ogg"
-      ]
+      "Files": ["Sounds/FiveSeven/Local_FiveSeven_Fire_01.ogg"]
     }
   ],
   "MaxInstance": 30,

@@ -1,9 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/Mac10/Mac10_Reload.ogg"
-      ]
+      "Files": ["Sounds/Mac10/Mac10_Reload.ogg"]
     }
   ],
   "MaxInstance": 30,

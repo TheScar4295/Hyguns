@@ -1,9 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/Barret50/Barret50_Reload.ogg"
-      ]
+      "Files": ["Sounds/Barret50/Barret50_Reload.ogg"]
     }
   ],
   "MaxInstance": 30,

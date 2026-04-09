@@ -30,9 +30,7 @@
           "Next": {
             "Type": "EffectCondition",
             "Entity": "Target",
-            "EntityEffectIds": [
-              ""
-            ],
+            "EntityEffectIds": [""],
             "Match": "None",
             "Next": {
               "Type": "ClearEntityEffect",
@@ -72,9 +70,7 @@
           "Type": "Replace",
           "Var": "Standard_Projectile_Impact",
           "DefaultValue": {
-            "Interactions": [
-              "Common_Projectile_Miss"
-            ]
+            "Interactions": ["Common_Projectile_Miss"]
           }
         }
       ]

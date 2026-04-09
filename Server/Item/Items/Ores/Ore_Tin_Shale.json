@@ -3,9 +3,7 @@
     "Name": "server.items.Ore_Tin_Shale.name"
   },
   "Icon": "Icons/ItemsGenerated/Ore_Tin_Shale.png",
-  "Categories": [
-    "Blocks.Ores"
-  ],
+  "Categories": ["Blocks.Ores"],
   "BlockType": {
     "Material": "Solid",
     "DrawType": "CubeWithModel",
@@ -55,25 +53,14 @@
   },
   "PlayerAnimationsId": "Block",
   "Tags": {
-    "Type": [
-      "Ore"
-    ],
-    "Family": [
-      "Tin"
-    ]
+    "Type": ["Ore"],
+    "Family": ["Tin"]
   },
   "MaxStack": 25,
   "ItemSoundSetId": "ISS_Blocks_Stone",
   "IconProperties": {
     "Scale": 0.58823,
-    "Rotation": [
-      22.5,
-      45,
-      22.5
-    ],
-    "Translation": [
-      0,
-      -13.5
-    ]
+    "Rotation": [22.5, 45, 22.5],
+    "Translation": [0, -13.5]
   }
 }

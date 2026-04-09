@@ -44,9 +44,7 @@
         "Cooldown": 0
       },
       "Rules": {
-        "Interrupting": [
-          "ProjectileSpawn"
-        ]
+        "Interrupting": ["ProjectileSpawn"]
       },
       "Interactions": [
         "Frag_Explode",

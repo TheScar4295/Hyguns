@@ -6,23 +6,13 @@
     "Name": "server.items.AK47.name",
     "Description": "server.items.AK47.description"
   },
-  "Categories": [
-    "Items.Weapons",
-    "HyGuns.Guns"
-  ],
+  "Categories": ["Items.Weapons", "HyGuns.Guns"],
   "MaxStack": 1,
   "Scale": 1.2,
   "IconProperties": {
     "Scale": 0.3,
-    "Rotation": [
-      315,
-      90,
-      0
-    ],
-    "Translation": [
-      15,
-      -20.4
-    ]
+    "Rotation": [315, 90, 0],
+    "Translation": [15, -20.4]
   },
   "Quality": "Epic",
   "Utility": {
@@ -116,12 +106,8 @@
   "MaxDurability": 600,
   "PlayerAnimationsId": "Rifle",
   "Tags": {
-    "Type": [
-      "Weapon"
-    ],
-    "Family": [
-      "Rifle_Assault"
-    ]
+    "Type": ["Weapon"],
+    "Family": ["Rifle_Assault"]
   },
   "Recipe": {
     "TimeSeconds": 1,
@@ -151,9 +137,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Rifles"
-        ],
+        "Categories": ["Rifles"],
         "Id": "Bench_Gunsmith",
         "RequiredTierLevel": 3
       }
@@ -164,9 +148,7 @@
       "WeaponIcon": "Weapons/AK47.png",
       "Ammo": {
         "Family": "Bullet",
-        "WeaponClass": [
-          "Rifle"
-        ],
+        "WeaponClass": ["Rifle"],
         "Capacity": 30,
         "Reload": {
           "Time": 2.43,

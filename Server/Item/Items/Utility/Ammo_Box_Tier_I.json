@@ -3,9 +3,7 @@
     "Name": "server.items.Ammo_Box.name",
     "Description": "server.items.Ammo_Box_Tier_I.description"
   },
-  "Categories": [
-    "HyGuns.Items"
-  ],
+  "Categories": ["HyGuns.Tools"],
   "Quality": "Uncommon",
   "ItemLevel": 12,
   "PlayerAnimationsId": "AmmoBox",
@@ -40,9 +38,7 @@
       {
         "Id": "Bench_Gunsmith",
         "Type": "Crafting",
-        "Categories": [
-          "Utility"
-        ]
+        "Categories": ["Utility"]
       }
     ]
   },
@@ -64,15 +60,8 @@
   },
   "IconProperties": {
     "Scale": 0.8,
-    "Rotation": [
-      350,
-      235,
-      345
-    ],
-    "Translation": [
-      0,
-      -13
-    ]
+    "Rotation": [350, 235, 345],
+    "Translation": [0, -13]
   },
   "Model": "Items/Utility/Ammo_Box.blockymodel",
   "Texture": "Items/Utility/Ammo_Box_Tier_I.png",

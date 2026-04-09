@@ -1,9 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/M4A1s/Local_M4A1s_Fire.ogg"
-      ]
+      "Files": ["Sounds/M4A1s/Local_M4A1s_Fire.ogg"]
     }
   ],
   "MaxInstance": 30,

@@ -6,23 +6,13 @@
     "Name": "Rifle",
     "Description": "server.items.AssaultRifle.description"
   },
-  "Categories": [
-    "Items.Weapons",
-    "HyGuns.Guns"
-  ],
+  "Categories": ["Items.Weapons", "HyGuns.Guns"],
   "MaxStack": 1,
   "Scale": 1,
   "IconProperties": {
     "Scale": 0.37,
-    "Translation": [
-      -3.6,
-      -20.4
-    ],
-    "Rotation": [
-      315,
-      90,
-      0
-    ]
+    "Translation": [-3.6, -20.4],
+    "Rotation": [315, 90, 0]
   },
   "Quality": "Rare",
   "Utility": {
@@ -146,9 +136,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Rifles"
-        ],
+        "Categories": ["Rifles"],
         "Id": "Bench_Gunsmith",
         "RequiredTierLevel": 2
       }
@@ -160,9 +148,7 @@
       "Ammo": {
         "Family": "Bullet",
         "Capacity": 30,
-        "WeaponClass": [
-          "Rifle"
-        ],
+        "WeaponClass": ["Rifle"],
         "Reload": {
           "Time": 2.43,
           "Amount": 30

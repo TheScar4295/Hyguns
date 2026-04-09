@@ -20,9 +20,7 @@
           "Next": {
             "Type": "EffectCondition",
             "Entity": "Target",
-            "EntityEffectIds": [
-              ""
-            ],
+            "EntityEffectIds": [""],
             "Match": "None",
             "Next": {
               "Type": "ClearEntityEffect",

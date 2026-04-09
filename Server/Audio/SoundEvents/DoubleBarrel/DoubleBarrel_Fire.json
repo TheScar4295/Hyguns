@@ -1,9 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/DoubleBarrel/DoubleBarrel_Fire.ogg"
-      ]
+      "Files": ["Sounds/DoubleBarrel/DoubleBarrel_Fire.ogg"]
     }
   ],
   "MaxInstance": 30,

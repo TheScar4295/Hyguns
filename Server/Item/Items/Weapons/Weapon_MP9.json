@@ -6,23 +6,13 @@
     "Name": "server.items.MP9.name",
     "Description": "server.items.MP9.description"
   },
-  "Categories": [
-    "Items.Weapons",
-    "HyGuns.Guns"
-  ],
+  "Categories": ["Items.Weapons", "HyGuns.Guns"],
   "MaxStack": 1,
   "Scale": 1.7,
   "IconProperties": {
     "Scale": 0.5,
-    "Rotation": [
-      315,
-      71,
-      0
-    ],
-    "Translation": [
-      14,
-      -12
-    ]
+    "Rotation": [315, 71, 0],
+    "Translation": [14, -12]
   },
   "Quality": "Uncommon",
   "Utility": {
@@ -115,12 +105,8 @@
   "MaxDurability": 600,
   "PlayerAnimationsId": "Rifle",
   "Tags": {
-    "Type": [
-      "Weapon"
-    ],
-    "Family": [
-      "SMG"
-    ]
+    "Type": ["Weapon"],
+    "Family": ["SMG"]
   },
   "Recipe": {
     "TimeSeconds": 1,
@@ -146,9 +132,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "SMGs"
-        ],
+        "Categories": ["SMGs"],
         "Id": "Bench_Gunsmith"
       }
     ]
@@ -158,10 +142,7 @@
       "WeaponIcon": "Weapons/MP9.png",
       "Ammo": {
         "Family": "Bullet",
-        "WeaponClass": [
-          "SMG",
-          "Pistol"
-        ],
+        "WeaponClass": ["SMG", "Pistol"],
         "Capacity": 30,
         "Reload": {
           "Time": 1.8,

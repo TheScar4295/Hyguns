@@ -1,9 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/AK47/AK47_Reload.ogg"
-      ]
+      "Files": ["Sounds/AK47/AK47_Reload.ogg"]
     }
   ],
   "MaxInstance": 30,

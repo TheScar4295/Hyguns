@@ -3,9 +3,7 @@
     "Name": "server.items.Ore_Lead_Stone.name"
   },
   "Icon": "Icons/ItemsGenerated/Ore_Lead_Stone.png",
-  "Categories": [
-    "Blocks.Ores"
-  ],
+  "Categories": ["Blocks.Ores"],
   "BlockType": {
     "Material": "Solid",
     "DrawType": "CubeWithModel",
@@ -55,25 +53,14 @@
   },
   "PlayerAnimationsId": "Block",
   "Tags": {
-    "Type": [
-      "Ore"
-    ],
-    "Family": [
-      "Lead"
-    ]
+    "Type": ["Ore"],
+    "Family": ["Lead"]
   },
   "MaxStack": 25,
   "ItemSoundSetId": "ISS_Blocks_Stone",
   "IconProperties": {
     "Scale": 0.58823,
-    "Rotation": [
-      22.5,
-      45,
-      22.5
-    ],
-    "Translation": [
-      0,
-      -13.5
-    ]
+    "Rotation": [22.5, 45, 22.5],
+    "Translation": [0, -13.5]
   }
 }

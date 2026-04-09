@@ -4,10 +4,7 @@
     "Description": "server.items.Bench_Gunsmith.description"
   },
   "Icon": "Icons/ItemsGenerated/Bench_Gunsmith.png",
-  "Categories": [
-    "Furniture.Benches",
-    "HyGuns.Blocks"
-  ],
+  "Categories": ["Furniture.Benches", "HyGuns.Blocks"],
   "Recipe": {
     "TimeSeconds": 3,
     "Input": [
@@ -27,9 +24,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Workbench_Crafting"
-        ],
+        "Categories": ["Workbench_Crafting"],
         "Id": "Workbench"
       }
     ]
@@ -46,7 +41,7 @@
       }
     ],
     "VariantRotation": "NESW",
-    "HitboxType": "Bench_Weapon",
+    "HitboxType": "Bench_Gunsmith",
     "BlockEntity": {
       "Components": {
         "BenchBlock": {}
@@ -165,20 +160,11 @@
   "PlayerAnimationsId": "Block",
   "IconProperties": {
     "Scale": 0.35,
-    "Rotation": [
-      22.5,
-      45,
-      22.5
-    ],
-    "Translation": [
-      14,
-      -23
-    ]
+    "Rotation": [22.5, 45, 22.5],
+    "Translation": [14, -23]
   },
   "Tags": {
-    "Type": [
-      "Bench"
-    ]
+    "Type": ["Bench"]
   },
   "MaxStack": 1,
   "ItemLevel": 2,

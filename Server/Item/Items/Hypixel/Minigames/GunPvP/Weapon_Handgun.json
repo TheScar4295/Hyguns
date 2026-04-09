@@ -6,23 +6,13 @@
     "Name": "Handgun",
     "Description": "server.items.Handgun.description"
   },
-  "Categories": [
-    "Items.Weapons",
-    "HyGuns.Guns"
-  ],
+  "Categories": ["Items.Weapons", "HyGuns.Guns"],
   "MaxStack": 1,
   "Scale": 1,
   "IconProperties": {
     "Scale": 0.37,
-    "Translation": [
-      -3.6,
-      -20.4
-    ],
-    "Rotation": [
-      315,
-      90,
-      0
-    ]
+    "Translation": [-3.6, -20.4],
+    "Rotation": [315, 90, 0]
   },
   "Quality": "Uncommon",
   "Utility": {
@@ -142,9 +132,7 @@
     "BenchRequirement": [
       {
         "Id": "Bench_Gunsmith",
-        "Categories": [
-          "Pistols"
-        ]
+        "Categories": ["Pistols"]
       }
     ]
   },
@@ -154,9 +142,7 @@
       "Ammo": {
         "Family": "Bullet",
         "Capacity": 20,
-        "WeaponClass": [
-          "Pistol"
-        ],
+        "WeaponClass": ["Pistol"],
         "Reload": {
           "Time": 1,
           "Amount": 20

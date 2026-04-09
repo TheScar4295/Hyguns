@@ -1,9 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/Scope_Zoom_Out.ogg"
-      ],
+      "Files": ["Sounds/Scope_Zoom_Out.ogg"],
       "RandomSettings": {
         "MinPitch": 0,
         "MaxPitch": 0,

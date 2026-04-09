@@ -1,9 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/Flamethrower/Flamethrower_Shoot.ogg"
-      ]
+      "Files": ["Sounds/Flamethrower/Flamethrower_Shoot.ogg"]
     }
   ],
   "Volume": 1.0,

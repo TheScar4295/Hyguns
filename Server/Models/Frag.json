@@ -50,14 +50,7 @@
   "Icon": "Icons/ModelsGenerated/Frag.png",
   "IconProperties": {
     "Scale": 3,
-    "Rotation": [
-      0,
-      -45,
-      0
-    ],
-    "Translation": [
-      0,
-      -8
-    ]
+    "Rotation": [0, -45, 0],
+    "Translation": [0, -8]
   }
 }

@@ -1,9 +1,7 @@
 {
   "Layers": [
     {
-      "Files": [
-        "Sounds/DesertEagle/DesertEagle_Reload.ogg"
-      ]
+      "Files": ["Sounds/DesertEagle/DesertEagle_Reload.ogg"]
     }
   ],
   "MaxInstance": 30,
