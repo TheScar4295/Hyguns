@@ -100,7 +100,7 @@
     "Color": "#a73"
   },
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
-  "MaxDurability": 1000,
+  "MaxDurability": 300,
   "Tags": {
     "Family": [
       "Gun"
