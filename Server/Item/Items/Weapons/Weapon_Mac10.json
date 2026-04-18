@@ -103,7 +103,7 @@
     }
   },
   "MaxDurability": 600,
-  "PlayerAnimationsId": "Rifle",
+  "PlayerAnimationsId": "Handgun",
   "Tags": {
     "Type": ["Weapon"],
     "Family": ["SMG"]

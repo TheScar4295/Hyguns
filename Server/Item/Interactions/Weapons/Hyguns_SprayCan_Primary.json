@@ -20,6 +20,20 @@
 						"Hyguns_Flamethrower_Emerald_Effect"
 					]
 				}
+			},
+			"Furniture_Ancient_Torch": {
+				"Flamethrower_EffectInteraction": {
+					"Interactions": [
+						"Hyguns_Flamethrower_Black_Effect"
+					]
+				}
+			},
+			"Furniture_Crude_Candle": {
+				"Flamethrower_EffectInteraction": {
+					"Interactions": [
+						"Hyguns_Flamethrower_Purple_Effect"
+					]
+				}
 			}
 		},
 		"Next": {

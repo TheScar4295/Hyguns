@@ -16,9 +16,6 @@
     "Description": "server.items.AWP.description"
   },
   "Categories": ["Items.Weapons", "HyGuns.Guns"],
-  "Utility": {
-    "Compatible": true
-  },
   "Interactions": {
     "Primary": {
       "RequireNewClick": false,

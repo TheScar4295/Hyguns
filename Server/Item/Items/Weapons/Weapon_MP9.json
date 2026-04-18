@@ -15,9 +15,6 @@
     "Translation": [14, -12]
   },
   "Quality": "Uncommon",
-  "Utility": {
-    "Compatible": true
-  },
   "Interactions": {
     "Primary": {
       "Cooldown": {

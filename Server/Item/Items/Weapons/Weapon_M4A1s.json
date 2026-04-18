@@ -15,9 +15,6 @@
     "Translation": [-3, -36]
   },
   "Quality": "Epic",
-  "Utility": {
-    "Compatible": true
-  },
   "Interactions": {
     "Primary": {
       "Cooldown": {

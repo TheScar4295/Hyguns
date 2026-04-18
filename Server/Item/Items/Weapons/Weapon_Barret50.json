@@ -16,9 +16,6 @@
     "Description": "server.items.Barret50.description"
   },
   "Categories": ["Items.Weapons", "HyGuns.Guns"],
-  "Utility": {
-    "Compatible": true
-  },
   "Interactions": {
     "Primary": {
       "RequireNewClick": false,
