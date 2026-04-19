@@ -1,0 +1,14 @@
+{
+  "SpawnerId": "FlamethrowerColor_Main",
+  "Animation": {
+		"60": {
+			"PaletteColor": "FlameStart"
+		},
+		"70": {
+			"PaletteColor": "FlameMiddle"
+		},
+		"90": {
+			"PaletteColor": "FlameMiddle"
+		}
+  }
+}

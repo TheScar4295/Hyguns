@@ -61,8 +61,7 @@
         }
       },
       "90": {
-        "Opacity": 1,
-        "Color": "#a8a8a8"
+        "Opacity": 1
       },
       "100": {
         "Opacity": 0.204,

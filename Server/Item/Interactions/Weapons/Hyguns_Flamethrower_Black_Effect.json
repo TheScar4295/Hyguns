@@ -15,6 +15,10 @@
 					"Yaw": 180
 				},
 				"Color": "#000000",
+				"Palette": {
+					"FlameStart": "#ffffff",
+					"FlameMiddle": "#808080"
+				},
 				"SystemId": "FlamethrowerColor"
 			}
 		],
