@@ -1,0 +1,47 @@
+{
+  "TranslationProperties": {
+    "Name": "AWP Scope"
+  },
+  "Categories": [
+    "HyGuns.Attachments"
+  ],
+  "Quality": "Rare",
+  "ItemLevel": 24,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      331,
+      44,
+      9
+    ],
+    "Translation": [
+      3,
+      -6
+    ]
+  },
+  "Model": "Items/Attachments/Scope_AWP/Scope_AWP.blockymodel",
+  "Texture": "Items/Attachments/Scope_AWP/Scope_AWP.png",
+  "Icon": "Icons/ItemsGenerated/Scope_AWP.png",
+  "MaxStack": 1,
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Tags": {
+    "Type": [
+      "Attachment"
+    ]
+  },
+  "Scale": 1,
+  "HyGuns": {
+    "AttachmentSettings": {
+      "Type": "Scope",
+      "ZoomSettings": {
+        "OverlayTexturePath": "Scope/Scope_2.png",
+        "MaxDistance": 30,
+        "MinDistance": 1,
+        "DefaultZoomMultiplier": 1,
+        "MaxZoomMultiplier": 3,
+        "ZoomMultiplierStep": 1
+      }
+    }
+  }
+}

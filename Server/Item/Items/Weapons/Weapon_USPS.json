@@ -139,7 +139,7 @@
     ]
   },
   "HyGuns": {
-    "Settings": {
+    "WeaponSettings": {
       "WeaponIcon": "Weapons/USPS.png",
       "Ammo": {
         "Family": "Bullet",

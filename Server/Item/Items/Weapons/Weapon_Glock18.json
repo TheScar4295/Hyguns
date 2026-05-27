@@ -139,7 +139,7 @@
     ]
   },
   "HyGuns": {
-    "Settings": {
+    "WeaponSettings": {
       "WeaponIcon": "Weapons/Glock18.png",
       "Ammo": {
         "Family": "Bullet",

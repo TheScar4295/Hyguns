@@ -143,7 +143,7 @@
     ]
   },
   "HyGuns": {
-    "Settings": {
+    "WeaponSettings": {
       "WeaponIcon": "Weapons/Deagle.png",
       "Ammo": {
         "Family": "Bullet",

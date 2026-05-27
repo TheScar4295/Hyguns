@@ -1,0 +1,47 @@
+{
+  "TranslationProperties": {
+    "Name": "Barret .50 Scope"
+  },
+  "Categories": [
+    "HyGuns.Attachments"
+  ],
+  "Quality": "Rare",
+  "ItemLevel": 24,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      331,
+      44,
+      9
+    ],
+    "Translation": [
+      3,
+      -6
+    ]
+  },
+  "Model": "Items/Attachments/Scope_Barret50/Scope_Barret50.blockymodel",
+  "Texture": "Items/Attachments/Scope_Barret50/Scope_Barret50.png",
+  "Icon": "Icons/ItemsGenerated/Scope_Barret50.png",
+  "MaxStack": 1,
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Tags": {
+    "Type": [
+      "Attachment"
+    ]
+  },
+  "Scale": 1,
+  "HyGuns": {
+    "AttachmentSettings": {
+      "Type": "Scope",
+      "ZoomSettings": {
+        "OverlayTexturePath": "Scope/Scope_1.png",
+        "MaxDistance": 30,
+        "MinDistance": 1,
+        "DefaultZoomMultiplier": 1,
+        "MaxZoomMultiplier": 3,
+        "ZoomMultiplierStep": 1
+      }
+    }
+  }
+}

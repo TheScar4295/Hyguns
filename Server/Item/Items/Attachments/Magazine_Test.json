@@ -1,0 +1,47 @@
+{
+  "TranslationProperties": {
+    "Name": "Magazine_Test"
+  },
+  "Categories": [
+    "HyGuns.Attachments"
+  ],
+  "Quality": "Common",
+  "ItemLevel": 14,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      349,
+      250,
+      344
+    ],
+    "Translation": [
+      0,
+      -13
+    ]
+  },
+  "Model": "Items/Attachments/Magazine/Magazine.blockymodel",
+  "Texture": "Items/Attachments/Magazine/Magazine.png",
+  "Icon": "Icons/ItemsGenerated/Magazine_Test.png",
+  "MaxStack": 1,
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Tags": {
+    "Type": [
+      "Attachment"
+    ]
+  },
+  "Scale": 1,
+  "HyGuns": {
+    "AttachmentSettings": {
+      "Type": "Magazine",
+      "SettingsModifiers": {
+        "Ammo": {
+          "Capacity": "+10",
+          "Reload": {
+            "Amount": "+10"
+          }
+        }
+      }
+    }
+  }
+}

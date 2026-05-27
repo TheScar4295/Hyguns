@@ -141,7 +141,7 @@
     ]
   },
   "HyGuns": {
-    "Settings": {
+    "WeaponSettings": {
       "WeaponIcon": "Weapons/AK47.png",
       "Ammo": {
         "Family": "Bullet",
@@ -158,7 +158,7 @@
         "Count": 1,
         "Damage": 17
       }
-    }
+		}
   },
   "UsePlayerAnimations": false
 }

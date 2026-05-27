@@ -38,44 +38,44 @@ items.Ammo_Box_Tier_II.description=A portable ammo chest with 5 internal slots f
 items.Ammo_Box_Tier_III.description=A portable ammo chest with 7 internal slots for carrying extra ammunition
 
 items.Frag.name=Frag Grenade
-items.Frag.description=Ammo: <color is="#ffffff">Frag Grenade</color>\nDamage: 50\nSpread: 0\nCooldown: 1\nClipsize: 1
+items.Frag.description=A thrown fragmentation grenade for clearing tight spaces.
 items.Spray_Can.name=Spray Can
-items.Spray_Can.description=Ammo: <color is="#ffffff">Torch in opposite hand</color>\nDamage: 12\nSpread: 0\nCooldown: 0.1\nClipsize: 1
+items.Spray_Can.description=A makeshift spray weapon that burns through fuel quickly.
 items.AssaultRifle.name=Rifle
-items.AssaultRifle.description=Ammo: <color is="#ffffff">Bullet Ammo</color>\nDamage: 5\nSpread: 0.02\nCooldown: 0.112\nReload: 2.43s\nClipsize: 30
+items.AssaultRifle.description=A balanced automatic rifle for mid-range combat.
 items.Handgun.name=Handgun
-items.Handgun.description=Ammo: <color is="#ffffff">Bullet Ammo</color>\nDamage: 7\nSpread: 0.05\nCooldown: 0.15\nReload: 1s\nClipsize: 20
+items.Handgun.description=A reliable sidearm with simple handling.
 items.AK47.name=AK-47
-items.AK47.description=Ammo: <color is="#ffffff">Rifle Ammo</color>\nDamage: 17\nSpread: 0.02\nCooldown: 0.1\nReload: 2.43s\nClipsize: 30
+items.AK47.description=A rugged rifle with strong damage and controllable recoil.
 items.ColtRevolver.name=Colt Navy Revolver
-items.ColtRevolver.description=Ammo: <color is="#ffffff">Bullet Ammo</color>\nDamage: 24\nSpread: 0\nCooldown: 1\nReload: 2.2s\nClipsize: 6
+items.ColtRevolver.description=A heavy revolver with deliberate, powerful shots.
 items.DoubleBarrel.name=Double Barrel Shotgun
-items.DoubleBarrel.description=Ammo: <color is="#ffffff">Shotgun Ammo</color>\nDamage: 3x20\nSpread: 0.12\nCooldown: 1\nReload: 1.2s\nClipsize: 2
+items.DoubleBarrel.description=A close-range shotgun that fires two devastating shells.
 items.Flamethrower.name=Flamethrower
-items.Flamethrower.description=Ammo: <color is="#ffffff">Fuel Tank</color>\nDamage: 10\nSpread: 0\nCooldown: 0.05\nReload: 3.5s\nClipsize: 500
-items.Flamethrower_Goblin.description=Ammo: <color is="#ffffff">Fire Bottle</color>\nDamage: 12\nSpread: 0\nOverheat: 10.0s\nCooldown: 4.0s\nInterval: 0.2s\nReload: 3.5s\nClipsize: 500
+items.Flamethrower.description=A fuel-fed weapon for sustained area denial.
+items.Flamethrower_Goblin.description=A crude flamethrower built for chaotic close-range pressure.
 items.Glock18.name=Glock-18
-items.Glock18.description=Ammo: <color is="#ffffff">Bullet Ammo</color>\nDamage: 6\nSpread: 0\nCooldown: 0.25\nReload: 1.3s\nClipsize: 20
+items.Glock18.description=A compact pistol with fast follow-up shots.
 items.USPS.name=USP-S
-items.USPS.description=Ammo: <color is="#ffffff">Bullet Ammo</color>\nDamage: 10\nSpread: 0\nCooldown: 0.4\nReload: 1.3s\nClipsize: 20
+items.USPS.description=A precise pistol for controlled single shots.
 items.FiveSeven.name=FiveSeven
-items.FiveSeven.description=Ammo: <color is="#ffffff">Bullet Ammo</color>\nDamage: 8\nSpread: 0\nCooldown: 0.25\nReload: 1.3s\nClipsize: 20
+items.FiveSeven.description=A lightweight pistol with high velocity rounds.
 items.Mac10.name=Mac-10
-items.Mac10.description=Ammo: <color is="#ffffff">Bullet Ammo</color>\nDamage: 2\nSpread: 0.05\nCooldown: 0.05\nReload: 1.5s\nClipsize: 30
+items.Mac10.description=A compact SMG with a very high rate of fire.
 items.P90.name=P90
-items.P90.description=Ammo: <color is="#ffffff">Bullet Ammo</color>\nDamage: 5\nSpread: 0.05\nCooldown: 0.05\nReload: 3s\nClipsize: 50
+items.P90.description=A high-capacity SMG for sustained close-range fire.
 items.M4A1s.name=M4A1s
-items.M4A1s.description=Ammo: <color is="#ffffff">Rifle Ammo</color>\nDamage: 14\nSpread: 0.01\nCooldown: 0.09\nReload: 2.5s\nClipsize: 25
+items.M4A1s.description=A precise rifle tuned for steady automatic fire.
 items.MP9.name=MP9
-items.MP9.description=Ammo: <color is="#ffffff">Bullet Ammo</color>\nDamage: 3\nSpread: 0.03\nCooldown: 0.075\nReload: 1.8s\nClipsize: 30
+items.MP9.description=A lightweight SMG suited for mobile close combat.
 items.Barret50.name=Barret .50 Cal
-items.Barret50.description=Ammo: <color is="#ffffff">Rifle Ammo</color>\nDamage: 60\nSpread: 0\nCooldown: 2.5\nReload: 2.3s\nClipsize: 10
+items.Barret50.description=A heavy anti-materiel rifle for extreme damage at range.
 items.AWP.name=AWP
-items.AWP.description=Ammo: <color is="#ffffff">Rifle Ammo</color>\nDamage: 100\nSpread: 0\nCooldown: 3\nReload: 3.7s\nClipsize: 5
+items.AWP.description=A precision sniper rifle built for decisive long-range shots.
 items.DesertEagle.name=Desert Eagle
-items.DesertEagle.description=Ammo: <color is="#ffffff">Bullet Ammo</color>\nDamage: 25\nSpread: 0\nCooldown: 1\nReload: 2.133s\nClipsize: 7
+items.DesertEagle.description=A powerful handgun with heavy recoil and high impact.
 items.Thompson.name=Thompson
-items.Thompson.description=Ammo: <color is="#ffffff">Bullet Ammo</color>\nDamage: 3\nSpread: 0.05\nCooldown: 0.075\nReload: 2.133s\nClipsize: 50
+items.Thompson.description=A classic SMG with steady automatic fire.
 
 items.Bench_Gunsmith.name=Gunsmith Bench
 items.Bench_Gunsmith.description=A workstation used to create firearms and explosives
@@ -116,3 +116,31 @@ ui.hyguns.category.blocks=Blocks
 ui.hyguns.category.furniture=Furniture
 ui.hyguns.category.items=Items
 ui.hyguns.category.tools=Tools
+
+hyguns.tooltip.stat.ammo=Ammo
+hyguns.tooltip.stat.damage=Damage
+hyguns.tooltip.stat.spread=Spread
+hyguns.tooltip.stat.cooldown=Cooldown
+hyguns.tooltip.stat.reload=Reload
+hyguns.tooltip.stat.clipsize=Clipsize
+hyguns.tooltip.selected_ammo=Selected ammo: {ammo}
+hyguns.tooltip.attachments.header=Installed attachments:
+hyguns.tooltip.none=None
+hyguns.tooltip.modifier.numeric={name}: {value} {icon}
+hyguns.tooltip.modifier.zoom_enabled=Allow use scoping
+hyguns.tooltip.modifier.fire_sound_volume=Fire sound volume: {value} {icon}
+hyguns.tooltip.modifier.auto_guidance_enabled=Auto guidance: enabled
+hyguns.tooltip.modifier.auto_guidance_disabled=Auto guidance: disabled
+hyguns.tooltip.modifier.ammo_capacity=Capacity
+hyguns.tooltip.modifier.ammo_reload_amount=Reload Amount
+hyguns.tooltip.modifier.ammo_reload_time=Reload Time
+hyguns.tooltip.modifier.fire_cooldown=Fire Cooldown
+hyguns.tooltip.modifier.projectile_spread=Spread
+hyguns.tooltip.modifier.projectile_count=Projectile Count
+hyguns.tooltip.modifier.projectile_damage=Damage
+hyguns.tooltip.modifier.auto_guidance_cone=Auto Guidance Cone
+hyguns.tooltip.modifier.auto_guidance_max_distance=Auto Guidance Distance
+hyguns.tooltip.modifier.auto_guidance_turn_rate=Auto Guidance Turn Rate
+hyguns.tooltip.modifier.wall_penetration_blocks=Wall Penetration Blocks
+hyguns.tooltip.modifier.wall_penetration_damage_reduction=Wall Penetration Damage Reduction
+hyguns.tooltip.modifier.wall_penetration_damage_distance=Wall Penetration Damage Distance

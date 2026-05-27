@@ -8,6 +8,11 @@
       "Id": "Guns"
     },
     {
+      "Name": "server.ui.hyguns.category.attachments",
+      "Id": "Attachments",
+      "Icon": "Icons/ItemCategories/HyGuns-Attachments.png"
+    },
+    {
       "Name": "server.ui.hyguns.category.ammo",
       "Id": "Ammo",
       "Icon": "Icons/ItemCategories/HyGuns-Ammo.png"

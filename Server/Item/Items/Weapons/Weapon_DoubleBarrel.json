@@ -142,7 +142,7 @@
     ]
   },
   "HyGuns": {
-    "Settings": {
+    "WeaponSettings": {
       "WeaponIcon": "Weapons/DoubleBarrel.png",
       "Ammo": {
         "Family": "Bullet",

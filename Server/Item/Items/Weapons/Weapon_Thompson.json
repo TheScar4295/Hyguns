@@ -145,7 +145,7 @@
     ]
   },
   "HyGuns": {
-    "Settings": {
+    "WeaponSettings": {
       "WeaponIcon": "Weapons/Thompson.png",
       "Ammo": {
         "Family": "Bullet",

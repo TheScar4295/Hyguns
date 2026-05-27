@@ -138,7 +138,7 @@
     ]
   },
   "HyGuns": {
-    "Settings": {
+    "WeaponSettings": {
       "WeaponIcon": "Weapons/Mac10.png",
       "Ammo": {
         "Family": "Bullet",

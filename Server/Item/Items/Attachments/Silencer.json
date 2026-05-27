@@ -1,0 +1,47 @@
+{
+  "TranslationProperties": {
+    "Name": "Silencer"
+  },
+  "Categories": [
+    "HyGuns.Attachments"
+  ],
+  "Quality": "Rare",
+  "ItemLevel": 24,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      331,
+      44,
+      9
+    ],
+    "Translation": [
+      2,
+      -4
+    ]
+  },
+  "Model": "Items/Attachments/Silencer/Silencer.blockymodel",
+  "Texture": "Items/Attachments/Silencer/Silencer.png",
+  "Icon": "Icons/ItemsGenerated/Silencer.png",
+  "MaxStack": 1,
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Tags": {
+    "Type": [
+      "Attachment"
+    ]
+  },
+  "Scale": 1,
+  "HyGuns": {
+    "AttachmentSettings": {
+      "Type": "Silencer",
+      "FireSound": {
+        "Volume": "*0.05"
+      },
+			"SettingsModifiers": {
+				"Projectiles": {
+					"Spread": "*0.005"
+				}
+			}
+    }
+  }
+}

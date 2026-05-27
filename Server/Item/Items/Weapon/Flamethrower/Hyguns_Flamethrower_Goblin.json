@@ -147,7 +147,7 @@
   "Weapon": {},
   "ItemSoundSetId": "ISS_Weapons_Wood",
   "HyGuns": {
-    "Settings": {
+    "WeaponSettings": {
       "WeaponIcon": "Weapons/GoblinFlamethrower.png",
       "Ammo": {
         "Family": "Fuel",

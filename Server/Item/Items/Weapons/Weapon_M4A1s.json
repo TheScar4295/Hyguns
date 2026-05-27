@@ -141,7 +141,7 @@
     ]
   },
   "HyGuns": {
-    "Settings": {
+    "WeaponSettings": {
       "WeaponIcon": "Weapons/M4A1.png",
       "Ammo": {
         "Family": "Bullet",
