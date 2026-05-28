@@ -89,7 +89,7 @@
 					}
 				]
 			},
-      "SettingsOverrides": {
+      "SettingsModifiers": {
         "Fire": {
           "Cooldown": 5.0
         }

@@ -135,7 +135,7 @@
     ]
   },
   "HyGuns": {
-    "Settings": {
+    "WeaponSettings": {
       "WeaponIcon": "Weapons/MP9.png",
       "Ammo": {
         "Family": "Bullet",

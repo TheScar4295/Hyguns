@@ -140,7 +140,7 @@
     ]
   },
   "HyGuns": {
-    "Settings": {
+    "WeaponSettings": {
       "WeaponIcon": "Weapons/P90.png",
       "Ammo": {
         "Family": "Bullet",

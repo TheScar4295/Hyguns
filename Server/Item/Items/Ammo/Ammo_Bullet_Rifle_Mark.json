@@ -92,7 +92,7 @@
 					}
 				]
 			},
-      "SettingsOverrides": {
+      "SettingsModifiers": {
         "DamageModifier": {
           "Type": "STATIC",
           "Value": 0

@@ -130,7 +130,7 @@
     "Color": "#a73"
   },
   "HyGuns": {
-    "Settings": {
+    "WeaponSettings": {
       "WeaponIcon": "Weapons/Flamethrower.png",
       "Ammo": {
         "Family": "Fuel",

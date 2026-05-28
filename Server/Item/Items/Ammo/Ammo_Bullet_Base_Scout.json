@@ -93,7 +93,7 @@
 					}
 				]
 			},
-      "SettingsOverrides": {
+      "SettingsModifiers": {
         "Projectiles": {
           "ConfigId": "Hyguns_Projectile_Config_Bullet_Guidance"
         },

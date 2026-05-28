@@ -1,0 +1,6 @@
+{
+	"Type": "Scope",
+	"Icon": "Attachments/scope.png",
+	"AnyAllowed": false,
+	"MaxCount": 1
+}
