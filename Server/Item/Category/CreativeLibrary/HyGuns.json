@@ -8,6 +8,11 @@
       "Id": "Guns"
     },
     {
+      "Name": "server.ui.hyguns.category.skins",
+      "Id": "Skins",
+      "Icon": "Icons/ItemCategories/HyGuns-Skins.png"
+    },
+    {
       "Name": "server.ui.hyguns.category.attachments",
       "Id": "Attachments",
       "Icon": "Icons/ItemCategories/HyGuns-Attachments.png"

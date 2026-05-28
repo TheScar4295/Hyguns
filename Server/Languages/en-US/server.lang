@@ -111,6 +111,8 @@ items.Ore_Titanium_Basalt.name=Titanium Ore - Basalt
 
 ui.itemcategory.hyguns=HyGuns
 ui.hyguns.category.guns=Guns
+ui.hyguns.category.skins=Skins
+ui.hyguns.category.attachments=Attachments
 ui.hyguns.category.ammo=Ammo
 ui.hyguns.category.blocks=Blocks
 ui.hyguns.category.furniture=Furniture
