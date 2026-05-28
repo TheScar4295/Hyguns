@@ -1,12 +1,12 @@
 {
   "TranslationProperties": {
-    "Name": "Magazine_Test"
+    "Name": "Magazine Tier III"
   },
   "Categories": [
     "HyGuns.Attachments"
   ],
-  "Quality": "Common",
-  "ItemLevel": 14,
+  "Quality": "Epic",
+  "ItemLevel": 34,
   "PlayerAnimationsId": "Item",
   "IconProperties": {
     "Scale": 1,
@@ -36,9 +36,9 @@
       "Type": "Magazine",
       "SettingsModifiers": {
         "Ammo": {
-          "Capacity": "+10",
+          "Capacity": "+15",
           "Reload": {
-            "Amount": "+10"
+            "Amount": "+15"
           }
         }
       }

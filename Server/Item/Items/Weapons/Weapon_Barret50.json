@@ -289,8 +289,11 @@
 					"Index": 1
 				},
         "Magazine": {
-          "Count": 2
-        }
+					"Count": 2
+				},
+				"*": {
+					"Count": 3
+				}
       },
       "DefaultAttachments": {
         "Scope": "Scope_Barret50"
