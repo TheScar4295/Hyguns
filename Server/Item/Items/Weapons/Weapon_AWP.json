@@ -281,17 +281,17 @@
 	"State": {
 		"Scope": {
 			"Quality": "Epic",
-			"Categories": [],
+			"Categories": ["Items.Weapons"],
 			"Model": "Items/Weapons/AWP/AWP_Scope.blockymodel"
 		},
 		"Silencer": {
 			"Quality": "Epic",
-			"Categories": [],
+			"Categories": ["Items.Weapons"],
 			"Model": "Items/Weapons/AWP/AWP_Silencer.blockymodel"
 		},
 		"Scope_Silencer": {
 			"Quality": "Epic",
-			"Categories": [],
+			"Categories": ["Items.Weapons"],
 			"Model": "Items/Weapons/AWP/AWP_Scope_Silencer.blockymodel"
 		}
 	}
