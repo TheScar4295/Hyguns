@@ -289,10 +289,10 @@
 					"Index": 1
 				},
         "Magazine": {
-					"Count": 2
+					"Count": 1
 				},
 				"*": {
-					"Count": 3
+					"Count": 2
 				}
       },
       "DefaultAttachments": {

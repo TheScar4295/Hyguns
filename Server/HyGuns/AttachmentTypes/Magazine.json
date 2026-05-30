@@ -1,5 +1,6 @@
 {
 	"Type": "Magazine",
 	"Icon": "Attachments/magazine.png",
-	"MaxCount": 3
+	"AnyAllowed": false,
+	"MaxCount": 1
 }

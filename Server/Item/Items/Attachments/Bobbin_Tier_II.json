@@ -1,0 +1,47 @@
+{
+  "TranslationProperties": {
+    "Name": "Bobbin Tier II"
+  },
+  "Categories": [
+    "HyGuns.Attachments"
+  ],
+  "Quality": "Epic",
+  "ItemLevel": 34,
+  "PlayerAnimationsId": "Item",
+	"IconProperties": {
+		"Scale": 1.4,
+		"Rotation": [
+			15,
+			315,
+			345
+		],
+		"Translation": [
+			0,
+			-8
+		]
+	},
+  "Model": "Items/Attachments/Bobbin/Bobbin.blockymodel",
+  "Texture": "Items/Attachments/Bobbin/Bobbin.png",
+  "Icon": "Icons/ItemsGenerated/Bobbin_Tier_I.png",
+  "MaxStack": 1,
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Tags": {
+    "Type": [
+      "Attachment"
+    ]
+  },
+  "Scale": 1,
+  "HyGuns": {
+    "AttachmentSettings": {
+      "Type": "Bobbin",
+      "SettingsModifiers": {
+        "Ammo": {
+          "Capacity": "+100",
+          "Reload": {
+            "Amount": "+100"
+          }
+        }
+      }
+    }
+  }
+}

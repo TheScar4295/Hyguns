@@ -30,9 +30,12 @@
           "Next": {
             "Type": "Hyguns_Shoot",
             "Failed": "Gun_Shoot_Fail",
+						"Next": {
+							"Type": "Hyguns_PlayWeaponFireSound",
+							"WorldSoundEventId": "Mac10_Fire",
+							"LocalSoundEventId": "Mac10_Fire"
+						},
             "Effects": {
-              "WorldSoundEventId": "Mac10_Fire",
-              "LocalSoundEventId": "Mac10_Fire",
               "ItemAnimationId": "Shoot",
               "FirstPersonParticles": [
                 {
@@ -65,7 +68,85 @@
         }
       ]
     },
-    "Ability3": {
+		"Secondary": {
+			"Interactions": [
+				{
+					"Type": "Hyguns_AttachmentsInstalled",
+					"AttachmentsTypes": [
+						"Scope"
+					],
+					"RequireAll": false,
+					"Next": {
+						"Type": "Scope_Zoom",
+						"OverlayTexturePath": "Scope/Scope_2.png",
+						"MaxDistance": 30,
+						"MinDistance": 1,
+						"DefaultZoomMultiplier": 1,
+						"MaxZoomMultiplier": 3,
+						"ZoomMultiplierStep": 1,
+						"Effects": {
+							"WorldSoundEventId": "Scope_Zoom_In",
+							"LocalSoundEventId": "Scope_Zoom_In"
+						}
+					}
+				}
+			]
+		},
+		"Ability1": {
+			"Interactions": [
+				{
+					"Type": "Charging",
+					"DisplayProgress": false,
+					"AllowIndefiniteHold": false,
+					"Next": {
+						"0": {
+							"Type": "Hyguns_AttachmentsInstalled",
+							"AttachmentsTypes": [
+								"Scope"
+							],
+							"RequireAll": false,
+							"Next": {
+								"Type": "Hyguns_CheckZoom",
+								"Zoomed": true,
+								"Next": {
+									"Type": "Scope_Zoom_Out",
+									"Effects": {
+										"WorldSoundEventId": "Scope_Zoom_Out",
+										"LocalSoundEventId": "Scope_Zoom_Out"
+									}
+								}
+							}
+						},
+						"0.25": {
+							"Type": "Hyguns_OpenAttachments"
+						}
+					}
+				}
+			]
+		},
+		"Ability2": {
+			"Interactions": [
+				{
+					"Type": "Hyguns_AttachmentsInstalled",
+					"AttachmentsTypes": [
+						"Scope"
+					],
+					"RequireAll": false,
+					"Next": {
+						"Type": "Hyguns_CheckZoom",
+						"Zoomed": true,
+						"Next": {
+							"Type": "Scope_Zoom_In",
+							"Effects": {
+								"WorldSoundEventId": "Scope_Zoom_In",
+								"LocalSoundEventId": "Scope_Zoom_In"
+							}
+						}
+					}
+				}
+			]
+		},
+		"Ability3": {
       "Interactions": [
         {
           "Type": "Charging",
@@ -154,7 +235,27 @@
         "Spread": 0.05,
         "Count": 1,
         "Damage": 2
-      }
+      },
+			"SupportedAttachments": {
+				"Silencer": {
+					"Count": 1,
+					"Visual": true,
+					"Index": 0
+				},
+				"Magazine": {
+					"Count": 1
+				},
+				"*": {
+					"Count": 2
+				}
+			}
     }
-  }
+  },
+	"State": {
+		"Silencer": {
+			"Quality": "Uncommon",
+			"Categories": ["Items.Weapons"],
+			"Model": "Items/Weapons/Mac10/Mac10_Silencer.blockymodel"
+		}
+	}
 }

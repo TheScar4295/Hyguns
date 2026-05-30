@@ -15,6 +15,20 @@
   "PlayerAnimationsId": "Rifle",
   "Interactions": {
     "Primary": "Hyguns_Flamethrower_Goblin_Primary",
+		"Ability1": {
+			"Interactions": [
+				{
+					"Type": "Charging",
+					"DisplayProgress": false,
+					"AllowIndefiniteHold": false,
+					"Next": {
+						"0.25": {
+							"Type": "Hyguns_OpenAttachments"
+						}
+					}
+				}
+			]
+		},
     "Ability3": {
       "Interactions": [
         {
@@ -159,7 +173,12 @@
           "Time": 3.5,
           "Amount": 500
         }
-      }
+      },
+			"SupportedAttachments": {
+				"*": {
+					"Count": 3
+				}
+			}
     }
   }
 }

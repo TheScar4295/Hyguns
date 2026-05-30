@@ -27,9 +27,12 @@
           "Next": {
             "Type": "Hyguns_Shoot",
             "Failed": "Gun_Shoot_Fail",
+						"Next": {
+							"Type": "Hyguns_PlayWeaponFireSound",
+							"WorldSoundEventId": "World_P90_Fire",
+							"LocalSoundEventId": "Local_P90_Fire"
+						},
             "Effects": {
-              "WorldSoundEventId": "World_P90_Fire",
-              "LocalSoundEventId": "Local_P90_Fire",
               "ItemAnimationId": "Shoot",
               "FirstPersonParticles": [
                 {
@@ -62,7 +65,85 @@
         }
       ]
     },
-    "Ability3": {
+		"Secondary": {
+			"Interactions": [
+				{
+					"Type": "Hyguns_AttachmentsInstalled",
+					"AttachmentsTypes": [
+						"Scope"
+					],
+					"RequireAll": false,
+					"Next": {
+						"Type": "Scope_Zoom",
+						"OverlayTexturePath": "Scope/Scope_2.png",
+						"MaxDistance": 30,
+						"MinDistance": 1,
+						"DefaultZoomMultiplier": 1,
+						"MaxZoomMultiplier": 3,
+						"ZoomMultiplierStep": 1,
+						"Effects": {
+							"WorldSoundEventId": "Scope_Zoom_In",
+							"LocalSoundEventId": "Scope_Zoom_In"
+						}
+					}
+				}
+			]
+		},
+		"Ability1": {
+			"Interactions": [
+				{
+					"Type": "Charging",
+					"DisplayProgress": false,
+					"AllowIndefiniteHold": false,
+					"Next": {
+						"0": {
+							"Type": "Hyguns_AttachmentsInstalled",
+							"AttachmentsTypes": [
+								"Scope"
+							],
+							"RequireAll": false,
+							"Next": {
+								"Type": "Hyguns_CheckZoom",
+								"Zoomed": true,
+								"Next": {
+									"Type": "Scope_Zoom_Out",
+									"Effects": {
+										"WorldSoundEventId": "Scope_Zoom_Out",
+										"LocalSoundEventId": "Scope_Zoom_Out"
+									}
+								}
+							}
+						},
+						"0.25": {
+							"Type": "Hyguns_OpenAttachments"
+						}
+					}
+				}
+			]
+		},
+		"Ability2": {
+			"Interactions": [
+				{
+					"Type": "Hyguns_AttachmentsInstalled",
+					"AttachmentsTypes": [
+						"Scope"
+					],
+					"RequireAll": false,
+					"Next": {
+						"Type": "Hyguns_CheckZoom",
+						"Zoomed": true,
+						"Next": {
+							"Type": "Scope_Zoom_In",
+							"Effects": {
+								"WorldSoundEventId": "Scope_Zoom_In",
+								"LocalSoundEventId": "Scope_Zoom_In"
+							}
+						}
+					}
+				}
+			]
+		},
+		"Ability3": {
       "Interactions": [
         {
           "Type": "Charging",
@@ -156,7 +237,42 @@
         "Spread": 0.05,
         "Count": 1,
         "Damage": 5
-      }
-    }
-  }
+      },
+			"SupportedAttachments": {
+				"Scope": {
+					"Count": 1,
+					"Visual": true,
+					"Index": 0
+				},
+				"Silencer": {
+					"Count": 1,
+					"Visual": true,
+					"Index": 1
+				},
+				"Magazine": {
+					"Count": 1
+				},
+				"*": {
+					"Count": 2
+				}
+			}
+		}
+  },
+	"State": {
+		"Scope": {
+			"Quality": "Epic",
+			"Categories": ["Items.Weapons"],
+			"Model": "Items/Weapons/P90/P90_Scope.blockymodel"
+		},
+		"Silencer": {
+			"Quality": "Epic",
+			"Categories": ["Items.Weapons"],
+			"Model": "Items/Weapons/P90/P90_Silencer.blockymodel"
+		},
+		"Scope_Silencer": {
+			"Quality": "Epic",
+			"Categories": ["Items.Weapons"],
+			"Model": "Items/Weapons/P90/P90_Scope_Silencer.blockymodel"
+		}
+	}
 }

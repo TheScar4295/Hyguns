@@ -30,9 +30,12 @@
           "Next": {
             "Type": "Hyguns_Shoot",
             "Failed": "Gun_Shoot_Fail",
+						"Next": {
+							"Type": "Hyguns_PlayWeaponFireSound",
+							"WorldSoundEventId": "ColtRevolver_Fire",
+							"LocalSoundEventId": "ColtRevolver_Fire"
+						},
             "Effects": {
-              "WorldSoundEventId": "ColtRevolver_Fire",
-              "LocalSoundEventId": "ColtRevolver_Fire",
               "ItemAnimationId": "Shoot",
               "FirstPersonParticles": [
                 {
@@ -65,6 +68,84 @@
         }
       ]
     },
+		"Secondary": {
+			"Interactions": [
+				{
+					"Type": "Hyguns_AttachmentsInstalled",
+					"AttachmentsTypes": [
+						"Scope"
+					],
+					"RequireAll": false,
+					"Next": {
+						"Type": "Scope_Zoom",
+						"OverlayTexturePath": "Scope/Scope_2.png",
+						"MaxDistance": 30,
+						"MinDistance": 1,
+						"DefaultZoomMultiplier": 1,
+						"MaxZoomMultiplier": 3,
+						"ZoomMultiplierStep": 1,
+						"Effects": {
+							"WorldSoundEventId": "Scope_Zoom_In",
+							"LocalSoundEventId": "Scope_Zoom_In"
+						}
+					}
+				}
+			]
+		},
+		"Ability1": {
+			"Interactions": [
+				{
+					"Type": "Charging",
+					"DisplayProgress": false,
+					"AllowIndefiniteHold": false,
+					"Next": {
+						"0": {
+							"Type": "Hyguns_AttachmentsInstalled",
+							"AttachmentsTypes": [
+								"Scope"
+							],
+							"RequireAll": false,
+							"Next": {
+								"Type": "Hyguns_CheckZoom",
+								"Zoomed": true,
+								"Next": {
+									"Type": "Scope_Zoom_Out",
+									"Effects": {
+										"WorldSoundEventId": "Scope_Zoom_Out",
+										"LocalSoundEventId": "Scope_Zoom_Out"
+									}
+								}
+							}
+						},
+						"0.25": {
+							"Type": "Hyguns_OpenAttachments"
+						}
+					}
+				}
+			]
+		},
+		"Ability2": {
+			"Interactions": [
+				{
+					"Type": "Hyguns_AttachmentsInstalled",
+					"AttachmentsTypes": [
+						"Scope"
+					],
+					"RequireAll": false,
+					"Next": {
+						"Type": "Hyguns_CheckZoom",
+						"Zoomed": true,
+						"Next": {
+							"Type": "Scope_Zoom_In",
+							"Effects": {
+								"WorldSoundEventId": "Scope_Zoom_In",
+								"LocalSoundEventId": "Scope_Zoom_In"
+							}
+						}
+					}
+				}
+			]
+		},
     "Ability3": {
       "Interactions": [
         {
@@ -159,7 +240,42 @@
         "Spread": 0,
         "Count": 1,
         "Damage": 24
-      }
+      },
+			"SupportedAttachments": {
+				"Scope": {
+					"Count": 1,
+					"Visual": true,
+					"Index": 0
+				},
+				"Silencer": {
+					"Count": 1,
+					"Visual": true,
+					"Index": 1
+				},
+				"Magazine": {
+					"Count": 1
+				},
+				"*": {
+					"Count": 1
+				}
+			}
     }
-  }
+  },
+	"State": {
+		"Scope": {
+			"Quality": "Uncommon",
+			"Categories": ["Items.Weapons"],
+			"Model": "Items/Weapons/ColtRevolver/ColtRevolver_Scope.blockymodel"
+		},
+		"Silencer": {
+			"Quality": "Uncommon",
+			"Categories": ["Items.Weapons"],
+			"Model": "Items/Weapons/ColtRevolver/ColtRevolver_Silencer.blockymodel"
+		},
+		"Scope_Silencer": {
+			"Quality": "Uncommon",
+			"Categories": ["Items.Weapons"],
+			"Model": "Items/Weapons/ColtRevolver/ColtRevolver_Scope_Silencer.blockymodel"
+		}
+	}
 }

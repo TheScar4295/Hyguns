@@ -270,6 +270,9 @@
 					"Index": 1
 				},
 				"Magazine": {
+					"Count": 1
+				},
+				"*": {
 					"Count": 2
 				}
 			},

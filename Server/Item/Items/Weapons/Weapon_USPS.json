@@ -30,9 +30,12 @@
           "Next": {
             "Type": "Hyguns_Shoot",
             "Failed": "Gun_Shoot_Fail",
-            "Effects": {
-              "WorldSoundEventId": "World_USPS_Fire",
-              "LocalSoundEventId": "Local_USPS_Fire",
+						"Next": {
+							"Type": "Hyguns_PlayWeaponFireSound",
+							"WorldSoundEventId": "World_USPS_Fire",
+							"LocalSoundEventId": "Local_USPS_Fire"
+						},
+						"Effects": {
               "ItemAnimationId": "Shoot",
               "FirstPersonParticles": [
                 {
@@ -65,7 +68,85 @@
         }
       ]
     },
-    "Ability3": {
+		"Secondary": {
+			"Interactions": [
+				{
+					"Type": "Hyguns_AttachmentsInstalled",
+					"AttachmentsTypes": [
+						"Scope"
+					],
+					"RequireAll": false,
+					"Next": {
+						"Type": "Scope_Zoom",
+						"OverlayTexturePath": "Scope/Scope_2.png",
+						"MaxDistance": 30,
+						"MinDistance": 1,
+						"DefaultZoomMultiplier": 1,
+						"MaxZoomMultiplier": 3,
+						"ZoomMultiplierStep": 1,
+						"Effects": {
+							"WorldSoundEventId": "Scope_Zoom_In",
+							"LocalSoundEventId": "Scope_Zoom_In"
+						}
+					}
+				}
+			]
+		},
+		"Ability1": {
+			"Interactions": [
+				{
+					"Type": "Charging",
+					"DisplayProgress": false,
+					"AllowIndefiniteHold": false,
+					"Next": {
+						"0": {
+							"Type": "Hyguns_AttachmentsInstalled",
+							"AttachmentsTypes": [
+								"Scope"
+							],
+							"RequireAll": false,
+							"Next": {
+								"Type": "Hyguns_CheckZoom",
+								"Zoomed": true,
+								"Next": {
+									"Type": "Scope_Zoom_Out",
+									"Effects": {
+										"WorldSoundEventId": "Scope_Zoom_Out",
+										"LocalSoundEventId": "Scope_Zoom_Out"
+									}
+								}
+							}
+						},
+						"0.25": {
+							"Type": "Hyguns_OpenAttachments"
+						}
+					}
+				}
+			]
+		},
+		"Ability2": {
+			"Interactions": [
+				{
+					"Type": "Hyguns_AttachmentsInstalled",
+					"AttachmentsTypes": [
+						"Scope"
+					],
+					"RequireAll": false,
+					"Next": {
+						"Type": "Hyguns_CheckZoom",
+						"Zoomed": true,
+						"Next": {
+							"Type": "Scope_Zoom_In",
+							"Effects": {
+								"WorldSoundEventId": "Scope_Zoom_In",
+								"LocalSoundEventId": "Scope_Zoom_In"
+							}
+						}
+					}
+				}
+			]
+		},
+		"Ability3": {
       "Interactions": [
         {
           "Type": "Charging",
@@ -152,11 +233,34 @@
       },
       "Projectiles": {
         "ConfigId": "Hyguns_Projectile_Config_Bullet",
-        "Spread": 0,
+        "Spread": 0.005,
         "Count": 1,
         "Damage": 10
-      }
+      },
+			"SupportedAttachments": {
+				"Silencer": {
+					"Count": 1,
+					"Visual": true,
+					"Index": 1
+				},
+				"Magazine": {
+					"Count": 1
+				},
+				"*": {
+					"Count": 1
+				}
+			},
+			"DefaultAttachments": {
+				"Silencer": "Silencer"
+			}
     }
   },
+	"State": {
+		"Silencer": {
+			"Quality": "Rare",
+			"Categories": ["Items.Weapons"],
+			"Model": "Items/Weapons/USPS/USPS_Silencer.blockymodel"
+		}
+	},
   "UsePlayerAnimations": true
 }

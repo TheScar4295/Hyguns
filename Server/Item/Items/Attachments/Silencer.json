@@ -39,7 +39,7 @@
       },
 			"SettingsModifiers": {
 				"Projectiles": {
-					"Spread": "*0.005"
+					"Spread": "-0.005"
 				}
 			}
     }

@@ -37,6 +37,20 @@
         "Cooldown": 0.05
       }
     },
+		"Ability1": {
+			"Interactions": [
+				{
+					"Type": "Charging",
+					"DisplayProgress": false,
+					"AllowIndefiniteHold": false,
+					"Next": {
+						"0.25": {
+							"Type": "Hyguns_OpenAttachments"
+						}
+					}
+				}
+			]
+		},
     "Ability3": {
       "Interactions": [
         {
@@ -145,7 +159,12 @@
         "Spread": 0,
         "Count": 1,
         "ProjectileId": "Flamethrower_Projectile"
-      }
+      },
+			"SupportedAttachments": {
+				"*": {
+					"Count": 3
+				}
+			}
     }
   }
 }
