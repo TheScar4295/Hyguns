@@ -77,6 +77,24 @@ items.DesertEagle.description=A powerful handgun with heavy recoil and high impa
 items.Thompson.name=Thompson
 items.Thompson.description=A classic SMG with steady automatic fire.
 
+attachments.types.bobbin.name=Bobbin
+attachments.types.bobbin.description=Extends ammo capacity
+attachments.types.magazine.name=Magazine
+attachments.types.magazine.description=Extends ammo capacity
+attachments.types.scope.name=Scope
+attachments.types.scope.description=Allow use scoping
+attachments.types.silencer.name=Silencer
+attachments.types.silencer.description=Makes shoot sound less loud
+
+items.attachments.Bobbin_Tier_I.name=Bobbin Tier I
+items.attachments.Bobbin_Tier_II.name=Bobbin Tier II
+items.attachments.Magazine_Tier_I.name=Magazine Tier I
+items.attachments.Magazine_Tier_II.name=Magazine Tier II
+items.attachments.Magazine_Tier_III.name=Magazine Tier III
+items.attachments.Scope.AWP.name=AWP Scope
+items.attachments.Scope.Barret50.name=Barret .50 Scope
+items.attachments.Silencer.name=Silencer
+
 items.Bench_Gunsmith.name=Gunsmith Bench
 items.Bench_Gunsmith.description=A workstation used to create firearms and explosives
 
@@ -118,31 +136,3 @@ ui.hyguns.category.blocks=Blocks
 ui.hyguns.category.furniture=Furniture
 ui.hyguns.category.items=Items
 ui.hyguns.category.tools=Tools
-
-hyguns.tooltip.stat.ammo=Ammo
-hyguns.tooltip.stat.damage=Damage
-hyguns.tooltip.stat.spread=Spread
-hyguns.tooltip.stat.cooldown=Cooldown
-hyguns.tooltip.stat.reload=Reload
-hyguns.tooltip.stat.clipsize=Clipsize
-hyguns.tooltip.selected_ammo=Selected ammo: {ammo}
-hyguns.tooltip.attachments.header=Installed attachments:
-hyguns.tooltip.none=None
-hyguns.tooltip.modifier.numeric={name}: {value} {icon}
-hyguns.tooltip.modifier.zoom_enabled=Allow use scoping
-hyguns.tooltip.modifier.fire_sound_volume=Fire sound volume: {value} {icon}
-hyguns.tooltip.modifier.auto_guidance_enabled=Auto guidance: enabled
-hyguns.tooltip.modifier.auto_guidance_disabled=Auto guidance: disabled
-hyguns.tooltip.modifier.ammo_capacity=Capacity
-hyguns.tooltip.modifier.ammo_reload_amount=Reload Amount
-hyguns.tooltip.modifier.ammo_reload_time=Reload Time
-hyguns.tooltip.modifier.fire_cooldown=Fire Cooldown
-hyguns.tooltip.modifier.projectile_spread=Spread
-hyguns.tooltip.modifier.projectile_count=Projectile Count
-hyguns.tooltip.modifier.projectile_damage=Damage
-hyguns.tooltip.modifier.auto_guidance_cone=Auto Guidance Cone
-hyguns.tooltip.modifier.auto_guidance_max_distance=Auto Guidance Distance
-hyguns.tooltip.modifier.auto_guidance_turn_rate=Auto Guidance Turn Rate
-hyguns.tooltip.modifier.wall_penetration_blocks=Wall Penetration Blocks
-hyguns.tooltip.modifier.wall_penetration_damage_reduction=Wall Penetration Damage Reduction
-hyguns.tooltip.modifier.wall_penetration_damage_distance=Wall Penetration Damage Distance

@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "Silencer"
+    "Name": "server.items.attachments.Silencer.name"
   },
   "Categories": [
     "HyGuns.Attachments"

@@ -1,6 +1,8 @@
 {
 	"Type": "Bobbin",
 	"Icon": "Attachments/bobbin.png",
+	"Name": "server.attachments.types.bobbin.name",
+	"Description": "server.attachments.types.bobbin.description",
 	"AnyAllowed": false,
 	"MaxCount": 1
 }

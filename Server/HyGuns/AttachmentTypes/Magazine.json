@@ -1,6 +1,8 @@
 {
 	"Type": "Magazine",
 	"Icon": "Attachments/magazine.png",
+	"Name": "server.attachments.types.magazine.name",
+	"Description": "server.attachments.types.magazine.description",
 	"AnyAllowed": false,
 	"MaxCount": 1
 }

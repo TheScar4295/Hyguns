@@ -1,6 +1,8 @@
 {
 	"Type": "Scope",
 	"Icon": "Attachments/scope.png",
+	"Name": "server.attachments.types.scope.name",
+	"Description": "server.attachments.types.scope.description",
 	"AnyAllowed": false,
 	"MaxCount": 1
 }
