@@ -6,13 +6,22 @@
     "Name": "server.items.MP9.name",
     "Description": "server.items.MP9.description"
   },
-  "Categories": ["Items.Weapons", "HyGuns.Guns"],
+  "Categories": [
+    "HyGuns.Guns"
+  ],
   "MaxStack": 1,
   "Scale": 1.7,
   "IconProperties": {
     "Scale": 0.5,
-    "Rotation": [315, 71, 0],
-    "Translation": [14, -12]
+    "Rotation": [
+      315,
+      71,
+      0
+    ],
+    "Translation": [
+      14,
+      -12
+    ]
   },
   "Quality": "Uncommon",
   "Interactions": {
@@ -27,11 +36,11 @@
           "Next": {
             "Type": "Hyguns_Shoot",
             "Failed": "Gun_Shoot_Fail",
-						"Next": {
-							"Type": "Hyguns_PlayWeaponFireSound",
-							"WorldSoundEventId": "MP9_Fire",
-							"LocalSoundEventId": "MP9_Fire"
-						},
+            "Next": {
+              "Type": "Hyguns_PlayWeaponFireSound",
+              "WorldSoundEventId": "MP9_Fire",
+              "LocalSoundEventId": "MP9_Fire"
+            },
             "Effects": {
               "ItemAnimationId": "Shoot",
               "FirstPersonParticles": [
@@ -65,85 +74,68 @@
         }
       ]
     },
-		"Secondary": {
-			"Interactions": [
-				{
-					"Type": "Hyguns_AttachmentsInstalled",
-					"AttachmentsTypes": [
-						"Scope"
-					],
-					"RequireAll": false,
-					"Next": {
-						"Type": "Scope_Zoom",
-						"OverlayTexturePath": "Scope/Scope_2.png",
-						"MaxDistance": 30,
-						"MinDistance": 1,
-						"DefaultZoomMultiplier": 1,
-						"MaxZoomMultiplier": 3,
-						"ZoomMultiplierStep": 1,
-						"Effects": {
-							"WorldSoundEventId": "Scope_Zoom_In",
-							"LocalSoundEventId": "Scope_Zoom_In"
-						}
-					}
-				}
-			]
-		},
-		"Ability1": {
-			"Interactions": [
-				{
-					"Type": "Charging",
-					"DisplayProgress": false,
-					"AllowIndefiniteHold": false,
-					"Next": {
-						"0": {
-							"Type": "Hyguns_AttachmentsInstalled",
-							"AttachmentsTypes": [
-								"Scope"
-							],
-							"RequireAll": false,
-							"Next": {
-								"Type": "Hyguns_CheckZoom",
-								"Zoomed": true,
-								"Next": {
-									"Type": "Scope_Zoom_Out",
-									"Effects": {
-										"WorldSoundEventId": "Scope_Zoom_Out",
-										"LocalSoundEventId": "Scope_Zoom_Out"
-									}
-								}
-							}
-						},
-						"0.25": {
-							"Type": "Hyguns_OpenAttachments"
-						}
-					}
-				}
-			]
-		},
-		"Ability2": {
-			"Interactions": [
-				{
-					"Type": "Hyguns_AttachmentsInstalled",
-					"AttachmentsTypes": [
-						"Scope"
-					],
-					"RequireAll": false,
-					"Next": {
-						"Type": "Hyguns_CheckZoom",
-						"Zoomed": true,
-						"Next": {
-							"Type": "Scope_Zoom_In",
-							"Effects": {
-								"WorldSoundEventId": "Scope_Zoom_In",
-								"LocalSoundEventId": "Scope_Zoom_In"
-							}
-						}
-					}
-				}
-			]
-		},
-		"Ability3": {
+    "Secondary": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_AttachmentsInstalled",
+          "AttachmentsTypes": [
+            "Scope"
+          ],
+          "RequireAll": false,
+          "Next": {
+            "Type": "Scope_Zoom",
+            "OverlayTexturePath": "Scope/Scope_2.png",
+            "MaxDistance": 30,
+            "MinDistance": 1,
+            "DefaultZoomMultiplier": 1,
+            "MaxZoomMultiplier": 3,
+            "ZoomMultiplierStep": 1,
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_In",
+              "LocalSoundEventId": "Scope_Zoom_In"
+            }
+          }
+        }
+      ]
+    },
+    "Ability1": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_CheckZoom",
+          "Zoomed": true,
+          "True": {
+            "Type": "Scope_Zoom_Out",
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_Out",
+              "LocalSoundEventId": "Scope_Zoom_Out"
+            }
+          },
+          "False": {
+            "Type": "Hyguns_OpenAttachments"
+          }
+        }
+      ]
+    },
+    "Ability2": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_CheckZoom",
+          "Zoomed": true,
+          "True": {
+            "Type": "Scope_Zoom_In",
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_In",
+              "LocalSoundEventId": "Scope_Zoom_In"
+            }
+          }
+        }
+      ]
+    },
+    "Ability3": {
+      "RequireNewClick": true,
       "Interactions": [
         {
           "Type": "Charging",
@@ -183,8 +175,12 @@
   "MaxDurability": 600,
   "PlayerAnimationsId": "Rifle",
   "Tags": {
-    "Type": ["Weapon"],
-    "Family": ["SMG"]
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "SMG"
+    ]
   },
   "Recipe": {
     "TimeSeconds": 1,
@@ -210,17 +206,25 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": ["SMGs"],
+        "Categories": [
+          "SMGs"
+        ],
         "Id": "Bench_Gunsmith"
       }
     ]
   },
   "HyGuns": {
     "WeaponSettings": {
+      "InputOverlay": {
+        "Enabled": true
+      },
       "WeaponIcon": "Weapons/MP9.png",
       "Ammo": {
         "Family": "Bullet",
-        "WeaponClass": ["SMG", "Pistol"],
+        "WeaponClass": [
+          "SMG",
+          "Pistol"
+        ],
         "Capacity": 30,
         "Reload": {
           "Time": 1.8,
@@ -233,14 +237,14 @@
         "Count": 1,
         "Damage": 3
       },
-			"SupportedAttachments": {
-				"Magazine": {
-					"Count": 1
-				},
-				"*": {
-					"Count": 2
-				}
-			}
+      "SupportedAttachments": {
+        "Magazine": {
+          "Count": 1
+        },
+        "*": {
+          "Count": 2
+        }
+      }
     }
   }
 }

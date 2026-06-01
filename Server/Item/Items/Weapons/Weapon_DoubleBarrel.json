@@ -6,14 +6,23 @@
     "Name": "server.items.DoubleBarrel.name",
     "Description": "server.items.DoubleBarrel.description"
   },
-  "Categories": ["Items.Weapons", "HyGuns.Guns"],
+  "Categories": [
+    "HyGuns.Guns"
+  ],
   "MaxStack": 1,
   "Scale": 1.5,
   "PlayerAnimationsId": "Rifle",
   "IconProperties": {
     "Scale": 0.5,
-    "Rotation": [315, 71, 0],
-    "Translation": [14, -12]
+    "Rotation": [
+      315,
+      71,
+      0
+    ],
+    "Translation": [
+      14,
+      -12
+    ]
   },
   "Quality": "Rare",
   "Interactions": {
@@ -28,12 +37,12 @@
           "Next": {
             "Type": "Hyguns_Shoot",
             "Failed": "Gun_Shoot_Fail",
-						"Next": {
-							"Type": "Hyguns_PlayWeaponFireSound",
-							"WorldSoundEventId": "DoubleBarrel_Fire",
-							"LocalSoundEventId": "DoubleBarrel_Fire"
-						},
-						"Effects": {
+            "Next": {
+              "Type": "Hyguns_PlayWeaponFireSound",
+              "WorldSoundEventId": "DoubleBarrel_Fire",
+              "LocalSoundEventId": "DoubleBarrel_Fire"
+            },
+            "Effects": {
               "ItemAnimationId": "Shoot",
               "FirstPersonParticles": [
                 {
@@ -68,85 +77,68 @@
         }
       ]
     },
-		"Secondary": {
-			"Interactions": [
-				{
-					"Type": "Hyguns_AttachmentsInstalled",
-					"AttachmentsTypes": [
-						"Scope"
-					],
-					"RequireAll": false,
-					"Next": {
-						"Type": "Scope_Zoom",
-						"OverlayTexturePath": "Scope/Scope_2.png",
-						"MaxDistance": 30,
-						"MinDistance": 1,
-						"DefaultZoomMultiplier": 1,
-						"MaxZoomMultiplier": 3,
-						"ZoomMultiplierStep": 1,
-						"Effects": {
-							"WorldSoundEventId": "Scope_Zoom_In",
-							"LocalSoundEventId": "Scope_Zoom_In"
-						}
-					}
-				}
-			]
-		},
-		"Ability1": {
-			"Interactions": [
-				{
-					"Type": "Charging",
-					"DisplayProgress": false,
-					"AllowIndefiniteHold": false,
-					"Next": {
-						"0": {
-							"Type": "Hyguns_AttachmentsInstalled",
-							"AttachmentsTypes": [
-								"Scope"
-							],
-							"RequireAll": false,
-							"Next": {
-								"Type": "Hyguns_CheckZoom",
-								"Zoomed": true,
-								"Next": {
-									"Type": "Scope_Zoom_Out",
-									"Effects": {
-										"WorldSoundEventId": "Scope_Zoom_Out",
-										"LocalSoundEventId": "Scope_Zoom_Out"
-									}
-								}
-							}
-						},
-						"0.25": {
-							"Type": "Hyguns_OpenAttachments"
-						}
-					}
-				}
-			]
-		},
-		"Ability2": {
-			"Interactions": [
-				{
-					"Type": "Hyguns_AttachmentsInstalled",
-					"AttachmentsTypes": [
-						"Scope"
-					],
-					"RequireAll": false,
-					"Next": {
-						"Type": "Hyguns_CheckZoom",
-						"Zoomed": true,
-						"Next": {
-							"Type": "Scope_Zoom_In",
-							"Effects": {
-								"WorldSoundEventId": "Scope_Zoom_In",
-								"LocalSoundEventId": "Scope_Zoom_In"
-							}
-						}
-					}
-				}
-			]
-		},
-		"Ability3": {
+    "Secondary": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_AttachmentsInstalled",
+          "AttachmentsTypes": [
+            "Scope"
+          ],
+          "RequireAll": false,
+          "Next": {
+            "Type": "Scope_Zoom",
+            "OverlayTexturePath": "Scope/Scope_2.png",
+            "MaxDistance": 30,
+            "MinDistance": 1,
+            "DefaultZoomMultiplier": 1,
+            "MaxZoomMultiplier": 3,
+            "ZoomMultiplierStep": 1,
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_In",
+              "LocalSoundEventId": "Scope_Zoom_In"
+            }
+          }
+        }
+      ]
+    },
+    "Ability1": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_CheckZoom",
+          "Zoomed": true,
+          "True": {
+            "Type": "Scope_Zoom_Out",
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_Out",
+              "LocalSoundEventId": "Scope_Zoom_Out"
+            }
+          },
+          "False": {
+            "Type": "Hyguns_OpenAttachments"
+          }
+        }
+      ]
+    },
+    "Ability2": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_CheckZoom",
+          "Zoomed": true,
+          "True": {
+            "Type": "Scope_Zoom_In",
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_In",
+              "LocalSoundEventId": "Scope_Zoom_In"
+            }
+          }
+        }
+      ]
+    },
+    "Ability3": {
+      "RequireNewClick": true,
       "Interactions": [
         {
           "Type": "Charging",
@@ -185,8 +177,12 @@
   },
   "MaxDurability": 80,
   "Tags": {
-    "Type": ["Weapon"],
-    "Family": ["Shotgun"]
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Shotgun"
+    ]
   },
   "Recipe": {
     "TimeSeconds": 1,
@@ -216,7 +212,9 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": ["Shotguns"],
+        "Categories": [
+          "Shotguns"
+        ],
         "Id": "Bench_Gunsmith",
         "RequiredTierLevel": 2
       }
@@ -224,10 +222,15 @@
   },
   "HyGuns": {
     "WeaponSettings": {
+      "InputOverlay": {
+        "Enabled": true
+      },
       "WeaponIcon": "Weapons/DoubleBarrel.png",
       "Ammo": {
         "Family": "Bullet",
-        "WeaponClass": ["Shotgun"],
+        "WeaponClass": [
+          "Shotgun"
+        ],
         "Capacity": 2,
         "Reload": {
           "Time": 1.2,
@@ -240,14 +243,14 @@
         "Count": 20,
         "Damage": 3
       },
-			"SupportedAttachments": {
-				"Magazine": {
-					"Count": 1
-				},
-				"*": {
-					"Count": 3
-				}
-			}
+      "SupportedAttachments": {
+        "Magazine": {
+          "Count": 1
+        },
+        "*": {
+          "Count": 3
+        }
+      }
     }
   }
 }

@@ -4,8 +4,15 @@
   "Texture": "Items/Weapons/AWP/AWP.png",
   "IconProperties": {
     "Scale": 0.25,
-    "Rotation": [321, 71, 0],
-    "Translation": [-24, -44]
+    "Rotation": [
+      321,
+      71,
+      0
+    ],
+    "Translation": [
+      -24,
+      -44
+    ]
   },
   "MaxStack": 1,
   "Scale": 1.4,
@@ -15,12 +22,14 @@
     "Name": "server.items.AWP.name",
     "Description": "server.items.AWP.description"
   },
-  "Categories": ["Items.Weapons", "HyGuns.Guns"],
+  "Categories": [
+    "HyGuns.Guns"
+  ],
   "Interactions": {
     "Primary": {
       "RequireNewClick": false,
       "Cooldown": {
-        "Cooldown": 3.0
+        "Cooldown": 3
       },
       "Interactions": [
         {
@@ -68,7 +77,68 @@
         }
       ]
     },
+		"Secondary": {
+			"RequireNewClick": true,
+			"Interactions": [
+				{
+					"Type": "Hyguns_AttachmentsInstalled",
+					"AttachmentsTypes": [
+						"Scope"
+					],
+					"RequireAll": false,
+					"Next": {
+						"Type": "Scope_Zoom",
+						"OverlayTexturePath": "Scope/Scope_2.png",
+						"MaxDistance": 30,
+						"MinDistance": 1,
+						"DefaultZoomMultiplier": 1,
+						"MaxZoomMultiplier": 3,
+						"ZoomMultiplierStep": 1,
+						"Effects": {
+							"WorldSoundEventId": "Scope_Zoom_In",
+							"LocalSoundEventId": "Scope_Zoom_In"
+						}
+					}
+				}
+			]
+		},
+		"Ability1": {
+			"RequireNewClick": true,
+			"Interactions": [
+				{
+					"Type": "Hyguns_CheckZoom",
+					"Zoomed": true,
+					"True": {
+						"Type": "Scope_Zoom_Out",
+						"Effects": {
+							"WorldSoundEventId": "Scope_Zoom_Out",
+							"LocalSoundEventId": "Scope_Zoom_Out"
+						}
+					},
+					"False": {
+						"Type": "Hyguns_OpenAttachments"
+					}
+				}
+			]
+		},
+		"Ability2": {
+			"RequireNewClick": true,
+			"Interactions": [
+				{
+					"Type": "Hyguns_CheckZoom",
+					"Zoomed": true,
+					"True": {
+						"Type": "Scope_Zoom_In",
+						"Effects": {
+							"WorldSoundEventId": "Scope_Zoom_In",
+							"LocalSoundEventId": "Scope_Zoom_In"
+						}
+					}
+				}
+			]
+		},
     "Ability3": {
+			"RequireNewClick": true,
       "Interactions": [
         {
           "Type": "Charging",
@@ -103,91 +173,16 @@
           }
         }
       ]
-    },
-    "Secondary": {
-			"RequireNewClick": true,
-      "Interactions": [
-				{
-					"Type": "Hyguns_AttachmentsInstalled",
-					"AttachmentsTypes": [
-						"Scope"
-					],
-					"RequireAll": false,
-					"Next": {
-						"Type": "Scope_Zoom",
-						"OverlayTexturePath": "Scope/Scope_2.png",
-						"MaxDistance": 30,
-						"MinDistance": 1,
-						"DefaultZoomMultiplier": 1,
-						"MaxZoomMultiplier": 3,
-						"ZoomMultiplierStep": 1,
-						"Effects": {
-							"WorldSoundEventId": "Scope_Zoom_In",
-							"LocalSoundEventId": "Scope_Zoom_In"
-						}
-					}
-				}
-      ]
-    },
-		"Ability1": {
-			"Interactions": [
-				{
-					"Type": "Charging",
-					"DisplayProgress": false,
-					"AllowIndefiniteHold": false,
-					"Next": {
-						"0": {
-							"Type": "Hyguns_AttachmentsInstalled",
-							"AttachmentsTypes": [
-								"Scope"
-							],
-							"RequireAll": false,
-							"Next": {
-								"Type": "Hyguns_CheckZoom",
-								"Zoomed": true,
-								"Next": {
-									"Type": "Scope_Zoom_Out",
-									"Effects": {
-										"WorldSoundEventId": "Scope_Zoom_Out",
-										"LocalSoundEventId": "Scope_Zoom_Out"
-									}
-								}
-							}
-						},
-						"0.25": {
-							"Type": "Hyguns_OpenAttachments"
-						}
-					}
-				}
-			]
-		},
-		"Ability2": {
-			"Interactions": [
-				{
-					"Type": "Hyguns_AttachmentsInstalled",
-					"AttachmentsTypes": [
-						"Scope"
-					],
-					"RequireAll": false,
-					"Next": {
-						"Type": "Hyguns_CheckZoom",
-						"Zoomed": true,
-						"Next": {
-							"Type": "Scope_Zoom_In",
-							"Effects": {
-								"WorldSoundEventId": "Scope_Zoom_In",
-								"LocalSoundEventId": "Scope_Zoom_In"
-							}
-						}
-					}
-				}
-			]
-		}
+    }
   },
   "MaxDurability": 100,
   "Tags": {
-    "Type": ["Weapon"],
-    "Family": ["Rifle_Sniper"]
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Rifle_Sniper"
+    ]
   },
   "Recipe": {
     "TimeSeconds": 2,
@@ -217,7 +212,9 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": ["Rifles"],
+        "Categories": [
+          "Rifles"
+        ],
         "Id": "Bench_Gunsmith",
         "RequiredTierLevel": 3
       }
@@ -225,10 +222,16 @@
   },
   "HyGuns": {
     "WeaponSettings": {
+			"InputOverlay": {
+				"Enabled": true
+			},
       "WeaponIcon": "Weapons/AWP.png",
       "Ammo": {
         "Family": "Bullet",
-        "WeaponClass": ["Sniper", "Rifle"],
+        "WeaponClass": [
+          "Sniper",
+          "Rifle"
+        ],
         "Capacity": 5,
         "Reload": {
           "Time": 3.7,
@@ -259,44 +262,44 @@
           "Value": 1
         }
       },
-			"SupportedAttachments": {
-				"Scope": {
-					"Count": 1,
-					"Visual": true,
-					"Index": 0
-				},
-				"Silencer": {
-					"Count": 1,
-					"Visual": true,
-					"Index": 1
-				},
-				"Magazine": {
-					"Count": 1
-				},
-				"*": {
-					"Count": 2
-				}
-			},
-			"DefaultAttachments": {
-				"Scope": "Scope_AWP"
-			}
+      "SupportedAttachments": {
+        "Scope": {
+          "Count": 1,
+          "Visual": true,
+          "Index": 0
+        },
+        "Silencer": {
+          "Count": 1,
+          "Visual": true,
+          "Index": 1
+        },
+        "Magazine": {
+          "Count": 1
+        },
+        "*": {
+          "Count": 2
+        }
+      },
+      "DefaultAttachments": {
+        "Scope": "Scope_AWP"
+      }
     }
   },
-	"State": {
-		"Scope": {
-			"Quality": "Epic",
-			"Categories": ["Items.Weapons"],
-			"Model": "Items/Weapons/AWP/AWP_Scope.blockymodel"
-		},
-		"Silencer": {
-			"Quality": "Epic",
-			"Categories": ["Items.Weapons"],
-			"Model": "Items/Weapons/AWP/AWP_Silencer.blockymodel"
-		},
-		"Scope_Silencer": {
-			"Quality": "Epic",
-			"Categories": ["Items.Weapons"],
-			"Model": "Items/Weapons/AWP/AWP_Scope_Silencer.blockymodel"
-		}
-	}
+  "State": {
+    "Scope": {
+      "Quality": "Epic",
+      "Categories": [],
+      "Model": "Items/Weapons/AWP/AWP_Scope.blockymodel"
+    },
+    "Silencer": {
+      "Quality": "Epic",
+      "Categories": [],
+      "Model": "Items/Weapons/AWP/AWP_Silencer.blockymodel"
+    },
+    "Scope_Silencer": {
+      "Quality": "Epic",
+      "Categories": [],
+      "Model": "Items/Weapons/AWP/AWP_Scope_Silencer.blockymodel"
+    }
+  }
 }

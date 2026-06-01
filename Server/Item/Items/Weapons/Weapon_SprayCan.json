@@ -1,10 +1,9 @@
 {
   "TranslationProperties": {
     "Name": "server.items.Spray_Can.name",
-		"Description": "server.items.Spray_Can.description"
+    "Description": "server.items.Spray_Can.description"
   },
   "Categories": [
-    "Items.Weapons",
     "HyGuns.Guns"
   ],
   "Icon": "Icons/ItemsGenerated/Weapon_SprayCan.png",
@@ -61,15 +60,21 @@
         }
       ]
     },
-		"Flamethrower_CheckInteraction": {
-			"Interactions": ["Hyguns_Flamethrower_Torch_Check"]
-		},
-		"Flamethrower_DurabilityCostInteraction": {
-			"Interactions": ["Hyguns_Flamethrower_SprayCan_DurabilityCost"]
-		},
-		"Flamethrower_UseAmmoInteraction": {
-			"Interactions": ["Hyguns_Flamethrower_SprayCan_UseAmmo"]
-		}
+    "Flamethrower_CheckInteraction": {
+      "Interactions": [
+        "Hyguns_Flamethrower_Torch_Check"
+      ]
+    },
+    "Flamethrower_DurabilityCostInteraction": {
+      "Interactions": [
+        "Hyguns_Flamethrower_SprayCan_DurabilityCost"
+      ]
+    },
+    "Flamethrower_UseAmmoInteraction": {
+      "Interactions": [
+        "Hyguns_Flamethrower_SprayCan_UseAmmo"
+      ]
+    }
   },
   "IconProperties": {
     "Scale": 0.6,

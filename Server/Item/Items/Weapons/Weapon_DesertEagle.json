@@ -6,20 +6,23 @@
     "Name": "server.items.DesertEagle.name",
     "Description": "server.items.DesertEagle.description"
   },
-  "Categories": ["HyGuns.Guns"],
-  "HudUI": [
-    {
-      "Path": "Hud/WeaponAbilities.ui",
-      "Type": "Hud"
-    }
+  "Categories": [
+    "HyGuns.Guns"
   ],
   "PlayerAnimationsId": "HygunsPistols",
   "MaxStack": 1,
   "Scale": 1.4,
   "IconProperties": {
     "Scale": 0.5,
-    "Rotation": [315, 71, 0],
-    "Translation": [14, -12]
+    "Rotation": [
+      315,
+      71,
+      0
+    ],
+    "Translation": [
+      14,
+      -12
+    ]
   },
   "Quality": "Rare",
   "Utility": {
@@ -37,12 +40,12 @@
           "Next": {
             "Type": "Hyguns_Shoot",
             "Failed": "Gun_Shoot_Fail",
-						"Next": {
-							"Type": "Hyguns_PlayWeaponFireSound",
-							"WorldSoundEventId": "DesertEagle_Fire",
-							"LocalSoundEventId": "DesertEagle_Fire"
-						},
-						"Effects": {
+            "Next": {
+              "Type": "Hyguns_PlayWeaponFireSound",
+              "WorldSoundEventId": "DesertEagle_Fire",
+              "LocalSoundEventId": "DesertEagle_Fire"
+            },
+            "Effects": {
               "ItemAnimationId": "Shoot",
               "FirstPersonParticles": [
                 {
@@ -75,85 +78,68 @@
         }
       ]
     },
-		"Secondary": {
-			"Interactions": [
-				{
-					"Type": "Hyguns_AttachmentsInstalled",
-					"AttachmentsTypes": [
-						"Scope"
-					],
-					"RequireAll": false,
-					"Next": {
-						"Type": "Scope_Zoom",
-						"OverlayTexturePath": "Scope/Scope_2.png",
-						"MaxDistance": 30,
-						"MinDistance": 1,
-						"DefaultZoomMultiplier": 1,
-						"MaxZoomMultiplier": 3,
-						"ZoomMultiplierStep": 1,
-						"Effects": {
-							"WorldSoundEventId": "Scope_Zoom_In",
-							"LocalSoundEventId": "Scope_Zoom_In"
-						}
-					}
-				}
-			]
-		},
-		"Ability1": {
-			"Interactions": [
-				{
-					"Type": "Charging",
-					"DisplayProgress": false,
-					"AllowIndefiniteHold": false,
-					"Next": {
-						"0": {
-							"Type": "Hyguns_AttachmentsInstalled",
-							"AttachmentsTypes": [
-								"Scope"
-							],
-							"RequireAll": false,
-							"Next": {
-								"Type": "Hyguns_CheckZoom",
-								"Zoomed": true,
-								"Next": {
-									"Type": "Scope_Zoom_Out",
-									"Effects": {
-										"WorldSoundEventId": "Scope_Zoom_Out",
-										"LocalSoundEventId": "Scope_Zoom_Out"
-									}
-								}
-							}
-						},
-						"0.25": {
-							"Type": "Hyguns_OpenAttachments"
-						}
-					}
-				}
-			]
-		},
-		"Ability2": {
-			"Interactions": [
-				{
-					"Type": "Hyguns_AttachmentsInstalled",
-					"AttachmentsTypes": [
-						"Scope"
-					],
-					"RequireAll": false,
-					"Next": {
-						"Type": "Hyguns_CheckZoom",
-						"Zoomed": true,
-						"Next": {
-							"Type": "Scope_Zoom_In",
-							"Effects": {
-								"WorldSoundEventId": "Scope_Zoom_In",
-								"LocalSoundEventId": "Scope_Zoom_In"
-							}
-						}
-					}
-				}
-			]
-		},
-		"Ability3": {
+    "Secondary": {
+			"RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_AttachmentsInstalled",
+          "AttachmentsTypes": [
+            "Scope"
+          ],
+          "RequireAll": false,
+          "Next": {
+            "Type": "Scope_Zoom",
+            "OverlayTexturePath": "Scope/Scope_2.png",
+            "MaxDistance": 30,
+            "MinDistance": 1,
+            "DefaultZoomMultiplier": 1,
+            "MaxZoomMultiplier": 3,
+            "ZoomMultiplierStep": 1,
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_In",
+              "LocalSoundEventId": "Scope_Zoom_In"
+            }
+          }
+        }
+      ]
+    },
+    "Ability1": {
+			"RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_CheckZoom",
+          "Zoomed": true,
+          "True": {
+            "Type": "Scope_Zoom_Out",
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_Out",
+              "LocalSoundEventId": "Scope_Zoom_Out"
+            }
+          },
+          "False": {
+            "Type": "Hyguns_OpenAttachments"
+          }
+        }
+      ]
+    },
+    "Ability2": {
+			"RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_CheckZoom",
+          "Zoomed": true,
+          "True": {
+            "Type": "Scope_Zoom_In",
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_In",
+              "LocalSoundEventId": "Scope_Zoom_In"
+            }
+          }
+        }
+      ]
+    },
+    "Ability3": {
+			"RequireNewClick": true,
       "Interactions": [
         {
           "Type": "Charging",
@@ -192,8 +178,12 @@
   },
   "MaxDurability": 140,
   "Tags": {
-    "Type": ["Weapon"],
-    "Family": ["Pistol"]
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Pistol"
+    ]
   },
   "Recipe": {
     "TimeSeconds": 1,
@@ -223,7 +213,9 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": ["Pistols"],
+        "Categories": [
+          "Pistols"
+        ],
         "Id": "Bench_Gunsmith",
         "RequiredTierLevel": 2
       }
@@ -231,10 +223,15 @@
   },
   "HyGuns": {
     "WeaponSettings": {
+      "InputOverlay": {
+        "Enabled": true
+      },
       "WeaponIcon": "Weapons/Deagle.png",
       "Ammo": {
         "Family": "Bullet",
-        "WeaponClass": ["Pistol"],
+        "WeaponClass": [
+          "Pistol"
+        ],
         "Capacity": 7,
         "Reload": {
           "Time": 2.13333,
@@ -247,42 +244,42 @@
         "Count": 1,
         "Damage": 25
       },
-			"SupportedAttachments": {
-				"Scope": {
-					"Count": 1,
-					"Visual": true,
-					"Index": 0
-				},
-				"Silencer": {
-					"Count": 1,
-					"Visual": true,
-					"Index": 1
-				},
-				"Magazine": {
-					"Count": 1
-				},
-				"*": {
-					"Count": 1
-				}
-			}
-		}
-	},
-	"State": {
-		"Scope": {
-			"Quality": "Rare",
-			"Categories": ["Items.Weapons"],
-			"Model": "Items/Weapons/DesertEagle/DesertEagle_Scope.blockymodel"
-		},
-		"Silencer": {
-			"Quality": "Rare",
-			"Categories": ["Items.Weapons"],
-			"Model": "Items/Weapons/DesertEagle/DesertEagle_Silencer.blockymodel"
-		},
-		"Scope_Silencer": {
-			"Quality": "Rare",
-			"Categories": ["Items.Weapons"],
-			"Model": "Items/Weapons/DesertEagle/DesertEagle_Scope_Silencer.blockymodel"
-		}
-	},
+      "SupportedAttachments": {
+        "Scope": {
+          "Count": 1,
+          "Visual": true,
+          "Index": 0
+        },
+        "Silencer": {
+          "Count": 1,
+          "Visual": true,
+          "Index": 1
+        },
+        "Magazine": {
+          "Count": 1
+        },
+        "*": {
+          "Count": 1
+        }
+      }
+    }
+  },
+  "State": {
+    "Scope": {
+      "Quality": "Rare",
+      "Categories": [],
+      "Model": "Items/Weapons/DesertEagle/DesertEagle_Scope.blockymodel"
+    },
+    "Silencer": {
+      "Quality": "Rare",
+      "Categories": [],
+      "Model": "Items/Weapons/DesertEagle/DesertEagle_Silencer.blockymodel"
+    },
+    "Scope_Silencer": {
+      "Quality": "Rare",
+      "Categories": [],
+      "Model": "Items/Weapons/DesertEagle/DesertEagle_Scope_Silencer.blockymodel"
+    }
+  },
   "UsePlayerAnimations": true
 }

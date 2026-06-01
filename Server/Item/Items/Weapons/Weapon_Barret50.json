@@ -23,7 +23,6 @@
     "Description": "server.items.Barret50.description"
   },
   "Categories": [
-    "Items.Weapons",
     "HyGuns.Guns"
   ],
   "Interactions": {
@@ -78,44 +77,8 @@
         }
       ]
     },
-    "Ability3": {
-      "Interactions": [
-        {
-          "Type": "Charging",
-          "DisplayProgress": false,
-          "AllowIndefiniteHold": false,
-          "Next": {
-            "0": {
-              "Type": "Hyguns_Reload",
-              "Effects": {
-                "ItemAnimationId": "Interact",
-                "LocalSoundEventId": "Barret50_Reload",
-                "WorldSoundEventId": "Barret50_Reload"
-              }
-            },
-            "0.25": {
-              "Type": "OpenCustomUI",
-              "Page": {
-                "Id": "AmmoSelection"
-              }
-            }
-          }
-        }
-      ]
-    },
-    "SwapTo": {
-      "Interactions": [
-        {
-          "Type": "Simple",
-          "Effects": {
-            "WorldSoundEventId": "Barret50_Equip",
-            "LocalSoundEventId": "Barret50_Equip"
-          }
-        }
-      ]
-    },
     "Secondary": {
-			"RequireNewClick": true,
+      "RequireNewClick": true,
       "Interactions": [
         {
           "Type": "Hyguns_AttachmentsInstalled",
@@ -140,60 +103,78 @@
       ]
     },
     "Ability1": {
+			"RequireNewClick": true,
+      "Interactions": [
+				{
+					"Type": "Hyguns_CheckZoom",
+					"Zoomed": true,
+					"True": {
+						"Type": "Scope_Zoom_Out",
+						"Effects": {
+							"WorldSoundEventId": "Scope_Zoom_Out",
+							"LocalSoundEventId": "Scope_Zoom_Out"
+						}
+					},
+					"False": {
+						"Type": "Hyguns_OpenAttachments"
+					}
+				}
+			]
+    },
+    "Ability2": {
+			"RequireNewClick": true,
       "Interactions": [
         {
-          "Type": "Charging",
-          "DisplayProgress": false,
-          "AllowIndefiniteHold": false,
-          "Next": {
-            "0": {
-              "Type": "Hyguns_AttachmentsInstalled",
-              "AttachmentsTypes": [
-                "Scope"
-              ],
-              "RequireAll": false,
-              "Next": {
-                "Type": "Hyguns_CheckZoom",
-                "Zoomed": true,
-                "Next": {
-                  "Type": "Scope_Zoom_Out",
-                  "Effects": {
-                    "WorldSoundEventId": "Scope_Zoom_Out",
-                    "LocalSoundEventId": "Scope_Zoom_Out"
-                  }
-                }
-              }
-            },
-            "0.25": {
-              "Type": "Hyguns_OpenAttachments"
+          "Type": "Hyguns_CheckZoom",
+          "Zoomed": true,
+          "True": {
+            "Type": "Scope_Zoom_In",
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_In",
+              "LocalSoundEventId": "Scope_Zoom_In"
             }
           }
         }
       ]
     },
-    "Ability2": {
-      "Interactions": [
-        {
-          "Type": "Hyguns_AttachmentsInstalled",
-          "AttachmentsTypes": [
-            "Scope"
-          ],
-          "RequireAll": false,
-          "Next": {
-            "Type": "Hyguns_CheckZoom",
-            "Zoomed": true,
-            "Next": {
-              "Type": "Scope_Zoom_In",
-              "Effects": {
-                "WorldSoundEventId": "Scope_Zoom_In",
-                "LocalSoundEventId": "Scope_Zoom_In"
-              }
-            }
-          }
-        }
-      ]
-    }
-  },
+		"Ability3": {
+			"RequireNewClick": true,
+			"Interactions": [
+				{
+					"Type": "Charging",
+					"DisplayProgress": false,
+					"AllowIndefiniteHold": false,
+					"Next": {
+						"0": {
+							"Type": "Hyguns_Reload",
+							"Effects": {
+								"ItemAnimationId": "Interact",
+								"LocalSoundEventId": "Barret50_Reload",
+								"WorldSoundEventId": "Barret50_Reload"
+							}
+						},
+						"0.25": {
+							"Type": "OpenCustomUI",
+							"Page": {
+								"Id": "AmmoSelection"
+							}
+						}
+					}
+				}
+			]
+		},
+		"SwapTo": {
+			"Interactions": [
+				{
+					"Type": "Simple",
+					"Effects": {
+						"WorldSoundEventId": "Barret50_Equip",
+						"LocalSoundEventId": "Barret50_Equip"
+					}
+				}
+			]
+		}
+	},
   "MaxDurability": 200,
   "Tags": {
     "Type": [
@@ -241,6 +222,9 @@
   },
   "HyGuns": {
     "WeaponSettings": {
+			"InputOverlay": {
+				"Enabled": true
+			},
       "WeaponIcon": "Weapons/Barrett50.png",
       "Ammo": {
         "Family": "Bullet",
@@ -281,20 +265,20 @@
       "SupportedAttachments": {
         "Scope": {
           "Count": 1,
-					"Visual": true,
-					"Index": 0
+          "Visual": true,
+          "Index": 0
         },
-				"Silencer": {
-					"Count": 1,
-					"Visual": true,
-					"Index": 1
-				},
+        "Silencer": {
+          "Count": 1,
+          "Visual": true,
+          "Index": 1
+        },
         "Magazine": {
-					"Count": 1
-				},
-				"*": {
-					"Count": 2
-				}
+          "Count": 1
+        },
+        "*": {
+          "Count": 2
+        }
       },
       "DefaultAttachments": {
         "Scope": "Scope_Barret50"
@@ -302,20 +286,20 @@
     }
   },
   "State": {
-		"Scope": {
-			"Quality": "Epic",
-			"Categories": ["Items.Weapons"],
-			"Model": "Items/Weapons/Barret50/Barret50_Scope.blockymodel"
-		},
-		"Silencer": {
-			"Quality": "Epic",
-			"Categories": ["Items.Weapons"],
-			"Model": "Items/Weapons/Barret50/Barret50_Silencer.blockymodel"
-		},
-		"Scope_Silencer": {
-			"Quality": "Epic",
-			"Categories": ["Items.Weapons"],
-			"Model": "Items/Weapons/Barret50/Barret50_Scope_Silencer.blockymodel"
-		}
+    "Scope": {
+      "Quality": "Epic",
+      "Categories": [],
+      "Model": "Items/Weapons/Barret50/Barret50_Scope.blockymodel"
+    },
+    "Silencer": {
+      "Quality": "Epic",
+      "Categories": [],
+      "Model": "Items/Weapons/Barret50/Barret50_Silencer.blockymodel"
+    },
+    "Scope_Silencer": {
+      "Quality": "Epic",
+      "Categories": [],
+      "Model": "Items/Weapons/Barret50/Barret50_Scope_Silencer.blockymodel"
+    }
   }
 }

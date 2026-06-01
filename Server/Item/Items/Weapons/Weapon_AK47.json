@@ -6,13 +6,22 @@
     "Name": "server.items.AK47.name",
     "Description": "server.items.AK47.description"
   },
-  "Categories": ["Items.Weapons", "HyGuns.Guns"],
+  "Categories": [
+    "HyGuns.Guns"
+  ],
   "MaxStack": 1,
   "Scale": 1.2,
   "IconProperties": {
     "Scale": 0.3,
-    "Rotation": [315, 90, 0],
-    "Translation": [15, -20.4]
+    "Rotation": [
+      315,
+      90,
+      0
+    ],
+    "Translation": [
+      15,
+      -20.4
+    ]
   },
   "Quality": "Epic",
   "Interactions": {
@@ -27,11 +36,11 @@
           "Next": {
             "Type": "Hyguns_Shoot",
             "Failed": "Gun_Shoot_Fail",
-						"Next": {
-							"Type": "Hyguns_PlayWeaponFireSound",
-							"WorldSoundEventId": "World_AK47_Fire",
-							"LocalSoundEventId": "Local_AK47_Fire"
-						},
+            "Next": {
+              "Type": "Hyguns_PlayWeaponFireSound",
+              "WorldSoundEventId": "World_AK47_Fire",
+              "LocalSoundEventId": "Local_AK47_Fire"
+            },
             "Effects": {
               "ItemAnimationId": "Shoot",
               "FirstPersonParticles": [
@@ -66,85 +75,68 @@
         }
       ]
     },
-		"Secondary": {
-			"Interactions": [
+    "Secondary": {
+			"RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_AttachmentsInstalled",
+          "AttachmentsTypes": [
+            "Scope"
+          ],
+          "RequireAll": false,
+          "Next": {
+            "Type": "Scope_Zoom",
+            "OverlayTexturePath": "Scope/Scope_2.png",
+            "MaxDistance": 30,
+            "MinDistance": 1,
+            "DefaultZoomMultiplier": 1,
+            "MaxZoomMultiplier": 3,
+            "ZoomMultiplierStep": 1,
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_In",
+              "LocalSoundEventId": "Scope_Zoom_In"
+            }
+          }
+        }
+      ]
+    },
+    "Ability1": {
+			"RequireNewClick": true,
+      "Interactions": [
 				{
-					"Type": "Hyguns_AttachmentsInstalled",
-					"AttachmentsTypes": [
-						"Scope"
-					],
-					"RequireAll": false,
-					"Next": {
-						"Type": "Scope_Zoom",
-						"OverlayTexturePath": "Scope/Scope_2.png",
-						"MaxDistance": 30,
-						"MinDistance": 1,
-						"DefaultZoomMultiplier": 1,
-						"MaxZoomMultiplier": 3,
-						"ZoomMultiplierStep": 1,
+					"Type": "Hyguns_CheckZoom",
+					"Zoomed": true,
+					"True": {
+						"Type": "Scope_Zoom_Out",
+						"Effects": {
+							"WorldSoundEventId": "Scope_Zoom_Out",
+							"LocalSoundEventId": "Scope_Zoom_Out"
+						}
+					},
+					"False": {
+						"Type": "Hyguns_OpenAttachments"
+					}
+				}
+			]
+    },
+    "Ability2": {
+			"RequireNewClick": true,
+      "Interactions": [
+				{
+					"Type": "Hyguns_CheckZoom",
+					"Zoomed": true,
+					"True": {
+						"Type": "Scope_Zoom_In",
 						"Effects": {
 							"WorldSoundEventId": "Scope_Zoom_In",
 							"LocalSoundEventId": "Scope_Zoom_In"
 						}
 					}
 				}
-			]
-		},
-		"Ability1": {
-			"Interactions": [
-				{
-					"Type": "Charging",
-					"DisplayProgress": false,
-					"AllowIndefiniteHold": false,
-					"Next": {
-						"0": {
-							"Type": "Hyguns_AttachmentsInstalled",
-							"AttachmentsTypes": [
-								"Scope"
-							],
-							"RequireAll": false,
-							"Next": {
-								"Type": "Hyguns_CheckZoom",
-								"Zoomed": true,
-								"Next": {
-									"Type": "Scope_Zoom_Out",
-									"Effects": {
-										"WorldSoundEventId": "Scope_Zoom_Out",
-										"LocalSoundEventId": "Scope_Zoom_Out"
-									}
-								}
-							}
-						},
-						"0.25": {
-							"Type": "Hyguns_OpenAttachments"
-						}
-					}
-				}
-			]
-		},
-		"Ability2": {
-			"Interactions": [
-				{
-					"Type": "Hyguns_AttachmentsInstalled",
-					"AttachmentsTypes": [
-						"Scope"
-					],
-					"RequireAll": false,
-					"Next": {
-						"Type": "Hyguns_CheckZoom",
-						"Zoomed": true,
-						"Next": {
-							"Type": "Scope_Zoom_In",
-							"Effects": {
-								"WorldSoundEventId": "Scope_Zoom_In",
-								"LocalSoundEventId": "Scope_Zoom_In"
-							}
-						}
-					}
-				}
-			]
-		},
-		"Ability3": {
+      ]
+    },
+    "Ability3": {
+			"RequireNewClick": true,
       "Interactions": [
         {
           "Type": "Charging",
@@ -184,8 +176,12 @@
   "MaxDurability": 600,
   "PlayerAnimationsId": "Rifle",
   "Tags": {
-    "Type": ["Weapon"],
-    "Family": ["Rifle_Assault"]
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Rifle_Assault"
+    ]
   },
   "Recipe": {
     "TimeSeconds": 1,
@@ -215,7 +211,9 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": ["Rifles"],
+        "Categories": [
+          "Rifles"
+        ],
         "Id": "Bench_Gunsmith",
         "RequiredTierLevel": 3
       }
@@ -223,10 +221,15 @@
   },
   "HyGuns": {
     "WeaponSettings": {
+      "InputOverlay": {
+        "Enabled": true
+      },
       "WeaponIcon": "Weapons/AK47.png",
       "Ammo": {
         "Family": "Bullet",
-        "WeaponClass": ["Rifle"],
+        "WeaponClass": [
+          "Rifle"
+        ],
         "Capacity": 30,
         "Reload": {
           "Time": 2.43,
@@ -239,42 +242,42 @@
         "Count": 1,
         "Damage": 17
       },
-			"SupportedAttachments": {
-				"Scope": {
-					"Count": 1,
-					"Visual": true,
-					"Index": 0
-				},
-				"Silencer": {
-					"Count": 1,
-					"Visual": true,
-					"Index": 1
-				},
-				"Magazine": {
-					"Count": 1
-				},
-				"*": {
-					"Count": 2
-				}
-			}
-		}
+      "SupportedAttachments": {
+        "Scope": {
+          "Count": 1,
+          "Visual": true,
+          "Index": 0
+        },
+        "Silencer": {
+          "Count": 1,
+          "Visual": true,
+          "Index": 1
+        },
+        "Magazine": {
+          "Count": 1
+        },
+        "*": {
+          "Count": 2
+        }
+      }
+    }
   },
-	"State": {
-		"Scope": {
-			"Quality": "Epic",
-			"Categories": ["Items.Weapons"],
-			"Model": "Items/Weapons/AK47/AK47_Scope.blockymodel"
-		},
-		"Silencer": {
-			"Quality": "Epic",
-			"Categories": ["Items.Weapons"],
-			"Model": "Items/Weapons/AK47/AK47_Silencer.blockymodel"
-		},
-		"Scope_Silencer": {
-			"Quality": "Epic",
-			"Categories": ["Items.Weapons"],
-			"Model": "Items/Weapons/AK47/AK47_Scope_Silencer.blockymodel"
-		}
-	},
+  "State": {
+    "Scope": {
+      "Quality": "Epic",
+      "Categories": [],
+      "Model": "Items/Weapons/AK47/AK47_Scope.blockymodel"
+    },
+    "Silencer": {
+      "Quality": "Epic",
+      "Categories": [],
+      "Model": "Items/Weapons/AK47/AK47_Silencer.blockymodel"
+    },
+    "Scope_Silencer": {
+      "Quality": "Epic",
+      "Categories": [],
+      "Model": "Items/Weapons/AK47/AK47_Scope_Silencer.blockymodel"
+    }
+  },
   "UsePlayerAnimations": false
 }
