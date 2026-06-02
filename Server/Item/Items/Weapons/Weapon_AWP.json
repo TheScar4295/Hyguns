@@ -77,68 +77,68 @@
         }
       ]
     },
-		"Secondary": {
-			"RequireNewClick": true,
-			"Interactions": [
-				{
-					"Type": "Hyguns_AttachmentsInstalled",
-					"AttachmentsTypes": [
-						"Scope"
-					],
-					"RequireAll": false,
-					"Next": {
-						"Type": "Scope_Zoom",
-						"OverlayTexturePath": "Scope/Scope_2.png",
-						"MaxDistance": 30,
-						"MinDistance": 1,
-						"DefaultZoomMultiplier": 1,
-						"MaxZoomMultiplier": 3,
-						"ZoomMultiplierStep": 1,
-						"Effects": {
-							"WorldSoundEventId": "Scope_Zoom_In",
-							"LocalSoundEventId": "Scope_Zoom_In"
-						}
-					}
-				}
-			]
-		},
-		"Ability1": {
-			"RequireNewClick": true,
-			"Interactions": [
-				{
-					"Type": "Hyguns_CheckZoom",
-					"Zoomed": true,
-					"True": {
-						"Type": "Scope_Zoom_Out",
-						"Effects": {
-							"WorldSoundEventId": "Scope_Zoom_Out",
-							"LocalSoundEventId": "Scope_Zoom_Out"
-						}
-					},
-					"False": {
-						"Type": "Hyguns_OpenAttachments"
-					}
-				}
-			]
-		},
-		"Ability2": {
-			"RequireNewClick": true,
-			"Interactions": [
-				{
-					"Type": "Hyguns_CheckZoom",
-					"Zoomed": true,
-					"True": {
-						"Type": "Scope_Zoom_In",
-						"Effects": {
-							"WorldSoundEventId": "Scope_Zoom_In",
-							"LocalSoundEventId": "Scope_Zoom_In"
-						}
-					}
-				}
-			]
-		},
+    "Secondary": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_AttachmentsInstalled",
+          "AttachmentsTypes": [
+            "Scope"
+          ],
+          "RequireAll": false,
+          "Next": {
+            "Type": "Scope_Zoom",
+            "OverlayTexturePath": "Scope/Scope_2.png",
+            "MaxDistance": 30,
+            "MinDistance": 1,
+            "DefaultZoomMultiplier": 1,
+            "MaxZoomMultiplier": 3,
+            "ZoomMultiplierStep": 1,
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_In",
+              "LocalSoundEventId": "Scope_Zoom_In"
+            }
+          }
+        }
+      ]
+    },
+    "Ability1": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_CheckZoom",
+          "Zoomed": true,
+          "True": {
+            "Type": "Scope_Zoom_Out",
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_Out",
+              "LocalSoundEventId": "Scope_Zoom_Out"
+            }
+          },
+          "False": {
+            "Type": "Hyguns_OpenAttachments"
+          }
+        }
+      ]
+    },
+    "Ability2": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_CheckZoom",
+          "Zoomed": true,
+          "True": {
+            "Type": "Scope_Zoom_In",
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_In",
+              "LocalSoundEventId": "Scope_Zoom_In"
+            }
+          }
+        }
+      ]
+    },
     "Ability3": {
-			"RequireNewClick": true,
+      "RequireNewClick": true,
       "Interactions": [
         {
           "Type": "Charging",
@@ -222,9 +222,9 @@
   },
   "HyGuns": {
     "WeaponSettings": {
-			"InputOverlay": {
-				"Enabled": true
-			},
+      "InputOverlay": {
+        "Enabled": true
+      },
       "WeaponIcon": "Weapons/AWP.png",
       "Ammo": {
         "Family": "Bullet",
@@ -262,26 +262,64 @@
           "Value": 1
         }
       },
-      "SupportedAttachments": {
-        "Scope": {
-          "Count": 1,
-          "Visual": true,
-          "Index": 0
-        },
-        "Silencer": {
-          "Count": 1,
-          "Visual": true,
-          "Index": 1
-        },
-        "Magazine": {
-          "Count": 1
-        },
-        "*": {
-          "Count": 2
-        }
-      },
       "DefaultAttachments": {
         "Scope": "Scope_AWP"
+      },
+      "AttachmentsDefinition": {
+				"WeaponSchema": {
+					"Image": "AttachmentsUI/WeaponSchema/AWP.png",
+					"Size": [
+						780,
+						400
+					],
+					"AnimationDuration": 0.5,
+					"AnimationTiming": "EaseInOut"
+				},
+        "Slots": {
+					"Scope": {
+						"Count": 1,
+						"Visual": true,
+						"Index": 0,
+						"StartPosition": [
+							382,
+							150
+						],
+						"SlotPoint": "Right",
+						"Position": [
+							200,
+							55
+						]
+					},
+					"Silencer": {
+						"Count": 1,
+						"Visual": true,
+						"Index": 1,
+						"StartPosition": [
+							48,
+							202
+						],
+						"SlotPoint": "Top",
+						"Position": [
+							0,
+							265
+						]
+					},
+					"Magazine": {
+						"Count": 1,
+						"StartPosition": [
+							503,
+							253
+						],
+						"SlotPoint": "Right",
+						"Position": [
+							365,
+							300
+						]
+					},
+          "*": {
+            "Count": 2
+          }
+        }
       }
     }
   },

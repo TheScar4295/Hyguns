@@ -78,7 +78,7 @@
       ]
     },
     "Secondary": {
-			"RequireNewClick": true,
+      "RequireNewClick": true,
       "Interactions": [
         {
           "Type": "Hyguns_AttachmentsInstalled",
@@ -103,42 +103,42 @@
       ]
     },
     "Ability1": {
-			"RequireNewClick": true,
+      "RequireNewClick": true,
       "Interactions": [
-				{
-					"Type": "Hyguns_CheckZoom",
-					"Zoomed": true,
-					"True": {
-						"Type": "Scope_Zoom_Out",
-						"Effects": {
-							"WorldSoundEventId": "Scope_Zoom_Out",
-							"LocalSoundEventId": "Scope_Zoom_Out"
-						}
-					},
-					"False": {
-						"Type": "Hyguns_OpenAttachments"
-					}
-				}
-			]
+        {
+          "Type": "Hyguns_CheckZoom",
+          "Zoomed": true,
+          "True": {
+            "Type": "Scope_Zoom_Out",
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_Out",
+              "LocalSoundEventId": "Scope_Zoom_Out"
+            }
+          },
+          "False": {
+            "Type": "Hyguns_OpenAttachments"
+          }
+        }
+      ]
     },
     "Ability2": {
-			"RequireNewClick": true,
+      "RequireNewClick": true,
       "Interactions": [
-				{
-					"Type": "Hyguns_CheckZoom",
-					"Zoomed": true,
-					"True": {
-						"Type": "Scope_Zoom_In",
-						"Effects": {
-							"WorldSoundEventId": "Scope_Zoom_In",
-							"LocalSoundEventId": "Scope_Zoom_In"
-						}
-					}
-				}
+        {
+          "Type": "Hyguns_CheckZoom",
+          "Zoomed": true,
+          "True": {
+            "Type": "Scope_Zoom_In",
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_In",
+              "LocalSoundEventId": "Scope_Zoom_In"
+            }
+          }
+        }
       ]
     },
     "Ability3": {
-			"RequireNewClick": true,
+      "RequireNewClick": true,
       "Interactions": [
         {
           "Type": "Charging",
@@ -223,9 +223,9 @@
   },
   "HyGuns": {
     "WeaponSettings": {
-			"InputOverlay": {
-				"Enabled": true
-			},
+      "InputOverlay": {
+        "Enabled": true
+      },
       "WeaponIcon": "Weapons/ColtNavy.png",
       "Ammo": {
         "Family": "Bullet",
@@ -244,22 +244,60 @@
         "Count": 1,
         "Damage": 24
       },
-      "SupportedAttachments": {
-        "Scope": {
-          "Count": 1,
-          "Visual": true,
-          "Index": 0
-        },
-        "Silencer": {
-          "Count": 1,
-          "Visual": true,
-          "Index": 1
-        },
-        "Magazine": {
-          "Count": 1
-        },
-        "*": {
-          "Count": 1
+      "AttachmentsDefinition": {
+				"WeaponSchema": {
+					"Image": "AttachmentsUI/WeaponSchema/ColtRevolver.png",
+					"Size": [
+						780,
+						400
+					],
+					"AnimationDuration": 0.5,
+					"AnimationTiming": "EaseInOut"
+				},
+        "Slots": {
+					"Scope": {
+						"Count": 1,
+						"Visual": true,
+						"Index": 0,
+						"StartPosition": [
+							420,
+							115
+						],
+						"SlotPoint": "Right",
+						"Position": [
+							225,
+							0
+						]
+					},
+					"Silencer": {
+						"Count": 1,
+						"Visual": true,
+						"Index": 1,
+						"StartPosition": [
+							225,
+							135
+						],
+						"SlotPoint": "Right",
+						"Position": [
+							65,
+							160
+						]
+					},
+					"Magazine": {
+						"Count": 1,
+						"StartPosition": [
+							495,
+							220
+						],
+						"SlotPoint": "Top",
+						"Position": [
+							450,
+							300
+						]
+					},
+          "*": {
+            "Count": 1
+          }
         }
       }
     }

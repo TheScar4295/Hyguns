@@ -243,12 +243,32 @@
         "Count": 20,
         "Damage": 3
       },
-      "SupportedAttachments": {
-        "Magazine": {
-          "Count": 1
-        },
-        "*": {
-          "Count": 3
+      "AttachmentsDefinition": {
+				"WeaponSchema": {
+					"Image": "AttachmentsUI/WeaponSchema/DoubleBarrel.png",
+					"Size": [
+						780,
+						400
+					],
+					"AnimationDuration": 0.5,
+					"AnimationTiming": "EaseInOut"
+				},
+        "Slots": {
+          "Magazine": {
+            "Count": 1,
+						"StartPosition": [
+							500,
+							190
+						],
+						"SlotPoint": "Top",
+						"Position": [
+							400,
+							265
+						]
+          },
+          "*": {
+            "Count": 3
+          }
         }
       }
     }

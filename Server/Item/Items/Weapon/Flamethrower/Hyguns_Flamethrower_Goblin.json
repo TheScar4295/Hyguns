@@ -4,7 +4,6 @@
     "Description": "server.items.Flamethrower_Goblin.description"
   },
   "Categories": [
-    "Items.Weapons",
     "HyGuns.Guns"
   ],
   "Icon": "Icons/ItemsGenerated/Flamethrower_Goblin.png",
@@ -16,16 +15,10 @@
   "Interactions": {
     "Primary": "Hyguns_Flamethrower_Goblin_Primary",
 		"Ability1": {
+			"RequireNewClick": true,
 			"Interactions": [
 				{
-					"Type": "Charging",
-					"DisplayProgress": false,
-					"AllowIndefiniteHold": false,
-					"Next": {
-						"0.25": {
-							"Type": "Hyguns_OpenAttachments"
-						}
-					}
+					"Type": "Hyguns_OpenAttachments"
 				}
 			]
 		},
@@ -162,6 +155,9 @@
   "ItemSoundSetId": "ISS_Weapons_Wood",
   "HyGuns": {
     "WeaponSettings": {
+			"InputOverlay": {
+				"Enabled": true
+			},
       "WeaponIcon": "Weapons/GoblinFlamethrower.png",
       "Ammo": {
         "Family": "Fuel",
@@ -174,9 +170,20 @@
           "Amount": 500
         }
       },
-			"SupportedAttachments": {
-				"*": {
-					"Count": 3
+			"AttachmentsDefinition": {
+				"WeaponSchema": {
+					"Image": "AttachmentsUI/WeaponSchema/Flamethrower.png",
+					"Size": [
+						780,
+						400
+					],
+					"AnimationDuration": 0.5,
+					"AnimationTiming": "EaseInOut"
+				},
+				"Slots": {
+					"*": {
+						"Count": 3
+					}
 				}
 			}
     }

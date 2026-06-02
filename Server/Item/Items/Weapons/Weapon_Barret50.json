@@ -103,26 +103,26 @@
       ]
     },
     "Ability1": {
-			"RequireNewClick": true,
+      "RequireNewClick": true,
       "Interactions": [
-				{
-					"Type": "Hyguns_CheckZoom",
-					"Zoomed": true,
-					"True": {
-						"Type": "Scope_Zoom_Out",
-						"Effects": {
-							"WorldSoundEventId": "Scope_Zoom_Out",
-							"LocalSoundEventId": "Scope_Zoom_Out"
-						}
-					},
-					"False": {
-						"Type": "Hyguns_OpenAttachments"
-					}
-				}
-			]
+        {
+          "Type": "Hyguns_CheckZoom",
+          "Zoomed": true,
+          "True": {
+            "Type": "Scope_Zoom_Out",
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_Out",
+              "LocalSoundEventId": "Scope_Zoom_Out"
+            }
+          },
+          "False": {
+            "Type": "Hyguns_OpenAttachments"
+          }
+        }
+      ]
     },
     "Ability2": {
-			"RequireNewClick": true,
+      "RequireNewClick": true,
       "Interactions": [
         {
           "Type": "Hyguns_CheckZoom",
@@ -137,44 +137,44 @@
         }
       ]
     },
-		"Ability3": {
-			"RequireNewClick": true,
-			"Interactions": [
-				{
-					"Type": "Charging",
-					"DisplayProgress": false,
-					"AllowIndefiniteHold": false,
-					"Next": {
-						"0": {
-							"Type": "Hyguns_Reload",
-							"Effects": {
-								"ItemAnimationId": "Interact",
-								"LocalSoundEventId": "Barret50_Reload",
-								"WorldSoundEventId": "Barret50_Reload"
-							}
-						},
-						"0.25": {
-							"Type": "OpenCustomUI",
-							"Page": {
-								"Id": "AmmoSelection"
-							}
-						}
-					}
-				}
-			]
-		},
-		"SwapTo": {
-			"Interactions": [
-				{
-					"Type": "Simple",
-					"Effects": {
-						"WorldSoundEventId": "Barret50_Equip",
-						"LocalSoundEventId": "Barret50_Equip"
-					}
-				}
-			]
-		}
-	},
+    "Ability3": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Charging",
+          "DisplayProgress": false,
+          "AllowIndefiniteHold": false,
+          "Next": {
+            "0": {
+              "Type": "Hyguns_Reload",
+              "Effects": {
+                "ItemAnimationId": "Interact",
+                "LocalSoundEventId": "Barret50_Reload",
+                "WorldSoundEventId": "Barret50_Reload"
+              }
+            },
+            "0.25": {
+              "Type": "OpenCustomUI",
+              "Page": {
+                "Id": "AmmoSelection"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "SwapTo": {
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "Effects": {
+            "WorldSoundEventId": "Barret50_Equip",
+            "LocalSoundEventId": "Barret50_Equip"
+          }
+        }
+      ]
+    }
+  },
   "MaxDurability": 200,
   "Tags": {
     "Type": [
@@ -222,9 +222,9 @@
   },
   "HyGuns": {
     "WeaponSettings": {
-			"InputOverlay": {
-				"Enabled": true
-			},
+      "InputOverlay": {
+        "Enabled": true
+      },
       "WeaponIcon": "Weapons/Barrett50.png",
       "Ammo": {
         "Family": "Bullet",
@@ -262,26 +262,64 @@
           "Value": 1
         }
       },
-      "SupportedAttachments": {
-        "Scope": {
-          "Count": 1,
-          "Visual": true,
-          "Index": 0
-        },
-        "Silencer": {
-          "Count": 1,
-          "Visual": true,
-          "Index": 1
-        },
-        "Magazine": {
-          "Count": 1
-        },
-        "*": {
-          "Count": 2
-        }
-      },
       "DefaultAttachments": {
         "Scope": "Scope_Barret50"
+      },
+      "AttachmentsDefinition": {
+				"WeaponSchema": {
+					"Image": "AttachmentsUI/WeaponSchema/Barrett50.png",
+					"Size": [
+						780,
+						400
+					],
+					"AnimationDuration": 0.5,
+					"AnimationTiming": "EaseInOut"
+				},
+        "Slots": {
+					"Scope": {
+						"Count": 1,
+						"Visual": true,
+						"Index": 0,
+						"StartPosition": [
+							360,
+							135
+						],
+						"SlotPoint": "Right",
+						"Position": [
+							175,
+							30
+						]
+					},
+					"Silencer": {
+						"Count": 1,
+						"Visual": true,
+						"Index": 1,
+						"StartPosition": [
+							70,
+							200
+						],
+						"SlotPoint": "Top",
+						"Position": [
+							0,
+							265
+						]
+					},
+					"Magazine": {
+						"Count": 1,
+						"StartPosition": [
+							456,
+							280
+						],
+						"SlotPoint": "Top",
+						"Position": [
+							345,
+							325
+						]
+					},
+          "*": {
+            "Count": 2
+          }
+        }
       }
     }
   },

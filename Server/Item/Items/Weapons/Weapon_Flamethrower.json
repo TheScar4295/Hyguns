@@ -175,9 +175,20 @@
         "Count": 1,
         "ProjectileId": "Flamethrower_Projectile"
       },
-      "SupportedAttachments": {
-        "*": {
-          "Count": 3
+      "AttachmentsDefinition": {
+				"WeaponSchema": {
+					"Image": "AttachmentsUI/WeaponSchema/Flamethrower.png",
+					"Size": [
+						780,
+						400
+					],
+					"AnimationDuration": 0.5,
+					"AnimationTiming": "EaseInOut"
+				},
+        "Slots": {
+          "*": {
+            "Count": 3
+          }
         }
       }
     }

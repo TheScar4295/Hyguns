@@ -6,7 +6,7 @@
     "Name": "Handgun",
     "Description": "server.items.Handgun.description"
   },
-  "Categories": ["Items.Weapons", "HyGuns.Guns"],
+  "Categories": ["HyGuns.Guns"],
   "MaxStack": 1,
   "Scale": 1,
   "IconProperties": {
@@ -65,6 +65,66 @@
         }
       ]
     },
+		"Secondary": {
+			"RequireNewClick": true,
+			"Interactions": [
+				{
+					"Type": "Hyguns_AttachmentsInstalled",
+					"AttachmentsTypes": [
+						"Scope"
+					],
+					"RequireAll": false,
+					"Next": {
+						"Type": "Scope_Zoom",
+						"OverlayTexturePath": "Scope/Scope_2.png",
+						"MaxDistance": 30,
+						"MinDistance": 1,
+						"DefaultZoomMultiplier": 1,
+						"MaxZoomMultiplier": 3,
+						"ZoomMultiplierStep": 1,
+						"Effects": {
+							"WorldSoundEventId": "Scope_Zoom_In",
+							"LocalSoundEventId": "Scope_Zoom_In"
+						}
+					}
+				}
+			]
+		},
+		"Ability1": {
+			"RequireNewClick": true,
+			"Interactions": [
+				{
+					"Type": "Hyguns_CheckZoom",
+					"Zoomed": true,
+					"True": {
+						"Type": "Scope_Zoom_Out",
+						"Effects": {
+							"WorldSoundEventId": "Scope_Zoom_Out",
+							"LocalSoundEventId": "Scope_Zoom_Out"
+						}
+					},
+					"False": {
+						"Type": "Hyguns_OpenAttachments"
+					}
+				}
+			]
+		},
+		"Ability2": {
+			"RequireNewClick": true,
+			"Interactions": [
+				{
+					"Type": "Hyguns_CheckZoom",
+					"Zoomed": true,
+					"True": {
+						"Type": "Scope_Zoom_In",
+						"Effects": {
+							"WorldSoundEventId": "Scope_Zoom_In",
+							"LocalSoundEventId": "Scope_Zoom_In"
+						}
+					}
+				}
+			]
+		},
     "Ability3": {
       "Interactions": [
         {
@@ -138,6 +198,9 @@
   },
   "HyGuns": {
     "WeaponSettings": {
+			"InputOverlay": {
+				"Enabled": true
+			},
       "WeaponIcon": "Weapons/Handgun.png",
       "Ammo": {
         "Family": "Bullet",
@@ -148,15 +211,52 @@
           "Amount": 20
         }
       },
-      "Fire": {
-        "Cooldown": 0.15
-      },
       "Projectiles": {
         "ConfigId": "Hyguns_Projectile_Config_Bullet",
         "Spread": 0.05,
         "Count": 1,
         "Damage": 7
-      }
+      },
+			"AttachmentsDefinition": {
+				"WeaponSchema": {
+					"Image": "AttachmentsUI/WeaponSchema/Glock18.png",
+					"Size": [
+						780,
+						400
+					],
+					"AnimationDuration": 0.5,
+					"AnimationTiming": "EaseInOut"
+				},
+				"Slots": {
+					"Silencer": {
+						"Count": 1,
+						"StartPosition": [
+							320,
+							125
+						],
+						"SlotPoint": "Right",
+						"Position": [
+							170,
+							125
+						]
+					},
+					"Magazine": {
+						"Count": 1,
+						"StartPosition": [
+							520,
+							225
+						],
+						"SlotPoint": "Right",
+						"Position": [
+							390,
+							275
+						]
+					},
+					"*": {
+						"Count": 1
+					}
+				}
+			}
     }
   }
 }

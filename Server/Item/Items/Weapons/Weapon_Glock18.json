@@ -240,17 +240,46 @@
         "Count": 1,
         "Damage": 6
       },
-      "SupportedAttachments": {
-        "Silencer": {
-          "Count": 1,
-          "Visual": true,
-          "Index": 0
-        },
-        "Magazine": {
-          "Count": 1
-        },
-        "*": {
-          "Count": 1
+      "AttachmentsDefinition": {
+				"WeaponSchema": {
+					"Image": "AttachmentsUI/WeaponSchema/Glock18.png",
+					"Size": [
+						780,
+						400
+					],
+					"AnimationDuration": 0.5,
+					"AnimationTiming": "EaseInOut"
+				},
+        "Slots": {
+					"Silencer": {
+						"Count": 1,
+						"Visual": true,
+						"Index": 1,
+						"StartPosition": [
+							320,
+							125
+						],
+						"SlotPoint": "Right",
+						"Position": [
+							170,
+							125
+						]
+					},
+					"Magazine": {
+						"Count": 1,
+						"StartPosition": [
+							520,
+							225
+						],
+						"SlotPoint": "Right",
+						"Position": [
+							390,
+							275
+						]
+					},
+          "*": {
+            "Count": 1
+          }
         }
       }
     }

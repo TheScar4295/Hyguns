@@ -242,26 +242,64 @@
         "Count": 1,
         "Damage": 14
       },
-      "SupportedAttachments": {
-        "Scope": {
-          "Count": 1,
-          "Visual": true,
-          "Index": 0
-        },
-        "Silencer": {
-          "Count": 1,
-          "Visual": true,
-          "Index": 1
-        },
-        "Magazine": {
-          "Count": 1
-        },
-        "*": {
-          "Count": 2
-        }
-      },
       "DefaultAttachments": {
         "Silencer": "Silencer"
+      },
+      "AttachmentsDefinition": {
+				"WeaponSchema": {
+					"Image": "AttachmentsUI/WeaponSchema/M4A1s.png",
+					"Size": [
+						780,
+						400
+					],
+					"AnimationDuration": 0.5,
+					"AnimationTiming": "EaseInOut"
+				},
+        "Slots": {
+					"Scope": {
+						"Count": 1,
+						"Visual": true,
+						"Index": 0,
+						"StartPosition": [
+							445,
+							90
+						],
+						"SlotPoint": "Right",
+						"Position": [
+							300,
+							0
+						]
+					},
+					"Silencer": {
+						"Count": 1,
+						"Visual": true,
+						"Index": 1,
+						"StartPosition": [
+							90,
+							145
+						],
+						"SlotPoint": "Top",
+						"Position": [
+							0,
+							210
+						]
+					},
+					"Magazine": {
+						"Count": 1,
+						"StartPosition": [
+							395,
+							300
+						],
+						"SlotPoint": "Right",
+						"Position": [
+							245,
+							305
+						]
+					},
+          "*": {
+            "Count": 2
+          }
+        }
       }
     }
   },

@@ -6,7 +6,7 @@
     "Name": "Rifle",
     "Description": "server.items.AssaultRifle.description"
   },
-  "Categories": ["Items.Weapons", "HyGuns.Guns"],
+  "Categories": ["HyGuns.Guns"],
   "MaxStack": 1,
   "Scale": 1,
   "IconProperties": {
@@ -16,7 +16,7 @@
   },
   "Quality": "Rare",
   "Utility": {
-    "Compatible": true
+    "Compatible": false
   },
   "Interactions": {
     "Primary": {
@@ -66,6 +66,66 @@
         }
       ]
     },
+		"Secondary": {
+			"RequireNewClick": true,
+			"Interactions": [
+				{
+					"Type": "Hyguns_AttachmentsInstalled",
+					"AttachmentsTypes": [
+						"Scope"
+					],
+					"RequireAll": false,
+					"Next": {
+						"Type": "Scope_Zoom",
+						"OverlayTexturePath": "Scope/Scope_2.png",
+						"MaxDistance": 30,
+						"MinDistance": 1,
+						"DefaultZoomMultiplier": 1,
+						"MaxZoomMultiplier": 3,
+						"ZoomMultiplierStep": 1,
+						"Effects": {
+							"WorldSoundEventId": "Scope_Zoom_In",
+							"LocalSoundEventId": "Scope_Zoom_In"
+						}
+					}
+				}
+			]
+		},
+		"Ability1": {
+			"RequireNewClick": true,
+			"Interactions": [
+				{
+					"Type": "Hyguns_CheckZoom",
+					"Zoomed": true,
+					"True": {
+						"Type": "Scope_Zoom_Out",
+						"Effects": {
+							"WorldSoundEventId": "Scope_Zoom_Out",
+							"LocalSoundEventId": "Scope_Zoom_Out"
+						}
+					},
+					"False": {
+						"Type": "Hyguns_OpenAttachments"
+					}
+				}
+			]
+		},
+		"Ability2": {
+			"RequireNewClick": true,
+			"Interactions": [
+				{
+					"Type": "Hyguns_CheckZoom",
+					"Zoomed": true,
+					"True": {
+						"Type": "Scope_Zoom_In",
+						"Effects": {
+							"WorldSoundEventId": "Scope_Zoom_In",
+							"LocalSoundEventId": "Scope_Zoom_In"
+						}
+					}
+				}
+			]
+		},
     "Ability3": {
       "Interactions": [
         {
@@ -144,6 +204,9 @@
   },
   "HyGuns": {
     "WeaponSettings": {
+			"InputOverlay": {
+				"Enabled": true
+			},
       "WeaponIcon": "Weapons/AK47.png",
       "Ammo": {
         "Family": "Bullet",
@@ -154,15 +217,64 @@
           "Amount": 30
         }
       },
-      "Fire": {
-        "Cooldown": 0.112
-      },
       "Projectiles": {
         "ConfigId": "Hyguns_Projectile_Config_Bullet",
         "Spread": 0.02,
         "Count": 1,
         "Damage": 5
-      }
+      },
+			"AttachmentsDefinition": {
+				"WeaponSchema": {
+					"Image": "AttachmentsUI/WeaponSchema/AK47.png",
+					"Size": [
+						780,
+						400
+					],
+					"AnimationDuration": 0.5,
+					"AnimationTiming": "EaseInOut"
+				},
+				"Slots": {
+					"Scope": {
+						"Count": 1,
+						"StartPosition": [
+							408,
+							152
+						],
+						"SlotPoint": "Left",
+						"Position": [
+							524,
+							44
+						]
+					},
+					"Silencer": {
+						"Count": 1,
+						"StartPosition": [
+							80,
+							189
+						],
+						"SlotPoint": "Top",
+						"Position": [
+							0,
+							245
+						]
+					},
+					"Magazine": {
+						"Count": 1,
+						"StartPosition": [
+							360,
+							339
+						],
+						"SlotPoint": "Right",
+						"Position": [
+							228,
+							326
+						]
+					},
+					"*": {
+						"Count": 2
+					}
+				}
+			}
     }
   }
 }

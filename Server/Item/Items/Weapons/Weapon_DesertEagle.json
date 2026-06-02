@@ -79,7 +79,7 @@
       ]
     },
     "Secondary": {
-			"RequireNewClick": true,
+      "RequireNewClick": true,
       "Interactions": [
         {
           "Type": "Hyguns_AttachmentsInstalled",
@@ -104,7 +104,7 @@
       ]
     },
     "Ability1": {
-			"RequireNewClick": true,
+      "RequireNewClick": true,
       "Interactions": [
         {
           "Type": "Hyguns_CheckZoom",
@@ -123,7 +123,7 @@
       ]
     },
     "Ability2": {
-			"RequireNewClick": true,
+      "RequireNewClick": true,
       "Interactions": [
         {
           "Type": "Hyguns_CheckZoom",
@@ -139,7 +139,7 @@
       ]
     },
     "Ability3": {
-			"RequireNewClick": true,
+      "RequireNewClick": true,
       "Interactions": [
         {
           "Type": "Charging",
@@ -244,22 +244,60 @@
         "Count": 1,
         "Damage": 25
       },
-      "SupportedAttachments": {
-        "Scope": {
-          "Count": 1,
-          "Visual": true,
-          "Index": 0
-        },
-        "Silencer": {
-          "Count": 1,
-          "Visual": true,
-          "Index": 1
-        },
-        "Magazine": {
-          "Count": 1
-        },
-        "*": {
-          "Count": 1
+      "AttachmentsDefinition": {
+				"WeaponSchema": {
+					"Image": "AttachmentsUI/WeaponSchema/DesertEagle.png",
+					"Size": [
+						780,
+						400
+					],
+					"AnimationDuration": 0.5,
+					"AnimationTiming": "EaseInOut"
+				},
+        "Slots": {
+					"Scope": {
+						"Count": 1,
+						"Visual": true,
+						"Index": 0,
+						"StartPosition": [
+							365,
+							105
+						],
+						"SlotPoint": "Right",
+						"Position": [
+							160,
+							0
+						]
+					},
+					"Silencer": {
+						"Count": 1,
+						"Visual": true,
+						"Index": 1,
+						"StartPosition": [
+							260,
+							130
+						],
+						"SlotPoint": "Right",
+						"Position": [
+							95,
+							185
+						]
+					},
+					"Magazine": {
+						"Count": 1,
+						"StartPosition": [
+							500,
+							310
+						],
+						"SlotPoint": "Right",
+						"Position": [
+							345,
+							300
+						]
+					},
+          "*": {
+            "Count": 1
+          }
         }
       }
     }
