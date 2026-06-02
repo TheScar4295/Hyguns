@@ -251,7 +251,7 @@
 					"AnimationTiming": "EaseInOut"
 				},
         "Slots": {
-					"Silencer": {
+					"Suppressor": {
 						"Count": 1,
 						"Visual": true,
 						"Index": 1,
@@ -285,10 +285,10 @@
     }
   },
   "State": {
-    "Silencer": {
+    "Suppressor": {
       "Quality": "Uncommon",
       "Categories": [],
-      "Model": "Items/Weapons/Mac10/Mac10_Silencer.blockymodel"
+      "Model": "Items/Weapons/Mac10/Mac10_Suppressor.blockymodel"
     }
   }
 }

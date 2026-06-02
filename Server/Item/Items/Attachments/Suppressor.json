@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.attachments.Silencer.name"
+    "Name": "server.items.attachments.Suppressor.name"
   },
   "Categories": [
     "HyGuns.Attachments"
@@ -20,9 +20,9 @@
       -4
     ]
   },
-  "Model": "Items/Attachments/Silencer/Silencer.blockymodel",
-  "Texture": "Items/Attachments/Silencer/Silencer.png",
-  "Icon": "Icons/ItemsGenerated/Silencer.png",
+  "Model": "Items/Attachments/Suppressor/Suppressor.blockymodel",
+  "Texture": "Items/Attachments/Suppressor/Suppressor.png",
+  "Icon": "Icons/ItemsGenerated/Suppressor.png",
   "MaxStack": 1,
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
   "Tags": {
@@ -33,7 +33,7 @@
   "Scale": 1,
   "HyGuns": {
     "AttachmentSettings": {
-      "Type": "Silencer",
+      "Type": "Suppressor",
       "FireSound": {
         "Volume": "*0.05"
       },

@@ -83,8 +83,8 @@ attachments.types.magazine.name=Magazine
 attachments.types.magazine.description=Extends ammo capacity
 attachments.types.scope.name=Scope
 attachments.types.scope.description=Allow use scoping
-attachments.types.silencer.name=Silencer
-attachments.types.silencer.description=Makes shoot sound less loud
+attachments.types.suppressor.name=Suppressor
+attachments.types.suppressor.description=Makes shoot sound less loud
 
 items.attachments.Bobbin_Tier_I.name=Bobbin Tier I
 items.attachments.Bobbin_Tier_II.name=Bobbin Tier II
@@ -93,7 +93,7 @@ items.attachments.Magazine_Tier_II.name=Magazine Tier II
 items.attachments.Magazine_Tier_III.name=Magazine Tier III
 items.attachments.Scope.AWP.name=AWP Scope
 items.attachments.Scope.Barret50.name=Barret .50 Scope
-items.attachments.Silencer.name=Silencer
+items.attachments.Suppressor.name=Suppressor
 
 items.Bench_Gunsmith.name=Gunsmith Bench
 items.Bench_Gunsmith.description=A workstation used to create firearms and explosives

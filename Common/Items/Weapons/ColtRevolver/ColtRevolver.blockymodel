@@ -6570,7 +6570,7 @@
         },
         {
           "id": "139",
-          "name": "silencer",
+          "name": "suppressor",
           "position": {"x": 0, "y": 10.85, "z": 66.777},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {

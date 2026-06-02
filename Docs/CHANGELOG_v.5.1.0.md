@@ -11,10 +11,10 @@ Version `5.1.0` updates the Hyguns content pack for the new HyGuns Plugin attach
 Added attachment type assets under `Server/HyGuns/AttachmentTypes`:
 
 - `Scope`
-- `Silencer`
+- `Suppressor`
 - `Magazine`
 
-Each type defines the UI slot icon used by the attachment inventory. Scope and silencer types are limited to one installed attachment; magazine attachments are capped by their type max count.
+Each type defines the UI slot icon used by the attachment inventory. Scope and suppressor types are limited to one installed attachment; magazine attachments are capped by their type max count.
 
 ### Attachment Items
 
@@ -22,7 +22,7 @@ Added attachment items under `Server/Item/Items/Attachments`:
 
 - `Scope_Barret50`
 - `Scope_AWP`
-- `Silencer`
+- `Suppressor`
 - `Magazine_Tier_I`
 - `Magazine_Tier_II`
 - `Magazine_Tier_III`
@@ -35,8 +35,8 @@ Added attachment-driven weapon state models for Barret .50 and AWP:
 
 - base weapon model
 - scope-only model
-- silencer-only model
-- scope plus silencer model
+- suppressor-only model
+- scope plus suppressor model
 
 These states are selected automatically by the plugin based on installed visual attachments.
 
@@ -45,7 +45,7 @@ These states are selected automatically by the plugin based on installed visual 
 Added attachment UI icons under `Common/UI/Custom/Attachments`:
 
 - `scope.png`
-- `silencer.png`
+- `suppressor.png`
 - `magazine.png`
 
 ## Changed
@@ -71,17 +71,17 @@ Numeric stat changes now use operation strings such as `+10`, `*0.75`, and `=5`.
 Updated `Weapon_Barret50.json` as the main example weapon for the attachment system:
 
 - supports one `Scope` slot
-- supports one `Silencer` slot
+- supports one `Suppressor` slot
 - supports two dedicated `Magazine` slots
 - supports three wildcard slots
 - creates `Scope_Barret50` by default
-- uses visual attachment indices to build `Scope`, `Silencer`, and `Scope_Silencer` state keys
+- uses visual attachment indices to build `Scope`, `Suppressor`, and `Scope_Suppressor` state keys
 - gates zoom interactions behind `Hyguns_AttachmentsInstalled`
-- uses `Hyguns_PlayWeaponFireSound` so silencers can reduce shot volume
+- uses `Hyguns_PlayWeaponFireSound` so suppressors can reduce shot volume
 
 ### AWP
 
-Updated `Weapon_AWP.json` for attachment-compatible scope and silencer visual states.
+Updated `Weapon_AWP.json` for attachment-compatible scope and suppressor visual states.
 
 ### Sound and Language Assets
 
@@ -98,4 +98,4 @@ Updated weapon/fire sound usage so compatible weapons can use attachment-aware f
 
 ## Short Version
 
-Hyguns `5.1.0` adds real attachment content: scopes, silencers, magazines, attachment slot icons, Barret .50/AWP visual state models, default scoped weapons, and updated weapon/ammo JSON using the new `WeaponSettings` and `SettingsModifiers` format.
+Hyguns `5.1.0` adds real attachment content: scopes, suppressors, magazines, attachment slot icons, Barret .50/AWP visual state models, default scoped weapons, and updated weapon/ammo JSON using the new `WeaponSettings` and `SettingsModifiers` format.

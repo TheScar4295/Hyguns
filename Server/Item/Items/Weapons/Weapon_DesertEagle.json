@@ -269,7 +269,7 @@
 							0
 						]
 					},
-					"Silencer": {
+					"Suppressor": {
 						"Count": 1,
 						"Visual": true,
 						"Index": 1,
@@ -308,15 +308,15 @@
       "Categories": [],
       "Model": "Items/Weapons/DesertEagle/DesertEagle_Scope.blockymodel"
     },
-    "Silencer": {
+    "Suppressor": {
       "Quality": "Rare",
       "Categories": [],
-      "Model": "Items/Weapons/DesertEagle/DesertEagle_Silencer.blockymodel"
+      "Model": "Items/Weapons/DesertEagle/DesertEagle_Suppressor.blockymodel"
     },
-    "Scope_Silencer": {
+    "Scope_Suppressor": {
       "Quality": "Rare",
       "Categories": [],
-      "Model": "Items/Weapons/DesertEagle/DesertEagle_Scope_Silencer.blockymodel"
+      "Model": "Items/Weapons/DesertEagle/DesertEagle_Scope_Suppressor.blockymodel"
     }
   },
   "UsePlayerAnimations": true

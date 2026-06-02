@@ -290,7 +290,7 @@
 							30
 						]
 					},
-					"Silencer": {
+					"Suppressor": {
 						"Count": 1,
 						"Visual": true,
 						"Index": 1,
@@ -329,15 +329,15 @@
       "Categories": [],
       "Model": "Items/Weapons/Barret50/Barret50_Scope.blockymodel"
     },
-    "Silencer": {
+    "Suppressor": {
       "Quality": "Epic",
       "Categories": [],
-      "Model": "Items/Weapons/Barret50/Barret50_Silencer.blockymodel"
+      "Model": "Items/Weapons/Barret50/Barret50_Suppressor.blockymodel"
     },
-    "Scope_Silencer": {
+    "Scope_Suppressor": {
       "Quality": "Epic",
       "Categories": [],
-      "Model": "Items/Weapons/Barret50/Barret50_Scope_Silencer.blockymodel"
+      "Model": "Items/Weapons/Barret50/Barret50_Scope_Suppressor.blockymodel"
     }
   }
 }

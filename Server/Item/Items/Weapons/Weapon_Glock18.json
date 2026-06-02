@@ -251,7 +251,7 @@
 					"AnimationTiming": "EaseInOut"
 				},
         "Slots": {
-					"Silencer": {
+					"Suppressor": {
 						"Count": 1,
 						"Visual": true,
 						"Index": 1,
@@ -285,10 +285,10 @@
     }
   },
   "State": {
-    "Silencer": {
+    "Suppressor": {
       "Quality": "Uncommon",
       "Categories": [],
-      "Model": "Items/Weapons/Glock18/Glock18_Silencer.blockymodel"
+      "Model": "Items/Weapons/Glock18/Glock18_Suppressor.blockymodel"
     }
   },
   "UsePlayerAnimations": true

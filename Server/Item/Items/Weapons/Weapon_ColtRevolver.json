@@ -269,7 +269,7 @@
 							0
 						]
 					},
-					"Silencer": {
+					"Suppressor": {
 						"Count": 1,
 						"Visual": true,
 						"Index": 1,
@@ -308,15 +308,15 @@
       "Categories": [],
       "Model": "Items/Weapons/ColtRevolver/ColtRevolver_Scope.blockymodel"
     },
-    "Silencer": {
+    "Suppressor": {
       "Quality": "Uncommon",
       "Categories": [],
-      "Model": "Items/Weapons/ColtRevolver/ColtRevolver_Silencer.blockymodel"
+      "Model": "Items/Weapons/ColtRevolver/ColtRevolver_Suppressor.blockymodel"
     },
-    "Scope_Silencer": {
+    "Scope_Suppressor": {
       "Quality": "Uncommon",
       "Categories": [],
-      "Model": "Items/Weapons/ColtRevolver/ColtRevolver_Scope_Silencer.blockymodel"
+      "Model": "Items/Weapons/ColtRevolver/ColtRevolver_Scope_Suppressor.blockymodel"
     }
   }
 }

@@ -243,7 +243,7 @@
         "Damage": 14
       },
       "DefaultAttachments": {
-        "Silencer": "Silencer"
+        "Suppressor": "Suppressor"
       },
       "AttachmentsDefinition": {
 				"WeaponSchema": {
@@ -270,7 +270,7 @@
 							0
 						]
 					},
-					"Silencer": {
+					"Suppressor": {
 						"Count": 1,
 						"Visual": true,
 						"Index": 1,
@@ -309,15 +309,15 @@
       "Categories": [],
       "Model": "Items/Weapons/M4A1s/M4A1s_Scope.blockymodel"
     },
-    "Silencer": {
+    "Suppressor": {
       "Quality": "Epic",
       "Categories": [],
-      "Model": "Items/Weapons/M4A1s/M4A1s_Silencer.blockymodel"
+      "Model": "Items/Weapons/M4A1s/M4A1s_Suppressor.blockymodel"
     },
-    "Scope_Silencer": {
+    "Scope_Suppressor": {
       "Quality": "Epic",
       "Categories": [],
-      "Model": "Items/Weapons/M4A1s/M4A1s_Scope_Silencer.blockymodel"
+      "Model": "Items/Weapons/M4A1s/M4A1s_Scope_Suppressor.blockymodel"
     }
   }
 }

@@ -290,7 +290,7 @@
 							55
 						]
 					},
-					"Silencer": {
+					"Suppressor": {
 						"Count": 1,
 						"Visual": true,
 						"Index": 1,
@@ -329,15 +329,15 @@
       "Categories": [],
       "Model": "Items/Weapons/AWP/AWP_Scope.blockymodel"
     },
-    "Silencer": {
+    "Suppressor": {
       "Quality": "Epic",
       "Categories": [],
-      "Model": "Items/Weapons/AWP/AWP_Silencer.blockymodel"
+      "Model": "Items/Weapons/AWP/AWP_Suppressor.blockymodel"
     },
-    "Scope_Silencer": {
+    "Scope_Suppressor": {
       "Quality": "Epic",
       "Categories": [],
-      "Model": "Items/Weapons/AWP/AWP_Scope_Silencer.blockymodel"
+      "Model": "Items/Weapons/AWP/AWP_Scope_Suppressor.blockymodel"
     }
   }
 }

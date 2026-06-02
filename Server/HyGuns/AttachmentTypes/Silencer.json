@@ -1,8 +1,0 @@
-{
-	"Type": "Silencer",
-	"Icon": "Attachments/silencer.png",
-	"Name": "server.attachments.types.silencer.name",
-	"Description": "server.attachments.types.silencer.description",
-	"AnyAllowed": false,
-	"MaxCount": 1
-}

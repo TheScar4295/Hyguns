@@ -267,7 +267,7 @@
 							0
 						]
 					},
-					"Silencer": {
+					"Suppressor": {
 						"Count": 1,
 						"Visual": true,
 						"Index": 1,
@@ -306,15 +306,15 @@
       "Categories": [],
       "Model": "Items/Weapons/P90/P90_Scope.blockymodel"
     },
-    "Silencer": {
+    "Suppressor": {
       "Quality": "Epic",
       "Categories": [],
-      "Model": "Items/Weapons/P90/P90_Silencer.blockymodel"
+      "Model": "Items/Weapons/P90/P90_Suppressor.blockymodel"
     },
-    "Scope_Silencer": {
+    "Scope_Suppressor": {
       "Quality": "Epic",
       "Categories": [],
-      "Model": "Items/Weapons/P90/P90_Scope_Silencer.blockymodel"
+      "Model": "Items/Weapons/P90/P90_Scope_Suppressor.blockymodel"
     }
   }
 }

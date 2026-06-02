@@ -228,7 +228,7 @@
 					"AnimationTiming": "EaseInOut"
 				},
 				"Slots": {
-					"Silencer": {
+					"Suppressor": {
 						"Count": 1,
 						"StartPosition": [
 							320,

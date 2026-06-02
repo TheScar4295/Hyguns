@@ -1,0 +1,8 @@
+{
+	"Type": "Suppressor",
+	"Icon": "Attachments/suppressor.png",
+	"Name": "server.attachments.types.suppressor.name",
+	"Description": "server.attachments.types.suppressor.description",
+	"AnyAllowed": false,
+	"MaxCount": 1
+}
