@@ -1,0 +1,45 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.attachments.ProjectileSplitter_Tier_II.name"
+  },
+  "Categories": [
+    "HyGuns.Attachments"
+  ],
+  "Quality": "Rare",
+  "ItemLevel": 30,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      331,
+      44,
+      9
+    ],
+    "Translation": [
+      2,
+      -4
+    ]
+  },
+	"Model": "Items/Attachments/Loot/Loot.blockymodel",
+	"Texture": "Items/Attachments/Loot/Loot.png",
+	"Icon": "Icons/ItemsGenerated/ProjectileSplitter_Tier_II.png",
+  "MaxStack": 1,
+  "Tags": {
+    "Type": [
+      "Attachment"
+    ]
+  },
+  "Scale": 1,
+  "HyGuns": {
+    "AttachmentSettings": {
+      "Type": "ProjectileSplitter",
+      "SettingsModifiers": {
+        "Projectiles": {
+          "Count": "+4",
+          "Damage": "*0.80",
+          "Spread": "+0.005"
+        }
+      }
+    }
+  }
+}

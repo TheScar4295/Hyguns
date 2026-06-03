@@ -42,7 +42,6 @@
   "Texture": "Items/Ammo/Bullet/Ammo_Bullet_Rifle.png",
   "Icon": "Icons/ItemsGenerated/Ammo_Bullet_Rifle.png",
   "MaxStack": 100,
-  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
   "Tags": {
     "Type": ["Ammo"]
   },

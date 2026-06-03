@@ -20,11 +20,10 @@
       -13
     ]
   },
-  "Model": "Items/Attachments/Magazine/Magazine.blockymodel",
-  "Texture": "Items/Attachments/Magazine/Magazine.png",
-  "Icon": "Icons/ItemsGenerated/Magazine_Test.png",
+	"Model": "Items/Attachments/Loot/Loot.blockymodel",
+	"Texture": "Items/Attachments/Loot/Loot.png",
+  "Icon": "Icons/ItemsGenerated/Magazine.png",
   "MaxStack": 1,
-  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
   "Tags": {
     "Type": [
       "Attachment"

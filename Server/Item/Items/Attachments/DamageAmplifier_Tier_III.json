@@ -1,0 +1,43 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.attachments.DamageAmplifier_Tier_III.name"
+  },
+  "Categories": [
+    "HyGuns.Attachments"
+  ],
+  "Quality": "Epic",
+  "ItemLevel": 38,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      331,
+      44,
+      9
+    ],
+    "Translation": [
+      2,
+      -4
+    ]
+  },
+	"Model": "Items/Attachments/Loot/Loot.blockymodel",
+	"Texture": "Items/Attachments/Loot/Loot.png",
+	"Icon": "Icons/ItemsGenerated/DamageAmplifier_Tier_III.png",
+  "MaxStack": 1,
+  "Tags": {
+    "Type": [
+      "Attachment"
+    ]
+  },
+  "Scale": 1,
+  "HyGuns": {
+    "AttachmentSettings": {
+      "Type": "DamageAmplifier",
+      "SettingsModifiers": {
+        "Projectiles": {
+          "Damage": "*1.50"
+        }
+      }
+    }
+  }
+}

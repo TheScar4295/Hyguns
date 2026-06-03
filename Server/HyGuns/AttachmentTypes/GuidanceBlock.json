@@ -1,0 +1,8 @@
+{
+  "Type": "GuidanceBlock",
+  "Icon": "Attachments/guidance_block.png",
+  "Name": "server.attachments.types.guidance_block.name",
+  "Description": "server.attachments.types.guidance_block.description",
+  "AnyAllowed": true,
+  "MaxCount": 1
+}

@@ -20,11 +20,10 @@
       -4
     ]
   },
-  "Model": "Items/Attachments/Suppressor/Suppressor.blockymodel",
-  "Texture": "Items/Attachments/Suppressor/Suppressor.png",
+	"Model": "Items/Attachments/Loot/Loot.blockymodel",
+	"Texture": "Items/Attachments/Loot/Loot.png",
   "Icon": "Icons/ItemsGenerated/Suppressor.png",
   "MaxStack": 1,
-  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
   "Tags": {
     "Type": [
       "Attachment"

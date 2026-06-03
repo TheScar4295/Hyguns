@@ -106,7 +106,6 @@
     "Radius": 1,
     "Color": "#a73"
   },
-  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
   "MaxDurability": 300,
   "Tags": {
     "Family": [
@@ -182,7 +181,7 @@
 				},
 				"Slots": {
 					"*": {
-						"Count": 3
+						"Count": 4
 					}
 				}
 			}

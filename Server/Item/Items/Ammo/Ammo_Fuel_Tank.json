@@ -41,7 +41,6 @@
   "Model": "Items/Ammo/Fuel/Fuel_Tank.blockymodel",
   "Texture": "Items/Ammo/Fuel/Fuel_Tank.png",
   "MaxStack": 1000,
-  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
   "Tags": {
     "Type": ["Ammo"]
   },

@@ -43,7 +43,7 @@
   "Website": "https://www.curseforge.com/hytale/mods/hyguns",
   "ServerVersion": ">=0.5.2 <0.6.0",
   "Dependencies": {
-    "thescar:HygunsPlugin": ">=1.0.0"
+    "thescar:HygunsPlugin": ">=5.1.0"
   },
   "OptionalDependencies": {},
   "LoadBefore": {},

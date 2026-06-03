@@ -20,11 +20,10 @@
       -6
     ]
   },
-  "Model": "Items/Attachments/Scope_Barret50/Scope_Barret50.blockymodel",
-  "Texture": "Items/Attachments/Scope_Barret50/Scope_Barret50.png",
+	"Model": "Items/Attachments/Loot/Loot.blockymodel",
+	"Texture": "Items/Attachments/Loot/Loot.png",
   "Icon": "Icons/ItemsGenerated/Scope_Barret50.png",
   "MaxStack": 1,
-  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
   "Tags": {
     "Type": [
       "Attachment"

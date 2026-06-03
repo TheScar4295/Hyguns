@@ -1,0 +1,8 @@
+{
+  "Type": "ProjectileSplitter",
+  "Icon": "Attachments/projectile_splitter.png",
+  "Name": "server.attachments.types.projectile_splitter.name",
+  "Description": "server.attachments.types.projectile_splitter.description",
+  "AnyAllowed": true,
+  "MaxCount": 1
+}

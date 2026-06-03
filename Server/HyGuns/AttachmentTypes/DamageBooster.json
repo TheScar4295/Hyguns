@@ -1,0 +1,8 @@
+{
+  "Type": "DamageBooster",
+  "Icon": "Attachments/damage_booster.png",
+  "Name": "server.attachments.types.damage_booster.name",
+  "Description": "server.attachments.types.damage_booster.description",
+  "AnyAllowed": true,
+  "MaxCount": 3
+}

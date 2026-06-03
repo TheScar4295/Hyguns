@@ -1,0 +1,50 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.attachments.GuidanceBlock_Tier_II.name"
+  },
+  "Categories": [
+    "HyGuns.Attachments"
+  ],
+  "Quality": "Rare",
+  "ItemLevel": 26,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      40,
+      40,
+      38
+    ],
+    "Translation": [
+      1,
+      -2
+    ]
+  },
+	"Model": "Items/Attachments/Loot/Loot.blockymodel",
+	"Texture": "Items/Attachments/Loot/Loot.png",
+  "Icon": "Icons/ItemsGenerated/GuidanceBlock_Tier_II.png",
+  "MaxStack": 1,
+  "Tags": {
+    "Type": [
+      "Attachment"
+    ]
+  },
+  "Scale": 1,
+  "HyGuns": {
+    "AttachmentSettings": {
+      "Type": "GuidanceBlock",
+      "SettingsModifiers": {
+        "Projectiles": {
+          "ConfigId": "Hyguns_Projectile_Config_Bullet_Guidance"
+        },
+        "AutoGuidance": {
+          "Enabled": true,
+          "EffectId": "MarkEntity",
+          "ConeDegrees": 30.0,
+          "MaxDistance": 160.0,
+          "TurnRate": 55.0
+        }
+      }
+    }
+  }
+}

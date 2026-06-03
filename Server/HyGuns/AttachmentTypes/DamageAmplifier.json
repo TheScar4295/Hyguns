@@ -1,0 +1,8 @@
+{
+  "Type": "DamageAmplifier",
+  "Icon": "Attachments/damage_amplifier.png",
+  "Name": "server.attachments.types.damage_amplifier.name",
+  "Description": "server.attachments.types.damage_amplifier.description",
+  "AnyAllowed": true,
+  "MaxCount": 3
+}

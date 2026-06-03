@@ -1,0 +1,43 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.attachments.DamageBooster_Tier_I.name"
+  },
+  "Categories": [
+    "HyGuns.Attachments"
+  ],
+  "Quality": "Uncommon",
+  "ItemLevel": 16,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      331,
+      44,
+      9
+    ],
+    "Translation": [
+      2,
+      -4
+    ]
+  },
+	"Model": "Items/Attachments/Loot/Loot.blockymodel",
+	"Texture": "Items/Attachments/Loot/Loot.png",
+	"Icon": "Icons/ItemsGenerated/DamageBooster_Tier_I.png",
+  "MaxStack": 1,
+  "Tags": {
+    "Type": [
+      "Attachment"
+    ]
+  },
+  "Scale": 1,
+  "HyGuns": {
+    "AttachmentSettings": {
+      "Type": "DamageBooster",
+      "SettingsModifiers": {
+        "Projectiles": {
+          "Damage": "+10"
+        }
+      }
+    }
+  }
+}
