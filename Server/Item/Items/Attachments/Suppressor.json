@@ -11,17 +11,17 @@
   "IconProperties": {
     "Scale": 1,
     "Rotation": [
-      331,
-      44,
-      9
+      20,
+      315,
+      335
     ],
     "Translation": [
-      2,
+      0,
       -4
     ]
   },
-	"Model": "Items/Attachments/Loot/Loot.blockymodel",
-	"Texture": "Items/Attachments/Loot/Loot.png",
+  "Model": "Items/Attachments/Suppressor/Suppressor.blockymodel",
+  "Texture": "Items/Attachments/Suppressor/Suppressor.png",
   "Icon": "Icons/ItemsGenerated/Suppressor.png",
   "MaxStack": 1,
   "Tags": {
@@ -36,11 +36,11 @@
       "FireSound": {
         "Volume": "*0.05"
       },
-			"SettingsModifiers": {
-				"Projectiles": {
-					"Spread": "-0.005"
-				}
-			}
+      "SettingsModifiers": {
+        "Projectiles": {
+          "Spread": "-0.005"
+        }
+      }
     }
   }
 }

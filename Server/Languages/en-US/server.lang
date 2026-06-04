@@ -117,6 +117,9 @@ items.attachments.ProjectileSplitter_Tier_III.name=Projectile Splitter Tier III
 
 items.Bench_Gunsmith.name=Gunsmith Bench
 items.Bench_Gunsmith.description=A workstation used to create firearms and explosives
+items.Bench_Ore_Exchange.name=Ore Exchange Station
+items.Bench_Ore_Exchange.description=A compact trading station for converting vanilla ores into HyGuns resources
+barter.hyguns_ore_exchange.title=HyGuns Ore Exchange
 
 benchCategories.rifles=Rifles
 benchCategories.shotguns=Shotguns

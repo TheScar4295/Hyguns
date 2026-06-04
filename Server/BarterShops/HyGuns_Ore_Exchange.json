@@ -1,0 +1,36 @@
+{
+  "DisplayNameKey": "server.barter.hyguns_ore_exchange.title",
+  "RefreshInterval": {
+    "Days": 1
+  },
+  "RestockHour": 6,
+  "TradeSlots": [
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": { "ItemId": "Ore_Tin", "Quantity": 2 },
+        "Input": [{ "ItemId": "Ore_Copper_Stone", "Quantity": 3 }],
+        "Stock": 256
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": { "ItemId": "Ore_Lead", "Quantity": 2 },
+        "Input": [{ "ItemId": "Ore_Iron_Stone", "Quantity": 3 }],
+        "Stock": 256
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": { "ItemId": "Ore_Titanium", "Quantity": 1 },
+        "Input": [
+          { "ItemId": "Ore_Silver_Stone", "Quantity": 2 },
+          { "ItemId": "Ore_Gold_Stone", "Quantity": 1 }
+        ],
+        "Stock": 256
+      }
+    }
+  ]
+}
