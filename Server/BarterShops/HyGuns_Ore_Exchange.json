@@ -8,16 +8,16 @@
     {
       "Type": "Fixed",
       "Trade": {
-        "Output": { "ItemId": "Ore_Tin", "Quantity": 2 },
-        "Input": [{ "ItemId": "Ore_Copper", "Quantity": 3 }],
+        "Output": { "ItemId": "Ore_Tin", "Quantity": 1 },
+        "Input": [{ "ItemId": "Ore_Copper", "Quantity": 1 }],
         "Stock": 256
       }
     },
     {
       "Type": "Fixed",
       "Trade": {
-        "Output": { "ItemId": "Ore_Lead", "Quantity": 2 },
-        "Input": [{ "ItemId": "Ore_Iron", "Quantity": 3 }],
+        "Output": { "ItemId": "Ore_Lead", "Quantity": 1 },
+        "Input": [{ "ItemId": "Ore_Iron", "Quantity": 1 }],
         "Stock": 256
       }
     },
