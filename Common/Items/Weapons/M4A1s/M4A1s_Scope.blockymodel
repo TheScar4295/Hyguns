@@ -9304,7 +9304,7 @@
         },
         {
           "id": "190",
-          "name": "cocking handle",
+          "name": "cocking_handle",
           "position": {"x": 0, "y": 14.26314, "z": -1.60639},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
@@ -9513,7 +9513,7 @@
         },
         {
           "id": "194",
-          "name": "forward assist",
+          "name": "forward_assist",
           "position": {"x": 0, "y": -16, "z": -2},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
@@ -9682,7 +9682,7 @@
               }
             },
             "unwrapMode": "custom",
-            "visible": false,
+            "visible": true,
             "doubleSided": false,
             "shadingMode": "flat"
           },
@@ -9734,7 +9734,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -9786,7 +9786,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -9838,7 +9838,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -9890,7 +9890,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -9942,7 +9942,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -9994,7 +9994,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10046,7 +10046,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10098,7 +10098,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10150,7 +10150,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10202,7 +10202,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10254,7 +10254,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10306,7 +10306,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10358,7 +10358,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10410,7 +10410,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10462,7 +10462,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10514,7 +10514,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10566,7 +10566,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10618,7 +10618,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10670,7 +10670,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10722,7 +10722,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10774,7 +10774,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10826,7 +10826,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10878,7 +10878,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10930,7 +10930,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -10982,7 +10982,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -11034,7 +11034,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -11086,7 +11086,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -11138,7 +11138,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -11190,7 +11190,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -11242,7 +11242,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -11294,7 +11294,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -11346,7 +11346,7 @@
                   }
                 },
                 "unwrapMode": "custom",
-                "visible": false,
+                "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
               }
@@ -11355,49 +11355,17 @@
         },
         {
           "id": "230",
-          "name": "suppresor",
-          "position": {"x": 0, "y": -16, "z": -2},
+          "name": "suppressor",
+          "position": {"x": 0, "y": 7.9, "z": 67.4},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
-            "type": "box",
-            "offset": {"x": 0, "y": 24.77012, "z": 81.38906},
-            "stretch": {"x": 1, "y": 1, "z": 0.999},
+            "type": "none",
+            "offset": {"x": 0, "y": 0, "z": 0},
+            "stretch": {"x": 1, "y": 1, "z": 1},
             "settings": {
-              "isPiece": false,
-              "size": {"x": 2, "y": 3, "z": 24}
+              "isPiece": false
             },
-            "textureLayout": {
-              "back": {
-                "offset": {"x": 102, "y": 105},
-                "mirror": {"x": false, "y": false},
-                "angle": 0
-              },
-              "right": {
-                "offset": {"x": 22, "y": 22},
-                "mirror": {"x": false, "y": false},
-                "angle": 0
-              },
-              "front": {
-                "offset": {"x": 104, "y": 105},
-                "mirror": {"x": false, "y": false},
-                "angle": 0
-              },
-              "left": {
-                "offset": {"x": 23, "y": 0},
-                "mirror": {"x": false, "y": false},
-                "angle": 0
-              },
-              "top": {
-                "offset": {"x": 32, "y": 73},
-                "mirror": {"x": true, "y": true},
-                "angle": 0
-              },
-              "bottom": {
-                "offset": {"x": 5, "y": 61},
-                "mirror": {"x": true, "y": false},
-                "angle": 0
-              }
-            },
+            "textureLayout": {},
             "unwrapMode": "custom",
             "visible": false,
             "doubleSided": false,
@@ -11406,401 +11374,451 @@
           "children": [
             {
               "id": "231",
-              "name": "cube--C1",
-              "position": {"x": -0.01828, "y": -5.79134, "z": -51.70703},
-              "orientation": {"x": 0, "y": 0, "z": -0.70711, "w": 0.70711},
+              "name": "SecondaryPart",
+              "position": {"x": 0, "y": 0, "z": 5.25},
+              "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
               "shape": {
-                "type": "box",
-                "offset": {"x": -4.87713, "y": 0.93249, "z": 51.70703},
+                "type": "none",
+                "offset": {"x": 0, "y": 0, "z": 0},
                 "stretch": {"x": 1, "y": 1, "z": 1},
                 "settings": {
-                  "isPiece": false,
-                  "size": {"x": 2, "y": 3, "z": 24},
-                  "isStaticBox": true
+                  "isPiece": false
                 },
-                "textureLayout": {
-                  "back": {
-                    "offset": {"x": 73, "y": 106},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "right": {
-                    "offset": {"x": 23, "y": 3},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "front": {
-                    "offset": {"x": 106, "y": 87},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "left": {
-                    "offset": {"x": 23, "y": 6},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "top": {
-                    "offset": {"x": 7, "y": 85},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 0
-                  },
-                  "bottom": {
-                    "offset": {"x": 9, "y": 61},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
-                  }
-                },
+                "textureLayout": {},
                 "unwrapMode": "custom",
                 "visible": false,
                 "doubleSided": false,
                 "shadingMode": "flat"
-              }
-            },
-            {
-              "id": "232",
-              "name": "cube--C2",
-              "position": {"x": -0.01828, "y": -5.79134, "z": -51.70703},
-              "orientation": {"x": 0, "y": 0, "z": -0.92388, "w": 0.38268},
-              "shape": {
-                "type": "box",
-                "offset": {"x": -3.46158, "y": -1.52151, "z": 51.70703},
-                "stretch": {"x": 1, "y": 1, "z": 0.998},
-                "settings": {
-                  "isPiece": false,
-                  "size": {"x": 2, "y": 1, "z": 24},
-                  "isStaticBox": true
-                },
-                "textureLayout": {
-                  "back": {
-                    "offset": {"x": 29, "y": 110},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "right": {
-                    "offset": {"x": 88, "y": 35},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "front": {
-                    "offset": {"x": 106, "y": 110},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "left": {
-                    "offset": {"x": 88, "y": 36},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "top": {
-                    "offset": {"x": 15, "y": 85},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 0
-                  },
-                  "bottom": {
-                    "offset": {"x": 17, "y": 61},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
+              },
+              "children": [
+                {
+                  "id": "232",
+                  "name": "cube--C1",
+                  "position": {"x": 0, "y": 0, "z": -5},
+                  "orientation": {"x": 0, "y": 0, "z": -0.38268, "w": 0.92388},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 0, "y": 0, "z": 0.5},
+                    "stretch": {"x": 0.8285, "y": 0.8, "z": 0.8},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 2, "y": 5, "z": 2},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 129, "y": 73},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {"x": 131, "y": 78},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {"x": 129, "y": 80},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": false,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
                   }
                 },
-                "unwrapMode": "custom",
-                "visible": false,
-                "doubleSided": false,
-                "shadingMode": "flat"
-              }
-            },
-            {
-              "id": "233",
-              "name": "cube--C3",
-              "position": {"x": -0.01828, "y": -5.79134, "z": -51.70703},
-              "orientation": {"x": 0, "y": 0, "z": 1, "w": 0},
-              "shape": {
-                "type": "box",
-                "offset": {"x": -0.01828, "y": -3.96291, "z": 51.70703},
-                "stretch": {"x": 1, "y": 1, "z": 0.999},
-                "settings": {
-                  "isPiece": false,
-                  "size": {"x": 2, "y": 3, "z": 24},
-                  "isStaticBox": true
-                },
-                "textureLayout": {
-                  "back": {
-                    "offset": {"x": 88, "y": 106},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "right": {
-                    "offset": {"x": 22, "y": 25},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "front": {
-                    "offset": {"x": 100, "y": 106},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "left": {
-                    "offset": {"x": 28, "y": 9},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "top": {
-                    "offset": {"x": 19, "y": 85},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 0
-                  },
-                  "bottom": {
-                    "offset": {"x": 21, "y": 61},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
+                {
+                  "id": "233",
+                  "name": "cube--C2",
+                  "position": {"x": 0, "y": 0, "z": -5},
+                  "orientation": {"x": 0, "y": 0, "z": -0.70711, "w": 0.70711},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 0, "y": 0, "z": 0.5},
+                    "stretch": {"x": 0.8285, "y": 0.8, "z": 0.805},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 2, "y": 5, "z": 2},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 131, "y": 78},
+                        "mirror": {"x": false, "y": true},
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {"x": 131, "y": 78},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {"x": 133, "y": 80},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": false,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
                   }
                 },
-                "unwrapMode": "custom",
-                "visible": false,
-                "doubleSided": false,
-                "shadingMode": "flat"
-              }
-            },
-            {
-              "id": "234",
-              "name": "cube--C4",
-              "position": {"x": -0.01828, "y": -5.79134, "z": -51.70703},
-              "orientation": {"x": 0, "y": 0, "z": 0.92388, "w": 0.38268},
-              "shape": {
-                "type": "box",
-                "offset": {"x": 3.43572, "y": -1.54737, "z": 51.70703},
-                "stretch": {"x": 1, "y": 1, "z": 0.998},
-                "settings": {
-                  "isPiece": false,
-                  "size": {"x": 2, "y": 1, "z": 24},
-                  "isStaticBox": true
-                },
-                "textureLayout": {
-                  "back": {
-                    "offset": {"x": 114, "y": 113},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "right": {
-                    "offset": {"x": 88, "y": 37},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "front": {
-                    "offset": {"x": 114, "y": 114},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "left": {
-                    "offset": {"x": 88, "y": 38},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "top": {
-                    "offset": {"x": 23, "y": 85},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 0
-                  },
-                  "bottom": {
-                    "offset": {"x": 25, "y": 61},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
+                {
+                  "id": "234",
+                  "name": "cube--C3",
+                  "position": {"x": 0, "y": 0, "z": -5},
+                  "orientation": {"x": 0, "y": 0, "z": -0.92388, "w": 0.38268},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 0, "y": 0, "z": 0.5},
+                    "stretch": {"x": 0.8285, "y": 0.8, "z": 0.8},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 2, "y": 5, "z": 2},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 133, "y": 73},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {"x": 133, "y": 78},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {"x": 135, "y": 80},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": false,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
                   }
                 },
-                "unwrapMode": "custom",
-                "visible": false,
-                "doubleSided": false,
-                "shadingMode": "flat"
-              }
-            },
-            {
-              "id": "235",
-              "name": "cube--C5",
-              "position": {"x": -0.01828, "y": -5.79134, "z": -51.70703},
-              "orientation": {"x": 0, "y": 0, "z": 0.70711, "w": 0.70711},
-              "shape": {
-                "type": "box",
-                "offset": {"x": 4.87713, "y": 0.89593, "z": 51.70703},
-                "stretch": {"x": 1, "y": 1, "z": 1.001},
-                "settings": {
-                  "isPiece": false,
-                  "size": {"x": 2, "y": 3, "z": 24},
-                  "isStaticBox": true
-                },
-                "textureLayout": {
-                  "back": {
-                    "offset": {"x": 106, "y": 105},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "right": {
-                    "offset": {"x": 28, "y": 12},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "front": {
-                    "offset": {"x": 2, "y": 107},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "left": {
-                    "offset": {"x": 28, "y": 15},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "top": {
-                    "offset": {"x": 27, "y": 85},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 0
-                  },
-                  "bottom": {
-                    "offset": {"x": 29, "y": 61},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
+                {
+                  "id": "235",
+                  "name": "cube--C4",
+                  "position": {"x": 0, "y": 0, "z": -5},
+                  "orientation": {"x": 0, "y": 0, "z": 1, "w": 0},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 0, "y": 0, "z": 0.5},
+                    "stretch": {"x": 0.8285, "y": 0.8, "z": 0.8025},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 2, "y": 5, "z": 2},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 131, "y": 73},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {"x": 133, "y": 78},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {"x": 131, "y": 80},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": false,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
                   }
-                },
-                "unwrapMode": "custom",
-                "visible": false,
-                "doubleSided": false,
-                "shadingMode": "flat"
-              }
+                }
+              ]
             },
             {
               "id": "236",
-              "name": "cube--C6",
-              "position": {"x": -0.01828, "y": -5.79134, "z": -51.70703},
-              "orientation": {"x": 0, "y": 0, "z": 0.38268, "w": 0.92388},
+              "name": "MainPart",
+              "position": {"x": 0, "y": 0, "z": 14.4},
+              "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
               "shape": {
-                "type": "box",
-                "offset": {"x": 3.46158, "y": 5.34993, "z": 51.70703},
-                "stretch": {"x": 1, "y": 1, "z": 0.998},
-                "settings": {
-                  "isPiece": false,
-                  "size": {"x": 2, "y": 1, "z": 24},
-                  "isStaticBox": true
-                },
-                "textureLayout": {
-                  "back": {
-                    "offset": {"x": 115, "y": 0},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "right": {
-                    "offset": {"x": 88, "y": 39},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "front": {
-                    "offset": {"x": 115, "y": 1},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "left": {
-                    "offset": {"x": 88, "y": 40},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "top": {
-                    "offset": {"x": 37, "y": 85},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 0
-                  },
-                  "bottom": {
-                    "offset": {"x": 39, "y": 61},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
-                  }
-                },
-                "unwrapMode": "custom",
-                "visible": false,
-                "doubleSided": false,
-                "shadingMode": "flat"
-              }
-            },
-            {
-              "id": "237",
-              "name": "cube--C7",
-              "position": {"x": -0.01828, "y": -5.79134, "z": -51.70703},
-              "orientation": {"x": 0, "y": 0, "z": -0.38268, "w": 0.92388},
-              "shape": {
-                "type": "box",
-                "offset": {"x": -3.43573, "y": 5.37579, "z": 51.70703},
-                "stretch": {"x": 1, "y": 1, "z": 0.998},
-                "settings": {
-                  "isPiece": false,
-                  "size": {"x": 2, "y": 1, "z": 24},
-                  "isStaticBox": true
-                },
-                "textureLayout": {
-                  "back": {
-                    "offset": {"x": 70, "y": 20},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "right": {
-                    "offset": {"x": 87, "y": 60},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "front": {
-                    "offset": {"x": 74, "y": 57},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "left": {
-                    "offset": {"x": 88, "y": 34},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "top": {
-                    "offset": {"x": 11, "y": 85},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 0
-                  },
-                  "bottom": {
-                    "offset": {"x": 13, "y": 61},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
-                  }
-                },
-                "unwrapMode": "custom",
-                "visible": false,
-                "doubleSided": false,
-                "shadingMode": "flat"
-              }
-            },
-            {
-              "id": "238",
-              "name": "cube--C8",
-              "position": {"x": -0.01828, "y": -5.79134, "z": -51.70703},
-              "orientation": {"x": 0, "y": 0, "z": 0.38268, "w": 0.92388},
-              "shape": {
-                "type": "quad",
-                "offset": {"x": 3.4574, "y": 3.43155, "z": 63.74297},
+                "type": "none",
+                "offset": {"x": 0, "y": 0, "z": 0},
                 "stretch": {"x": 1, "y": 1, "z": 1},
                 "settings": {
-                  "isPiece": false,
-                  "size": {"x": 2, "y": 2},
-                  "normal": "+Z",
-                  "isStaticBox": true
+                  "isPiece": false
                 },
-                "textureLayout": {
-                  "front": {
-                    "offset": {"x": 104, "y": 53},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  }
-                },
+                "textureLayout": {},
                 "unwrapMode": "custom",
                 "visible": false,
-                "doubleSided": true,
+                "doubleSided": false,
                 "shadingMode": "flat"
-              }
+              },
+              "children": [
+                {
+                  "id": "237",
+                  "name": "cube--C1",
+                  "position": {"x": 0, "y": 0, "z": -5},
+                  "orientation": {"x": 0, "y": 0, "z": -0.38268, "w": 0.92388},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 0, "y": 0, "z": 5},
+                    "stretch": {"x": 0.773, "y": 0.8, "z": 0.8},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 3, "y": 7, "z": 32},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 129, "y": 66},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "front": {
+                        "offset": {"x": 129, "y": 59},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {"x": 120, "y": 59},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {"x": 120, "y": 91},
+                        "mirror": {"x": false, "y": true},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": false,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
+                  }
+                },
+                {
+                  "id": "238",
+                  "name": "cube--C2",
+                  "position": {"x": 0, "y": 0, "z": -13},
+                  "orientation": {"x": 0, "y": 0, "z": -0.92388, "w": 0.38268},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 0, "y": 0, "z": 13},
+                    "stretch": {"x": 0.773, "y": 0.8, "z": 0.8},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 3, "y": 7, "z": 32},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 135, "y": 66},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "front": {
+                        "offset": {"x": 135, "y": 59},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {"x": 126, "y": 59},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {"x": 126, "y": 91},
+                        "mirror": {"x": false, "y": true},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": false,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
+                  }
+                },
+                {
+                  "id": "239",
+                  "name": "cube--C3",
+                  "position": {"x": 0.50021, "y": -0.00051, "z": -4.968},
+                  "orientation": {"x": 0, "y": 0, "z": -0.70711, "w": 0.70711},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 0, "y": -2.5, "z": 4.968},
+                    "stretch": {"x": 0.773, "y": 0.8, "z": 0.802},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 3, "y": 2, "z": 32},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 135, "y": 71},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      },
+                      "front": {
+                        "offset": {"x": 132, "y": 64},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {"x": 126, "y": 59},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {"x": 126, "y": 91},
+                        "mirror": {"x": true, "y": true},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": false,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
+                  }
+                },
+                {
+                  "id": "240",
+                  "name": "cube--C4",
+                  "position": {"x": 4.49979, "y": 0.00051, "z": -4.968},
+                  "orientation": {"x": 0, "y": 0, "z": -0.70711, "w": 0.70711},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 0, "y": -2.5, "z": 4.968},
+                    "stretch": {"x": 0.773, "y": 0.8, "z": 0.802},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 3, "y": 2, "z": 32},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 135, "y": 66},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      },
+                      "front": {
+                        "offset": {"x": 132, "y": 59},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {"x": 123, "y": 59},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {"x": 129, "y": 91},
+                        "mirror": {"x": true, "y": true},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": false,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
+                  }
+                },
+                {
+                  "id": "241",
+                  "name": "cube--C5",
+                  "position": {"x": 0.00051, "y": -0.50021, "z": -4.968},
+                  "orientation": {"x": 0, "y": 0, "z": 1, "w": 0},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 0, "y": -2.5, "z": 4.968},
+                    "stretch": {"x": 0.773, "y": 0.8, "z": 0.802},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 3, "y": 2, "z": 32},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 141, "y": 71},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      },
+                      "front": {
+                        "offset": {"x": 141, "y": 61},
+                        "mirror": {"x": true, "y": true},
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {"x": 129, "y": 59},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {"x": 123, "y": 91},
+                        "mirror": {"x": false, "y": true},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": false,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
+                  }
+                },
+                {
+                  "id": "242",
+                  "name": "cube--C6",
+                  "position": {"x": -0.00051, "y": -4.49979, "z": -4.968},
+                  "orientation": {"x": 0, "y": 0, "z": 1, "w": 0},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 0, "y": -2.5, "z": 4.968},
+                    "stretch": {"x": 0.773, "y": 0.8, "z": 0.802},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 3, "y": 2, "z": 32},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 141, "y": 66},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      },
+                      "front": {
+                        "offset": {"x": 141, "y": 66},
+                        "mirror": {"x": true, "y": true},
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {"x": 126, "y": 59},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {"x": 126, "y": 91},
+                        "mirror": {"x": false, "y": true},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": false,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
+                  }
+                }
+              ]
             }
           ]
         },
         {
-          "id": "239",
-          "name": "scope2",
+          "id": "243",
+          "name": "scope",
           "position": {"x": 0, "y": 17.58579, "z": 0.5},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
@@ -11850,7 +11868,7 @@
           },
           "children": [
             {
-              "id": "240",
+              "id": "244",
               "name": "cube--C1",
               "position": {"x": 0, "y": 0.08579, "z": -7.5},
               "orientation": {"x": 0, "y": 0, "z": -0.70711, "w": 0.70711},
@@ -11902,7 +11920,7 @@
               }
             },
             {
-              "id": "241",
+              "id": "245",
               "name": "cube--C2",
               "position": {"x": 0, "y": 0.08579, "z": -7.5},
               "orientation": {"x": 0, "y": 0, "z": -0.70711, "w": 0.70711},
@@ -11954,7 +11972,7 @@
               }
             },
             {
-              "id": "242",
+              "id": "246",
               "name": "cube--C3",
               "position": {"x": 0, "y": 0.08579, "z": -7.5},
               "orientation": {"x": 0, "y": 0, "z": -0.70711, "w": 0.70711},
@@ -12006,7 +12024,7 @@
               }
             },
             {
-              "id": "243",
+              "id": "247",
               "name": "cube--C4",
               "position": {"x": 0, "y": 0.08579, "z": -7.5},
               "orientation": {"x": 0, "y": 0, "z": -0.70711, "w": 0.70711},
@@ -12058,7 +12076,7 @@
               }
             },
             {
-              "id": "244",
+              "id": "248",
               "name": "cube--C5",
               "position": {"x": 0, "y": 3.5, "z": 0},
               "orientation": {"x": 0, "y": -0.38268, "z": 0, "w": 0.92388},
@@ -12110,7 +12128,7 @@
               }
             },
             {
-              "id": "245",
+              "id": "249",
               "name": "cube--C6",
               "position": {"x": 3, "y": 0, "z": 0},
               "orientation": {"x": -0.2706, "y": -0.2706, "z": -0.65328, "w": 0.65328},
@@ -12162,7 +12180,7 @@
               }
             },
             {
-              "id": "246",
+              "id": "250",
               "name": "cube--C7",
               "position": {"x": 0, "y": 0.08579, "z": 3.5},
               "orientation": {"x": 0, "y": 0, "z": -0.38268, "w": 0.92388},
@@ -12214,7 +12232,7 @@
               }
             },
             {
-              "id": "247",
+              "id": "251",
               "name": "cube--C8",
               "position": {"x": 0, "y": 0.08579, "z": 3.5},
               "orientation": {"x": 0, "y": 0, "z": -0.92388, "w": 0.38268},
@@ -12266,7 +12284,7 @@
               }
             },
             {
-              "id": "248",
+              "id": "252",
               "name": "cube--C9",
               "position": {"x": 0, "y": 0.08579, "z": 3.5},
               "orientation": {"x": 0, "y": 0, "z": -0.70711, "w": 0.70711},
@@ -12318,7 +12336,7 @@
               }
             },
             {
-              "id": "249",
+              "id": "253",
               "name": "cube--C10",
               "position": {"x": 0, "y": 0.08579, "z": 3.5},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -12370,7 +12388,7 @@
               }
             },
             {
-              "id": "250",
+              "id": "254",
               "name": "cube--C11",
               "position": {"x": 0, "y": 0.08579, "z": 3.5},
               "orientation": {"x": 0, "y": 0, "z": 0.38268, "w": 0.92388},
@@ -12422,7 +12440,7 @@
               }
             },
             {
-              "id": "251",
+              "id": "255",
               "name": "cube--C12",
               "position": {"x": 0, "y": 0.08579, "z": 3.5},
               "orientation": {"x": 0, "y": 0, "z": 0.70711, "w": 0.70711},
@@ -12474,7 +12492,7 @@
               }
             },
             {
-              "id": "252",
+              "id": "256",
               "name": "cube--C13",
               "position": {"x": 0, "y": 0.08579, "z": 3.5},
               "orientation": {"x": 0, "y": 0, "z": 0.92388, "w": 0.38268},
@@ -12526,7 +12544,7 @@
               }
             },
             {
-              "id": "253",
+              "id": "257",
               "name": "cube--C14",
               "position": {"x": 0, "y": 0.08579, "z": 3.5},
               "orientation": {"x": 0, "y": 0, "z": 1, "w": 0},
@@ -12578,7 +12596,7 @@
               }
             },
             {
-              "id": "254",
+              "id": "258",
               "name": "cube--C15",
               "position": {"x": 0, "y": 0.08579, "z": -7.5},
               "orientation": {"x": 0, "y": 0, "z": -0.38268, "w": 0.92388},
@@ -12630,7 +12648,7 @@
               }
             },
             {
-              "id": "255",
+              "id": "259",
               "name": "cube--C16",
               "position": {"x": 0, "y": 0.08579, "z": -7.5},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -12682,7 +12700,7 @@
               }
             },
             {
-              "id": "256",
+              "id": "260",
               "name": "cube--C17",
               "position": {"x": 0, "y": 0.08579, "z": -7.5},
               "orientation": {"x": 0, "y": 0, "z": 0.38268, "w": 0.92388},
@@ -12734,7 +12752,7 @@
               }
             },
             {
-              "id": "257",
+              "id": "261",
               "name": "cube--C18",
               "position": {"x": 0, "y": 0.08579, "z": -7.5},
               "orientation": {"x": 0, "y": 0, "z": 1, "w": 0},
@@ -12786,7 +12804,7 @@
               }
             },
             {
-              "id": "258",
+              "id": "262",
               "name": "cube--C19",
               "position": {"x": 0, "y": 0.08579, "z": -7.5},
               "orientation": {"x": 0, "y": 0, "z": 0.92388, "w": 0.38268},
@@ -12838,7 +12856,7 @@
               }
             },
             {
-              "id": "259",
+              "id": "263",
               "name": "cube--C20",
               "position": {"x": 0, "y": 0.08579, "z": -7.5},
               "orientation": {"x": 0, "y": 0, "z": 0.70711, "w": 0.70711},
@@ -12890,7 +12908,7 @@
               }
             },
             {
-              "id": "260",
+              "id": "264",
               "name": "cube--C21",
               "position": {"x": 0, "y": 0.08579, "z": -7.5},
               "orientation": {"x": 0, "y": 0, "z": -0.92388, "w": 0.38268},
@@ -12942,7 +12960,7 @@
               }
             },
             {
-              "id": "261",
+              "id": "265",
               "name": "cube--C22",
               "position": {"x": 0, "y": 0.08579, "z": -7.5},
               "orientation": {"x": 0, "y": 0, "z": -0.70711, "w": 0.70711},
@@ -12994,7 +13012,7 @@
               }
             },
             {
-              "id": "262",
+              "id": "266",
               "name": "cube--C23",
               "position": {"x": -0.21339, "y": -0.15082, "z": 0.485},
               "orientation": {"x": 0, "y": 0, "z": -0.38268, "w": 0.92388},
@@ -13046,7 +13064,7 @@
               }
             },
             {
-              "id": "263",
+              "id": "267",
               "name": "cube--C24",
               "position": {"x": 0, "y": -0.23921, "z": 0.5},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -13098,7 +13116,7 @@
               }
             },
             {
-              "id": "264",
+              "id": "268",
               "name": "cube--C25",
               "position": {"x": 0.21339, "y": -0.15082, "z": 0.485},
               "orientation": {"x": 0, "y": 0, "z": 0.38268, "w": 0.92388},
@@ -13150,7 +13168,7 @@
               }
             },
             {
-              "id": "265",
+              "id": "269",
               "name": "cube--C26",
               "position": {"x": 0, "y": 0.36434, "z": 0.5},
               "orientation": {"x": 0, "y": 0, "z": 1, "w": 0},
@@ -13202,7 +13220,7 @@
               }
             },
             {
-              "id": "266",
+              "id": "270",
               "name": "cube--C27",
               "position": {"x": 0.21339, "y": 0.27595, "z": 0.485},
               "orientation": {"x": 0, "y": 0, "z": 0.92388, "w": 0.38268},
@@ -13254,7 +13272,7 @@
               }
             },
             {
-              "id": "267",
+              "id": "271",
               "name": "cube--C28",
               "position": {"x": 0.30177, "y": 0.06256, "z": 0.5},
               "orientation": {"x": 0, "y": 0, "z": 0.70711, "w": 0.70711},
@@ -13306,7 +13324,7 @@
               }
             },
             {
-              "id": "268",
+              "id": "272",
               "name": "cube--C29",
               "position": {"x": -0.21339, "y": 0.27595, "z": 0.485},
               "orientation": {"x": 0, "y": 0, "z": -0.92388, "w": 0.38268},
@@ -13358,7 +13376,7 @@
               }
             },
             {
-              "id": "269",
+              "id": "273",
               "name": "cube--C30",
               "position": {"x": -0.30177, "y": 0.06256, "z": 0.5},
               "orientation": {"x": 0, "y": 0, "z": -0.70711, "w": 0.70711},
@@ -13410,7 +13428,7 @@
               }
             },
             {
-              "id": "270",
+              "id": "274",
               "name": "cube--C31",
               "position": {"x": 0, "y": 2.5, "z": 0},
               "orientation": {"x": 0, "y": -0.38268, "z": 0, "w": 0.92388},
@@ -13462,7 +13480,7 @@
               }
             },
             {
-              "id": "271",
+              "id": "275",
               "name": "cube--C32",
               "position": {"x": 0, "y": 2.5, "z": 0},
               "orientation": {"x": 0, "y": -0.38268, "z": 0, "w": 0.92388},
@@ -13514,7 +13532,7 @@
               }
             },
             {
-              "id": "272",
+              "id": "276",
               "name": "cube--C33",
               "position": {"x": 0, "y": 2.5, "z": 0},
               "orientation": {"x": 0, "y": -0.38268, "z": 0, "w": 0.92388},
@@ -13566,7 +13584,7 @@
               }
             },
             {
-              "id": "273",
+              "id": "277",
               "name": "cube--C34",
               "position": {"x": 0, "y": 2.5, "z": 0},
               "orientation": {"x": 0, "y": -0.38268, "z": 0, "w": 0.92388},
@@ -13618,7 +13636,7 @@
               }
             },
             {
-              "id": "274",
+              "id": "278",
               "name": "cube--C35",
               "position": {"x": 0, "y": 2.5, "z": 0},
               "orientation": {"x": 0, "y": 0.92388, "z": 0, "w": -0.38268},
@@ -13670,7 +13688,7 @@
               }
             },
             {
-              "id": "275",
+              "id": "279",
               "name": "cube--C36",
               "position": {"x": 0, "y": 2.5, "z": 0},
               "orientation": {"x": 0, "y": 0.92388, "z": 0, "w": -0.38268},
@@ -13722,7 +13740,7 @@
               }
             },
             {
-              "id": "276",
+              "id": "280",
               "name": "cube--C37",
               "position": {"x": 0, "y": 2.5, "z": 0},
               "orientation": {"x": 0, "y": 0.92388, "z": 0, "w": -0.38268},
@@ -13774,7 +13792,7 @@
               }
             },
             {
-              "id": "277",
+              "id": "281",
               "name": "cube--C38",
               "position": {"x": -0.1437, "y": 0.63953, "z": 16.519},
               "orientation": {"x": 0, "y": 0, "z": -0.38268, "w": 0.92388},
@@ -13826,7 +13844,7 @@
               }
             },
             {
-              "id": "278",
+              "id": "282",
               "name": "cube--C39",
               "position": {"x": -0.50355, "y": 0.37437, "z": 16.525},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -13878,7 +13896,7 @@
               }
             },
             {
-              "id": "279",
+              "id": "283",
               "name": "cube--C40",
               "position": {"x": -0.57049, "y": -0.06758, "z": 16.519},
               "orientation": {"x": 0, "y": 0, "z": 0.38268, "w": 0.92388},
@@ -13930,7 +13948,7 @@
               }
             },
             {
-              "id": "280",
+              "id": "284",
               "name": "cube--C41",
               "position": {"x": 0.49646, "y": -0.22918, "z": 16.525},
               "orientation": {"x": 0, "y": 0, "z": 1, "w": 0},
@@ -13982,7 +14000,7 @@
               }
             },
             {
-              "id": "281",
+              "id": "285",
               "name": "cube--C42",
               "position": {"x": 0.13664, "y": -0.49435, "z": 16.519},
               "orientation": {"x": 0, "y": 0, "z": 0.92388, "w": 0.38268},
@@ -14034,7 +14052,7 @@
               }
             },
             {
-              "id": "282",
+              "id": "286",
               "name": "cube--C43",
               "position": {"x": -0.30533, "y": -0.42742, "z": 16.525},
               "orientation": {"x": 0, "y": 0, "z": 0.70711, "w": 0.70711},
@@ -14086,7 +14104,7 @@
               }
             },
             {
-              "id": "283",
+              "id": "287",
               "name": "cube--C44",
               "position": {"x": 0.56341, "y": 0.21275, "z": 16.519},
               "orientation": {"x": 0, "y": 0, "z": -0.92388, "w": 0.38268},
@@ -14138,7 +14156,7 @@
               }
             },
             {
-              "id": "284",
+              "id": "288",
               "name": "cube--C45",
               "position": {"x": 0.29824, "y": 0.57259, "z": 16.525},
               "orientation": {"x": 0, "y": 0, "z": -0.70711, "w": 0.70711},
@@ -14190,7 +14208,7 @@
               }
             },
             {
-              "id": "285",
+              "id": "289",
               "name": "cube--C46",
               "position": {"x": 0, "y": 0.08579, "z": -14.5},
               "orientation": {"x": 0, "y": 0, "z": -0.70711, "w": 0.70711},
@@ -14242,7 +14260,7 @@
               }
             },
             {
-              "id": "286",
+              "id": "290",
               "name": "cube--C47",
               "position": {"x": 0, "y": 0.08579, "z": -14.5},
               "orientation": {"x": 0, "y": 0, "z": -0.92388, "w": 0.38268},
@@ -14294,7 +14312,7 @@
               }
             },
             {
-              "id": "287",
+              "id": "291",
               "name": "cube--C48",
               "position": {"x": 0, "y": 0.08579, "z": -14.5},
               "orientation": {"x": 0, "y": 0, "z": 0.70711, "w": 0.70711},
@@ -14346,7 +14364,7 @@
               }
             },
             {
-              "id": "288",
+              "id": "292",
               "name": "cube--C49",
               "position": {"x": 0, "y": 0.08579, "z": -14.5},
               "orientation": {"x": 0, "y": 0, "z": 0.92388, "w": 0.38268},
@@ -14398,7 +14416,7 @@
               }
             },
             {
-              "id": "289",
+              "id": "293",
               "name": "cube--C50",
               "position": {"x": 0, "y": 0.08579, "z": -14.5},
               "orientation": {"x": 0, "y": 0, "z": 1, "w": 0},
@@ -14450,7 +14468,7 @@
               }
             },
             {
-              "id": "290",
+              "id": "294",
               "name": "cube--C51",
               "position": {"x": 0, "y": 0.08579, "z": -14.5},
               "orientation": {"x": 0, "y": 0, "z": 0.38268, "w": 0.92388},
@@ -14502,7 +14520,7 @@
               }
             },
             {
-              "id": "291",
+              "id": "295",
               "name": "cube--C52",
               "position": {"x": 0, "y": 0.08579, "z": -14.5},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -14554,7 +14572,7 @@
               }
             },
             {
-              "id": "292",
+              "id": "296",
               "name": "cube--C53",
               "position": {"x": 0, "y": 0.08579, "z": -14.5},
               "orientation": {"x": 0, "y": 0, "z": -0.38268, "w": 0.92388},
@@ -14606,7 +14624,7 @@
               }
             },
             {
-              "id": "293",
+              "id": "297",
               "name": "cube--C54",
               "position": {"x": -0.60709, "y": 0.50292, "z": 10.5},
               "orientation": {"x": 0, "y": 0, "z": -0.70711, "w": 0.70711},
@@ -14658,7 +14676,7 @@
               }
             },
             {
-              "id": "294",
+              "id": "298",
               "name": "cube--C55",
               "position": {"x": -0.07675, "y": 0.78324, "z": 10.506},
               "orientation": {"x": 0, "y": 0, "z": -0.92388, "w": 0.38268},
@@ -14710,7 +14728,7 @@
               }
             },
             {
-              "id": "295",
+              "id": "299",
               "name": "cube--C56",
               "position": {"x": 0.6, "y": -0.49709, "z": 10.5},
               "orientation": {"x": 0, "y": 0, "z": 0.70711, "w": 0.70711},
@@ -14762,7 +14780,7 @@
               }
             },
             {
-              "id": "296",
+              "id": "300",
               "name": "cube--C57",
               "position": {"x": 0.7768, "y": 0.07614, "z": 10.506},
               "orientation": {"x": 0, "y": 0, "z": 0.92388, "w": 0.38268},
@@ -14814,7 +14832,7 @@
               }
             },
             {
-              "id": "297",
+              "id": "301",
               "name": "cube--C58",
               "position": {"x": 0.49646, "y": 0.60648, "z": 10.5},
               "orientation": {"x": 0, "y": 0, "z": 1, "w": 0},
@@ -14866,7 +14884,7 @@
               }
             },
             {
-              "id": "298",
+              "id": "302",
               "name": "cube--C59",
               "position": {"x": 0.06967, "y": -0.77741, "z": 10.506},
               "orientation": {"x": 0, "y": 0, "z": 0.38268, "w": 0.92388},
@@ -14918,7 +14936,7 @@
               }
             },
             {
-              "id": "299",
+              "id": "303",
               "name": "cube--C60",
               "position": {"x": -0.50355, "y": -0.60063, "z": 10.5},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -14970,7 +14988,7 @@
               }
             },
             {
-              "id": "300",
+              "id": "304",
               "name": "cube--C61",
               "position": {"x": -0.78387, "y": -0.0703, "z": 10.506},
               "orientation": {"x": 0, "y": 0, "z": -0.38268, "w": 0.92388},
@@ -15022,7 +15040,7 @@
               }
             },
             {
-              "id": "301",
+              "id": "305",
               "name": "cube--C62",
               "position": {"x": -1.10395, "y": -0.31272, "z": 8.503},
               "orientation": {"x": 0, "y": 0, "z": -0.38268, "w": 0.92388},
@@ -15074,7 +15092,7 @@
               }
             },
             {
-              "id": "302",
+              "id": "306",
               "name": "cube--C63",
               "position": {"x": -0.50355, "y": -0.97563, "z": 8.5},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -15126,7 +15144,7 @@
               }
             },
             {
-              "id": "303",
+              "id": "307",
               "name": "cube--C64",
               "position": {"x": 0.38976, "y": -1.01983, "z": 8.503},
               "orientation": {"x": 0, "y": 0, "z": 0.38268, "w": 0.92388},
@@ -15178,7 +15196,7 @@
               }
             },
             {
-              "id": "304",
+              "id": "308",
               "name": "cube--C65",
               "position": {"x": 0.49646, "y": 1.13681, "z": 8.5},
               "orientation": {"x": 0, "y": 0, "z": 1, "w": 0},
@@ -15230,7 +15248,7 @@
               }
             },
             {
-              "id": "305",
+              "id": "309",
               "name": "cube--C66",
               "position": {"x": 1.09688, "y": 0.47389, "z": 8.503},
               "orientation": {"x": 0, "y": 0, "z": 0.92388, "w": 0.38268},
@@ -15282,7 +15300,7 @@
               }
             },
             {
-              "id": "306",
+              "id": "310",
               "name": "cube--C67",
               "position": {"x": 1.05266, "y": -0.41943, "z": 8.5},
               "orientation": {"x": 0, "y": 0, "z": 0.70711, "w": 0.70711},
@@ -15334,7 +15352,7 @@
               }
             },
             {
-              "id": "307",
+              "id": "311",
               "name": "cube--C68",
               "position": {"x": -0.39684, "y": 1.18099, "z": 8.503},
               "orientation": {"x": 0, "y": 0, "z": -0.92388, "w": 0.38268},
@@ -15386,7 +15404,7 @@
               }
             },
             {
-              "id": "308",
+              "id": "312",
               "name": "cube--C69",
               "position": {"x": -1.05975, "y": 0.58058, "z": 8.5},
               "orientation": {"x": 0, "y": 0, "z": -0.70711, "w": 0.70711},
@@ -15438,7 +15456,7 @@
               }
             },
             {
-              "id": "309",
+              "id": "313",
               "name": "cube--C70",
               "position": {"x": -0.46378, "y": 0.22212, "z": 11.503},
               "orientation": {"x": 0, "y": 0, "z": -0.38268, "w": 0.92388},
@@ -15490,7 +15508,7 @@
               }
             },
             {
-              "id": "310",
+              "id": "314",
               "name": "cube--C71",
               "position": {"x": -0.50355, "y": -0.17563, "z": 11.5},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -15542,7 +15560,7 @@
               }
             },
             {
-              "id": "311",
+              "id": "315",
               "name": "cube--C72",
               "position": {"x": -0.25041, "y": -0.485, "z": 11.503},
               "orientation": {"x": 0, "y": 0, "z": 0.38268, "w": 0.92388},
@@ -15594,7 +15612,7 @@
               }
             },
             {
-              "id": "312",
+              "id": "316",
               "name": "cube--C73",
               "position": {"x": 0.49646, "y": 0.12615, "z": 11.5},
               "orientation": {"x": 0, "y": 0, "z": 1, "w": 0},
@@ -15646,7 +15664,7 @@
               }
             },
             {
-              "id": "313",
+              "id": "317",
               "name": "cube--C74",
               "position": {"x": 0.45672, "y": -0.27161, "z": 11.503},
               "orientation": {"x": 0, "y": 0, "z": 0.92388, "w": 0.38268},
@@ -15698,7 +15716,7 @@
               }
             },
             {
-              "id": "314",
+              "id": "318",
               "name": "cube--C75",
               "position": {"x": 0.14733, "y": -0.52476, "z": 11.5},
               "orientation": {"x": 0, "y": 0, "z": 0.70711, "w": 0.70711},
@@ -15750,7 +15768,7 @@
               }
             },
             {
-              "id": "315",
+              "id": "319",
               "name": "cube--C76",
               "position": {"x": 0.24333, "y": 0.43549, "z": 11.503},
               "orientation": {"x": 0, "y": 0, "z": -0.92388, "w": 0.38268},
@@ -15802,7 +15820,7 @@
               }
             },
             {
-              "id": "316",
+              "id": "320",
               "name": "cube--C77",
               "position": {"x": -0.15442, "y": 0.47525, "z": 11.5},
               "orientation": {"x": 0, "y": 0, "z": -0.70711, "w": 0.70711},
@@ -15854,7 +15872,7 @@
               }
             },
             {
-              "id": "317",
+              "id": "321",
               "name": "cube--C78",
               "position": {"x": -0.10242, "y": -0.04678, "z": -11.5045},
               "orientation": {"x": 0, "y": 0, "z": -0.38268, "w": 0.92388},
@@ -15906,7 +15924,7 @@
               }
             },
             {
-              "id": "318",
+              "id": "322",
               "name": "cube--C79",
               "position": {"x": 0, "y": -0.08921, "z": -11.5},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -15958,7 +15976,7 @@
               }
             },
             {
-              "id": "319",
+              "id": "323",
               "name": "cube--C80",
               "position": {"x": 0.10242, "y": -0.04678, "z": -11.5045},
               "orientation": {"x": 0, "y": 0, "z": 0.38268, "w": 0.92388},
@@ -16010,7 +16028,7 @@
               }
             },
             {
-              "id": "320",
+              "id": "324",
               "name": "cube--C81",
               "position": {"x": 0, "y": 0.20049, "z": -11.5},
               "orientation": {"x": 0, "y": 0, "z": 1, "w": 0},
@@ -16062,7 +16080,7 @@
               }
             },
             {
-              "id": "321",
+              "id": "325",
               "name": "cube--C82",
               "position": {"x": 0.10242, "y": 0.15806, "z": -11.5045},
               "orientation": {"x": 0, "y": 0, "z": 0.92388, "w": 0.38268},
@@ -16114,7 +16132,7 @@
               }
             },
             {
-              "id": "322",
+              "id": "326",
               "name": "cube--C83",
               "position": {"x": 0.14485, "y": 0.05564, "z": -11.5},
               "orientation": {"x": 0, "y": 0, "z": 0.70711, "w": 0.70711},
@@ -16166,7 +16184,7 @@
               }
             },
             {
-              "id": "323",
+              "id": "327",
               "name": "cube--C84",
               "position": {"x": -0.10242, "y": 0.15806, "z": -11.5045},
               "orientation": {"x": 0, "y": 0, "z": -0.92388, "w": 0.38268},
@@ -16218,7 +16236,7 @@
               }
             },
             {
-              "id": "324",
+              "id": "328",
               "name": "cube--C85",
               "position": {"x": -0.14485, "y": 0.05564, "z": -11.5},
               "orientation": {"x": 0, "y": 0, "z": -0.70711, "w": 0.70711},
@@ -16270,7 +16288,7 @@
               }
             },
             {
-              "id": "325",
+              "id": "329",
               "name": "cube--C86",
               "position": {"x": 0, "y": -3.4, "z": -18.125},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -16298,7 +16316,7 @@
               }
             },
             {
-              "id": "326",
+              "id": "330",
               "name": "cube--C87",
               "position": {"x": 0, "y": -3.425, "z": 20},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -16326,7 +16344,7 @@
               }
             },
             {
-              "id": "327",
+              "id": "331",
               "name": "Rail--C88",
               "position": {"x": -0.01828, "y": -13.52122, "z": 20.68203},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -16378,7 +16396,7 @@
               }
             },
             {
-              "id": "328",
+              "id": "332",
               "name": "Rail--C89",
               "position": {"x": -0.01828, "y": -13.52122, "z": 20.68203},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -16430,7 +16448,7 @@
               }
             },
             {
-              "id": "329",
+              "id": "333",
               "name": "Rail--C90",
               "position": {"x": -0.01828, "y": -13.52122, "z": 20.68203},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -16482,7 +16500,7 @@
               }
             },
             {
-              "id": "330",
+              "id": "334",
               "name": "Rail--C91",
               "position": {"x": -0.01828, "y": -13.52122, "z": 20.68203},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -16534,7 +16552,7 @@
               }
             },
             {
-              "id": "331",
+              "id": "335",
               "name": "Rail--C92",
               "position": {"x": -0.01828, "y": -13.52122, "z": 20.68203},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -16586,7 +16604,7 @@
               }
             },
             {
-              "id": "332",
+              "id": "336",
               "name": "Rail--C93",
               "position": {"x": -0.01828, "y": -13.52122, "z": 28.68203},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -16638,7 +16656,7 @@
               }
             },
             {
-              "id": "333",
+              "id": "337",
               "name": "Rail--C94",
               "position": {"x": -0.01828, "y": -13.52122, "z": 28.68203},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -16690,7 +16708,7 @@
               }
             },
             {
-              "id": "334",
+              "id": "338",
               "name": "Rail--C95",
               "position": {"x": -0.01828, "y": -13.52122, "z": 28.68203},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -16742,7 +16760,7 @@
               }
             },
             {
-              "id": "335",
+              "id": "339",
               "name": "Rail--C96",
               "position": {"x": -0.01828, "y": -13.52122, "z": 28.68203},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -16794,7 +16812,7 @@
               }
             },
             {
-              "id": "336",
+              "id": "340",
               "name": "Rail--C97",
               "position": {"x": -0.01828, "y": -13.52122, "z": 34.68203},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -16846,7 +16864,7 @@
               }
             },
             {
-              "id": "337",
+              "id": "341",
               "name": "Rail--C98",
               "position": {"x": -0.01828, "y": -13.52122, "z": 34.68203},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -16898,7 +16916,7 @@
               }
             },
             {
-              "id": "338",
+              "id": "342",
               "name": "Rail--C99",
               "position": {"x": -0.01828, "y": -13.52122, "z": 34.68203},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
