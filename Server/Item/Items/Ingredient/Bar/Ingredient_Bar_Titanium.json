@@ -13,7 +13,8 @@
     "BenchRequirement": [
       {
         "Type": "Processing",
-        "Id": "Furnace"
+        "Id": "Furnace",
+        "RequiredTierLevel": 1
       }
     ],
     "OutputQuantity": 1,
