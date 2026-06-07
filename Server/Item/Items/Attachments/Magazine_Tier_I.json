@@ -20,8 +20,8 @@
       -13
     ]
   },
-	"Model": "Items/Attachments/Loot/Loot.blockymodel",
-	"Texture": "Items/Attachments/Loot/Loot.png",
+	"Model": "Items/Attachments/Extended_Magazine/Extended_Magazine.blockymodel",
+	"Texture": "Items/Attachments/Extended_Magazine/Extended_Magazine_Green.png",
   "Icon": "Icons/ItemsGenerated/Magazine.png",
   "MaxStack": 1,
   "Tags": {
