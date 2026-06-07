@@ -4,5 +4,6 @@
 	"Name": "server.attachments.types.bobbin.name",
 	"Description": "server.attachments.types.bobbin.description",
 	"AnyAllowed": false,
+	"Accepts": ["Magazine"],
 	"MaxCount": 1
 }
