@@ -22,14 +22,14 @@
   },
 	"Model": "Items/Attachments/Extended_Magazine/Extended_Magazine.blockymodel",
 	"Texture": "Items/Attachments/Extended_Magazine/Extended_Magazine_Green.png",
-  "Icon": "Icons/ItemsGenerated/Magazine.png",
+  "Icon": "Icons/ItemsGenerated/Magazine_Tier_I.png",
   "MaxStack": 1,
   "Tags": {
     "Type": [
       "Attachment"
     ]
   },
-  "Scale": 1,
+  "Scale": 0.8,
   "HyGuns": {
     "AttachmentSettings": {
       "Type": "Magazine",
