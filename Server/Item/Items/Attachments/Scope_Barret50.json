@@ -11,17 +11,17 @@
   "IconProperties": {
     "Scale": 1,
     "Rotation": [
-      331,
-      44,
-      9
+      15,
+      320,
+      350
     ],
     "Translation": [
-      3,
+      1,
       -6
     ]
   },
-	"Model": "Items/Attachments/Loot/Loot.blockymodel",
-	"Texture": "Items/Attachments/Loot/Loot.png",
+  "Model": "Items/Attachments/Scope_Barret50/Scope_Barret50.blockymodel",
+  "Texture": "Items/Attachments/Scope_Barret50/Scope_Barret50.png",
   "Icon": "Icons/ItemsGenerated/Scope_Barret50.png",
   "MaxStack": 1,
   "Tags": {

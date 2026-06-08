@@ -11,17 +11,17 @@
   "IconProperties": {
     "Scale": 1,
     "Rotation": [
-      331,
-      44,
-      9
+      15,
+      325,
+      355
     ],
     "Translation": [
-      3,
+      1,
       -6
     ]
   },
-	"Model": "Items/Attachments/Loot/Loot.blockymodel",
-	"Texture": "Items/Attachments/Loot/Loot.png",
+  "Model": "Items/Attachments/Scope_AWP/Scope_AWP.blockymodel",
+  "Texture": "Items/Attachments/Scope_AWP/Scope_AWP.png",
   "Icon": "Icons/ItemsGenerated/Scope_AWP.png",
   "MaxStack": 1,
   "Tags": {
