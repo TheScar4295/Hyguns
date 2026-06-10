@@ -116,7 +116,7 @@
             }
           },
           "False": {
-            "Type": "Hyguns_OpenAttachments"
+            "Type": "Simple"
           }
         }
       ]
@@ -159,6 +159,17 @@
                 "Id": "AmmoSelection"
               }
             }
+          }
+        }
+      ]
+    },
+    "Use": {
+      "Interactions": [
+        {
+          "Type": "Hyguns_OpenAttachments",
+          "Effects": {
+            "ItemPlayerAnimationsId": "Default",
+            "ItemAnimationId": "Interact"
           }
         }
       ]
@@ -266,56 +277,56 @@
         "Scope": "Scope_Barret50"
       },
       "AttachmentsDefinition": {
-				"WeaponSchema": {
-					"Image": "AttachmentsUI/WeaponSchema/Barrett50.png",
-					"Size": [
-						780,
-						400
-					],
-					"AnimationDuration": 0.5,
-					"AnimationTiming": "EaseInOut"
-				},
+        "WeaponSchema": {
+          "Image": "AttachmentsUI/WeaponSchema/Barrett50.png",
+          "Size": [
+            780,
+            400
+          ],
+          "AnimationDuration": 0.5,
+          "AnimationTiming": "EaseInOut"
+        },
         "Slots": {
-					"Scope": {
-						"Count": 1,
-						"Visual": true,
-						"Index": 0,
-						"StartPosition": [
-							360,
-							135
-						],
-						"SlotPoint": "Right",
-						"Position": [
-							175,
-							30
-						]
-					},
-					"Suppressor": {
-						"Count": 1,
-						"Visual": true,
-						"Index": 1,
-						"StartPosition": [
-							70,
-							200
-						],
-						"SlotPoint": "Top",
-						"Position": [
-							0,
-							265
-						]
-					},
-					"Magazine": {
-						"Count": 1,
-						"StartPosition": [
-							456,
-							280
-						],
-						"SlotPoint": "Top",
-						"Position": [
-							345,
-							325
-						]
-					},
+          "Scope": {
+            "Count": 1,
+            "Visual": true,
+            "Index": 0,
+            "StartPosition": [
+              360,
+              135
+            ],
+            "SlotPoint": "Right",
+            "Position": [
+              175,
+              30
+            ]
+          },
+          "Suppressor": {
+            "Count": 1,
+            "Visual": true,
+            "Index": 1,
+            "StartPosition": [
+              70,
+              200
+            ],
+            "SlotPoint": "Top",
+            "Position": [
+              0,
+              265
+            ]
+          },
+          "Magazine": {
+            "Count": 1,
+            "StartPosition": [
+              456,
+              280
+            ],
+            "SlotPoint": "Top",
+            "Position": [
+              345,
+              325
+            ]
+          },
           "*": {
             "Count": 3
           }

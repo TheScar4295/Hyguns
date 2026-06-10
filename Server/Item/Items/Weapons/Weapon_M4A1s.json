@@ -114,7 +114,7 @@
             }
           },
           "False": {
-            "Type": "Hyguns_OpenAttachments"
+            "Type": "Simple"
           }
         }
       ]
@@ -157,6 +157,17 @@
                 "Id": "AmmoSelection"
               }
             }
+          }
+        }
+      ]
+    },
+    "Use": {
+      "Interactions": [
+        {
+          "Type": "Hyguns_OpenAttachments",
+          "Effects": {
+            "ItemPlayerAnimationsId": "Default",
+            "ItemAnimationId": "Interact"
           }
         }
       ]
@@ -246,56 +257,56 @@
         "Suppressor": "Suppressor"
       },
       "AttachmentsDefinition": {
-				"WeaponSchema": {
-					"Image": "AttachmentsUI/WeaponSchema/M4A1s.png",
-					"Size": [
-						780,
-						400
-					],
-					"AnimationDuration": 0.5,
-					"AnimationTiming": "EaseInOut"
-				},
+        "WeaponSchema": {
+          "Image": "AttachmentsUI/WeaponSchema/M4A1s.png",
+          "Size": [
+            780,
+            400
+          ],
+          "AnimationDuration": 0.5,
+          "AnimationTiming": "EaseInOut"
+        },
         "Slots": {
-					"Scope": {
-						"Count": 1,
-						"Visual": true,
-						"Index": 0,
-						"StartPosition": [
-							445,
-							90
-						],
-						"SlotPoint": "Right",
-						"Position": [
-							300,
-							0
-						]
-					},
-					"Suppressor": {
-						"Count": 1,
-						"Visual": true,
-						"Index": 1,
-						"StartPosition": [
-							90,
-							145
-						],
-						"SlotPoint": "Top",
-						"Position": [
-							0,
-							210
-						]
-					},
-					"Magazine": {
-						"Count": 1,
-						"StartPosition": [
-							395,
-							300
-						],
-						"SlotPoint": "Right",
-						"Position": [
-							245,
-							305
-						]
-					},
+          "Scope": {
+            "Count": 1,
+            "Visual": true,
+            "Index": 0,
+            "StartPosition": [
+              445,
+              90
+            ],
+            "SlotPoint": "Right",
+            "Position": [
+              300,
+              0
+            ]
+          },
+          "Suppressor": {
+            "Count": 1,
+            "Visual": true,
+            "Index": 1,
+            "StartPosition": [
+              90,
+              145
+            ],
+            "SlotPoint": "Top",
+            "Position": [
+              0,
+              210
+            ]
+          },
+          "Magazine": {
+            "Count": 1,
+            "StartPosition": [
+              395,
+              300
+            ],
+            "SlotPoint": "Right",
+            "Position": [
+              245,
+              305
+            ]
+          },
           "*": {
             "Count": 3
           }

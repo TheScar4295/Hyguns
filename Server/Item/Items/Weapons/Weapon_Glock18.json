@@ -116,7 +116,7 @@
             }
           },
           "False": {
-            "Type": "Hyguns_OpenAttachments"
+            "Type": "Simple"
           }
         }
       ]
@@ -159,6 +159,17 @@
                 "Id": "AmmoSelection"
               }
             }
+          }
+        }
+      ]
+    },
+    "Use": {
+      "Interactions": [
+        {
+          "Type": "Hyguns_OpenAttachments",
+          "Effects": {
+            "ItemPlayerAnimationsId": "Default",
+            "ItemAnimationId": "Interact"
           }
         }
       ]
@@ -241,42 +252,42 @@
         "Damage": 6
       },
       "AttachmentsDefinition": {
-				"WeaponSchema": {
-					"Image": "AttachmentsUI/WeaponSchema/Glock18.png",
-					"Size": [
-						780,
-						400
-					],
-					"AnimationDuration": 0.5,
-					"AnimationTiming": "EaseInOut"
-				},
+        "WeaponSchema": {
+          "Image": "AttachmentsUI/WeaponSchema/Glock18.png",
+          "Size": [
+            780,
+            400
+          ],
+          "AnimationDuration": 0.5,
+          "AnimationTiming": "EaseInOut"
+        },
         "Slots": {
-					"Suppressor": {
-						"Count": 1,
-						"Visual": true,
-						"Index": 1,
-						"StartPosition": [
-							320,
-							125
-						],
-						"SlotPoint": "Right",
-						"Position": [
-							170,
-							125
-						]
-					},
-					"Magazine": {
-						"Count": 1,
-						"StartPosition": [
-							520,
-							225
-						],
-						"SlotPoint": "Right",
-						"Position": [
-							390,
-							275
-						]
-					},
+          "Suppressor": {
+            "Count": 1,
+            "Visual": true,
+            "Index": 1,
+            "StartPosition": [
+              320,
+              125
+            ],
+            "SlotPoint": "Right",
+            "Position": [
+              170,
+              125
+            ]
+          },
+          "Magazine": {
+            "Count": 1,
+            "StartPosition": [
+              520,
+              225
+            ],
+            "SlotPoint": "Right",
+            "Position": [
+              390,
+              275
+            ]
+          },
           "*": {
             "Count": 2
           }

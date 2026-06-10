@@ -50,7 +50,7 @@
       "RequireNewClick": true,
       "Interactions": [
         {
-          "Type": "Hyguns_OpenAttachments"
+          "Type": "Simple"
         }
       ]
     },
@@ -76,6 +76,17 @@
                 "Id": "AmmoSelection"
               }
             }
+          }
+        }
+      ]
+    },
+    "Use": {
+      "Interactions": [
+        {
+          "Type": "Hyguns_OpenAttachments",
+          "Effects": {
+            "ItemPlayerAnimationsId": "Default",
+            "ItemAnimationId": "Interact"
           }
         }
       ]
@@ -176,15 +187,15 @@
         "ProjectileId": "Flamethrower_Projectile"
       },
       "AttachmentsDefinition": {
-				"WeaponSchema": {
-					"Image": "AttachmentsUI/WeaponSchema/Flamethrower.png",
-					"Size": [
-						780,
-						400
-					],
-					"AnimationDuration": 0.5,
-					"AnimationTiming": "EaseInOut"
-				},
+        "WeaponSchema": {
+          "Image": "AttachmentsUI/WeaponSchema/Flamethrower.png",
+          "Size": [
+            780,
+            400
+          ],
+          "AnimationDuration": 0.5,
+          "AnimationTiming": "EaseInOut"
+        },
         "Slots": {
           "*": {
             "Count": 4

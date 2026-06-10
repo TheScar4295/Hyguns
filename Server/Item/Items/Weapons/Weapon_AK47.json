@@ -76,7 +76,7 @@
       ]
     },
     "Secondary": {
-			"RequireNewClick": true,
+      "RequireNewClick": true,
       "Interactions": [
         {
           "Type": "Hyguns_AttachmentsInstalled",
@@ -101,42 +101,42 @@
       ]
     },
     "Ability1": {
-			"RequireNewClick": true,
+      "RequireNewClick": true,
       "Interactions": [
-				{
-					"Type": "Hyguns_CheckZoom",
-					"Zoomed": true,
-					"True": {
-						"Type": "Scope_Zoom_Out",
-						"Effects": {
-							"WorldSoundEventId": "Scope_Zoom_Out",
-							"LocalSoundEventId": "Scope_Zoom_Out"
-						}
-					},
-					"False": {
-						"Type": "Hyguns_OpenAttachments"
-					}
-				}
-			]
+        {
+          "Type": "Hyguns_CheckZoom",
+          "Zoomed": true,
+          "True": {
+            "Type": "Scope_Zoom_Out",
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_Out",
+              "LocalSoundEventId": "Scope_Zoom_Out"
+            }
+          },
+          "False": {
+            "Type": "Simple"
+          }
+        }
+      ]
     },
     "Ability2": {
-			"RequireNewClick": true,
+      "RequireNewClick": true,
       "Interactions": [
-				{
-					"Type": "Hyguns_CheckZoom",
-					"Zoomed": true,
-					"True": {
-						"Type": "Scope_Zoom_In",
-						"Effects": {
-							"WorldSoundEventId": "Scope_Zoom_In",
-							"LocalSoundEventId": "Scope_Zoom_In"
-						}
-					}
-				}
+        {
+          "Type": "Hyguns_CheckZoom",
+          "Zoomed": true,
+          "True": {
+            "Type": "Scope_Zoom_In",
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_In",
+              "LocalSoundEventId": "Scope_Zoom_In"
+            }
+          }
+        }
       ]
     },
     "Ability3": {
-			"RequireNewClick": true,
+      "RequireNewClick": true,
       "Interactions": [
         {
           "Type": "Charging",
@@ -157,6 +157,17 @@
                 "Id": "AmmoSelection"
               }
             }
+          }
+        }
+      ]
+    },
+    "Use": {
+      "Interactions": [
+        {
+          "Type": "Hyguns_OpenAttachments",
+          "Effects": {
+            "ItemPlayerAnimationsId": "Default",
+            "ItemAnimationId": "Interact"
           }
         }
       ]
@@ -244,14 +255,14 @@
       },
       "AttachmentsDefinition": {
         "WeaponSchema": {
-					"Image": "AttachmentsUI/WeaponSchema/AK47.png",
-					"Size": [
-						780,
-						400
-					],
-					"AnimationDuration": 0.5,
-					"AnimationTiming": "EaseInOut"
-				},
+          "Image": "AttachmentsUI/WeaponSchema/AK47.png",
+          "Size": [
+            780,
+            400
+          ],
+          "AnimationDuration": 0.5,
+          "AnimationTiming": "EaseInOut"
+        },
         "Slots": {
           "Scope": {
             "Count": 1,

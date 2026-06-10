@@ -14,14 +14,14 @@
   "PlayerAnimationsId": "Rifle",
   "Interactions": {
     "Primary": "Hyguns_Flamethrower_Goblin_Primary",
-		"Ability1": {
-			"RequireNewClick": true,
-			"Interactions": [
-				{
-					"Type": "Hyguns_OpenAttachments"
-				}
-			]
-		},
+    "Ability1": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_OpenAttachments"
+        }
+      ]
+    },
     "Ability3": {
       "Interactions": [
         {
@@ -154,9 +154,9 @@
   "ItemSoundSetId": "ISS_Weapons_Wood",
   "HyGuns": {
     "WeaponSettings": {
-			"InputOverlay": {
-				"Enabled": true
-			},
+      "InputOverlay": {
+        "Enabled": true
+      },
       "WeaponIcon": "Weapons/GoblinFlamethrower.png",
       "Ammo": {
         "Family": "Fuel",
@@ -169,22 +169,22 @@
           "Amount": 500
         }
       },
-			"AttachmentsDefinition": {
-				"WeaponSchema": {
-					"Image": "AttachmentsUI/WeaponSchema/Flamethrower.png",
-					"Size": [
-						780,
-						400
-					],
-					"AnimationDuration": 0.5,
-					"AnimationTiming": "EaseInOut"
-				},
-				"Slots": {
-					"*": {
-						"Count": 4
-					}
-				}
-			}
+      "AttachmentsDefinition": {
+        "WeaponSchema": {
+          "Image": "AttachmentsUI/WeaponSchema/Flamethrower.png",
+          "Size": [
+            780,
+            400
+          ],
+          "AnimationDuration": 0.5,
+          "AnimationTiming": "EaseInOut"
+        },
+        "Slots": {
+          "*": {
+            "Count": 4
+          }
+        }
+      }
     }
   }
 }

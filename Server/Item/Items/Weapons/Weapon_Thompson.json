@@ -114,7 +114,7 @@
             }
           },
           "False": {
-            "Type": "Hyguns_OpenAttachments"
+            "Type": "Simple"
           }
         }
       ]
@@ -157,6 +157,17 @@
                 "Id": "AmmoSelection"
               }
             }
+          }
+        }
+      ]
+    },
+    "Use": {
+      "Interactions": [
+        {
+          "Type": "Hyguns_OpenAttachments",
+          "Effects": {
+            "ItemPlayerAnimationsId": "Default",
+            "ItemAnimationId": "Interact"
           }
         }
       ]
@@ -248,27 +259,27 @@
         "Damage": 3
       },
       "AttachmentsDefinition": {
-				"WeaponSchema": {
-					"Image": "AttachmentsUI/WeaponSchema/Thompson.png",
-					"Size": [
-						780,
-						400
-					],
-					"AnimationDuration": 0.5,
-					"AnimationTiming": "EaseInOut"
-				},
+        "WeaponSchema": {
+          "Image": "AttachmentsUI/WeaponSchema/Thompson.png",
+          "Size": [
+            780,
+            400
+          ],
+          "AnimationDuration": 0.5,
+          "AnimationTiming": "EaseInOut"
+        },
         "Slots": {
           "Bobbin": {
             "Count": 1,
-						"StartPosition": [
-							350,
-							245
-						],
-						"SlotPoint": "Top",
-						"Position": [
-							265,
-							305
-						]
+            "StartPosition": [
+              350,
+              245
+            ],
+            "SlotPoint": "Top",
+            "Position": [
+              265,
+              305
+            ]
           },
           "*": {
             "Count": 4

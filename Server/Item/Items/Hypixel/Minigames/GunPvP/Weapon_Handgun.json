@@ -26,105 +26,172 @@
       "RequireNewClick": false,
       "Interactions": [
         {
-          "Type": "Hyguns_Shoot",
-          "Next": {
-            "Type": "Hyguns_UpdateHud"
+          "Type": "StatsCondition",
+          "Costs": {
+            "SignatureCharges": 1
           },
-          "Failed": "Gun_Shoot_Fail",
-          "Effects": {
-            "WorldSoundEventId": "SFX_Handgun_Fire",
-            "LocalSoundEventId": "SFX_Handgun_Fire_Local",
-            "ItemAnimationId": "Shoot",
-            "FirstPersonParticles": [
-              {
-                "SystemId": "RifleShooting",
-                "PositionOffset": {
-                  "Z": 0.5,
-                  "Y": 0.1
-                },
-                "RotationOffset": {
-                  "Yaw": 0,
-                  "Pitch": 90
+          "Next": {
+            "Type": "ChangeStat",
+            "StatModifiers": {
+              "SignatureCharges": -1
+            },
+            "Next": {
+              "Type": "Hyguns_Shoot",
+              "Next": {
+                "Type": "Hyguns_PlayWeaponFireSound",
+                "WorldSoundEventId": "SFX_Handgun_Fire",
+                "LocalSoundEventId": "SFX_Handgun_Fire_Local",
+                "Next": {
+                  "Type": "ApplyEffect",
+                  "Entity": "Target",
+                  "EffectId": "Poison"
+                }
+              },
+              "Failed": "Gun_Shoot_Fail",
+              "Effects": {
+                "ItemAnimationId": "Shoot",
+                "FirstPersonParticles": [
+                  {
+                    "SystemId": "RifleShooting",
+                    "PositionOffset": {
+                      "Z": 0.5,
+                      "Y": 0.1
+                    },
+                    "RotationOffset": {
+                      "Yaw": 0,
+                      "Pitch": 90
+                    }
+                  }
+                ],
+                "Particles": [
+                  {
+                    "SystemId": "RifleShooting",
+                    "RotationOffset": {
+                      "Pitch": 90
+                    },
+                    "PositionOffset": {
+                      "Z": 0.3,
+                      "Y": 0.2
+                    }
+                  }
+                ],
+                "CameraEffect": "Handgun_Shoot"
+              }
+            }
+          },
+          "Failed": {
+            "Type": "Hyguns_Shoot",
+            "Next": {
+              "Type": "Hyguns_PlayWeaponFireSound",
+              "WorldSoundEventId": "SFX_Handgun_Fire",
+              "LocalSoundEventId": "SFX_Handgun_Fire_Local",
+              "Next": {
+                "Type": "ChangeStat",
+                "StatModifiers": {
+                  "Stamina": -6,
+                  "StaminaRegenDelay": -0.5,
+                  "SignatureEnergy": 1
                 }
               }
-            ],
-            "Particles": [
-              {
-                "SystemId": "RifleShooting",
-                "RotationOffset": {
-                  "Pitch": 90
-                },
-                "PositionOffset": {
-                  "Z": 0.3,
-                  "Y": 0.2
+            },
+            "Failed": "Gun_Shoot_Fail",
+            "Effects": {
+              "ItemAnimationId": "Shoot",
+              "FirstPersonParticles": [
+                {
+                  "SystemId": "RifleShooting",
+                  "PositionOffset": {
+                    "Z": 0.5,
+                    "Y": 0.1
+                  },
+                  "RotationOffset": {
+                    "Yaw": 0,
+                    "Pitch": 90
+                  }
                 }
-              }
-            ],
-            "CameraEffect": "Handgun_Shoot"
+              ],
+              "Particles": [
+                {
+                  "SystemId": "RifleShooting",
+                  "RotationOffset": {
+                    "Pitch": 90
+                  },
+                  "PositionOffset": {
+                    "Z": 0.3,
+                    "Y": 0.2
+                  }
+                }
+              ],
+              "CameraEffect": "Handgun_Shoot"
+            }
           }
         }
       ]
     },
-		"Secondary": {
-			"RequireNewClick": true,
-			"Interactions": [
-				{
-					"Type": "Hyguns_AttachmentsInstalled",
-					"AttachmentsTypes": [
-						"Scope"
-					],
-					"RequireAll": false,
-					"Next": {
-						"Type": "Scope_Zoom",
-						"OverlayTexturePath": "Scope/Scope_2.png",
-						"MaxDistance": 30,
-						"MinDistance": 1,
-						"DefaultZoomMultiplier": 1,
-						"MaxZoomMultiplier": 3,
-						"ZoomMultiplierStep": 1,
-						"Effects": {
-							"WorldSoundEventId": "Scope_Zoom_In",
-							"LocalSoundEventId": "Scope_Zoom_In"
-						}
-					}
-				}
-			]
-		},
-		"Ability1": {
-			"RequireNewClick": true,
-			"Interactions": [
-				{
-					"Type": "Hyguns_CheckZoom",
-					"Zoomed": true,
-					"True": {
-						"Type": "Scope_Zoom_Out",
-						"Effects": {
-							"WorldSoundEventId": "Scope_Zoom_Out",
-							"LocalSoundEventId": "Scope_Zoom_Out"
-						}
-					},
-					"False": {
-						"Type": "Hyguns_OpenAttachments"
-					}
-				}
-			]
-		},
-		"Ability2": {
-			"RequireNewClick": true,
-			"Interactions": [
-				{
-					"Type": "Hyguns_CheckZoom",
-					"Zoomed": true,
-					"True": {
-						"Type": "Scope_Zoom_In",
-						"Effects": {
-							"WorldSoundEventId": "Scope_Zoom_In",
-							"LocalSoundEventId": "Scope_Zoom_In"
-						}
-					}
-				}
-			]
-		},
+    "Secondary": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_AttachmentsInstalled",
+          "AttachmentsTypes": [
+            "Scope"
+          ],
+          "RequireAll": false,
+          "Next": {
+            "Type": "Scope_Zoom",
+            "OverlayTexturePath": "Scope/Scope_2.png",
+            "MaxDistance": 30,
+            "MinDistance": 1,
+            "DefaultZoomMultiplier": 1,
+            "MaxZoomMultiplier": 3,
+            "ZoomMultiplierStep": 1,
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_In",
+              "LocalSoundEventId": "Scope_Zoom_In"
+            }
+          }
+        }
+      ]
+    },
+    "Ability1": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_CheckZoom",
+          "Zoomed": true,
+          "True": {
+            "Type": "Scope_Zoom_Out",
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_Out",
+              "LocalSoundEventId": "Scope_Zoom_Out"
+            }
+          },
+          "False": {
+            "Type": "ChangeStat",
+            "StatModifiers": {
+              "SignatureEnergy": -3,
+              "SignatureCharges": 6
+            }
+          }
+        }
+      ]
+    },
+    "Ability2": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_CheckZoom",
+          "Zoomed": true,
+          "True": {
+            "Type": "Scope_Zoom_In",
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_In",
+              "LocalSoundEventId": "Scope_Zoom_In"
+            }
+          }
+        }
+      ]
+    },
     "Ability3": {
       "Interactions": [
         {
@@ -149,6 +216,17 @@
                 "Id": "AmmoSelection"
               }
             }
+          }
+        }
+      ]
+    },
+    "Use": {
+      "Interactions": [
+        {
+          "Type": "Hyguns_OpenAttachments",
+          "Effects": {
+            "ItemPlayerAnimationsId": "Default",
+            "ItemAnimationId": "Interact"
           }
         }
       ]
@@ -196,11 +274,56 @@
       }
     ]
   },
+  "Weapon": {
+    "EntityStatsToClear": ["SignatureEnergy", "SignatureCharges"],
+    "StatModifiers": {
+      "SignatureEnergy": [
+        {
+          "Amount": 3,
+          "CalculationType": "Additive"
+        }
+      ],
+      "SignatureCharges": [
+        {
+          "Amount": 6,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
   "HyGuns": {
     "WeaponSettings": {
-			"InputOverlay": {
-				"Enabled": true
-			},
+      "InputOverlay": {
+        "Enabled": true,
+        "Abilities": {
+          "Ability1": {
+            "Display": {
+              "Default": true
+            },
+            "Signature": true,
+            "Icons": {
+              "Default": "AbilityUI/Icons/SignatureAbility.png"
+            },
+            "Enabled": {
+              "Default": false,
+              "SignatureReady": true
+            }
+          },
+          "Ability2": {
+            "Display": {
+              "Default": false
+            }
+          },
+          "Secondary": {
+            "Icons": {
+              "Default": "AbilityUI/Icons/TestAbility.png"
+            },
+            "Enabled": {
+              "Default": true
+            }
+          }
+        }
+      },
       "WeaponIcon": "Weapons/Handgun.png",
       "Ammo": {
         "Family": "Bullet",
@@ -217,46 +340,46 @@
         "Count": 1,
         "Damage": 7
       },
-			"AttachmentsDefinition": {
-				"WeaponSchema": {
-					"Image": "AttachmentsUI/WeaponSchema/Glock18.png",
-					"Size": [
-						780,
-						400
-					],
-					"AnimationDuration": 0.5,
-					"AnimationTiming": "EaseInOut"
-				},
-				"Slots": {
-					"Suppressor": {
-						"Count": 1,
-						"StartPosition": [
-							320,
-							125
-						],
-						"SlotPoint": "Right",
-						"Position": [
-							170,
-							125
-						]
-					},
-					"Magazine": {
-						"Count": 1,
-						"StartPosition": [
-							520,
-							225
-						],
-						"SlotPoint": "Right",
-						"Position": [
-							390,
-							275
-						]
-					},
-					"*": {
-						"Count": 2
-					}
-				}
-			}
+      "AttachmentsDefinition": {
+        "WeaponSchema": {
+          "Image": "AttachmentsUI/WeaponSchema/Glock18.png",
+          "Size": [
+            780,
+            400
+          ],
+          "AnimationDuration": 0.5,
+          "AnimationTiming": "EaseInOut"
+        },
+        "Slots": {
+          "Suppressor": {
+            "Count": 1,
+            "StartPosition": [
+              320,
+              125
+            ],
+            "SlotPoint": "Right",
+            "Position": [
+              170,
+              125
+            ]
+          },
+          "Magazine": {
+            "Count": 1,
+            "StartPosition": [
+              520,
+              225
+            ],
+            "SlotPoint": "Right",
+            "Position": [
+              390,
+              275
+            ]
+          },
+          "*": {
+            "Count": 2
+          }
+        }
+      }
     }
   }
 }
