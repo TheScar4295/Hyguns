@@ -8,28 +8,28 @@
   "Quality": "Epic",
   "ItemLevel": 34,
   "PlayerAnimationsId": "Item",
-	"IconProperties": {
-		"Scale": 0.5,
-		"Rotation": [
-			40,
-			40,
-			38
-		],
-		"Translation": [
-			1,
-			-2
-		]
-	},
-	"Model": "Items/Attachments/Loot/Loot.blockymodel",
-	"Texture": "Items/Attachments/Loot/Loot.png",
-	"Icon": "Icons/ItemsGenerated/GuidanceBlock_Tier_III.png",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      330,
+      145,
+      15
+    ],
+    "Translation": [
+      1,
+      -10
+    ]
+  },
+  "Model": "Items/Attachments/GuidanceBlock/GuidanceBlock.blockymodel",
+  "Texture": "Items/Attachments/GuidanceBlock/GuidanceBlock_Tier_III.png",
+  "Icon": "Icons/ItemsGenerated/GuidanceBlock_Tier_III.png",
   "MaxStack": 1,
   "Tags": {
     "Type": [
       "Attachment"
     ]
   },
-  "Scale": 1,
+  "Scale": 0.2,
   "HyGuns": {
     "AttachmentSettings": {
       "Type": "GuidanceBlock",
