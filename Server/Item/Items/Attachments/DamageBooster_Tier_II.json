@@ -9,27 +9,27 @@
   "ItemLevel": 26,
   "PlayerAnimationsId": "Item",
   "IconProperties": {
-    "Scale": 1,
+    "Scale": 0.65,
     "Rotation": [
-      331,
-      44,
-      9
+      10,
+      275,
+      335
     ],
     "Translation": [
-      2,
-      -4
+      1,
+      -12
     ]
   },
-	"Model": "Items/Attachments/Loot/Loot.blockymodel",
-	"Texture": "Items/Attachments/Loot/Loot.png",
-	"Icon": "Icons/ItemsGenerated/DamageBooster_Tier_II.png",
+  "Model": "Items/Attachments/DamageBooster/DamageBooster.blockymodel",
+  "Texture": "Items/Attachments/DamageBooster/DamageBooster_Tier_II.png",
+  "Icon": "Icons/ItemsGenerated/DamageBooster_Tier_II.png",
   "MaxStack": 1,
   "Tags": {
     "Type": [
       "Attachment"
     ]
   },
-  "Scale": 1,
+  "Scale": 0.2,
   "HyGuns": {
     "AttachmentSettings": {
       "Type": "DamageBooster",
