@@ -20,9 +20,9 @@
       -4
     ]
   },
-	"Model": "Items/Attachments/Loot/Loot.blockymodel",
-	"Texture": "Items/Attachments/Loot/Loot.png",
-	"Icon": "Icons/ItemsGenerated/DamageAmplifier_Tier_II.png",
+  "Model": "Items/Attachments/Loot/Loot.blockymodel",
+  "Texture": "Items/Attachments/Loot/Loot.png",
+  "Icon": "Icons/ItemsGenerated/DamageAmplifier_Tier_II.png",
   "MaxStack": 1,
   "Tags": {
     "Type": [
@@ -30,6 +30,7 @@
     ]
   },
   "Scale": 1,
+  "MaxDurability": 800,
   "HyGuns": {
     "AttachmentSettings": {
       "Type": "DamageAmplifier",

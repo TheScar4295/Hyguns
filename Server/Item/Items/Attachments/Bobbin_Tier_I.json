@@ -20,8 +20,8 @@
       -8
     ]
   },
-	"Model": "Items/Attachments/Loot/Loot.blockymodel",
-	"Texture": "Items/Attachments/Loot/Loot.png",
+  "Model": "Items/Attachments/Loot/Loot.blockymodel",
+  "Texture": "Items/Attachments/Loot/Loot.png",
   "Icon": "Icons/ItemsGenerated/Bobbin_Tier_I.png",
   "MaxStack": 1,
   "Tags": {

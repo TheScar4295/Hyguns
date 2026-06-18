@@ -291,39 +291,35 @@
       ]
     }
   },
-  "HyGuns": {
-    "WeaponSettings": {
-      "InputOverlay": {
-        "Enabled": true,
-        "Abilities": {
-          "Ability1": {
-            "Display": {
-              "Default": true
-            },
-            "Signature": true,
-            "Icons": {
-              "Default": "AbilityUI/Icons/SignatureAbility.png"
-            },
-            "Enabled": {
-              "Default": false,
-              "SignatureReady": true
-            }
-          },
-          "Ability2": {
-            "Display": {
-              "Default": false
-            }
-          },
-          "Secondary": {
-            "Icons": {
-              "Default": "AbilityUI/Icons/TestAbility.png"
-            },
-            "Enabled": {
-              "Default": true
-            }
-          }
+  "WeaponCustomHUD": {
+    "Enabled": true,
+    "Preset": "HyGunsWeapon",
+    "Abilities": {
+      "Ability1": {
+        "Display": {
+          "Default": true
+        },
+        "Signature": true,
+        "Icons": {
+          "Default": "AbilityUI/Icons/SignatureAbility.png"
+        },
+        "Enabled": {
+          "Default": false,
+          "SignatureReady": true
         }
       },
+      "Secondary": {
+        "Icons": {
+          "Default": "AbilityUI/Icons/TestAbility.png"
+        },
+        "Enabled": {
+          "Default": true
+        }
+      }
+    }
+  },
+  "HyGuns": {
+    "WeaponSettings": {
       "WeaponIcon": "Weapons/Handgun.png",
       "Ammo": {
         "Family": "Bullet",

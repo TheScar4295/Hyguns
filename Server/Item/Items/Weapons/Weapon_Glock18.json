@@ -228,6 +228,10 @@
       }
     ]
   },
+  "WeaponCustomHUD": {
+    "Enabled": true,
+    "Preset": "HyGunsWeapon"
+  },
   "HyGuns": {
     "WeaponSettings": {
       "InputOverlay": {

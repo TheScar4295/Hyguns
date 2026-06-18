@@ -51,50 +51,50 @@
       "Family": "Bullet",
       "WeaponClass": "Shotgun",
       "Icon": "Ammo/Ammo_Shotgun_Scout.png",
-			"AmmoBox": {
-				"Generate": true,
-				"Categories": ["HyGuns.Furniture"],
-				"Model": "Items/Utility/Ammo_Box.blockymodel",
-				"ModelTexture": "Items/Utility/Ammo_Box_Tier_I.png",
-				"Icon": "Icons/ItemsGenerated/Ammo_Box_Tier_I.png",
-				"RefillTime": 1.0,
-				"RefillAmount": 24
-			},
-			"Piles": {
-				"Generate": true,
-				"Variants": [
-					{
-						"Id": "Small",
-						"Categories": ["HyGuns.Furniture"],
-						"Model": "Blocks/Piles/Ammo/Pile_Ammo_Shotgun_Small.blockymodel",
-						"ModelTexture": "Items/Ammo/Bullet/Ammo_Bullet_Shotgun.png",
-						"HitboxType": "Pile_Ammo_Shotgun_Small",
-						"Icon": "Icons/ItemsGenerated/Pile_Ammo_Shotgun_Small.png",
-						"Scale": 0.2,
-						"Amount": 4
-					},
-					{
-						"Id": "Medium",
-						"Categories": ["HyGuns.Furniture"],
-						"Model": "Blocks/Piles/Ammo/Pile_Ammo_Shotgun_Medium.blockymodel",
-						"ModelTexture": "Items/Ammo/Bullet/Ammo_Bullet_Shotgun.png",
-						"HitboxType": "Pile_Ammo_Shotgun_Medium",
-						"Icon": "Icons/ItemsGenerated/Pile_Ammo_Shotgun_Medium.png",
-						"Scale": 0.2,
-						"Amount": 12
-					},
-					{
-						"Id": "Huge",
-						"Categories": ["HyGuns.Furniture"],
-						"Model": "Blocks/Piles/Ammo/Pile_Ammo_Shotgun_Huge.blockymodel",
-						"ModelTexture": "Items/Ammo/Bullet/Ammo_Bullet_Shotgun.png",
-						"HitboxType": "Pile_Ammo_Shotgun_Huge",
-						"Icon": "Icons/ItemsGenerated/Pile_Ammo_Shotgun_Huge.png",
-						"Scale": 0.2,
-						"Amount": 24
-					}
-				]
-			},
+      "AmmoBox": {
+        "Generate": true,
+        "Categories": ["HyGuns.Furniture"],
+        "Model": "Items/Utility/Ammo_Box.blockymodel",
+        "ModelTexture": "Items/Utility/Ammo_Box_Tier_I.png",
+        "Icon": "Icons/ItemsGenerated/Ammo_Box_Tier_I.png",
+        "RefillTime": 1.0,
+        "RefillAmount": 24
+      },
+      "Piles": {
+        "Generate": true,
+        "Variants": [
+          {
+            "Id": "Small",
+            "Categories": ["HyGuns.Furniture"],
+            "Model": "Blocks/Piles/Ammo/Pile_Ammo_Shotgun_Small.blockymodel",
+            "ModelTexture": "Items/Ammo/Bullet/Ammo_Bullet_Shotgun.png",
+            "HitboxType": "Pile_Ammo_Shotgun_Small",
+            "Icon": "Icons/ItemsGenerated/Pile_Ammo_Shotgun_Small.png",
+            "Scale": 0.2,
+            "Amount": 4
+          },
+          {
+            "Id": "Medium",
+            "Categories": ["HyGuns.Furniture"],
+            "Model": "Blocks/Piles/Ammo/Pile_Ammo_Shotgun_Medium.blockymodel",
+            "ModelTexture": "Items/Ammo/Bullet/Ammo_Bullet_Shotgun.png",
+            "HitboxType": "Pile_Ammo_Shotgun_Medium",
+            "Icon": "Icons/ItemsGenerated/Pile_Ammo_Shotgun_Medium.png",
+            "Scale": 0.2,
+            "Amount": 12
+          },
+          {
+            "Id": "Huge",
+            "Categories": ["HyGuns.Furniture"],
+            "Model": "Blocks/Piles/Ammo/Pile_Ammo_Shotgun_Huge.blockymodel",
+            "ModelTexture": "Items/Ammo/Bullet/Ammo_Bullet_Shotgun.png",
+            "HitboxType": "Pile_Ammo_Shotgun_Huge",
+            "Icon": "Icons/ItemsGenerated/Pile_Ammo_Shotgun_Huge.png",
+            "Scale": 0.2,
+            "Amount": 24
+          }
+        ]
+      },
       "SettingsModifiers": {
         "Projectiles": {
           "ConfigId": "Hyguns_Projectile_Config_Bullet_Guidance"

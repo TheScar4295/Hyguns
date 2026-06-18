@@ -224,11 +224,12 @@
       }
     ]
   },
+  "WeaponCustomHUD": {
+    "Enabled": true,
+    "Preset": "HyGunsWeapon"
+  },
   "HyGuns": {
     "WeaponSettings": {
-      "InputOverlay": {
-        "Enabled": true
-      },
       "WeaponIcon": "Weapons/MP9.png",
       "Ammo": {
         "Family": "Bullet",

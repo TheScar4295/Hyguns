@@ -228,11 +228,12 @@
       }
     ]
   },
+  "WeaponCustomHUD": {
+    "Enabled": true,
+    "Preset": "HyGunsWeapon"
+  },
   "HyGuns": {
     "WeaponSettings": {
-      "InputOverlay": {
-        "Enabled": true
-      },
       "WeaponIcon": "Weapons/FiveSeven.png",
       "Ammo": {
         "Family": "Bullet",

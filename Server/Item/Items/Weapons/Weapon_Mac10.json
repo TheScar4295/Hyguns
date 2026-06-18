@@ -227,11 +227,12 @@
       }
     ]
   },
+  "WeaponCustomHUD": {
+    "Enabled": true,
+    "Preset": "HyGunsWeapon"
+  },
   "HyGuns": {
     "WeaponSettings": {
-      "InputOverlay": {
-        "Enabled": true
-      },
       "WeaponIcon": "Weapons/Mac10.png",
       "Ammo": {
         "Family": "Bullet",

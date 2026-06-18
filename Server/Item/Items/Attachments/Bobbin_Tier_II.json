@@ -8,20 +8,20 @@
   "Quality": "Epic",
   "ItemLevel": 34,
   "PlayerAnimationsId": "Item",
-	"IconProperties": {
-		"Scale": 1.4,
-		"Rotation": [
-			15,
-			315,
-			345
-		],
-		"Translation": [
-			0,
-			-8
-		]
-	},
-	"Model": "Items/Attachments/Loot/Loot.blockymodel",
-	"Texture": "Items/Attachments/Loot/Loot.png",
+  "IconProperties": {
+    "Scale": 1.4,
+    "Rotation": [
+      15,
+      315,
+      345
+    ],
+    "Translation": [
+      0,
+      -8
+    ]
+  },
+  "Model": "Items/Attachments/Loot/Loot.blockymodel",
+  "Texture": "Items/Attachments/Loot/Loot.png",
   "Icon": "Icons/ItemsGenerated/Bobbin_Tier_I.png",
   "MaxStack": 1,
   "Tags": {

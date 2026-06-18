@@ -30,6 +30,7 @@
     ]
   },
   "Scale": 0.2,
+  "MaxDurability": 800,
   "HyGuns": {
     "AttachmentSettings": {
       "Type": "DamageBooster",

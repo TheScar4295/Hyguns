@@ -164,11 +164,12 @@
     "Radius": 1,
     "Color": "#a73"
   },
+  "WeaponCustomHUD": {
+    "Enabled": true,
+    "Preset": "HyGunsWeapon"
+  },
   "HyGuns": {
     "WeaponSettings": {
-      "InputOverlay": {
-        "Enabled": true
-      },
       "WeaponIcon": "Weapons/Flamethrower.png",
       "Ammo": {
         "Family": "Fuel",

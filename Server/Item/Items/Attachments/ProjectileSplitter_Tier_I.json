@@ -30,6 +30,7 @@
     ]
   },
   "Scale": 1,
+  "MaxDurability": 600,
   "HyGuns": {
     "AttachmentSettings": {
       "Type": "ProjectileSplitter",

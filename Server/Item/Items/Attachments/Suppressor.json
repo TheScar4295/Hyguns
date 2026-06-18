@@ -30,6 +30,7 @@
     ]
   },
   "Scale": 1,
+  "MaxDurability": 1000,
   "HyGuns": {
     "AttachmentSettings": {
       "Type": "Suppressor",

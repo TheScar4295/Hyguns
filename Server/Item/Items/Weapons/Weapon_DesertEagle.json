@@ -232,11 +232,12 @@
       }
     ]
   },
+  "WeaponCustomHUD": {
+    "Enabled": true,
+    "Preset": "HyGunsWeapon"
+  },
   "HyGuns": {
     "WeaponSettings": {
-      "InputOverlay": {
-        "Enabled": true
-      },
       "WeaponIcon": "Weapons/Deagle.png",
       "Ammo": {
         "Family": "Bullet",
@@ -256,56 +257,56 @@
         "Damage": 25
       },
       "AttachmentsDefinition": {
-		"WeaponSchema": {
-		  "Image": "AttachmentsUI/WeaponSchema/DesertEagle.png",
-		  "Size": [
-		  	780,
-		  	400
-		  ],
-		  "AnimationDuration": 0.5,
-		  "AnimationTiming": "EaseInOut"
-		},
+    "WeaponSchema": {
+      "Image": "AttachmentsUI/WeaponSchema/DesertEagle.png",
+      "Size": [
+        780,
+        400
+      ],
+      "AnimationDuration": 0.5,
+      "AnimationTiming": "EaseInOut"
+    },
         "Slots": {
-		  "Scope": {
-		  	"Count": 1,
-		  	"Visual": true,
-		  	"Index": 0,
-		  	"StartPosition": [
-		  		365,
-		  		105
-		  	],
-		  	"SlotPoint": "Right",
-		  	"Position": [
-		  		160,
-		  		0
-		  	]
-		  },
-		  "Suppressor": {
-		  	"Count": 1,
-		  	"Visual": true,
-		  	"Index": 1,
-		  	"StartPosition": [
-		  		260,
-		  		130
-		  	],
-		  	"SlotPoint": "Right",
-		  	"Position": [
-		  		95,
-		  		185
-		  	]
-		  },
-		  "Magazine": {
-		  	"Count": 1,
-		  	"StartPosition": [
-		  		500,
-		  		310
-		  	],
-		  	"SlotPoint": "Right",
-		  	"Position": [
-		  		345,
-		  		300
-		  	]
-		  },
+      "Scope": {
+        "Count": 1,
+        "Visual": true,
+        "Index": 0,
+        "StartPosition": [
+          365,
+          105
+        ],
+        "SlotPoint": "Right",
+        "Position": [
+          160,
+          0
+        ]
+      },
+      "Suppressor": {
+        "Count": 1,
+        "Visual": true,
+        "Index": 1,
+        "StartPosition": [
+          260,
+          130
+        ],
+        "SlotPoint": "Right",
+        "Position": [
+          95,
+          185
+        ]
+      },
+      "Magazine": {
+        "Count": 1,
+        "StartPosition": [
+          500,
+          310
+        ],
+        "SlotPoint": "Right",
+        "Position": [
+          345,
+          300
+        ]
+      },
           "*": {
             "Count": 2
           }
