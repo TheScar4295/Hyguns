@@ -88,6 +88,7 @@
       -18
     ]
   },
+  "MaxStack": 1,
   "MaxDurability": 250,
   "Tags": {
     "Family": [
@@ -123,7 +124,23 @@
       }
     ]
   },
-  "Weapon": {},
+  "WeaponCustomHUD": {
+    "Enabled": true,
+    "Abilities": {
+      "Primary": {
+        "Icons": {
+          "Default": "WeaponCustomHUD/Icons/FireAbility.png"
+        }
+      },
+      "Secondary": {
+        "Display": false
+      },
+      "Ability1": {
+        "Signature": false,
+        "Display": false
+      }
+    }
+  },
   "ItemSoundSetId": "ISS_Weapons_Wood",
   "Scale": 0.8
 }
