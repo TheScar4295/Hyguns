@@ -103,9 +103,6 @@
               "WorldSoundEventId": "Scope_Zoom_Out",
               "LocalSoundEventId": "Scope_Zoom_Out"
             }
-          },
-          "False": {
-            "Type": "Hyguns_OpenAttachments"
           }
         }
       ]
@@ -151,6 +148,14 @@
               }
             }
           }
+        }
+      ]
+    },
+    "Use": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_OpenAttachments"
         }
       ]
     },

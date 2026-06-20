@@ -221,6 +221,7 @@
       ]
     },
     "Use": {
+      "RequireNewClick": true,
       "Interactions": [
         {
           "Type": "Hyguns_OpenAttachments",
@@ -301,7 +302,7 @@
         },
         "Signature": true,
         "Icons": {
-          "Default": "AbilityUI/Icons/SignatureAbility.png"
+          "Default": "WeaponCustomHUD/Icons/SignatureAbility.png"
         },
         "Enabled": {
           "Default": false,
@@ -310,7 +311,7 @@
       },
       "Secondary": {
         "Icons": {
-          "Default": "AbilityUI/Icons/TestAbility.png"
+          "Default": "WeaponCustomHUD/Icons/TestAbility.png"
         },
         "Enabled": {
           "Default": true

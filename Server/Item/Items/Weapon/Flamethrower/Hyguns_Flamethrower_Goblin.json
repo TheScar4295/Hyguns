@@ -14,14 +14,6 @@
   "PlayerAnimationsId": "Rifle",
   "Interactions": {
     "Primary": "Hyguns_Flamethrower_Goblin_Primary",
-    "Ability1": {
-      "RequireNewClick": true,
-      "Interactions": [
-        {
-          "Type": "Hyguns_OpenAttachments"
-        }
-      ]
-    },
     "Ability3": {
       "Interactions": [
         {
@@ -44,6 +36,14 @@
               }
             }
           }
+        }
+      ]
+    },
+    "Use": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_OpenAttachments"
         }
       ]
     }
@@ -154,7 +154,12 @@
   "ItemSoundSetId": "ISS_Weapons_Wood",
   "WeaponCustomHUD": {
     "Enabled": true,
-    "Preset": "HyGunsWeapon"
+    "Preset": "HyGunsWeapon",
+    "Abilities": {
+      "Secondary": {
+        "Display": false
+      }
+    }
   },
   "HyGuns": {
     "WeaponSettings": {
