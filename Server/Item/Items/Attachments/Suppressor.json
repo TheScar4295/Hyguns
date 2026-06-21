@@ -31,6 +31,27 @@
   },
   "Scale": 1,
   "MaxDurability": 1000,
+  "Recipe": {
+    "TimeSeconds": 1,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Steel",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Bar_Bronze",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Bench_Gunsmith",
+        "Type": "Crafting",
+        "Categories": ["Utility"]
+      }
+    ]
+  },
   "HyGuns": {
     "AttachmentSettings": {
       "Type": "Suppressor",
