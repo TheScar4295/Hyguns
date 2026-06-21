@@ -36,7 +36,7 @@
       "Type": "DamageBooster",
       "SettingsModifiers": {
         "Projectiles": {
-          "Damage": "+30"
+          "Damage": "+15"
         }
       }
     }

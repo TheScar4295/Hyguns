@@ -9,7 +9,7 @@
   "ItemLevel": 24,
   "PlayerAnimationsId": "Item",
   "IconProperties": {
-    "Scale": 1.4,
+    "Scale": 1,
     "Rotation": [
       15,
       315,
@@ -17,11 +17,11 @@
     ],
     "Translation": [
       0,
-      -8
+      -14
     ]
   },
-  "Model": "Items/Attachments/Loot/Loot.blockymodel",
-  "Texture": "Items/Attachments/Loot/Loot.png",
+  "Model": "Items/Attachments/Bobbin/Bobbin.blockymodel",
+  "Texture": "Items/Attachments/Bobbin/Bobbin.png",
   "Icon": "Icons/ItemsGenerated/Bobbin_Tier_I.png",
   "MaxStack": 1,
   "Tags": {
