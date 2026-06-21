@@ -1,0 +1,43 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Intelligent",
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Feran_Longtooth_HyGuns_M4A1s.name"
+    }
+  },
+  "Modify": {
+    "MaxHealth": 61,
+    "HearingRange": 8,
+    "ViewSector": 270,
+    "WakingPeriod": [
+      0,
+      24
+    ],
+    "DropList": "Drop_HyGuns_Feran_Longtooth_M4A1s",
+    "Appearance": "Feran_Longtooth",
+    "Weapons": [
+      "Weapon_M4A1s"
+    ],
+    "Attack": "HyGuns_NPC_Attack_M4A1s",
+    "CombatBackOffAfterAttack": false,
+    "AttackDistance": 16,
+    "CombatFleeIfTooCloseDistance": 4,
+    "DesiredAttackDistanceRange": [
+      5,
+      15
+    ],
+    "CombatBehaviorDistance": 18,
+    "TargetRange": 18,
+    "LeashMinPlayerDistance": 22,
+    "IsMemory": true,
+    "MemoriesCategory": "Feran",
+    "MemoriesNameOverride": "Feran_Longtooth_HyGuns_M4A1s",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "HyGuns": {
+    "AmmoItemId": "Ammo_Bullet_Rifle"
+  }
+}

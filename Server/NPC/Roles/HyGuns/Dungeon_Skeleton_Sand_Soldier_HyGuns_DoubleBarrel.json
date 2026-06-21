@@ -1,0 +1,43 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Intelligent",
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Dungeon_Skeleton_Sand_Soldier_HyGuns_DoubleBarrel.name"
+    }
+  },
+  "Modify": {
+    "MaxHealth": 61,
+    "HearingRange": 8,
+    "ViewSector": 250,
+    "WakingPeriod": [
+      0,
+      24
+    ],
+    "DropList": "Drop_HyGuns_Dungeon_Skeleton_Sand_Soldier_DoubleBarrel",
+    "Appearance": "Skeleton_Sand_Soldier",
+    "Weapons": [
+      "Weapon_DoubleBarrel"
+    ],
+    "Attack": "HyGuns_NPC_Attack_DoubleBarrel",
+    "CombatBackOffAfterAttack": false,
+    "AttackDistance": 12,
+    "CombatFleeIfTooCloseDistance": 4,
+    "DesiredAttackDistanceRange": [
+      4,
+      10
+    ],
+    "CombatBehaviorDistance": 14,
+    "TargetRange": 14,
+    "LeashMinPlayerDistance": 18,
+    "IsMemory": true,
+    "MemoriesCategory": "Undead",
+    "MemoriesNameOverride": "Dungeon_Skeleton_Sand_Soldier_HyGuns_DoubleBarrel",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "HyGuns": {
+    "AmmoItemId": "Ammo_Bullet_Shotgun"
+  }
+}

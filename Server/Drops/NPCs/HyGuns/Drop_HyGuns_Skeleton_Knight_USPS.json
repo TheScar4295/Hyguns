@@ -1,0 +1,40 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Choice",
+        "Weight": 100,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ammo_Bullet_Base",
+              "QuantityMin": 6,
+              "QuantityMax": 18
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 10,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_USPS",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Droplist",
+        "Weight": 50,
+        "DroplistId": "Drop_HyGuns_Attachments"
+      }
+    ]
+  }
+}

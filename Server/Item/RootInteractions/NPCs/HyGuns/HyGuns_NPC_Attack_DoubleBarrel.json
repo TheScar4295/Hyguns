@@ -1,0 +1,14 @@
+{
+  "Interactions": [
+    "HyGuns_NPC_AmmoGate_DoubleBarrel"
+  ],
+  "Tags": {
+    "Attack": [
+      "Ranged"
+    ]
+  },
+  "Cooldown": {
+    "Id": "HyGuns_NPC_Attack_DoubleBarrel",
+    "Cooldown": 0.9
+  }
+}

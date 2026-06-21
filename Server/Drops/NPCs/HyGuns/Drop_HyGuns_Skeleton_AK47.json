@@ -1,0 +1,40 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Choice",
+        "Weight": 100,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ammo_Bullet_Rifle",
+              "QuantityMin": 5,
+              "QuantityMax": 15
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 10,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_AK47",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Droplist",
+        "Weight": 50,
+        "DroplistId": "Drop_HyGuns_Attachments"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Interactions": [
+    "HyGuns_NPC_AmmoGate_USPS"
+  ],
+  "Tags": {
+    "Attack": [
+      "Ranged"
+    ]
+  },
+  "Cooldown": {
+    "Id": "HyGuns_NPC_Attack_USPS",
+    "Cooldown": 0.35
+  }
+}

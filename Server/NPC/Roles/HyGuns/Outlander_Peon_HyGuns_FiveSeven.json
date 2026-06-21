@@ -1,0 +1,43 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Intelligent",
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Outlander_Peon_HyGuns_FiveSeven.name"
+    }
+  },
+  "Modify": {
+    "MaxHealth": 81,
+    "HearingRange": 8,
+    "ViewSector": 270,
+    "WakingPeriod": [
+      0,
+      24
+    ],
+    "DropList": "Drop_HyGuns_Outlander_Peon_FiveSeven",
+    "Appearance": "Outlander_Peon",
+    "Weapons": [
+      "Weapon_FiveSeven"
+    ],
+    "Attack": "HyGuns_NPC_Attack_FiveSeven",
+    "CombatBackOffAfterAttack": false,
+    "AttackDistance": 15,
+    "CombatFleeIfTooCloseDistance": 4,
+    "DesiredAttackDistanceRange": [
+      5,
+      14.5
+    ],
+    "CombatBehaviorDistance": 15,
+    "TargetRange": 15,
+    "LeashMinPlayerDistance": 18,
+    "IsMemory": true,
+    "MemoriesCategory": "Outlander",
+    "MemoriesNameOverride": "Outlander_Peon_HyGuns_FiveSeven",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "HyGuns": {
+    "AmmoItemId": "Ammo_Bullet_Base"
+  }
+}

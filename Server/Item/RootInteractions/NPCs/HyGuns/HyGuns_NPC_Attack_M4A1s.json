@@ -1,0 +1,14 @@
+{
+  "Interactions": [
+    "HyGuns_NPC_AmmoGate_M4A1s"
+  ],
+  "Tags": {
+    "Attack": [
+      "Ranged"
+    ]
+  },
+  "Cooldown": {
+    "Id": "HyGuns_NPC_Attack_M4A1s",
+    "Cooldown": 0.1
+  }
+}

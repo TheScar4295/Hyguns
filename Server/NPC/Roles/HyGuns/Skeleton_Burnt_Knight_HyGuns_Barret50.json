@@ -1,0 +1,80 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Intelligent",
+  "Parameters": {
+    "WanderRadius": {
+      "Value": 3
+    },
+    "FollowPatrolPath": {
+      "Value": false
+    },
+    "Patrol": {
+      "Value": false
+    },
+    "FlockArray": {
+      "Value": [
+        "Skeleton_Burnt_Knight_HyGuns_Barret50"
+      ],
+      "TypeHint": "String"
+    },
+    "ApplySeparation": {
+      "Value": false
+    },
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Skeleton_Burnt_Knight_HyGuns_Barret50.name"
+    }
+  },
+  "Modify": {
+    "MaxHealth": 103,
+    "HearingRange": 8,
+    "ViewSector": 270,
+    "WakingPeriod": [
+      0,
+      24
+    ],
+    "DropList": "Drop_HyGuns_Skeleton_Burnt_Knight_Barret50",
+    "Appearance": "Skeleton_Burnt_Knight",
+    "Weapons": [
+      "*Weapon_Barret50_State_Scope"
+    ],
+    "FlockArray": {
+      "Compute": "FlockArray"
+    },
+    "FollowPatrolPath": {
+      "Compute": "FollowPatrolPath"
+    },
+    "Patrol": {
+      "Compute": "Patrol"
+    },
+    "WanderRadius": {
+      "Compute": "WanderRadius"
+    },
+    "Attack": "HyGuns_NPC_Attack_Barret50",
+    "CombatBackOffAfterAttack": false,
+    "AttackDistance": 22,
+    "CombatFleeIfTooCloseDistance": 5,
+    "DesiredAttackDistanceRange": [
+      10,
+      21
+    ],
+    "CombatBehaviorDistance": 24,
+    "TargetRange": 24,
+    "LeashMinPlayerDistance": 28,
+    "ApplySeparation": {
+      "Compute": "ApplySeparation"
+    },
+    "_CombatConfig": {
+      "EntityEffect": "Immunity_Fire"
+    },
+    "IsMemory": true,
+    "MemoriesCategory": "Undead",
+    "MemoriesNameOverride": "Skeleton_Burnt_Knight_HyGuns_Barret50",
+    "BreathesInWater": true,
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "HyGuns": {
+    "AmmoItemId": "Ammo_Bullet_Rifle"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Interactions": [
+    "HyGuns_NPC_AmmoGate_Barret50"
+  ],
+  "Tags": {
+    "Attack": [
+      "Ranged"
+    ]
+  },
+  "Cooldown": {
+    "Id": "HyGuns_NPC_Attack_Barret50",
+    "Cooldown": 1.2
+  }
+}

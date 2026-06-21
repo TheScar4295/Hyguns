@@ -1,0 +1,77 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Intelligent",
+  "Parameters": {
+    "WanderRadius": {
+      "Value": 3
+    },
+    "FollowPatrolPath": {
+      "Value": false
+    },
+    "Patrol": {
+      "Value": false
+    },
+    "FlockArray": {
+      "Value": [
+        "Skeleton_Knight_HyGuns_USPS"
+      ],
+      "TypeHint": "String"
+    },
+    "ApplySeparation": {
+      "Value": false
+    },
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Skeleton_Knight_HyGuns_USPS.name"
+    }
+  },
+  "Modify": {
+    "MaxHealth": 74,
+    "HearingRange": 8,
+    "ViewSector": 270,
+    "WakingPeriod": [
+      0,
+      24
+    ],
+    "DropList": "Drop_HyGuns_Skeleton_Knight_USPS",
+    "Appearance": "Skeleton_Knight",
+    "Weapons": [
+      "*Weapon_USPS_State_Suppressor"
+    ],
+    "FlockArray": {
+      "Compute": "FlockArray"
+    },
+    "FollowPatrolPath": {
+      "Compute": "FollowPatrolPath"
+    },
+    "Patrol": {
+      "Compute": "Patrol"
+    },
+    "WanderRadius": {
+      "Compute": "WanderRadius"
+    },
+    "Attack": "HyGuns_NPC_Attack_USPS",
+    "CombatBackOffAfterAttack": false,
+    "AttackDistance": 15,
+    "CombatFleeIfTooCloseDistance": 4,
+    "DesiredAttackDistanceRange": [
+      5,
+      14.5
+    ],
+    "CombatBehaviorDistance": 15,
+    "TargetRange": 15,
+    "LeashMinPlayerDistance": 18,
+    "ApplySeparation": {
+      "Compute": "ApplySeparation"
+    },
+    "IsMemory": true,
+    "MemoriesCategory": "Undead",
+    "MemoriesNameOverride": "Skeleton_Knight_HyGuns_USPS",
+    "BreathesInWater": true,
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "HyGuns": {
+    "AmmoItemId": "Ammo_Bullet_Base"
+  }
+}

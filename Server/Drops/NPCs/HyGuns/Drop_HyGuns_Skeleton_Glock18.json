@@ -1,0 +1,40 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Choice",
+        "Weight": 100,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ammo_Bullet_Base",
+              "QuantityMin": 8,
+              "QuantityMax": 20
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 12,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Glock18",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Droplist",
+        "Weight": 50,
+        "DroplistId": "Drop_HyGuns_Attachments"
+      }
+    ]
+  }
+}

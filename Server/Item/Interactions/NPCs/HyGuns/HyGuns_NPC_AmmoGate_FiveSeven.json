@@ -1,0 +1,51 @@
+{
+  "Type": "Hyguns_CheckReloading",
+  "Reloading": false,
+  "Next": {
+    "Type": "Hyguns_CheckAmmo",
+    "Amount": 1,
+    "Next": {
+      "Type": "Simple",
+      "RunTime": 0.01,
+      "Effects": {
+        "ItemPlayerAnimationsId": "Skeleton_Rifle",
+        "ItemAnimationId": "Shoot"
+      },
+      "Next": {
+        "Type": "Hyguns_CanShoot",
+        "Next": {
+          "Type": "Hyguns_Shoot",
+          "Failed": "Gun_Shoot_Fail",
+          "Effects": {
+            "ItemPlayerAnimationsId": "Skeleton_Rifle",
+            "ItemAnimationId": "Shoot",
+            "WorldSoundEventId": "World_FiveSeven_Fire",
+            "Particles": [
+              {
+                "SystemId": "RifleShooting",
+                "RotationOffset": {
+                  "Pitch": 90
+                },
+                "PositionOffset": {
+                  "Z": 0.1,
+                  "Y": 0.1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Failed": {
+      "Type": "Hyguns_Reload",
+      "Effects": {
+        "ItemPlayerAnimationsId": "HygunsPistols",
+        "ItemAnimationId": "Reload",
+        "WorldSoundEventId": "FiveSeven_Reload"
+      }
+    }
+  },
+  "Failed": {
+    "Type": "Simple"
+  }
+}

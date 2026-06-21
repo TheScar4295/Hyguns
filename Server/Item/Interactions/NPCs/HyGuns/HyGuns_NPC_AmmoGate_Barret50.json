@@ -1,0 +1,51 @@
+{
+  "Type": "Hyguns_CheckReloading",
+  "Reloading": false,
+  "Next": {
+    "Type": "Hyguns_CheckAmmo",
+    "Amount": 1,
+    "Next": {
+      "Type": "Simple",
+      "RunTime": 0.01,
+      "Effects": {
+        "ItemPlayerAnimationsId": "Skeleton_Rifle",
+        "ItemAnimationId": "Shoot"
+      },
+      "Next": {
+        "Type": "Hyguns_CanShoot",
+        "Next": {
+          "Type": "Hyguns_Shoot",
+          "Failed": "Gun_Shoot_Fail",
+          "Effects": {
+            "ItemPlayerAnimationsId": "Skeleton_Rifle",
+            "ItemAnimationId": "Shoot",
+            "WorldSoundEventId": "Barret50_Fire",
+            "Particles": [
+              {
+                "SystemId": "RifleShooting",
+                "RotationOffset": {
+                  "Pitch": 90
+                },
+                "PositionOffset": {
+                  "Z": 1.25,
+                  "Y": 0.1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Failed": {
+      "Type": "Hyguns_Reload",
+      "Effects": {
+        "ItemPlayerAnimationsId": "Skeleton_Rifle",
+        "ItemAnimationId": "Interact",
+        "WorldSoundEventId": "Barret50_Reload"
+      }
+    }
+  },
+  "Failed": {
+    "Type": "Simple"
+  }
+}
