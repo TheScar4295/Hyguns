@@ -1,0 +1,17 @@
+{
+  "Environments": [
+    "Env_Zone1_Swamps",
+    "Env_Zone1_Azure"
+  ],
+  "NPCs": [
+    {
+      "Weight": 1,
+      "SpawnBlockSet": "Soil",
+      "Id": "Skeleton_Burnt_Knight_HyGuns_Barret50"
+    }
+  ],
+  "DayTimeRange": [
+    0,
+    24
+  ]
+}

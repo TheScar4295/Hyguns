@@ -1,0 +1,18 @@
+{
+  "Environments": [
+    "Env_Zone2_Dungeons"
+  ],
+  "NPCs": [
+    {
+      "Weight": 1,
+      "SpawnBlockSet": "StoneAndSoil",
+      "Id": "Dungeon_Skeleton_Sand_Soldier_HyGuns_DoubleBarrel"
+    }
+  ],
+  "LightRanges": {
+    "Light": [
+      0,
+      7
+    ]
+  }
+}

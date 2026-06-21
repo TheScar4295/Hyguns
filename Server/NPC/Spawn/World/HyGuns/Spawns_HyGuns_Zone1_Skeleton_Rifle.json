@@ -1,0 +1,20 @@
+{
+  "Environments": [
+    "Env_Zone1_Swamps",
+    "Env_Zone1_Azure",
+    "Env_Zone1_Graveyard",
+    "Env_Zone1_Dungeons"
+  ],
+  "NPCs": [
+    {
+      "Weight": 2,
+      "SpawnBlockSet": "Soil",
+      "Id": "Skeleton_HyGuns_AK47",
+      "Flock": "One_Or_Two"
+    }
+  ],
+  "DayTimeRange": [
+    0,
+    24
+  ]
+}

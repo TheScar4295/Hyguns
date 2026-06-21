@@ -1,0 +1,17 @@
+{
+  "Environments": [
+    "Env_Zone2_Deserts",
+    "Env_Zone2_Scrub"
+  ],
+  "NPCs": [
+    {
+      "Weight": 1,
+      "SpawnBlockSet": "Sand",
+      "Id": "Dungeon_Skeleton_Sand_Soldier_HyGuns_DoubleBarrel"
+    }
+  ],
+  "DayTimeRange": [
+    0,
+    24
+  ]
+}

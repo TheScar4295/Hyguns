@@ -1,0 +1,17 @@
+{
+  "Environments": [
+    "Env_Zone2_Savanna",
+    "Env_Zone2_Scrub"
+  ],
+  "NPCs": [
+    {
+      "Weight": 1,
+      "SpawnBlockSet": "Soil",
+      "Id": "Feran_Longtooth_HyGuns_M4A1s"
+    }
+  ],
+  "DayTimeRange": [
+    6,
+    18
+  ]
+}

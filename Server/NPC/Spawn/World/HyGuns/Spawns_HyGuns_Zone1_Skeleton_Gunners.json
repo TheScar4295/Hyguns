@@ -1,0 +1,28 @@
+{
+  "Environments": [
+    "Env_Zone1_Swamps",
+    "Env_Zone1_Azure",
+    "Env_Zone1_Encounters",
+    "Env_Zone1_Graveyard",
+    "Env_Zone1_Dungeons",
+    "Env_Zone1_Forests",
+    "Env_Zone1_Plains"
+  ],
+  "NPCs": [
+    {
+      "Weight": 2,
+      "SpawnBlockSet": "Soil",
+      "Id": "Skeleton_HyGuns_Glock18",
+      "Flock": "One_Or_Two"
+    },
+    {
+      "Weight": 1,
+      "SpawnBlockSet": "Soil",
+      "Id": "Skeleton_Knight_HyGuns_USPS"
+    }
+  ],
+  "DayTimeRange": [
+    0,
+    24
+  ]
+}
