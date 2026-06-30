@@ -54,6 +54,18 @@
         }
       ]
     },
+    "Ability2": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_OpenAttachments",
+          "Effects": {
+            "ItemPlayerAnimationsId": "Default",
+            "ItemAnimationId": "Interact"
+          }
+        }
+      ]
+    },
     "Ability3": {
       "RequireNewClick": true,
       "Interactions": [
@@ -76,17 +88,6 @@
                 "Id": "AmmoSelection"
               }
             }
-          }
-        }
-      ]
-    },
-    "Use": {
-      "Interactions": [
-        {
-          "Type": "Hyguns_OpenAttachments",
-          "Effects": {
-            "ItemPlayerAnimationsId": "Default",
-            "ItemAnimationId": "Interact"
           }
         }
       ]

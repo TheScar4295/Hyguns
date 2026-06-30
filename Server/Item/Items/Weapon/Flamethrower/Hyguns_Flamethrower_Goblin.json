@@ -14,6 +14,18 @@
   "PlayerAnimationsId": "Rifle",
   "Interactions": {
     "Primary": "Hyguns_Flamethrower_Goblin_Primary",
+    "Ability2": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_OpenAttachments",
+          "Effects": {
+            "ItemPlayerAnimationsId": "Default",
+            "ItemAnimationId": "Interact"
+          }
+        }
+      ]
+    },
     "Ability3": {
       "Interactions": [
         {
@@ -36,14 +48,6 @@
               }
             }
           }
-        }
-      ]
-    },
-    "Use": {
-      "RequireNewClick": true,
-      "Interactions": [
-        {
-          "Type": "Hyguns_OpenAttachments"
         }
       ]
     }

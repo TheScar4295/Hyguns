@@ -188,6 +188,13 @@
               "WorldSoundEventId": "Scope_Zoom_In",
               "LocalSoundEventId": "Scope_Zoom_In"
             }
+          },
+          "False": {
+            "Type": "Hyguns_OpenAttachments",
+            "Effects": {
+              "ItemPlayerAnimationsId": "Default",
+              "ItemAnimationId": "Interact"
+            }
           }
         }
       ]
@@ -216,18 +223,6 @@
                 "Id": "AmmoSelection"
               }
             }
-          }
-        }
-      ]
-    },
-    "Use": {
-      "RequireNewClick": true,
-      "Interactions": [
-        {
-          "Type": "Hyguns_OpenAttachments",
-          "Effects": {
-            "ItemPlayerAnimationsId": "Default",
-            "ItemAnimationId": "Interact"
           }
         }
       ]
