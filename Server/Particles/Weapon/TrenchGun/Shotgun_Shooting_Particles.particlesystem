@@ -1,0 +1,105 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Rifle_Fire_Splash2",
+      "PositionOffset": {
+        "X": 0.05,
+        "Y": 3,
+        "Z": -0.1
+      },
+      "RotationOffset": {
+        "Yaw": 0,
+        "Pitch": -90,
+        "Roll": 90
+      }
+    },
+    {
+      "SpawnerId": "Explosion_Small_Smoke_Main",
+      "PositionOffset": {
+        "X": 0.0,
+        "Y": 2.8,
+        "Z": -0.4
+      },
+      "RotationOffset": {
+        "Yaw": 0,
+        "Pitch": 0,
+        "Roll": 0
+      }
+    },
+    {
+      "SpawnerId": "Explosio_Medium_Flash_Glow",
+      "PositionOffset": {
+        "Y": 3,
+        "Z": -0.07,
+        "X": 0
+      },
+      "RotationOffset": {
+        "Pitch": 0,
+        "Roll": 180
+      }
+    },
+    {
+      "SpawnerId": "Gun_Glow",
+      "PositionOffset": {
+        "Y": 3,
+        "Z": -0.08
+      }
+    },
+    {
+      "PositionOffset": {
+        "Y": 3,
+        "Z": 0,
+        "X": 0
+      },
+      "RotationOffset": {
+        "Pitch": 0,
+        "Roll": -90,
+        "Yaw": 0
+      },
+      "SpawnerId": "Shotgun_Sparks2",
+      "SpawnRate": {
+        "Min": 80,
+        "Max": 100
+      },
+      "TotalSpawners": 8,
+      "MaxConcurrent": 20
+    },
+    {
+      "SpawnerId": "FireSword_Smoke",
+      "SpawnRate": {
+        "Min": 40,
+        "Max": 60
+      },
+      "PositionOffset": {
+        "X": -0.2,
+        "Y": -0.5,
+        "Z": 0
+      },
+      "RotationOffset": {
+        "Pitch": 58,
+        "Roll": 30,
+        "Yaw": -100
+      },
+      "StartDelay": -40,
+      "MaxConcurrent": 60,
+      "TotalSpawners": 60
+    },
+    {
+      "SpawnerId": "FireSword_Smoke",
+      "PositionOffset": {
+        "Z": 0.3,
+        "Y": 2.3,
+        "X": 0
+      },
+      "TotalSpawners": -30,
+      "MaxConcurrent": 30,
+      "SpawnRate": {
+        "Min": 15,
+        "Max": 20
+      },
+      "StartDelay": -20
+    }
+  ],
+  "IsImportant": true,
+  "LifeSpan": 1
+}

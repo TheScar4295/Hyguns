@@ -1,0 +1,61 @@
+{
+  "Rules": {
+    "BlockedBy": [
+      "Primary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "Pick",
+      "SwapFrom",
+      "SwapTo"
+    ]
+  },
+  "Cooldown": {
+    "Cooldown": 0.15
+  },
+  "RequireNewClick": false,
+  "Interactions": [
+    {
+      "Type": "Hyguns_CanShoot",
+      "Next": {
+        "Type": "Hyguns_Shoot",
+        "Failed": "Gun_Shoot_Fail",
+        "Next": {
+          "Type": "Hyguns_PlayWeaponFireSound",
+          "WorldSoundEventId": "World_FiveSeven_Fire",
+          "LocalSoundEventId": "Local_FiveSeven_Fire"
+        },
+        "Effects": {
+          "ItemAnimationId": "Shoot",
+          "FirstPersonParticles": [
+            {
+              "SystemId": "RifleShooting",
+              "PositionOffset": {
+                "Z": 0.3,
+                "Y": 0
+              },
+              "RotationOffset": {
+                "Yaw": 0,
+                "Pitch": 90
+              }
+            }
+          ],
+          "Particles": [
+            {
+              "SystemId": "RifleShooting",
+              "RotationOffset": {
+                "Pitch": 90
+              },
+              "PositionOffset": {
+                "Z": 0.1,
+                "Y": 0.1
+              }
+            }
+          ],
+          "CameraEffect": "Handgun_Shoot"
+        }
+      }
+    }
+  ]
+}

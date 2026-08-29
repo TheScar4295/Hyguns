@@ -105,6 +105,7 @@
     }
   },
   "MaxDurability": 1000,
+  "DurabilityLossOnHit": 1.0,
   "Tags": {
     "Type": [
       "Weapon"

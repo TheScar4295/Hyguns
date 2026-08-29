@@ -1,0 +1,21 @@
+{
+  "Type": "Hyguns_AttachmentsInstalled",
+  "AttachmentsTypes": [
+    "Scope"
+  ],
+  "RequireAll": false,
+  "Next": {
+    "Type": "Scope_Zoom",
+    "OverlayTexturePath": "Scope/Scope_2.png",
+    "Steps": [
+      2,
+      4,
+      8
+    ],
+    "Effects": {
+      "WorldSoundEventId": "Scope_Zoom_In",
+      "LocalSoundEventId": "Scope_Zoom_In"
+    }
+  },
+  "Failed": "Hyguns_FiveSeven_Pistol_Aim"
+}

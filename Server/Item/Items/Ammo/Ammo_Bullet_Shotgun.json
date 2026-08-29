@@ -48,7 +48,7 @@
   "Scale": 0.2,
   "HyGuns": {
     "AmmoSettings": {
-      "Family": "Bullet",
+      "Family": "Shell",
       "WeaponClass": "Shotgun",
       "Icon": "Ammo/Ammo_Shotgun.png",
       "AmmoBox": {

@@ -1,0 +1,10 @@
+{
+  "Type": "Simple",
+  "RunTime": 0.2,
+  "Effects": {
+    "ItemAnimationId": "Shoot_Failed",
+    "WorldSoundEventId": "SFX_Bow_No_Ammo",
+    "LocalSoundEventId": "SFX_Blunderbuss_No_Ammo",
+    "ItemPlayerAnimationsId": "Trench_Gun_M1897_Animations"
+  }
+}

@@ -31,6 +31,7 @@
     ]
   },
   "MaxDurability": 800,
+  "DurabilityLossOnHit": 1.0,
   "HyGuns": {
     "AttachmentSettings": {
       "Type": "DamageAmplifier",

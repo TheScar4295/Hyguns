@@ -1,0 +1,61 @@
+{
+  "Rules": {
+    "BlockedBy": [
+      "Primary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "Pick",
+      "SwapFrom",
+      "SwapTo"
+    ]
+  },
+  "Cooldown": {
+    "Cooldown": 1
+  },
+  "RequireNewClick": false,
+  "Interactions": [
+    {
+      "Type": "Hyguns_CanShoot",
+      "Next": {
+        "Type": "Hyguns_Shoot",
+        "Failed": "Gun_Shoot_Fail",
+        "Next": {
+          "Type": "Hyguns_PlayWeaponFireSound",
+          "WorldSoundEventId": "ColtRevolver_Fire",
+          "LocalSoundEventId": "ColtRevolver_Fire"
+        },
+        "Effects": {
+          "ItemAnimationId": "Shoot",
+          "FirstPersonParticles": [
+            {
+              "SystemId": "RifleShooting",
+              "PositionOffset": {
+                "Z": 0.9,
+                "Y": 0.1
+              },
+              "RotationOffset": {
+                "Yaw": 0,
+                "Pitch": 90
+              }
+            }
+          ],
+          "Particles": [
+            {
+              "SystemId": "RifleShooting",
+              "RotationOffset": {
+                "Pitch": 90
+              },
+              "PositionOffset": {
+                "Z": 0.7,
+                "Y": 0.1
+              }
+            }
+          ],
+          "CameraEffect": "Handgun_Shoot"
+        }
+      }
+    }
+  ]
+}

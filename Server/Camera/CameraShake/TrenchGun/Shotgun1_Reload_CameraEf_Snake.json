@@ -1,0 +1,91 @@
+{
+  "FirstPerson": {
+    "Duration": 0,
+    "EaseIn": {
+      "Time": 0.2,
+      "Type": "Linear"
+    },
+    "EaseOut": {
+      "Time": 0.2,
+      "Type": "Linear"
+    },
+    "Rotation": {
+      "Pitch": [
+        {
+          "Frequency": 1,
+          "Amplitude": 0.01,
+          "Type": "Sin",
+          "Seed": 0,
+          "Clamp": {
+            "Min": -1,
+            "Max": -0.999,
+            "Normalize": true
+          }
+        }
+      ],
+      "Yaw": [
+        {
+          "Type": "Perlin_Quintic",
+          "Clamp": {
+            "Max": 1
+          },
+          "Amplitude": 0.01,
+          "Frequency": 1
+        }
+      ],
+      "Roll": [
+        {
+          "Frequency": 1,
+          "Amplitude": 0.01,
+          "Type": "Perlin_Hermite",
+          "Clamp": {
+            "Min": 0.328,
+            "Max": 0.472
+          }
+        }
+      ]
+    }
+  },
+  "ThirdPerson": {
+    "Duration": 0.0,
+    "EaseIn": {
+      "Time": 0.2,
+      "Type": "Linear"
+    },
+    "EaseOut": {
+      "Time": 0.2,
+      "Type": "Linear"
+    },
+    "Rotation": {
+      "Pitch": [
+        {
+          "Frequency": 1,
+          "Amplitude": 0.02,
+          "Type": "Sin",
+          "Clamp": {
+            "Max": -0.999,
+            "Normalize": true
+          }
+        }
+      ],
+      "Roll": [
+        {
+          "Frequency": 1,
+          "Amplitude": 0.02,
+          "Type": "Perlin_Hermite",
+          "Clamp": {
+            "Min": 0.328,
+            "Max": 0.472
+          }
+        }
+      ],
+      "Yaw": [
+        {
+          "Type": "Perlin_Hermite",
+          "Frequency": 1,
+          "Amplitude": 0.02
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "Cooldown": {
+    "Cooldown": 1
+  },
+  "RequireNewClick": false,
+  "Interactions": [
+    {
+      "Type": "WCHud_UseKey",
+      "Slot": "Primary"
+    },
+    {
+      "Type": "Hyguns_CanShoot",
+      "Next": {
+        "Type": "Hyguns_Shoot",
+        "Failed": "Gun_Shoot_Fail",
+        "Next": {
+          "Type": "Hyguns_PlayWeaponFireSound",
+          "WorldSoundEventId": "DesertEagle_Fire",
+          "LocalSoundEventId": "DesertEagle_Fire"
+        },
+        "Effects": {
+          "ItemAnimationId": "Shoot",
+          "FirstPersonParticles": [
+            {
+              "SystemId": "RifleShooting",
+              "PositionOffset": {
+                "X": -0.1,
+                "Z": 0.7,
+                "Y": 0
+              },
+              "RotationOffset": {
+                "Yaw": 0,
+                "Pitch": 90
+              }
+            }
+          ],
+          "Particles": [
+            {
+              "SystemId": "RifleShooting",
+              "RotationOffset": {
+                "Pitch": 90
+              },
+              "PositionOffset": {
+                "Z": 0.4
+              }
+            }
+          ],
+          "CameraEffect": "DesertEagle_Shoot"
+        }
+      }
+    }
+  ]
+}

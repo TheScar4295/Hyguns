@@ -8,13 +8,13 @@
     },
     "Walk": {
       "FirstPerson": "Characters/Animations/Items/Main_Handed/Handgun/Walk_FPS.blockyanim",
-      "Speed": 1.0,
+      "Speed": 1,
       "ThirdPerson": "Characters/Animations/Items/Main_Handed/Handgun/Walk.blockyanim",
       "Looping": true
     },
     "WalkBackward": {
       "FirstPerson": "Characters/Animations/Items/Main_Handed/Handgun/Walk_Backward_FPS.blockyanim",
-      "Speed": 1.0,
+      "Speed": 1,
       "ThirdPerson": "Characters/Animations/Items/Main_Handed/Handgun/Walk_Backward.blockyanim",
       "Looping": true
     },
@@ -245,6 +245,24 @@
       "Speed": 1,
       "BlendingDuration": 0.1
     },
+    "Aim": {
+      "ThirdPerson": "Characters/Animations/Items/Main_Handed/HyGuns/Pistol_Aim.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Main_Handed/HyGuns/Pistol_Aim.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Main_Handed/HyGuns/Pistol_Aim_FPS.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "Speed": 1,
+      "BlendingDuration": 0.15
+    },
+    "AimShoot": {
+      "ThirdPerson": "Characters/Animations/Items/Main_Handed/HyGuns/Pistol_Aim_Shoot.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Main_Handed/HyGuns/Pistol_Aim_Shoot.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Angry.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Main_Handed/HyGuns/Pistol_Aim_Shoot_FPS.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "Speed": 2,
+      "BlendingDuration": 0
+    },
     "Guard": {
       "ThirdPerson": "Characters/Animations/Items/Main_Handed/Handgun/Attacks/Guard/Guard.blockyanim",
       "ThirdPersonMoving": "Characters/Animations/Items/Main_Handed/Handgun/Attacks/Guard/Guard_Moving.blockyanim",
@@ -268,14 +286,19 @@
         "Max": 60,
         "Min": -45
       },
-      "TargetNodes": ["Head", "RShoulder"]
+      "TargetNodes": [
+        "Head",
+        "RShoulder"
+      ]
     },
     "Yaw": {
       "AngleRange": {
         "Max": 45,
         "Min": -45
       },
-      "TargetNodes": ["Belly"]
+      "TargetNodes": [
+        "Belly"
+      ]
     }
   },
   "WiggleWeights": {

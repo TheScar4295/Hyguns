@@ -28,80 +28,8 @@
     "Compatible": true
   },
   "Interactions": {
-    "Primary": {
-      "Cooldown": {
-        "Cooldown": 1
-      },
-      "RequireNewClick": false,
-      "Interactions": [
-        {
-          "Type": "Hyguns_CanShoot",
-          "Next": {
-            "Type": "Hyguns_Shoot",
-            "Failed": "Gun_Shoot_Fail",
-            "Next": {
-              "Type": "Hyguns_PlayWeaponFireSound",
-              "WorldSoundEventId": "ColtRevolver_Fire",
-              "LocalSoundEventId": "ColtRevolver_Fire"
-            },
-            "Effects": {
-              "ItemAnimationId": "Shoot",
-              "FirstPersonParticles": [
-                {
-                  "SystemId": "RifleShooting",
-                  "PositionOffset": {
-                    "Z": 0.9,
-                    "Y": 0.1
-                  },
-                  "RotationOffset": {
-                    "Yaw": 0,
-                    "Pitch": 90
-                  }
-                }
-              ],
-              "Particles": [
-                {
-                  "SystemId": "RifleShooting",
-                  "RotationOffset": {
-                    "Pitch": 90
-                  },
-                  "PositionOffset": {
-                    "Z": 0.7,
-                    "Y": 0.1
-                  }
-                }
-              ],
-              "CameraEffect": "Handgun_Shoot"
-            }
-          }
-        }
-      ]
-    },
-    "Secondary": {
-      "RequireNewClick": true,
-      "Interactions": [
-        {
-          "Type": "Hyguns_AttachmentsInstalled",
-          "AttachmentsTypes": [
-            "Scope"
-          ],
-          "RequireAll": false,
-          "Next": {
-            "Type": "Scope_Zoom",
-            "OverlayTexturePath": "Scope/Scope_2.png",
-            "MaxDistance": 30,
-            "MinDistance": 1,
-            "DefaultZoomMultiplier": 1,
-            "MaxZoomMultiplier": 3,
-            "ZoomMultiplierStep": 1,
-            "Effects": {
-              "WorldSoundEventId": "Scope_Zoom_In",
-              "LocalSoundEventId": "Scope_Zoom_In"
-            }
-          }
-        }
-      ]
-    },
+    "Primary": "Root_Hyguns_ColtRevolver_Shoot",
+    "Secondary": "Root_Hyguns_ColtRevolver_Pistol_Aim",
     "Ability1": {
       "RequireNewClick": true,
       "Interactions": [
@@ -183,6 +111,7 @@
     }
   },
   "MaxDurability": 120,
+  "DurabilityLossOnHit": 1,
   "PlayerAnimationsId": "Handgun",
   "Tags": {
     "Type": [

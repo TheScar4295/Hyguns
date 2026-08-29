@@ -1,0 +1,10 @@
+{
+  "Id": "Aiming",
+  "Name": "Aiming",
+  "Description": "Focused weapon aiming state.",
+  "SettingsModifiers": {
+    "Projectiles": {
+      "Spread": "*0.5"
+    }
+  }
+}

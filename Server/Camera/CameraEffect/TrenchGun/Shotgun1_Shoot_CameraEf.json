@@ -1,0 +1,7 @@
+{
+  "Type": "CameraShake",
+  "CameraShake": "Shotgun1_Shoot_CameraEf_Snake",
+  "Intensity": {
+    "Value": 0.356
+  }
+}

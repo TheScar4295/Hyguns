@@ -1,0 +1,131 @@
+{
+  "FirstPerson": {
+    "Duration": 0,
+    "EaseIn": {
+      "Time": 0.15,
+      "Type": "CubicInOut"
+    },
+    "EaseOut": {
+      "Time": 0.15,
+      "Type": "QuadInOut"
+    },
+    "Rotation": {
+      "Pitch": [
+        {
+          "Frequency": 0.5,
+          "Amplitude": 1,
+          "Type": "Perlin_Hermite",
+          "Seed": 0,
+          "Clamp": {
+            "Min": -1,
+            "Max": -0.999,
+            "Normalize": true
+          }
+        }
+      ],
+      "Yaw": [
+        {
+          "Type": "Perlin_Quintic",
+          "Clamp": {
+            "Max": 1
+          },
+          "Amplitude": 0.4,
+          "Frequency": 10
+        }
+      ],
+      "Roll": [
+        {
+          "Frequency": 10,
+          "Amplitude": 0.1,
+          "Type": "Perlin_Quintic",
+          "Clamp": {
+            "Min": -1
+          }
+        }
+      ]
+    },
+    "Offset": {
+      "Z": [
+        {
+          "Frequency": 20,
+          "Amplitude": 1.5,
+          "Type": "Perlin_Quintic",
+          "Clamp": {
+            "Max": 1
+          }
+        }
+      ],
+      "Y": [
+        {
+          "Frequency": 20,
+          "Type": "Perlin_Quintic",
+          "Amplitude": 0.07
+        }
+      ],
+      "X": [
+        {
+          "Type": "Perlin_Quintic",
+          "Frequency": 20,
+          "Amplitude": 0.07
+        }
+      ]
+    }
+  },
+  "ThirdPerson": {
+    "Duration": 0.0,
+    "EaseIn": {
+      "Time": 0.01,
+      "Type": "Linear"
+    },
+    "EaseOut": {
+      "Time": 0.1,
+      "Type": "Linear"
+    },
+    "Offset": {
+      "X": [
+        {
+          "Amplitude": 0.07,
+          "Type": "Perlin_Quintic"
+        }
+      ],
+      "Y": [
+        {
+          "Amplitude": 0.07,
+          "Type": "Perlin_Quintic"
+        }
+      ],
+      "Z": [
+        {
+          "Amplitude": 0.07,
+          "Type": "Perlin_Quintic"
+        }
+      ]
+    },
+    "Rotation": {
+      "Pitch": [
+        {
+          "Frequency": 1,
+          "Amplitude": 0.02,
+          "Type": "Sin",
+          "Clamp": {
+            "Max": -0.999
+          }
+        }
+      ],
+      "Roll": [
+        {
+          "Frequency": 10,
+          "Amplitude": 0.02,
+          "Type": "Perlin_Quintic"
+        }
+      ],
+      "Yaw": [
+        {
+          "Type": "Perlin_Quintic",
+          "Frequency": 10,
+          "Amplitude": 0.02
+        }
+      ]
+    }
+  }
+}

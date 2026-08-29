@@ -1,0 +1,21 @@
+{
+  "Type": "Hyguns_CombatStateWielding",
+  "State": "Aiming",
+  "CancelOnOtherClick": false,
+  "FailOnDamage": false,
+  "Effects": {
+    "ItemPlayerAnimationsId": "HygunsPistols",
+    "ItemAnimationId": "Aim",
+    "ClearAnimationOnFinish": true,
+    "Zoom": {
+      "MagnificationMultiplier": 1.2,
+      "MouseSensitivityMultiplier": 0.85,
+      "DepthOfField": false,
+      "ForcePerspective": "None",
+      "InLerp": 0.08,
+      "OutLerp": 0.18,
+      "OverlayFade": false
+    }
+  },
+  "HorizontalSpeedMultiplier": 0.8
+}

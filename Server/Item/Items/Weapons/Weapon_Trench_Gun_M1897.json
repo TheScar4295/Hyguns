@@ -1,0 +1,371 @@
+{
+  "TranslationProperties": {
+    "Name": "Trench Gun M1897",
+    "Description": ""
+  },
+  "Categories": [
+    "HyGuns.Guns"
+  ],
+  "Author": "Prokop",
+  "PlayerAnimationsId": {
+    "Parent": "Trench_Gun_M1897_Animations",
+    "Animations": {
+      "Trench_Gun_Shoot": {
+        "ThirdPerson": "Characters/Animations/Items/Dual_Handed/TrenchGun/Ch_Gun/Shotguns/Attacks/TrenchGun_Shoot.blockyanim",
+        "FirstPerson": "Characters/Animations/Items/Dual_Handed/TrenchGun/Ch_Gun/Shotguns/Attacks/TrenchGun_Shoot_FPS.blockyanim",
+        "Speed": 0,
+        "BlendingDuration": 0,
+        "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+        "Looping": false,
+        "KeepPreviousFirstPersonAnimation": false,
+        "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/TrenchGun/Ch_Gun/Shotguns/Attacks/TrenchGun_Shoot_Moving.blockyanim"
+      },
+      "Reload": {
+        "ThirdPerson": "Characters/Animations/Items/Main_Handed/Crossbow/Reload/Reload.blockyanim",
+        "Speed": 1,
+        "BlendingDuration": 0.0,
+        "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+        "Looping": true,
+        "FirstPerson": "Characters/Animations/Items/Main_Handed/Crossbow/Reload/Reload_FPS.blockyanim"
+      }
+    }
+  },
+  "Interactions": {
+    "Primary": {
+      "Cooldown": {
+        "Cooldown": 1
+      },
+      "RequireNewClick": false,
+      "Interactions": [
+        {
+          "Type": "Hyguns_CanShoot",
+          "Next": {
+            "Type": "Hyguns_Shoot",
+            "Failed": "Trench_Gun_Fail",
+            "Next": {
+              "Type": "Hyguns_PlayWeaponFireSound",
+              "WorldSoundEventId": "SFX_Shotgun1_Fire",
+              "LocalSoundEventId": "SFX_Shotgun1_FireLocal"
+            },
+            "Effects": {
+              "CameraEffect": "Shotgun1_Shoot_CameraEf",
+              "ItemAnimationId": "Trench_Gun_Shoot",
+              "ItemPlayerAnimationsId": "Trench_Gun_M1897_Animations",
+              "Particles": [
+                {
+                  "SystemId": "Shotgun_Shooting_Particles",
+                  "RotationOffset": {
+                    "Pitch": 90
+                  },
+                  "PositionOffset": {
+                    "Y": 0.15,
+                    "Z": 0.85
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Secondary": "TrenchGun_Melee_Attack_Root",
+    "Ability2": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_OpenAttachments",
+          "Effects": {
+            "ItemPlayerAnimationsId": "Default",
+            "ItemAnimationId": "Interact"
+          }
+        }
+      ]
+    },
+    "Ability3": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Charging",
+          "DisplayProgress": false,
+          "AllowIndefiniteHold": false,
+          "Next": {
+            "0": {
+              "Type": "Replace",
+              "Var": "Reload_Batch_Entry"
+            },
+            "0.25": {
+              "Type": "OpenCustomUI",
+              "Page": {
+                "Id": "AmmoSelection"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "SwapTo": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    }
+  },
+  "InteractionVars": {
+    "Gun_Swing_Left_Effect": {
+      "Interactions": [
+        {
+          "Parent": "TrenchGun_Swing_LeftEffect",
+          "Effects": {
+            "Trails": [
+              {
+                "TrailId": "Small_Default",
+                "TargetNodeName": "Handle",
+                "TargetEntityPart": "PrimaryItem",
+                "PositionOffset": {
+                  "X": 0.4,
+                  "Y": -0.05,
+                  "Z": 0
+                },
+                "RotationOffset": {
+                  "Yaw": 0,
+                  "Pitch": 0,
+                  "Roll": -45
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Gun_Swing_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "TrenchGun_Swing_LeftDamage",
+          "DamageCalculator": {
+            "Type": "Dps",
+            "BaseDamage": {
+              "Physical": 5
+            },
+            "RandomPercentageModifier": 0.1
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Unarmed_Impact"
+          }
+        }
+      ]
+    },
+    "Reload_Batch_Entry": {
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "Effects": {
+            "ItemAnimationId": "ReloadShotgun1Prepear",
+            "ClearAnimationOnFinish": false,
+            "LocalSoundEventId": "SFX_Shotgun1_StartReload",
+            "ItemPlayerAnimationsId": "Trench_Gun_M1897_Animations",
+            "WaitForAnimationToFinish": false
+          },
+          "Next": {
+            "Type": "Replace",
+            "Var": "Reload_Batch"
+          },
+          "HorizontalSpeedMultiplier": 0.75,
+          "RunTime": 0.5,
+          "OnItemChangeBehavior": "Ignore"
+        }
+      ]
+    },
+    "Reload_Batch": {
+      "Interactions": [
+        {
+          "Type": "Repeat",
+          "RunTime": 10,
+          "Rules": {
+            "InterruptedBy": [
+              "Primary",
+              "Secondary",
+              "SwapFrom"
+            ],
+            "BlockedBy": [
+              "Primary",
+              "Secondary",
+              "SwapFrom"
+            ]
+          },
+          "ForkInteractions": {
+            "Interactions": [
+              {
+                "Type": "Serial",
+                "Interactions": [
+                  {
+                    "Type": "Hyguns_Reload",
+                    "RunTime": 0.5,
+                    "HorizontalSpeedMultiplier": 0.75,
+                    "Effects": {
+                      "ItemAnimationId": "TrenchGunReload",
+                      "LocalSoundEventId": "SFX_Shotgun1_LoadAmmo_Local",
+                      "ClearAnimationOnFinish": false,
+                      "ClearSoundEventOnFinish": false,
+                      "WaitForAnimationToFinish": true,
+                      "CameraEffect": "Shotgun1_Reload_CameraEf",
+                      "ItemPlayerAnimationsId": "Trench_Gun_M1897_Animations",
+                      "StartDelay": 0
+                    },
+                    "WeaponSettingsOverrides": {
+                      "Ammo": {
+                        "Reload": {
+                          "Time": 0.5,
+                          "Amount": 1
+                        }
+                      }
+                    },
+                    "OnItemChangeBehavior": "Ignore"
+                  }
+                ]
+              }
+            ]
+          },
+          "Failed": {
+            "Type": "Replace",
+            "Var": "No_Ammo_Effects"
+          },
+          "Repeat": -1
+        }
+      ]
+    },
+    "No_Ammo_Effects": {
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Blunderbuss_No_Ammo",
+            "ItemPlayerAnimationsId": "Default"
+          },
+          "RunTime": 0.5
+        }
+      ]
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      344,
+      20,
+      10
+    ],
+    "Translation": [
+      -25,
+      -41
+    ]
+  },
+  "Texture": "Items/Weapons/TrenchGunM1897/Trecnh_Gun_M1897.png",
+  "Icon": "Icons/ItemsGenerated/PavGun_Trench_GunM1897.png",
+  "Quality": "Rare",
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 9
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Ingredient_Leather_Medium",
+        "Quantity": 2,
+        "ResourceTypeId": ""
+      },
+      {
+        "Quantity": 4,
+        "ResourceTypeId": "Wood_Trunk"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Shotguns"
+        ],
+        "Id": "Bench_Gunsmith",
+        "RequiredTierLevel": 2
+      }
+    ],
+    "TimeSeconds": 5
+  },
+  "Utility": {
+    "Compatible": true
+  },
+  "MaxStack": 1,
+  "ItemLevel": 5,
+  "MaxDurability": 800,
+  "DurabilityLossOnHit": 1,
+  "UsePlayerAnimations": true,
+  "Model": "Items/Weapons/TrenchGunM1897/Trench_Gun_M1897.blockymodel",
+  "Reticle": "DefaultMelee",
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Scale": 0.5,
+  "FuelQuality": 1,
+  "WeaponCustomHUD": {
+    "Enabled": true,
+    "Preset": "HyGunsWeapon",
+    "Abilities": {
+      "Secondary": {
+        "Enabled": {
+          "Default": true
+        },
+        "Icons": {
+          "Default": "WeaponCustomHUD/Icons/PunchAbility.png"
+        }
+      }
+    }
+  },
+  "HyGuns": {
+    "WeaponSettings": {
+      "WeaponIcon": "Weapons/M1897.png",
+      "Ammo": {
+        "Family": "Shell",
+        "WeaponClass": [
+          "Shotgun"
+        ],
+        "Capacity": 6,
+        "Reload": {
+          "Time": 0.5,
+          "Amount": 1
+        }
+      },
+      "Projectiles": {
+        "ConfigId": "Hyguns_Projectile_Config_Bullet",
+        "Spread": 0.08,
+        "Count": 9,
+        "Damage": 5
+      },
+      "AttachmentsDefinition": {
+        "WeaponSchema": {
+          "Image": "AttachmentsUI/WeaponSchema/M1897.png",
+          "Size": [
+            780,
+            400
+          ],
+          "AnimationDuration": 0.5,
+          "AnimationTiming": "EaseInOut"
+        },
+        "Slots": {
+          "*": {
+            "Count": 4
+          }
+        }
+      }
+    }
+  }
+}

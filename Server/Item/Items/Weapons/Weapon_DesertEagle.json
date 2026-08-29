@@ -29,80 +29,8 @@
     "Compatible": true
   },
   "Interactions": {
-    "Primary": {
-      "Cooldown": {
-        "Cooldown": 1
-      },
-      "RequireNewClick": false,
-      "Interactions": [
-        {
-          "Type": "Hyguns_CanShoot",
-          "Next": {
-            "Type": "Hyguns_Shoot",
-            "Failed": "Gun_Shoot_Fail",
-            "Next": {
-              "Type": "Hyguns_PlayWeaponFireSound",
-              "WorldSoundEventId": "DesertEagle_Fire",
-              "LocalSoundEventId": "DesertEagle_Fire"
-            },
-            "Effects": {
-              "ItemAnimationId": "Shoot",
-              "FirstPersonParticles": [
-                {
-                  "SystemId": "RifleShooting",
-                  "PositionOffset": {
-                    "X": -0.1,
-                    "Z": 0.7,
-                    "Y": 0
-                  },
-                  "RotationOffset": {
-                    "Yaw": 0,
-                    "Pitch": 90
-                  }
-                }
-              ],
-              "Particles": [
-                {
-                  "SystemId": "RifleShooting",
-                  "RotationOffset": {
-                    "Pitch": 90
-                  },
-                  "PositionOffset": {
-                    "Z": 0.4
-                  }
-                }
-              ],
-              "CameraEffect": "DesertEagle_Shoot"
-            }
-          }
-        }
-      ]
-    },
-    "Secondary": {
-      "RequireNewClick": true,
-      "Interactions": [
-        {
-          "Type": "Hyguns_AttachmentsInstalled",
-          "AttachmentsTypes": [
-            "Scope"
-          ],
-          "RequireAll": false,
-          "Next": {
-            "Type": "Scope_Zoom",
-            "OverlayTexturePath": "Scope/Scope_2.png",
-            "MaxDistance": 30,
-            "MinDistance": 1,
-            "DefaultZoomMultiplier": 1,
-            "MaxZoomMultiplier": 3,
-            "ZoomMultiplierStep": 1,
-            "Effects": {
-              "WorldSoundEventId": "Scope_Zoom_In",
-              "LocalSoundEventId": "Scope_Zoom_In"
-            }
-          }
-        }
-      ]
-    },
+    "Primary": "Root_Hyguns_DesertEagle_Shoot",
+    "Secondary": "Root_Hyguns_DesertEagle_Pistol_Aim",
     "Ability1": {
       "RequireNewClick": true,
       "Interactions": [
@@ -181,6 +109,7 @@
     }
   },
   "MaxDurability": 140,
+  "DurabilityLossOnHit": 1,
   "Tags": {
     "Type": [
       "Weapon"
@@ -250,56 +179,56 @@
         "Damage": 25
       },
       "AttachmentsDefinition": {
-    "WeaponSchema": {
-      "Image": "AttachmentsUI/WeaponSchema/DesertEagle.png",
-      "Size": [
-        780,
-        400
-      ],
-      "AnimationDuration": 0.5,
-      "AnimationTiming": "EaseInOut"
-    },
+        "WeaponSchema": {
+          "Image": "AttachmentsUI/WeaponSchema/DesertEagle.png",
+          "Size": [
+            780,
+            400
+          ],
+          "AnimationDuration": 0.5,
+          "AnimationTiming": "EaseInOut"
+        },
         "Slots": {
-      "Scope": {
-        "Count": 1,
-        "Visual": true,
-        "Index": 0,
-        "StartPosition": [
-          365,
-          105
-        ],
-        "SlotPoint": "Right",
-        "Position": [
-          160,
-          0
-        ]
-      },
-      "Suppressor": {
-        "Count": 1,
-        "Visual": true,
-        "Index": 1,
-        "StartPosition": [
-          260,
-          130
-        ],
-        "SlotPoint": "Right",
-        "Position": [
-          95,
-          185
-        ]
-      },
-      "Magazine": {
-        "Count": 1,
-        "StartPosition": [
-          500,
-          310
-        ],
-        "SlotPoint": "Right",
-        "Position": [
-          345,
-          300
-        ]
-      },
+          "Scope": {
+            "Count": 1,
+            "Visual": true,
+            "Index": 0,
+            "StartPosition": [
+              365,
+              105
+            ],
+            "SlotPoint": "Right",
+            "Position": [
+              160,
+              0
+            ]
+          },
+          "Suppressor": {
+            "Count": 1,
+            "Visual": true,
+            "Index": 1,
+            "StartPosition": [
+              260,
+              130
+            ],
+            "SlotPoint": "Right",
+            "Position": [
+              95,
+              185
+            ]
+          },
+          "Magazine": {
+            "Count": 1,
+            "StartPosition": [
+              500,
+              310
+            ],
+            "SlotPoint": "Right",
+            "Position": [
+              345,
+              300
+            ]
+          },
           "*": {
             "Count": 2
           }

@@ -78,11 +78,7 @@
           "Next": {
             "Type": "Scope_Zoom",
             "OverlayTexturePath": "Scope/Scope_2.png",
-            "MaxDistance": 30,
-            "MinDistance": 1,
-            "DefaultZoomMultiplier": 1,
-            "MaxZoomMultiplier": 3,
-            "ZoomMultiplierStep": 1,
+            "Steps": [2.0, 4.0, 8.0],
             "Effects": {
               "WorldSoundEventId": "Scope_Zoom_In",
               "LocalSoundEventId": "Scope_Zoom_In"
@@ -171,6 +167,7 @@
     }
   },
   "MaxDurability": 600,
+  "DurabilityLossOnHit": 1.0,
   "PlayerAnimationsId": "Rifle",
   "Recipe": {
     "TimeSeconds": 1,
