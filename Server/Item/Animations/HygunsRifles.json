@@ -266,11 +266,23 @@
       "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim"
     },
     "Aim": {
-      "ThirdPerson": "Characters/Animations/Hypixel/Minigames/GunPvP/Assault_Rifle/Aim.blockyanim",
-      "FirstPerson": "Characters/Animations/Hypixel/Minigames/GunPvP/Assault_Rifle/Aim_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/HyGuns/Rifle_Aim.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/HyGuns/Rifle_Aim.blockyanim",
       "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/HyGuns/Rifle_Aim_FPS.blockyanim",
       "KeepPreviousFirstPersonAnimation": false,
+      "Speed": 1,
+      "BlendingDuration": 0.15,
       "Looping": true
+    },
+    "AimShoot": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/HyGuns/Rifle_Aim_Shoot.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/HyGuns/Rifle_Aim_Shoot.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Angry.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/HyGuns/Rifle_Aim_Shoot_FPS.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "Speed": 2,
+      "BlendingDuration": 0
     }
   },
   "Camera": {

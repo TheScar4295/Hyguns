@@ -252,7 +252,8 @@
       "FirstPerson": "Characters/Animations/Items/Main_Handed/HyGuns/Pistol_Aim_FPS.blockyanim",
       "KeepPreviousFirstPersonAnimation": true,
       "Speed": 1,
-      "BlendingDuration": 0.15
+      "BlendingDuration": 0.15,
+      "Looping": true
     },
     "AimShoot": {
       "ThirdPerson": "Characters/Animations/Items/Main_Handed/HyGuns/Pistol_Aim_Shoot.blockyanim",

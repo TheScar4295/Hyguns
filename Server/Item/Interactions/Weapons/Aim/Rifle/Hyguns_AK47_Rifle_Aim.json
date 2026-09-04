@@ -18,5 +18,10 @@
       "OverlayFade": false
     }
   },
-  "HorizontalSpeedMultiplier": 0.8
+  "HorizontalSpeedMultiplier": 0.8,
+  "Camera": {
+    "FirstPerson": [
+      {}
+    ]
+  }
 }

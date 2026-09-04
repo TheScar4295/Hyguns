@@ -19,41 +19,83 @@
     {
       "Type": "Hyguns_CanShoot",
       "Next": {
-        "Type": "Hyguns_Shoot",
-        "Failed": "Gun_Shoot_Fail",
-        "Next": {
-          "Type": "Hyguns_PlayWeaponFireSound",
-          "WorldSoundEventId": "DesertEagle_Fire",
-          "LocalSoundEventId": "DesertEagle_Fire"
+        "Type": "Hyguns_CheckCombatState",
+        "States": ["Aiming"],
+        "True": {
+          "Type": "Hyguns_Shoot",
+          "Failed": "Gun_Shoot_Fail",
+          "Next": {
+            "Type": "Hyguns_PlayWeaponFireSound",
+            "WorldSoundEventId": "DesertEagle_Fire",
+            "LocalSoundEventId": "DesertEagle_Fire"
+          },
+          "Effects": {
+            "ItemAnimationId": "AimShoot",
+            "FirstPersonParticles": [
+              {
+                "SystemId": "RifleShooting",
+                "PositionOffset": {
+                  "X": -0.1,
+                  "Z": 0.7,
+                  "Y": 0
+                },
+                "RotationOffset": {
+                  "Yaw": 0,
+                  "Pitch": 90
+                }
+              }
+            ],
+            "Particles": [
+              {
+                "SystemId": "RifleShooting",
+                "RotationOffset": {
+                  "Pitch": 90
+                },
+                "PositionOffset": {
+                  "Z": 0.4
+                }
+              }
+            ],
+            "CameraEffect": "DesertEagle_Shoot"
+          }
         },
-        "Effects": {
-          "ItemAnimationId": "Shoot",
-          "FirstPersonParticles": [
-            {
-              "SystemId": "RifleShooting",
-              "PositionOffset": {
-                "X": -0.1,
-                "Z": 0.7,
-                "Y": 0
-              },
-              "RotationOffset": {
-                "Yaw": 0,
-                "Pitch": 90
+        "False": {
+          "Type": "Hyguns_Shoot",
+          "Failed": "Gun_Shoot_Fail",
+          "Next": {
+            "Type": "Hyguns_PlayWeaponFireSound",
+            "WorldSoundEventId": "DesertEagle_Fire",
+            "LocalSoundEventId": "DesertEagle_Fire"
+          },
+          "Effects": {
+            "ItemAnimationId": "Shoot",
+            "FirstPersonParticles": [
+              {
+                "SystemId": "RifleShooting",
+                "PositionOffset": {
+                  "X": -0.1,
+                  "Z": 0.7,
+                  "Y": 0
+                },
+                "RotationOffset": {
+                  "Yaw": 0,
+                  "Pitch": 90
+                }
               }
-            }
-          ],
-          "Particles": [
-            {
-              "SystemId": "RifleShooting",
-              "RotationOffset": {
-                "Pitch": 90
-              },
-              "PositionOffset": {
-                "Z": 0.4
+            ],
+            "Particles": [
+              {
+                "SystemId": "RifleShooting",
+                "RotationOffset": {
+                  "Pitch": 90
+                },
+                "PositionOffset": {
+                  "Z": 0.4
+                }
               }
-            }
-          ],
-          "CameraEffect": "DesertEagle_Shoot"
+            ],
+            "CameraEffect": "DesertEagle_Shoot"
+          }
         }
       }
     }

@@ -12,7 +12,7 @@
     ]
   },
   "Cooldown": {
-    "Cooldown": 0.15
+    "Cooldown": 0.1
   },
   "RequireNewClick": false,
   "Interactions": [
@@ -20,14 +20,16 @@
       "Type": "Hyguns_CanShoot",
       "Next": {
         "Type": "Hyguns_CheckCombatState",
-        "States": ["Aiming"],
+        "States": [
+          "Aiming"
+        ],
         "True": {
           "Type": "Hyguns_Shoot",
           "Failed": "Gun_Shoot_Fail",
           "Next": {
             "Type": "Hyguns_PlayWeaponFireSound",
-            "WorldSoundEventId": "World_FiveSeven_Fire",
-            "LocalSoundEventId": "Local_FiveSeven_Fire"
+            "WorldSoundEventId": "World_AK47_Fire",
+            "LocalSoundEventId": "Local_AK47_Fire"
           },
           "Effects": {
             "ItemAnimationId": "AimShoot",
@@ -35,8 +37,9 @@
               {
                 "SystemId": "RifleShooting",
                 "PositionOffset": {
-                  "Z": 0.3,
-                  "Y": 0
+                  "X": -0.1,
+                  "Z": 1.42,
+                  "Y": 0.1
                 },
                 "RotationOffset": {
                   "Yaw": 0,
@@ -51,7 +54,7 @@
                   "Pitch": 90
                 },
                 "PositionOffset": {
-                  "Z": 0.1,
+                  "Z": 1.1,
                   "Y": 0.1
                 }
               }
@@ -64,8 +67,8 @@
           "Failed": "Gun_Shoot_Fail",
           "Next": {
             "Type": "Hyguns_PlayWeaponFireSound",
-            "WorldSoundEventId": "World_FiveSeven_Fire",
-            "LocalSoundEventId": "Local_FiveSeven_Fire"
+            "WorldSoundEventId": "World_AK47_Fire",
+            "LocalSoundEventId": "Local_AK47_Fire"
           },
           "Effects": {
             "ItemAnimationId": "Shoot",
@@ -73,8 +76,9 @@
               {
                 "SystemId": "RifleShooting",
                 "PositionOffset": {
-                  "Z": 0.3,
-                  "Y": 0
+                  "X": -0.1,
+                  "Z": 1.42,
+                  "Y": 0.1
                 },
                 "RotationOffset": {
                   "Yaw": 0,
@@ -89,7 +93,7 @@
                   "Pitch": 90
                 },
                 "PositionOffset": {
-                  "Z": 0.1,
+                  "Z": 1.1,
                   "Y": 0.1
                 }
               }

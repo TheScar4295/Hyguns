@@ -1,4 +1,16 @@
 {
+  "Rules": {
+    "BlockedBy": [
+      "Secondary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "Pick",
+      "SwapFrom",
+      "SwapTo"
+    ]
+  },
   "Interactions": [
     "Hyguns_DesertEagle_ScopeOrPistol_Aim"
   ],

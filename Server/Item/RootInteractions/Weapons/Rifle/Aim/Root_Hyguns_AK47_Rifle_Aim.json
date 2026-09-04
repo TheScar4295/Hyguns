@@ -12,7 +12,7 @@
     ]
   },
   "Interactions": [
-    "Hyguns_ColtRevolver_ScopeOrPistol_Aim"
+    "Hyguns_AK47_ScopeOrRifle_Aim"
   ],
   "RequireNewClick": false
 }

@@ -19,7 +19,6 @@
           "LocalSoundEventId": "Glock18_Fire"
         },
         "Effects": {
-          "ItemAnimationId": "Shoot",
           "FirstPersonParticles": [
             {
               "SystemId": "RifleShooting",
