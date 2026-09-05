@@ -26,17 +26,17 @@
       "position": [
         {
           "time": 0,
-          "delta": {"x": -15.6, "y": -37.5, "z": 50},
+          "delta": {"x": -15.45, "y": -37.5, "z": 50},
           "interpolationType": "smooth"
         },
         {
           "time": 3,
-          "delta": {"x": -15.3, "y": -38.5, "z": 47},
+          "delta": {"x": -15.15, "y": -38.5, "z": 47},
           "interpolationType": "smooth"
         },
         {
           "time": 10,
-          "delta": {"x": -15.6, "y": -37.5, "z": 50},
+          "delta": {"x": -15.45, "y": -37.5, "z": 50},
           "interpolationType": "smooth"
         }
       ],

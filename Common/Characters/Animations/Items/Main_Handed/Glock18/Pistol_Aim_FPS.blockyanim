@@ -26,7 +26,7 @@
       "position": [
         {
           "time": 0,
-          "delta": {"x": -15.6, "y": -39, "z": 50},
+          "delta": {"x": -15.45, "y": -39, "z": 50},
           "interpolationType": "smooth"
         }
       ],
