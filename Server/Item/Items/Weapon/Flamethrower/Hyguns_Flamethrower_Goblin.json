@@ -121,11 +121,6 @@
   },
   "Recipe": {
     "TimeSeconds": 1,
-    "Output": [
-      {
-        "ItemId": "Flamethrower_Goblin"
-      }
-    ],
     "Input": [
       {
         "Quantity": 10,

@@ -19,136 +19,8 @@
     "Compatible": true
   },
   "Interactions": {
-    "Primary": {
-      "Cooldown": {
-        "Cooldown": 0.15
-      },
-      "RequireNewClick": false,
-      "Interactions": [
-        {
-          "Type": "StatsCondition",
-          "Costs": {
-            "SignatureCharges": 1
-          },
-          "Next": {
-            "Type": "ChangeStat",
-            "StatModifiers": {
-              "SignatureCharges": -1
-            },
-            "Next": {
-              "Type": "Hyguns_Shoot",
-              "Next": {
-                "Type": "Hyguns_PlayWeaponFireSound",
-                "WorldSoundEventId": "SFX_Handgun_Fire",
-                "LocalSoundEventId": "SFX_Handgun_Fire_Local",
-                "Next": {
-                  "Type": "ApplyEffect",
-                  "Entity": "Target",
-                  "EffectId": "Poison"
-                }
-              },
-              "Failed": "Gun_Shoot_Fail",
-              "Effects": {
-                "ItemAnimationId": "Shoot",
-                "FirstPersonParticles": [
-                  {
-                    "SystemId": "RifleShooting",
-                    "PositionOffset": {
-                      "Z": 0.5,
-                      "Y": 0.1
-                    },
-                    "RotationOffset": {
-                      "Yaw": 0,
-                      "Pitch": 90
-                    }
-                  }
-                ],
-                "Particles": [
-                  {
-                    "SystemId": "RifleShooting",
-                    "RotationOffset": {
-                      "Pitch": 90
-                    },
-                    "PositionOffset": {
-                      "Z": 0.3,
-                      "Y": 0.2
-                    }
-                  }
-                ],
-                "CameraEffect": "Handgun_Shoot"
-              }
-            }
-          },
-          "Failed": {
-            "Type": "Hyguns_Shoot",
-            "Next": {
-              "Type": "Hyguns_PlayWeaponFireSound",
-              "WorldSoundEventId": "SFX_Handgun_Fire",
-              "LocalSoundEventId": "SFX_Handgun_Fire_Local",
-              "Next": {
-                "Type": "ChangeStat",
-                "StatModifiers": {
-                  "Stamina": -6,
-                  "StaminaRegenDelay": -0.5,
-                  "SignatureEnergy": 1
-                }
-              }
-            },
-            "Failed": "Gun_Shoot_Fail",
-            "Effects": {
-              "ItemAnimationId": "Shoot",
-              "FirstPersonParticles": [
-                {
-                  "SystemId": "RifleShooting",
-                  "PositionOffset": {
-                    "Z": 0.5,
-                    "Y": 0.1
-                  },
-                  "RotationOffset": {
-                    "Yaw": 0,
-                    "Pitch": 90
-                  }
-                }
-              ],
-              "Particles": [
-                {
-                  "SystemId": "RifleShooting",
-                  "RotationOffset": {
-                    "Pitch": 90
-                  },
-                  "PositionOffset": {
-                    "Z": 0.3,
-                    "Y": 0.2
-                  }
-                }
-              ],
-              "CameraEffect": "Handgun_Shoot"
-            }
-          }
-        }
-      ]
-    },
-    "Secondary": {
-      "RequireNewClick": true,
-      "Interactions": [
-        {
-          "Type": "Hyguns_AttachmentsInstalled",
-          "AttachmentsTypes": [
-            "Scope"
-          ],
-          "RequireAll": false,
-          "Next": {
-            "Type": "Scope_Zoom",
-            "OverlayTexturePath": "Scope/Scope_2.png",
-            "Steps": [2.0, 4.0, 8.0],
-            "Effects": {
-              "WorldSoundEventId": "Scope_Zoom_In",
-              "LocalSoundEventId": "Scope_Zoom_In"
-            }
-          }
-        }
-      ]
-    },
+    "Primary": "Root_Hyguns_GunPvP_Handgun_Shoot",
+    "Secondary": "Root_Hyguns_Pistol_Aim",
     "Ability1": {
       "RequireNewClick": true,
       "Interactions": [
@@ -237,7 +109,8 @@
   },
   "MaxDurability": 400,
   "DurabilityLossOnHit": 1.0,
-  "PlayerAnimationsId": "Handgun",
+  "PlayerAnimationsId": "GunPvP_Handgun",
+  "UsePlayerAnimations": true,
   "Recipe": {
     "TimeSeconds": 1,
     "Input": [

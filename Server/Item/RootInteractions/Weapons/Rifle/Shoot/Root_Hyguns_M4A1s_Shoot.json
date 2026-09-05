@@ -1,0 +1,107 @@
+{
+  "Rules": {
+    "BlockedBy": [
+      "Primary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "Pick",
+      "SwapFrom",
+      "SwapTo"
+    ]
+  },
+  "Cooldown": {
+    "Cooldown": 0.09
+  },
+  "RequireNewClick": false,
+  "Interactions": [
+    {
+      "Type": "Hyguns_CanShoot",
+      "Next": {
+        "Type": "Hyguns_CheckCombatState",
+        "States": [
+          "Aiming"
+        ],
+        "True": {
+          "Type": "Hyguns_Shoot",
+          "Failed": "Gun_Shoot_Fail",
+          "Next": {
+            "Type": "Hyguns_PlayWeaponFireSound",
+            "WorldSoundEventId": "World_M4A1s_Fire",
+            "LocalSoundEventId": "Local_M4A1s_Fire"
+          },
+          "Effects": {
+            "ItemAnimationId": "AimShoot",
+            "FirstPersonParticles": [
+              {
+                "SystemId": "RifleShooting",
+                "PositionOffset": {
+                  "X": -0.1,
+                  "Z": 1.42,
+                  "Y": 0.1
+                },
+                "RotationOffset": {
+                  "Yaw": 0,
+                  "Pitch": 90
+                }
+              }
+            ],
+            "Particles": [
+              {
+                "SystemId": "RifleShooting",
+                "RotationOffset": {
+                  "Pitch": 90
+                },
+                "PositionOffset": {
+                  "Z": 1.1,
+                  "Y": 0.1
+                }
+              }
+            ],
+            "CameraEffect": "Handgun_Shoot"
+          }
+        },
+        "False": {
+          "Type": "Hyguns_Shoot",
+          "Failed": "Gun_Shoot_Fail",
+          "Next": {
+            "Type": "Hyguns_PlayWeaponFireSound",
+            "WorldSoundEventId": "World_M4A1s_Fire",
+            "LocalSoundEventId": "Local_M4A1s_Fire"
+          },
+          "Effects": {
+            "ItemAnimationId": "Shoot",
+            "FirstPersonParticles": [
+              {
+                "SystemId": "RifleShooting",
+                "PositionOffset": {
+                  "X": -0.1,
+                  "Z": 1.42,
+                  "Y": 0.1
+                },
+                "RotationOffset": {
+                  "Yaw": 0,
+                  "Pitch": 90
+                }
+              }
+            ],
+            "Particles": [
+              {
+                "SystemId": "RifleShooting",
+                "RotationOffset": {
+                  "Pitch": 90
+                },
+                "PositionOffset": {
+                  "Z": 1.1,
+                  "Y": 0.1
+                }
+              }
+            ],
+            "CameraEffect": "Handgun_Shoot"
+          }
+        }
+      }
+    }
+  ]
+}

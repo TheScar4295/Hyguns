@@ -112,7 +112,7 @@
   },
   "MaxDurability": 120,
   "DurabilityLossOnHit": 1,
-  "PlayerAnimationsId": "HygunsColtRevolver",
+  "PlayerAnimationsId": "ColtRevolver",
   "Tags": {
     "Type": [
       "Weapon"

@@ -109,7 +109,7 @@
   },
   "MaxDurability": 600,
   "DurabilityLossOnHit": 1.0,
-  "PlayerAnimationsId": "HygunsRifles",
+  "PlayerAnimationsId": "AK47",
   "Tags": {
     "Type": [
       "Weapon"

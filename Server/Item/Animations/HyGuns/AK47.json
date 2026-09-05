@@ -269,7 +269,7 @@
       "ThirdPerson": "Characters/Animations/Items/Dual_Handed/HyGuns/Rifle_Aim.blockyanim",
       "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/HyGuns/Rifle_Aim.blockyanim",
       "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/HyGuns/Rifle_Aim_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/AK47/Rifle_Aim_FPS.blockyanim",
       "KeepPreviousFirstPersonAnimation": false,
       "Speed": 1,
       "BlendingDuration": 0.15,
@@ -279,7 +279,7 @@
       "ThirdPerson": "Characters/Animations/Items/Dual_Handed/HyGuns/Rifle_Aim_Shoot.blockyanim",
       "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/HyGuns/Rifle_Aim_Shoot.blockyanim",
       "ThirdPersonFace": "Characters/Animations/Expressions/Angry.blockyanim",
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/HyGuns/Rifle_Aim_Shoot_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/AK47/Rifle_Aim_Shoot_FPS.blockyanim",
       "KeepPreviousFirstPersonAnimation": true,
       "Speed": 2,
       "BlendingDuration": 0

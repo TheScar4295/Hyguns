@@ -39,7 +39,7 @@
     "Failed": {
       "Type": "Hyguns_Reload",
       "Effects": {
-        "ItemPlayerAnimationsId": "HygunsPistols",
+        "ItemPlayerAnimationsId": "FiveSeven",
         "ItemAnimationId": "Reload",
         "WorldSoundEventId": "FiveSeven_Reload"
       }

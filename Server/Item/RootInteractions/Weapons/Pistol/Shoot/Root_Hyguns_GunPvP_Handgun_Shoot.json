@@ -1,0 +1,222 @@
+{
+  "Rules": {
+    "BlockedBy": [
+      "Primary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "Pick",
+      "SwapFrom",
+      "SwapTo"
+    ]
+  },
+  "Cooldown": {
+    "Cooldown": 0.15
+  },
+  "RequireNewClick": false,
+  "Interactions": [
+    {
+      "Type": "StatsCondition",
+      "Costs": {
+        "SignatureCharges": 1
+      },
+      "Next": {
+        "Type": "ChangeStat",
+        "StatModifiers": {
+          "SignatureCharges": -1
+        },
+        "Next": {
+          "Type": "Hyguns_CheckCombatState",
+          "States": [
+            "Aiming"
+          ],
+          "True": {
+            "Type": "Hyguns_Shoot",
+            "Failed": "Gun_Shoot_Fail",
+            "Next": {
+              "Type": "Hyguns_PlayWeaponFireSound",
+              "WorldSoundEventId": "SFX_Handgun_Fire",
+              "LocalSoundEventId": "SFX_Handgun_Fire_Local",
+              "Next": {
+                "Type": "ApplyEffect",
+                "Entity": "Target",
+                "EffectId": "Poison"
+              }
+            },
+            "Effects": {
+              "ItemAnimationId": "AimShoot",
+              "FirstPersonParticles": [
+                {
+                  "SystemId": "RifleShooting",
+                  "PositionOffset": {
+                    "Z": 0.5,
+                    "Y": 0.1
+                  },
+                  "RotationOffset": {
+                    "Yaw": 0,
+                    "Pitch": 90
+                  }
+                }
+              ],
+              "Particles": [
+                {
+                  "SystemId": "RifleShooting",
+                  "RotationOffset": {
+                    "Pitch": 90
+                  },
+                  "PositionOffset": {
+                    "Z": 0.3,
+                    "Y": 0.2
+                  }
+                }
+              ],
+              "CameraEffect": "Handgun_Shoot"
+            }
+          },
+          "False": {
+            "Type": "Hyguns_Shoot",
+            "Failed": "Gun_Shoot_Fail",
+            "Next": {
+              "Type": "Hyguns_PlayWeaponFireSound",
+              "WorldSoundEventId": "SFX_Handgun_Fire",
+              "LocalSoundEventId": "SFX_Handgun_Fire_Local",
+              "Next": {
+                "Type": "ApplyEffect",
+                "Entity": "Target",
+                "EffectId": "Poison"
+              }
+            },
+            "Effects": {
+              "ItemAnimationId": "Shoot",
+              "FirstPersonParticles": [
+                {
+                  "SystemId": "RifleShooting",
+                  "PositionOffset": {
+                    "Z": 0.5,
+                    "Y": 0.1
+                  },
+                  "RotationOffset": {
+                    "Yaw": 0,
+                    "Pitch": 90
+                  }
+                }
+              ],
+              "Particles": [
+                {
+                  "SystemId": "RifleShooting",
+                  "RotationOffset": {
+                    "Pitch": 90
+                  },
+                  "PositionOffset": {
+                    "Z": 0.3,
+                    "Y": 0.2
+                  }
+                }
+              ],
+              "CameraEffect": "Handgun_Shoot"
+            }
+          }
+        }
+      },
+      "Failed": {
+        "Type": "Hyguns_CheckCombatState",
+        "States": [
+          "Aiming"
+        ],
+        "True": {
+          "Type": "Hyguns_Shoot",
+          "Failed": "Gun_Shoot_Fail",
+          "Next": {
+            "Type": "Hyguns_PlayWeaponFireSound",
+            "WorldSoundEventId": "SFX_Handgun_Fire",
+            "LocalSoundEventId": "SFX_Handgun_Fire_Local",
+            "Next": {
+              "Type": "ChangeStat",
+              "StatModifiers": {
+                "Stamina": -6,
+                "StaminaRegenDelay": -0.5,
+                "SignatureEnergy": 1
+              }
+            }
+          },
+          "Effects": {
+            "ItemAnimationId": "AimShoot",
+            "FirstPersonParticles": [
+              {
+                "SystemId": "RifleShooting",
+                "PositionOffset": {
+                  "Z": 0.5,
+                  "Y": 0.1
+                },
+                "RotationOffset": {
+                  "Yaw": 0,
+                  "Pitch": 90
+                }
+              }
+            ],
+            "Particles": [
+              {
+                "SystemId": "RifleShooting",
+                "RotationOffset": {
+                  "Pitch": 90
+                },
+                "PositionOffset": {
+                  "Z": 0.3,
+                  "Y": 0.2
+                }
+              }
+            ],
+            "CameraEffect": "Handgun_Shoot"
+          }
+        },
+        "False": {
+          "Type": "Hyguns_Shoot",
+          "Failed": "Gun_Shoot_Fail",
+          "Next": {
+            "Type": "Hyguns_PlayWeaponFireSound",
+            "WorldSoundEventId": "SFX_Handgun_Fire",
+            "LocalSoundEventId": "SFX_Handgun_Fire_Local",
+            "Next": {
+              "Type": "ChangeStat",
+              "StatModifiers": {
+                "Stamina": -6,
+                "StaminaRegenDelay": -0.5,
+                "SignatureEnergy": 1
+              }
+            }
+          },
+          "Effects": {
+            "ItemAnimationId": "Shoot",
+            "FirstPersonParticles": [
+              {
+                "SystemId": "RifleShooting",
+                "PositionOffset": {
+                  "Z": 0.5,
+                  "Y": 0.1
+                },
+                "RotationOffset": {
+                  "Yaw": 0,
+                  "Pitch": 90
+                }
+              }
+            ],
+            "Particles": [
+              {
+                "SystemId": "RifleShooting",
+                "RotationOffset": {
+                  "Pitch": 90
+                },
+                "PositionOffset": {
+                  "Z": 0.3,
+                  "Y": 0.2
+                }
+              }
+            ],
+            "CameraEffect": "Handgun_Shoot"
+          }
+        }
+      }
+    }
+  ]
+}

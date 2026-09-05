@@ -39,7 +39,7 @@
     "Failed": {
       "Type": "Hyguns_Reload",
       "Effects": {
-        "ItemPlayerAnimationsId": "HygunsPistols",
+        "ItemPlayerAnimationsId": "USPS",
         "ItemAnimationId": "Reload",
         "WorldSoundEventId": "USPS_Reload"
       }

@@ -25,76 +25,8 @@
   },
   "Quality": "Uncommon",
   "Interactions": {
-    "Primary": {
-      "Cooldown": {
-        "Cooldown": 0.075
-      },
-      "RequireNewClick": false,
-      "Interactions": [
-        {
-          "Type": "Hyguns_CanShoot",
-          "Next": {
-            "Type": "Hyguns_Shoot",
-            "Failed": "Gun_Shoot_Fail",
-            "Next": {
-              "Type": "Hyguns_PlayWeaponFireSound",
-              "WorldSoundEventId": "MP9_Fire",
-              "LocalSoundEventId": "MP9_Fire"
-            },
-            "Effects": {
-              "ItemAnimationId": "Shoot",
-              "FirstPersonParticles": [
-                {
-                  "SystemId": "RifleShooting",
-                  "PositionOffset": {
-                    "X": -0.1,
-                    "Z": 0.7,
-                    "Y": -0.1
-                  },
-                  "RotationOffset": {
-                    "Yaw": 0,
-                    "Pitch": 90
-                  }
-                }
-              ],
-              "Particles": [
-                {
-                  "SystemId": "RifleShooting",
-                  "RotationOffset": {
-                    "Pitch": 90
-                  },
-                  "PositionOffset": {
-                    "Z": 0.2
-                  }
-                }
-              ],
-              "CameraEffect": "Handgun_Shoot"
-            }
-          }
-        }
-      ]
-    },
-    "Secondary": {
-      "RequireNewClick": true,
-      "Interactions": [
-        {
-          "Type": "Hyguns_AttachmentsInstalled",
-          "AttachmentsTypes": [
-            "Scope"
-          ],
-          "RequireAll": false,
-          "Next": {
-            "Type": "Scope_Zoom",
-            "OverlayTexturePath": "Scope/Scope_2.png",
-            "Steps": [2.0, 4.0, 8.0],
-            "Effects": {
-              "WorldSoundEventId": "Scope_Zoom_In",
-              "LocalSoundEventId": "Scope_Zoom_In"
-            }
-          }
-        }
-      ]
-    },
+    "Primary": "Root_Hyguns_MP9_Shoot",
+    "Secondary": "Root_Hyguns_Rifle_Aim",
     "Ability1": {
       "RequireNewClick": true,
       "Interactions": [
@@ -177,7 +109,8 @@
   },
   "MaxDurability": 600,
   "DurabilityLossOnHit": 1.0,
-  "PlayerAnimationsId": "Rifle",
+  "PlayerAnimationsId": "MP9",
+  "UsePlayerAnimations": true,
   "Tags": {
     "Type": [
       "Weapon"

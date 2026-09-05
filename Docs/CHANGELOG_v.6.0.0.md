@@ -27,8 +27,15 @@ Added ADS interaction chains and animations for:
 - Five-seveN
 - Glock 18
 - USP-S
+- M4A1-S
+- MAC-10
+- MP9
+- P90
+- Thompson
+- GunPvP Assault Rifle
+- GunPvP Handgun
 
-Added first- and third-person `Aim` and `AimShoot` animation assets for pistols and rifles, plus a dedicated `HygunsColtRevolver` animation set. Normal and aimed shots select separate animation ids while the equipped item remains the stable owner of its player animation set.
+Added first- and third-person `Aim` and `AimShoot` animation assets for pistols and rifles. Every supported weapon now owns a dedicated profile under `Server/Item/Animations/HyGuns/`, normally named `<WeaponIdWithoutWeaponPrefix>.json`, and separate FPS assets in its weapon animation directory. The GunPvP Handgun profile uses `GunPvP_Handgun.json` to avoid replacing Hytale's built-in `Handgun` animation id. Normal and aimed shots select separate animation ids while the equipped item remains the stable owner of its player animation set.
 
 ## Changed
 
@@ -54,7 +61,7 @@ Updated the pack and server compatibility to `6.0.0` / `>=0.6.0 <0.7.0`, raised 
 - Fixed ADS being cancelled by the weapon stack metadata change performed after a shot. ADS `Wielding` interactions now use `OnItemChangeBehavior: "Ignore"`.
 - Fixed held and automatic aimed fire by allowing Primary and Secondary roots to remain concurrent and branching each shot through the active `Aiming` state.
 - Fixed the held ADS pose after Primary is released; `Aim` remains owned by the active Secondary wielding interaction while shots play `AimShoot`.
-- Fixed Colt Revolver animation-set ownership with its dedicated `HygunsColtRevolver` set.
+- Fixed Colt Revolver animation-set ownership with its dedicated `ColtRevolver` set.
 - Fixed a broken Trench Gun OGG asset and completed the missing shot sound variants.
 - Fixed the standard, incendiary, and scout shotgun ammo assets and the Double Barrel weapon settings using the `Bullet` family instead of `Shell`.
 
@@ -70,7 +77,7 @@ Updated the pack and server compatibility to `6.0.0` / `>=0.6.0 <0.7.0`, raised 
 
 - Added the M1897 Trench Gun with dedicated models, animations, sounds, effects, reload, and melee attack.
 - Added the `Aiming` combat state with reduced projectile spread.
-- Added ADS and aimed-fire animations for the AK-47 and five pistols.
+- Added per-weapon ADS and aimed-fire animations for supported pistols, SMGs, and rifles.
 - Fixed ADS snapping to idle, breaking after metadata updates, and dropping the aimed pose after Primary is released.
 - Added a dedicated animation set for the Colt Revolver.
 - Migrated weapon and attachment scopes to explicit magnification `Steps`.

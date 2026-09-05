@@ -112,7 +112,7 @@
   },
   "MaxDurability": 400,
   "DurabilityLossOnHit": 1,
-  "PlayerAnimationsId": "HygunsPistols",
+  "PlayerAnimationsId": "FiveSeven",
   "Tags": {
     "Type": [
       "Weapon"
