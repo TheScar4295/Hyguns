@@ -6,11 +6,11 @@
   "Categories": [
     "HyGuns.Guns"
   ],
-  "Icon": "Icons/ItemsGenerated/Flamethrower_Goblin.png",
+  "Icon": "Icons/ItemsGenerated/Flamethrower_Scrap.png",
   "ItemLevel": 40,
   "Quality": "Rare",
-  "Model": "NPC/Intelligent/Goblin/Models/Weapons/Flamethrower/Flamethrower_Goblin.blockymodel",
-  "Texture": "NPC/Intelligent/Goblin/Models/Weapons/Flamethrower/Flamethrower_Goblin_Texture.png",
+  "Model": "NPC/Intelligent/Goblin/Models/Weapons/Flamethrower/Scrap.blockymodel",
+  "Texture": "NPC/Intelligent/Goblin/Models/Weapons/Flamethrower/Scrap_Texture.png",
   "PlayerAnimationsId": "Rifle",
   "Interactions": {
     "Primary": "Hyguns_Flamethrower_Goblin_Primary",

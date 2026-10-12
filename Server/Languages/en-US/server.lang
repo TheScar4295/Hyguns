@@ -53,6 +53,7 @@ items.DoubleBarrel.name=Double Barrel Shotgun
 items.DoubleBarrel.description=A close-range shotgun that fires two devastating shells.
 items.Flamethrower.name=Flamethrower
 items.Flamethrower.description=A fuel-fed weapon for sustained area denial.
+items.Flamethrower_Goblin.name=Scrap Flamethrower
 items.Flamethrower_Goblin.description=A crude flamethrower built for chaotic close-range pressure.
 items.Glock18.name=Glock-18
 items.Glock18.description=A compact pistol with fast follow-up shots.
