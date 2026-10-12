@@ -26,7 +26,7 @@
   "Quality": "Epic",
   "Interactions": {
     "Primary": "Root_Hyguns_AK47_Shoot",
-    "Secondary": "Root_Hyguns_AK47_Rifle_Aim",
+    "Secondary": "Root_Hyguns_ScopeOrRifle_Aim",
     "Ability1": {
       "RequireNewClick": true,
       "Interactions": [

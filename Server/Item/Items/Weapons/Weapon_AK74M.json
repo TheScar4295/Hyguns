@@ -1,0 +1,207 @@
+{
+  "Icon": "Icons/ItemsGenerated/Weapon_AK74M.png",
+  "Model": "Items/Weapons/AK74M/AK74M.blockymodel",
+  "Texture": "Items/Weapons/AK74M/AK74M.png",
+  "TranslationProperties": {
+    "Name": "AK-74M",
+    "Description": "AK-74M test"
+  },
+  "Categories": [
+    "HyGuns.Guns"
+  ],
+  "MaxStack": 1,
+  "Scale": 0.7,
+  "IconProperties": {
+    "Scale": 0.23,
+    "Rotation": [
+      325,
+      51,
+      0
+    ],
+    "Translation": [
+      -24,
+      -38
+    ]
+  },
+  "Quality": "Epic",
+  "Interactions": {
+    "Primary": "Root_Hyguns_AK74M_Shoot",
+    "Secondary": "Root_Hyguns_Rifle_Aim",
+    "Ability1": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_CheckZoom",
+          "Zoomed": true,
+          "True": {
+            "Type": "Scope_Zoom_Out",
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_Out",
+              "LocalSoundEventId": "Scope_Zoom_Out"
+            }
+          },
+          "False": {
+            "Type": "Simple"
+          }
+        }
+      ]
+    },
+    "Ability2": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Hyguns_CheckZoom",
+          "Zoomed": true,
+          "True": {
+            "Type": "Scope_Zoom_In",
+            "Effects": {
+              "WorldSoundEventId": "Scope_Zoom_In",
+              "LocalSoundEventId": "Scope_Zoom_In"
+            }
+          },
+          "False": {
+            "Type": "Hyguns_OpenAttachments",
+            "Effects": {
+              "ItemPlayerAnimationsId": "Default",
+              "ItemAnimationId": "Interact"
+            }
+          }
+        }
+      ]
+    },
+    "Ability3": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Charging",
+          "DisplayProgress": false,
+          "AllowIndefiniteHold": false,
+          "Next": {
+            "0": {
+              "Type": "Hyguns_Reload",
+              "Effects": {
+                "ItemAnimationId": "Interact",
+                "LocalSoundEventId": "AK47_Reload",
+                "WorldSoundEventId": "AK47_Reload"
+              }
+            },
+            "0.25": {
+              "Type": "OpenCustomUI",
+              "Page": {
+                "Id": "AmmoSelection"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "SwapTo": {
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "Effects": {
+            "WorldSoundEventId": "AK47_Equip",
+            "LocalSoundEventId": "AK47_Equip"
+          }
+        }
+      ]
+    }
+  },
+  "MaxDurability": 600,
+  "DurabilityLossOnHit": 1.0,
+  "PlayerAnimationsId": "AK74M",
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Rifle_Assault"
+    ]
+  },
+  "Recipe": {
+    "TimeSeconds": 1,
+    "Input": [
+      {
+        "Quantity": 10,
+        "ItemId": "Ingredient_Bar_Adamantite"
+      },
+      {
+        "Quantity": 8,
+        "ItemId": "Ingredient_Bar_HardenedSteel"
+      },
+      {
+        "Quantity": 5,
+        "ItemId": "Ingredient_Powder_Boom"
+      },
+      {
+        "Quantity": 10,
+        "ResourceTypeId": "Wood_Trunk"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Rifles"
+        ],
+        "Id": "Bench_Gunsmith",
+        "RequiredTierLevel": 3
+      }
+    ]
+  },
+  "WeaponCustomHUD": {
+    "Enabled": true,
+    "Preset": "HyGunsWeapon"
+  },
+  "HyGuns": {
+    "WeaponSettings": {
+      "WeaponIcon": "Weapons/AK47.png",
+      "Ammo": {
+        "Family": "Bullet",
+        "WeaponClass": [
+          "Rifle"
+        ],
+        "Capacity": 30,
+        "Reload": {
+          "Time": 2.43,
+          "Amount": 30
+        }
+      },
+      "Projectiles": {
+        "ConfigId": "Hyguns_Projectile_Config_Bullet",
+        "Spread": 0.02,
+        "Count": 1,
+        "Damage": 17
+      },
+      "AttachmentsDefinition": {
+        "WeaponSchema": {
+          "Image": "AttachmentsUI/WeaponSchema/AK47.png",
+          "Size": [
+            780,
+            400
+          ],
+          "AnimationDuration": 0.5,
+          "AnimationTiming": "EaseInOut"
+        },
+        "Slots": {
+          "Magazine": {
+            "Count": 1,
+            "StartPosition": [
+              360,
+              339
+            ],
+            "SlotPoint": "Right",
+            "Position": [
+              228,
+              326
+            ]
+          },
+          "*": {
+            "Count": 3
+          }
+        }
+      }
+    }
+  },
+  "UsePlayerAnimations": true
+}

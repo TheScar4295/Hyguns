@@ -1,0 +1,15 @@
+{
+  "Rules": {
+    "BlockedBy": [
+      "Use"
+    ]
+  },
+  "Cooldown": {
+    "Cooldown": 0.2
+  },
+  "Interactions": [
+    {
+      "Type": "Hyguns_OpenWeaponRepairStation"
+    }
+  ]
+}

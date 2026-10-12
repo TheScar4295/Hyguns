@@ -14,5 +14,5 @@
   "Interactions": [
     "Hyguns_ScopeOrRifle_Aim"
   ],
-  "RequireNewClick": false
+  "RequireNewClick": true
 }
