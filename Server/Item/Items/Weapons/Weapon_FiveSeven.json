@@ -82,6 +82,7 @@
           "Next": {
             "0": {
               "Type": "Hyguns_Reload",
+              "RunTime": 1.3,
               "Effects": {
                 "ItemAnimationId": "Reload",
                 "LocalSoundEventId": "FiveSeven_Reload",

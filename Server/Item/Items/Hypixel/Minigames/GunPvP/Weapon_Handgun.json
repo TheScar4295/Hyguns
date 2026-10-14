@@ -69,11 +69,12 @@
           "Next": {
             "0": {
               "Type": "Hyguns_Reload",
+              "RunTime": 1,
               "Next": {
                 "Type": "Hyguns_UpdateHud"
               },
               "Effects": {
-                "ItemAnimationId": "Interact",
+                "ItemAnimationId": "Reload",
                 "LocalSoundEventId": "SFX_Blunderbuss_No_Ammo",
                 "WorldSoundEventId": "SFX_Bow_No_Ammo"
               }
