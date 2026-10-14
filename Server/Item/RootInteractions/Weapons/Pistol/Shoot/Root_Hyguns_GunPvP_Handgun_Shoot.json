@@ -130,15 +130,7 @@
           "Next": {
             "Type": "Hyguns_PlayWeaponFireSound",
             "WorldSoundEventId": "SFX_Handgun_Fire",
-            "LocalSoundEventId": "SFX_Handgun_Fire_Local",
-            "Next": {
-              "Type": "ChangeStat",
-              "StatModifiers": {
-                "Stamina": -6,
-                "StaminaRegenDelay": -0.5,
-                "SignatureEnergy": 1
-              }
-            }
+            "LocalSoundEventId": "SFX_Handgun_Fire_Local"
           },
           "Effects": {
             "ItemAnimationId": "AimShoot",
@@ -176,15 +168,7 @@
           "Next": {
             "Type": "Hyguns_PlayWeaponFireSound",
             "WorldSoundEventId": "SFX_Handgun_Fire",
-            "LocalSoundEventId": "SFX_Handgun_Fire_Local",
-            "Next": {
-              "Type": "ChangeStat",
-              "StatModifiers": {
-                "Stamina": -6,
-                "StaminaRegenDelay": -0.5,
-                "SignatureEnergy": 1
-              }
-            }
+            "LocalSoundEventId": "SFX_Handgun_Fire_Local"
           },
           "Effects": {
             "ItemAnimationId": "Shoot",

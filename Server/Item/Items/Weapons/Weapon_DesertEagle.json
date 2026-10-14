@@ -80,8 +80,11 @@
           "Next": {
             "0": {
               "Type": "Hyguns_Reload",
+              "RunTime": 2.13333,
               "Effects": {
                 "ItemAnimationId": "Reload",
+                "ItemPlayerAnimationsId": "DesertEagle",
+                "ClearAnimationOnFinish": false,
                 "LocalSoundEventId": "DesertEagle_Reload",
                 "WorldSoundEventId": "DesertEagle_Reload"
               }

@@ -82,8 +82,11 @@
           "Next": {
             "0": {
               "Type": "Hyguns_Reload",
+              "RunTime": 1.3,
               "Effects": {
                 "ItemAnimationId": "Reload",
+                "ItemPlayerAnimationsId": "USPS",
+                "ClearAnimationOnFinish": false,
                 "LocalSoundEventId": "USPS_Reload",
                 "WorldSoundEventId": "USPS_Reload"
               }

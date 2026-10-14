@@ -19,6 +19,12 @@
       "KeepPreviousFirstPersonAnimation": true,
       "Speed": 2,
       "BlendingDuration": 0
+    },
+    "Reload": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/DesertEagle/Reload.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/DesertEagle/Reload_FPS.blockyanim",
+      "Speed": 1,
+      "BlendingDuration": 0.1
     }
   }
 }
