@@ -33,13 +33,6 @@
               "WorldSoundEventId": "Scope_Zoom_Out",
               "LocalSoundEventId": "Scope_Zoom_Out"
             }
-          },
-          "False": {
-            "Type": "ChangeStat",
-            "StatModifiers": {
-              "SignatureEnergy": -3,
-              "SignatureCharges": 6
-            }
           }
         }
       ]
@@ -161,19 +154,6 @@
     "Enabled": true,
     "Preset": "HyGunsWeapon",
     "Abilities": {
-      "Ability1": {
-        "Display": {
-          "Default": true
-        },
-        "Signature": true,
-        "Icons": {
-          "Default": "WeaponCustomHUD/Icons/SignatureAbility.png"
-        },
-        "Enabled": {
-          "Default": false,
-          "SignatureReady": true
-        }
-      },
       "Secondary": {
         "Icons": {
           "Default": "WeaponCustomHUD/Icons/TestAbility.png"
