@@ -80,8 +80,8 @@
                 "ItemAnimationId": "Reload",
                 "ItemPlayerAnimationsId": "GunPvP_Handgun",
                 "ClearAnimationOnFinish": false,
-                "LocalSoundEventId": "SFX_Blunderbuss_No_Ammo",
-                "WorldSoundEventId": "SFX_Bow_No_Ammo"
+                "LocalSoundEventId": "Glock18_Reload",
+                "WorldSoundEventId": "Glock18_Reload"
               }
             },
             "0.25": {
