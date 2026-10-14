@@ -41,6 +41,7 @@ items.Frag.name=Frag Grenade
 items.Frag.description=A thrown fragmentation grenade for clearing tight spaces.
 items.Spray_Can.name=Spray Can
 items.Spray_Can.description=A makeshift spray weapon that burns through fuel quickly.
+Equip a torch in your offhand to use
 items.AssaultRifle.name=Rifle
 items.AssaultRifle.description=A balanced automatic rifle for mid-range combat.
 items.Handgun.name=Handgun
