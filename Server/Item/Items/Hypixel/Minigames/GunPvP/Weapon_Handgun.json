@@ -33,6 +33,9 @@
               "WorldSoundEventId": "Scope_Zoom_Out",
               "LocalSoundEventId": "Scope_Zoom_Out"
             }
+          },
+          "False": {
+            "Type": "Simple"
           }
         }
       ]
@@ -75,6 +78,8 @@
               },
               "Effects": {
                 "ItemAnimationId": "Reload",
+                "ItemPlayerAnimationsId": "GunPvP_Handgun",
+                "ClearAnimationOnFinish": false,
                 "LocalSoundEventId": "SFX_Blunderbuss_No_Ammo",
                 "WorldSoundEventId": "SFX_Bow_No_Ammo"
               }

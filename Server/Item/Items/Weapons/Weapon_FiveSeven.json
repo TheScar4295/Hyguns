@@ -85,6 +85,8 @@
               "RunTime": 1.3,
               "Effects": {
                 "ItemAnimationId": "Reload",
+                "ItemPlayerAnimationsId": "FiveSeven",
+                "ClearAnimationOnFinish": false,
                 "LocalSoundEventId": "FiveSeven_Reload",
                 "WorldSoundEventId": "FiveSeven_Reload"
               }
